@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b0f5b6a3bd2a469ea0138dcfca74773b" Name="Diagram1">
+        <EntityTypeShape EntityType="WinhotDataModel.dwmatia" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.enilikes" Width="1.5" PointX="10.5" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.etaireia" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.ethnikotites" Width="1.5" PointX="6" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.forosdiamonis" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.kratiseis" Width="1.5" PointX="8.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.paidia" Width="1.5" PointX="10.5" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.praktoreia" Width="1.5" PointX="3" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.simbolaia" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.simfonies" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.status" Width="1.5" PointX="5.25" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.sysdiagrams" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.tblproperty" Width="1.5" PointX="0.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.timeskratisis" Width="1.5" PointX="13.5" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.timologia" Width="1.5" PointX="3" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.tipoi" Width="1.5" PointX="3" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.users" Width="1.5" PointX="3" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.xrewseis" Width="1.5" PointX="11.25" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.afm" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.alias" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.katigories" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.parastatika" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.pistwtikes" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.times" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.timologioanalysis" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WinhotDataModel.touristperiodoi" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="WinhotDataModel.dwmatia_property_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_dwmatio_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_status_dwmatia" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_enilikes_kratiseis" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_status_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.etaireia_property_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_ethnikotites_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_paidia_kratiseis" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_praktoreio_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_praktoreiotim_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_property_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_simbolaio_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_timeskratisis_kratiseis" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_tipos_kratisi" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.praktoreia_property_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.simbolaia_property_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_users_tblproperty" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.timologia_property_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.tipoi_property_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_timeskratisis_xrewseis" ManuallyRouted="false" />
+        <AssociationConnector Association="WinhotDataModel.FK_timologia_timologia" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

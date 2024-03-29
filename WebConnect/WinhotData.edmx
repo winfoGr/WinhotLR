@@ -1,0 +1,2723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="WinhotDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.afm' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="afm">
+          <Key>
+            <PropertyRef Name="kwd" />
+            <PropertyRef Name="eikoniko" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="etaireia" Type="int" />
+          <Property Name="epixirisi" Type="nvarchar" MaxLength="50" />
+          <Property Name="xenodoxeio" Type="nvarchar" MaxLength="50" />
+          <Property Name="dieuthinsi" Type="nvarchar" MaxLength="50" />
+          <Property Name="tilefono" Type="nvarchar" MaxLength="50" />
+          <Property Name="afm" Type="nvarchar" MaxLength="9" />
+          <Property Name="doy" Type="nvarchar" MaxLength="50" />
+          <Property Name="eikoniko" Type="bit" Nullable="false" />
+          <Property Name="apykwd" Type="int" />
+          <Property Name="timolkwd" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.alias' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="alias">
+          <Key>
+            <PropertyRef Name="afm" />
+          </Key>
+          <Property Name="afm" Type="int" Nullable="false" />
+          <Property Name="alias" Type="nvarchar" MaxLength="50" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="dwmatia">
+          <Key>
+            <PropertyRef Name="arithmos" />
+          </Key>
+          <Property Name="arithmos" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="katigoria" Type="int" />
+          <Property Name="klines" Type="smallint" />
+          <Property Name="thea" Type="int" />
+          <Property Name="perigrafi" Type="nvarchar" MaxLength="50" />
+          <Property Name="afm" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+          <Property Name="scheduler" Type="int" />
+        </EntityType>
+        <EntityType Name="enilikes">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kratisi" Type="int" />
+          <Property Name="onomateponimo" Type="nvarchar" MaxLength="50" />
+          <Property Name="patronimo" Type="nvarchar" MaxLength="50" />
+          <Property Name="genisi" Type="datetime" />
+          <Property Name="ethnikotita" Type="smallint" />
+          <Property Name="diabatirio" Type="nvarchar" MaxLength="50" />
+          <Property Name="ekdosi" Type="datetime" />
+          <Property Name="toposgenisis" Type="nvarchar" MaxLength="50" />
+          <Property Name="dieuthinsi" Type="nvarchar" MaxLength="50" />
+          <Property Name="poli" Type="nvarchar" MaxLength="50" />
+          <Property Name="xora" Type="smallint" />
+          <Property Name="epaggelma" Type="nvarchar" MaxLength="50" />
+          <Property Name="tilefono" Type="nvarchar" MaxLength="50" />
+          <Property Name="prosfonisi" Type="nvarchar" MaxLength="50" />
+          <Property Name="simiosi" Type="nvarchar" MaxLength="100" />
+          <Property Name="palaios" Type="tinyint" />
+          <Property Name="eorti" Type="datetime" />
+          <Property Name="gamos" Type="datetime" />
+          <Property Name="axiologisi" Type="nvarchar" MaxLength="10" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="etaireia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="epixirisi" Type="nvarchar" MaxLength="100" />
+          <Property Name="xenodoxeio" Type="nvarchar" MaxLength="50" />
+          <Property Name="dieuthinsi" Type="nvarchar" MaxLength="50" />
+          <Property Name="tilefono" Type="nvarchar" MaxLength="50" />
+          <Property Name="afm" Type="nvarchar" MaxLength="50" />
+          <Property Name="doy" Type="nvarchar" MaxLength="50" />
+          <Property Name="fpatrofis1" Type="real" />
+          <Property Name="fpatrofis2" Type="real" />
+          <Property Name="fpatrofis3" Type="real" />
+          <Property Name="fpatrofis4" Type="real" />
+          <Property Name="dimforos1" Type="real" />
+          <Property Name="dimforos2" Type="real" />
+          <Property Name="fparepid1" Type="real" />
+          <Property Name="fparepid2" Type="real" />
+          <Property Name="fpatmima1" Type="real" />
+          <Property Name="fpatmima2" Type="real" />
+          <Property Name="fpatmima3" Type="real" />
+          <Property Name="fpatmima4" Type="real" />
+          <Property Name="fpatmima5" Type="real" />
+          <Property Name="extras" Type="smallint" />
+          <Property Name="guaranti" Type="bit" Nullable="false" />
+          <Property Name="aakratisis" Type="smallint" />
+          <Property Name="mindwmatia" Type="smallint" />
+          <Property Name="maxdwmatia" Type="smallint" />
+          <Property Name="xklino" Type="tinyint" />
+          <Property Name="minklines" Type="smallint" />
+          <Property Name="maxklines" Type="smallint" />
+          <Property Name="ktimis" Type="bit" Nullable="false" />
+          <Property Name="biblportas" Type="tinyint" />
+          <Property Name="theorisiapy" Type="nvarchar" MaxLength="100" />
+          <Property Name="timologia" Type="nvarchar" MaxLength="100" />
+          <Property Name="aage" Type="int" />
+          <Property Name="aaapy" Type="int" />
+          <Property Name="biblportastimes" Type="bit" Nullable="false" />
+          <Property Name="imeromergasias" Type="datetime" />
+          <Property Name="kleismenidate" Type="datetime" />
+          <Property Name="ektportasflag" Type="tinyint" />
+          <Property Name="ektportasapyflag" Type="tinyint" />
+          <Property Name="aagramatio" Type="smallint" />
+          <Property Name="aabapy" Type="smallint" />
+          <Property Name="fakelosbackup" Type="nvarchar" MaxLength="150" />
+          <Property Name="basi" Type="nvarchar" MaxLength="50" />
+          <Property Name="version" Type="nvarchar" MaxLength="50" />
+          <Property Name="connectionstring" Type="nvarchar" MaxLength="100" />
+          <Property Name="apykwd" Type="int" />
+          <Property Name="timolkwd" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+        </EntityType>
+        <EntityType Name="ethnikotites">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="smallint" Nullable="false" />
+          <Property Name="sintomeusi" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="ethnikotita" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="forosdiamonis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="etaireia" Type="int" Nullable="false" />
+          <Property Name="kratisi" Type="int" Nullable="false" />
+          <Property Name="imerominia" Type="datetime" />
+          <Property Name="arithmos" Type="smallint" />
+          <Property Name="onoma" Type="nvarchar" MaxLength="50" />
+          <Property Name="drastiriotita" Type="nvarchar" MaxLength="50" />
+          <Property Name="dieuthinsi" Type="nvarchar" MaxLength="50" />
+          <Property Name="afm" Type="nvarchar" MaxLength="50" />
+          <Property Name="doy" Type="nvarchar" MaxLength="50" />
+          <Property Name="afixi" Type="datetime" />
+          <Property Name="anaxwrisi" Type="datetime" />
+          <Property Name="days" Type="real" />
+          <Property Name="room" Type="nvarchar" MaxLength="50" />
+          <Property Name="timologio" Type="int" />
+          <Property Name="apy" Type="nvarchar" MaxLength="50" />
+          <Property Name="parastatiko" Type="nvarchar" MaxLength="50" />
+          <Property Name="akyromeno" Type="bit" Nullable="false" />
+          <Property Name="foros" Type="real" />
+          <Property Name="pliromi" Type="nvarchar" MaxLength="50" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.katigories' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="katigories">
+          <Key>
+            <PropertyRef Name="tipos" />
+          </Key>
+          <Property Name="kwd" Type="int" />
+          <Property Name="tipos" Type="int" Nullable="false" />
+          <Property Name="klines" Type="smallint" />
+          <Property Name="anzahl" Type="smallint" />
+          <Property Name="perigrafi" Type="nvarchar" MaxLength="50" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="kratiseis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dbhotel" Type="int" />
+          <Property Name="imeromkratisis" Type="datetime" />
+          <Property Name="etos" Type="smallint" />
+          <Property Name="arithmos" Type="smallint" />
+          <Property Name="simbolaio" Type="int" />
+          <Property Name="praktoreio" Type="int" />
+          <Property Name="praktimologio" Type="int" />
+          <Property Name="privatimologio" Type="bit" Nullable="false" />
+          <Property Name="voucher" Type="nvarchar" MaxLength="50" />
+          <Property Name="enilikes" Type="smallint" />
+          <Property Name="paidia" Type="smallint" />
+          <Property Name="ethnikotites" Type="smallint" />
+          <Property Name="anzethnikotites" Type="tinyint" />
+          <Property Name="ethnikotites2" Type="smallint" />
+          <Property Name="anzethnikotites2" Type="tinyint" />
+          <Property Name="tilefonomem" Type="nvarchar" MaxLength="50" />
+          <Property Name="epithimdate" Type="datetime" />
+          <Property Name="epithimia" Type="nvarchar" MaxLength="255" />
+          <Property Name="simetoxi" Type="smallint" />
+          <Property Name="prokataboli" Type="real" />
+          <Property Name="prokatdate" Type="datetime" />
+          <Property Name="afixi" Type="datetime" />
+          <Property Name="wra" Type="datetime" />
+          <Property Name="anaxwrisi" Type="datetime" />
+          <Property Name="klines" Type="int" />
+          <Property Name="tipos" Type="int" />
+          <Property Name="guarantie" Type="bit" Nullable="false" />
+          <Property Name="dwmatio" Type="nvarchar" MaxLength="10" />
+          <Property Name="pliromi" Type="nvarchar" MaxLength="50" />
+          <Property Name="biblioportas" Type="bit" Nullable="false" />
+          <Property Name="synolo" Type="real" />
+          <Property Name="checkin" Type="bit" Nullable="false" />
+          <Property Name="datein" Type="datetime" />
+          <Property Name="checkout" Type="bit" Nullable="false" />
+          <Property Name="dateout" Type="datetime" />
+          <Property Name="allagesdwmatiwn" Type="bit" Nullable="false" />
+          <Property Name="ekptosi" Type="bit" Nullable="false" />
+          <Property Name="ekptposo" Type="real" />
+          <Property Name="ekptpososto" Type="real" />
+          <Property Name="ekptimeres" Type="real" />
+          <Property Name="fee" Type="real" />
+          <Property Name="timologio" Type="tinyint" />
+          <Property Name="apy" Type="smallint" />
+          <Property Name="identifikation" Type="int" />
+          <Property Name="parastatiko" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+          <Property Name="state" Type="tinyint" />
+        </EntityType>
+        <EntityType Name="paidia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kratisi" Type="int" />
+          <Property Name="cot" Type="nvarchar" MaxLength="50" />
+          <Property Name="ilikia" Type="tinyint" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.parastatika' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="parastatika">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="tipos" Type="nvarchar" MaxLength="50" />
+          <Property Name="seira" Type="nvarchar" MaxLength="50" />
+          <Property Name="aritthmos" Type="int" />
+          <Property Name="etaireia" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.pistwtikes' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="pistwtikes">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="karta" Type="nvarchar" MaxLength="40" />
+          <Property Name="noumero" Type="nvarchar" MaxLength="30" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="praktoreia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="eponimia" Type="nvarchar" MaxLength="50" />
+          <Property Name="titlostimolog" Type="nvarchar" MaxLength="50" />
+          <Property Name="ipeuthinos" Type="nvarchar" MaxLength="50" />
+          <Property Name="dieuthinsi" Type="nvarchar" MaxLength="50" />
+          <Property Name="tilefono" Type="nvarchar" MaxLength="50" />
+          <Property Name="fax" Type="nvarchar" MaxLength="50" />
+          <Property Name="telex" Type="nvarchar" MaxLength="50" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="afm" Type="nvarchar" MaxLength="50" />
+          <Property Name="doy" Type="nvarchar" MaxLength="50" />
+          <Property Name="imerisiatimi" Type="bit" Nullable="false" />
+          <Property Name="logariasmos" Type="nvarchar" MaxLength="50" />
+          <Property Name="xrewsi" Type="int" />
+          <Property Name="garanti" Type="bit" Nullable="false" />
+          <Property Name="sentonia" Type="smallint" />
+          <Property Name="tapeta" Type="smallint" />
+          <Property Name="petsetes" Type="smallint" />
+          <Property Name="mpournouzia" Type="smallint" />
+          <Property Name="individual" Type="bit" Nullable="false" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+        </EntityType>
+        <EntityType Name="simbolaia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="aasimbolaiou" Type="smallint" />
+          <Property Name="perigrafi" Type="nvarchar" MaxLength="50" />
+          <Property Name="praktoreio" Type="int" />
+          <Property Name="etos" Type="smallint" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+        </EntityType>
+        <EntityType Name="simfonies">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="simbolaio" Type="int" />
+          <Property Name="aa" Type="smallint" />
+          <Property Name="tipos" Type="int" />
+          <Property Name="season" Type="int" />
+          <Property Name="prwino" Type="real" />
+          <Property Name="prwinomonada" Type="nvarchar" MaxLength="50" />
+          <Property Name="geuma" Type="real" />
+          <Property Name="geumamonada" Type="nvarchar" MaxLength="50" />
+          <Property Name="dipno" Type="real" />
+          <Property Name="dipnomonada" Type="nvarchar" MaxLength="50" />
+          <Property Name="prosauxisisnono" Type="smallint" />
+          <Property Name="ekptositrito" Type="smallint" />
+          <Property Name="paidi1klinofree" Type="smallint" />
+          <Property Name="paidi1klinoews" Type="smallint" />
+          <Property Name="paidi1klinoekpt" Type="int" />
+          <Property Name="paidi2klinofree" Type="smallint" />
+          <Property Name="paidi2klinoews" Type="smallint" />
+          <Property Name="paidi2klinoekpt" Type="int" />
+          <Property Name="paidia1free" Type="smallint" />
+          <Property Name="paidia1ews" Type="smallint" />
+          <Property Name="paidia1ekpt" Type="smallint" />
+          <Property Name="paidia2free" Type="smallint" />
+          <Property Name="paidia2ews" Type="smallint" />
+          <Property Name="paidia2ekpt" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="status">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dwmatio" Type="nvarchar" MaxLength="10" />
+          <Property Name="kratisi" Type="int" />
+          <Property Name="enarxi" Type="datetime" />
+          <Property Name="lixi" Type="datetime" />
+          <Property Name="dwmatiostatus" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="tblproperty">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="pelatis" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.times' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="times">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="simfonia" Type="int" />
+          <Property Name="xrewsi" Type="int" />
+          <Property Name="klines" Type="int" />
+          <Property Name="paidi" Type="smallint" />
+          <Property Name="atoma" Type="smallint" />
+          <Property Name="timiatomo" Type="real" />
+          <Property Name="ipnos" Type="real" />
+          <Property Name="prwino" Type="real" />
+          <Property Name="geuma" Type="real" />
+          <Property Name="deipno" Type="real" />
+          <Property Name="synolo" Type="real" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="timeskratisis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kratisi" Type="int" />
+          <Property Name="timi" Type="int" />
+          <Property Name="xrewsi" Type="int" />
+          <Property Name="touristperiod" Type="int" />
+          <Property Name="ekptosi" Type="real" />
+          <Property Name="apo" Type="datetime" />
+          <Property Name="mexri" Type="datetime" />
+          <Property Name="imeres" Type="tinyint" />
+          <Property Name="ypnos" Type="real" />
+          <Property Name="prwino" Type="real" />
+          <Property Name="geuma" Type="real" />
+          <Property Name="deipno" Type="real" />
+          <Property Name="extra" Type="real" />
+          <Property Name="synolo" Type="real" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="timologia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="parastatiko" Type="int" />
+          <Property Name="imerominia" Type="datetime" />
+          <Property Name="seira" Type="nvarchar" MaxLength="20" />
+          <Property Name="aa" Type="smallint" />
+          <Property Name="praktoreio" Type="int" />
+          <Property Name="simbolaio" Type="int" />
+          <Property Name="eponimia" Type="nvarchar" MaxLength="50" />
+          <Property Name="dieuthinsi" Type="nvarchar" MaxLength="50" />
+          <Property Name="epagelma" Type="nvarchar" MaxLength="50" />
+          <Property Name="afm" Type="nvarchar" MaxLength="50" />
+          <Property Name="doy" Type="nvarchar" MaxLength="50" />
+          <Property Name="aitiologia" Type="nvarchar" MaxLength="100" />
+          <Property Name="sumkathposa" Type="real" />
+          <Property Name="fpa" Type="real" />
+          <Property Name="synola" Type="real" />
+          <Property Name="prokataboli" Type="real" />
+          <Property Name="simetoxi" Type="real" />
+          <Property Name="ypoloipon" Type="real" />
+          <Property Name="pliromi" Type="nvarchar" MaxLength="50" />
+          <Property Name="dimforos" Type="real" />
+          <Property Name="exoflithi" Type="bit" Nullable="false" />
+          <Property Name="akyromeno" Type="bit" Nullable="false" />
+          <Property Name="extra" Type="bit" Nullable="false" />
+          <Property Name="memonomeno" Type="bit" Nullable="false" />
+          <Property Name="mauro" Type="bit" Nullable="false" />
+          <Property Name="identifikation" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.timologioanalysis' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="timologioanalysis">
+          <Key>
+            <PropertyRef Name="kwd" />
+            <PropertyRef Name="ekptosi" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="kratisi" Type="int" />
+          <Property Name="timologio" Type="int" />
+          <Property Name="aa" Type="smallint" />
+          <Property Name="voucher" Type="nvarchar" MaxLength="50" />
+          <Property Name="onomateponumo" Type="nvarchar" MaxLength="50" />
+          <Property Name="xrewsi" Type="int" />
+          <Property Name="apo" Type="datetime" />
+          <Property Name="mexri" Type="datetime" />
+          <Property Name="imeres" Type="smallint" />
+          <Property Name="preistag" Type="real" />
+          <Property Name="ypnos" Type="real" />
+          <Property Name="ypnosfpa" Type="real" />
+          <Property Name="prwino" Type="real" />
+          <Property Name="prwinofpa" Type="real" />
+          <Property Name="geuma" Type="real" />
+          <Property Name="geumafpa" Type="real" />
+          <Property Name="deipno" Type="real" />
+          <Property Name="deipnofpa" Type="real" />
+          <Property Name="extra" Type="real" />
+          <Property Name="extrfpa" Type="real" />
+          <Property Name="allinclusiv" Type="real" />
+          <Property Name="allinclusivfpa" Type="real" />
+          <Property Name="sumkathposa" Type="real" />
+          <Property Name="fpa" Type="real" />
+          <Property Name="synola" Type="real" />
+          <Property Name="ekptposo" Type="real" />
+          <Property Name="ekptpososto" Type="real" />
+          <Property Name="ekptimeres" Type="real" />
+          <Property Name="fee" Type="real" />
+          <Property Name="ekptosi" Type="bit" Nullable="false" />
+          <Property Name="identifikation" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="tipoi">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="tipos" Type="nvarchar" MaxLength="50" />
+          <Property Name="perigrafi" Type="nvarchar" MaxLength="50" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'mihotel.dbo.touristperiodoi' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="touristperiodoi">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="simbolaio" Type="int" />
+          <Property Name="apo" Type="datetime" />
+          <Property Name="mexri" Type="datetime" />
+          <Property Name="season" Type="int" />
+          <Property Name="relperiod" Type="smallint" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="user" Type="nvarchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+          <Property Name="etaireia" Type="int" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+          <Property Name="property" Type="int" />
+        </EntityType>
+        <EntityType Name="xrewseis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="int" Nullable="false" />
+          <Property Name="xrewsi" Type="nvarchar" MaxLength="50" />
+          <Property Name="perigrafi" Type="nvarchar" MaxLength="50" />
+          <Property Name="ypnos" Type="bit" Nullable="false" />
+          <Property Name="prwino" Type="bit" Nullable="false" />
+          <Property Name="geuma" Type="bit" Nullable="false" />
+          <Property Name="deipno" Type="bit" Nullable="false" />
+          <Property Name="s_ColLineage" Type="image" />
+          <Property Name="s_Generation" Type="int" />
+          <Property Name="s_GUID" Type="uniqueidentifier" />
+          <Property Name="s_Lineage" Type="image" />
+        </EntityType>
+        <Association Name="dwmatia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="dwmatia" Type="Self.dwmatia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="dwmatia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="etaireia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="etaireia" Type="Self.etaireia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="etaireia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dwmatio_kratisi">
+          <End Role="dwmatia" Type="Self.dwmatia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dwmatia">
+              <PropertyRef Name="arithmos" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="dwmatio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_enilikes_kratiseis">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="enilikes" Type="Self.enilikes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="enilikes">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ethnikotites_kratisi">
+          <End Role="ethnikotites" Type="Self.ethnikotites" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ethnikotites">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="ethnikotites" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_paidia_kratiseis">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="paidia" Type="Self.paidia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="paidia">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_praktoreio_kratisi">
+          <End Role="praktoreia" Type="Self.praktoreia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="praktoreia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="praktoreio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_praktoreiotim_kratisi">
+          <End Role="praktoreia" Type="Self.praktoreia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="praktoreia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="praktimologio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_property_kratisi">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_simbolaio_kratisi">
+          <End Role="simbolaia" Type="Self.simbolaia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="simbolaia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="simbolaio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_status_dwmatia">
+          <End Role="dwmatia" Type="Self.dwmatia" Multiplicity="0..1" />
+          <End Role="status" Type="Self.status" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dwmatia">
+              <PropertyRef Name="arithmos" />
+            </Principal>
+            <Dependent Role="status">
+              <PropertyRef Name="dwmatio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_status_kratisi">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="enilikes" Type="Self.enilikes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="enilikes">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_timeskratisis_kratiseis">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="timeskratisis" Type="Self.timeskratisis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="timeskratisis">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_timeskratisis_xrewseis">
+          <End Role="xrewseis" Type="Self.xrewseis" Multiplicity="0..1" />
+          <End Role="timeskratisis" Type="Self.timeskratisis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="xrewseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="timeskratisis">
+              <PropertyRef Name="xrewsi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_timologia_timologia">
+          <End Role="timologia" Type="Self.timologia" Multiplicity="1" />
+          <End Role="timologia1" Type="Self.timologia" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="timologia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="timologia1">
+              <PropertyRef Name="kwd" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tipos_kratisi">
+          <End Role="tipoi" Type="Self.tipoi" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tipoi">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="tipos" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_users_tblproperty">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="users" Type="Self.users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="users">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="praktoreia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="praktoreia" Type="Self.praktoreia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="praktoreia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="simbolaia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="simbolaia" Type="Self.simbolaia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="simbolaia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="timologia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="timologia" Type="Self.timologia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="timologia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="tipoi_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="tipoi" Type="Self.tipoi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tipoi">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WinhotDataModelStoreContainer">
+          <EntitySet Name="dwmatia" EntityType="Self.dwmatia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="enilikes" EntityType="Self.enilikes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="etaireia" EntityType="Self.etaireia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ethnikotites" EntityType="Self.ethnikotites" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="forosdiamonis" EntityType="Self.forosdiamonis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="kratiseis" EntityType="Self.kratiseis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="paidia" EntityType="Self.paidia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="praktoreia" EntityType="Self.praktoreia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="simbolaia" EntityType="Self.simbolaia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="simfonies" EntityType="Self.simfonies" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="status" EntityType="Self.status" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblproperty" EntityType="Self.tblproperty" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="timeskratisis" EntityType="Self.timeskratisis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="timologia" EntityType="Self.timologia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tipoi" EntityType="Self.tipoi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="xrewseis" EntityType="Self.xrewseis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="afm" EntityType="Self.afm" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[afm].[kwd] AS [kwd], 
+[afm].[etaireia] AS [etaireia], 
+[afm].[epixirisi] AS [epixirisi], 
+[afm].[xenodoxeio] AS [xenodoxeio], 
+[afm].[dieuthinsi] AS [dieuthinsi], 
+[afm].[tilefono] AS [tilefono], 
+[afm].[afm] AS [afm], 
+[afm].[doy] AS [doy], 
+[afm].[eikoniko] AS [eikoniko], 
+[afm].[apykwd] AS [apykwd], 
+[afm].[timolkwd] AS [timolkwd], 
+[afm].[s_ColLineage] AS [s_ColLineage], 
+[afm].[s_Generation] AS [s_Generation], 
+[afm].[s_GUID] AS [s_GUID], 
+[afm].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[afm] AS [afm]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="alias" EntityType="Self.alias" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[alias].[afm] AS [afm], 
+[alias].[alias] AS [alias], 
+[alias].[s_ColLineage] AS [s_ColLineage], 
+[alias].[s_Generation] AS [s_Generation], 
+[alias].[s_GUID] AS [s_GUID], 
+[alias].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[alias] AS [alias]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="katigories" EntityType="Self.katigories" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[katigories].[kwd] AS [kwd], 
+[katigories].[tipos] AS [tipos], 
+[katigories].[klines] AS [klines], 
+[katigories].[anzahl] AS [anzahl], 
+[katigories].[perigrafi] AS [perigrafi], 
+[katigories].[s_GUID] AS [s_GUID], 
+[katigories].[s_ColLineage] AS [s_ColLineage], 
+[katigories].[s_Generation] AS [s_Generation], 
+[katigories].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[katigories] AS [katigories]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="parastatika" EntityType="Self.parastatika" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[parastatika].[kwd] AS [kwd], 
+[parastatika].[tipos] AS [tipos], 
+[parastatika].[seira] AS [seira], 
+[parastatika].[aritthmos] AS [aritthmos], 
+[parastatika].[etaireia] AS [etaireia], 
+[parastatika].[s_ColLineage] AS [s_ColLineage], 
+[parastatika].[s_Generation] AS [s_Generation], 
+[parastatika].[s_GUID] AS [s_GUID], 
+[parastatika].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[parastatika] AS [parastatika]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="pistwtikes" EntityType="Self.pistwtikes" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[pistwtikes].[kwd] AS [kwd], 
+[pistwtikes].[karta] AS [karta], 
+[pistwtikes].[noumero] AS [noumero], 
+[pistwtikes].[s_ColLineage] AS [s_ColLineage], 
+[pistwtikes].[s_Generation] AS [s_Generation], 
+[pistwtikes].[s_GUID] AS [s_GUID], 
+[pistwtikes].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[pistwtikes] AS [pistwtikes]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="times" EntityType="Self.times" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[times].[kwd] AS [kwd], 
+[times].[simfonia] AS [simfonia], 
+[times].[xrewsi] AS [xrewsi], 
+[times].[klines] AS [klines], 
+[times].[paidi] AS [paidi], 
+[times].[atoma] AS [atoma], 
+[times].[timiatomo] AS [timiatomo], 
+[times].[ipnos] AS [ipnos], 
+[times].[prwino] AS [prwino], 
+[times].[geuma] AS [geuma], 
+[times].[deipno] AS [deipno], 
+[times].[synolo] AS [synolo], 
+[times].[s_ColLineage] AS [s_ColLineage], 
+[times].[s_Generation] AS [s_Generation], 
+[times].[s_GUID] AS [s_GUID], 
+[times].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[times] AS [times]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="timologioanalysis" EntityType="Self.timologioanalysis" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[timologioanalysis].[kwd] AS [kwd], 
+[timologioanalysis].[kratisi] AS [kratisi], 
+[timologioanalysis].[timologio] AS [timologio], 
+[timologioanalysis].[aa] AS [aa], 
+[timologioanalysis].[voucher] AS [voucher], 
+[timologioanalysis].[onomateponumo] AS [onomateponumo], 
+[timologioanalysis].[xrewsi] AS [xrewsi], 
+[timologioanalysis].[apo] AS [apo], 
+[timologioanalysis].[mexri] AS [mexri], 
+[timologioanalysis].[imeres] AS [imeres], 
+[timologioanalysis].[preistag] AS [preistag], 
+[timologioanalysis].[ypnos] AS [ypnos], 
+[timologioanalysis].[ypnosfpa] AS [ypnosfpa], 
+[timologioanalysis].[prwino] AS [prwino], 
+[timologioanalysis].[prwinofpa] AS [prwinofpa], 
+[timologioanalysis].[geuma] AS [geuma], 
+[timologioanalysis].[geumafpa] AS [geumafpa], 
+[timologioanalysis].[deipno] AS [deipno], 
+[timologioanalysis].[deipnofpa] AS [deipnofpa], 
+[timologioanalysis].[extra] AS [extra], 
+[timologioanalysis].[extrfpa] AS [extrfpa], 
+[timologioanalysis].[allinclusiv] AS [allinclusiv], 
+[timologioanalysis].[allinclusivfpa] AS [allinclusivfpa], 
+[timologioanalysis].[sumkathposa] AS [sumkathposa], 
+[timologioanalysis].[fpa] AS [fpa], 
+[timologioanalysis].[synola] AS [synola], 
+[timologioanalysis].[ekptposo] AS [ekptposo], 
+[timologioanalysis].[ekptpososto] AS [ekptpososto], 
+[timologioanalysis].[ekptimeres] AS [ekptimeres], 
+[timologioanalysis].[fee] AS [fee], 
+[timologioanalysis].[ekptosi] AS [ekptosi], 
+[timologioanalysis].[identifikation] AS [identifikation], 
+[timologioanalysis].[s_ColLineage] AS [s_ColLineage], 
+[timologioanalysis].[s_Generation] AS [s_Generation], 
+[timologioanalysis].[s_GUID] AS [s_GUID], 
+[timologioanalysis].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[timologioanalysis] AS [timologioanalysis]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="touristperiodoi" EntityType="Self.touristperiodoi" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[touristperiodoi].[kwd] AS [kwd], 
+[touristperiodoi].[simbolaio] AS [simbolaio], 
+[touristperiodoi].[apo] AS [apo], 
+[touristperiodoi].[mexri] AS [mexri], 
+[touristperiodoi].[season] AS [season], 
+[touristperiodoi].[relperiod] AS [relperiod], 
+[touristperiodoi].[s_ColLineage] AS [s_ColLineage], 
+[touristperiodoi].[s_Generation] AS [s_Generation], 
+[touristperiodoi].[s_GUID] AS [s_GUID], 
+[touristperiodoi].[s_Lineage] AS [s_Lineage]
+FROM [dbo].[touristperiodoi] AS [touristperiodoi]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="dwmatia_property_FK" Association="Self.dwmatia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="dwmatia" EntitySet="dwmatia" />
+          </AssociationSet>
+          <AssociationSet Name="etaireia_property_FK" Association="Self.etaireia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="etaireia" EntitySet="etaireia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dwmatio_kratisi" Association="Self.FK_dwmatio_kratisi">
+            <End Role="dwmatia" EntitySet="dwmatia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_enilikes_kratiseis" Association="Self.FK_enilikes_kratiseis">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="enilikes" EntitySet="enilikes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ethnikotites_kratisi" Association="Self.FK_ethnikotites_kratisi">
+            <End Role="ethnikotites" EntitySet="ethnikotites" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_paidia_kratiseis" Association="Self.FK_paidia_kratiseis">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="paidia" EntitySet="paidia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_praktoreio_kratisi" Association="Self.FK_praktoreio_kratisi">
+            <End Role="praktoreia" EntitySet="praktoreia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_praktoreiotim_kratisi" Association="Self.FK_praktoreiotim_kratisi">
+            <End Role="praktoreia" EntitySet="praktoreia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_property_kratisi" Association="Self.FK_property_kratisi">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_simbolaio_kratisi" Association="Self.FK_simbolaio_kratisi">
+            <End Role="simbolaia" EntitySet="simbolaia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_status_dwmatia" Association="Self.FK_status_dwmatia">
+            <End Role="dwmatia" EntitySet="dwmatia" />
+            <End Role="status" EntitySet="status" />
+          </AssociationSet>
+          <AssociationSet Name="FK_status_kratisi" Association="Self.FK_status_kratisi">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="enilikes" EntitySet="enilikes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_timeskratisis_kratiseis" Association="Self.FK_timeskratisis_kratiseis">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="timeskratisis" EntitySet="timeskratisis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_timeskratisis_xrewseis" Association="Self.FK_timeskratisis_xrewseis">
+            <End Role="xrewseis" EntitySet="xrewseis" />
+            <End Role="timeskratisis" EntitySet="timeskratisis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_timologia_timologia" Association="Self.FK_timologia_timologia">
+            <End Role="timologia" EntitySet="timologia" />
+            <End Role="timologia1" EntitySet="timologia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tipos_kratisi" Association="Self.FK_tipos_kratisi">
+            <End Role="tipoi" EntitySet="tipoi" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_users_tblproperty" Association="Self.FK_users_tblproperty">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="users" EntitySet="users" />
+          </AssociationSet>
+          <AssociationSet Name="praktoreia_property_FK" Association="Self.praktoreia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="praktoreia" EntitySet="praktoreia" />
+          </AssociationSet>
+          <AssociationSet Name="simbolaia_property_FK" Association="Self.simbolaia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="simbolaia" EntitySet="simbolaia" />
+          </AssociationSet>
+          <AssociationSet Name="timologia_property_FK" Association="Self.timologia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="timologia" EntitySet="timologia" />
+          </AssociationSet>
+          <AssociationSet Name="tipoi_property_FK" Association="Self.tipoi_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="tipoi" EntitySet="tipoi" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WinhotDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="dwmatia">
+          <Key>
+            <PropertyRef Name="arithmos" />
+          </Key>
+          <Property Name="arithmos" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="katigoria" Type="Int32" />
+          <Property Name="klines" Type="Int16" />
+          <Property Name="thea" Type="Int32" />
+          <Property Name="perigrafi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="afm" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <Property Name="scheduler" Type="Int32" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.dwmatia_property_FK" FromRole="dwmatia" ToRole="tblproperty" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_dwmatio_kratisi" FromRole="dwmatia" ToRole="kratiseis" />
+          <NavigationProperty Name="status" Relationship="Self.FK_status_dwmatia" FromRole="dwmatia" ToRole="status" />
+        </EntityType>
+        <EntityType Name="enilikes">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kratisi" Type="Int32" />
+          <Property Name="onomateponimo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="patronimo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="genisi" Type="DateTime" Precision="3" />
+          <Property Name="ethnikotita" Type="Int16" />
+          <Property Name="diabatirio" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ekdosi" Type="DateTime" Precision="3" />
+          <Property Name="toposgenisis" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dieuthinsi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="poli" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="xora" Type="Int16" />
+          <Property Name="epaggelma" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tilefono" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="prosfonisi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="simiosi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="palaios" Type="Byte" />
+          <Property Name="eorti" Type="DateTime" Precision="3" />
+          <Property Name="gamos" Type="DateTime" Precision="3" />
+          <Property Name="axiologisi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_enilikes_kratiseis" FromRole="enilikes" ToRole="kratiseis" />
+          <NavigationProperty Name="kratiseis1" Relationship="Self.FK_status_kratisi" FromRole="enilikes" ToRole="kratiseis" />
+        </EntityType>
+        <EntityType Name="etaireia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="epixirisi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="xenodoxeio" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dieuthinsi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tilefono" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="afm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="doy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="fpatrofis1" Type="Single" />
+          <Property Name="fpatrofis2" Type="Single" />
+          <Property Name="fpatrofis3" Type="Single" />
+          <Property Name="fpatrofis4" Type="Single" />
+          <Property Name="dimforos1" Type="Single" />
+          <Property Name="dimforos2" Type="Single" />
+          <Property Name="fparepid1" Type="Single" />
+          <Property Name="fparepid2" Type="Single" />
+          <Property Name="fpatmima1" Type="Single" />
+          <Property Name="fpatmima2" Type="Single" />
+          <Property Name="fpatmima3" Type="Single" />
+          <Property Name="fpatmima4" Type="Single" />
+          <Property Name="fpatmima5" Type="Single" />
+          <Property Name="extras" Type="Int16" />
+          <Property Name="guaranti" Type="Boolean" Nullable="false" />
+          <Property Name="aakratisis" Type="Int16" />
+          <Property Name="mindwmatia" Type="Int16" />
+          <Property Name="maxdwmatia" Type="Int16" />
+          <Property Name="xklino" Type="Byte" />
+          <Property Name="minklines" Type="Int16" />
+          <Property Name="maxklines" Type="Int16" />
+          <Property Name="ktimis" Type="Boolean" Nullable="false" />
+          <Property Name="biblportas" Type="Byte" />
+          <Property Name="theorisiapy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="timologia" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="aage" Type="Int32" />
+          <Property Name="aaapy" Type="Int32" />
+          <Property Name="biblportastimes" Type="Boolean" Nullable="false" />
+          <Property Name="imeromergasias" Type="DateTime" Precision="3" />
+          <Property Name="kleismenidate" Type="DateTime" Precision="3" />
+          <Property Name="ektportasflag" Type="Byte" />
+          <Property Name="ektportasapyflag" Type="Byte" />
+          <Property Name="aagramatio" Type="Int16" />
+          <Property Name="aabapy" Type="Int16" />
+          <Property Name="fakelosbackup" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="basi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="version" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="connectionstring" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="apykwd" Type="Int32" />
+          <Property Name="timolkwd" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.etaireia_property_FK" FromRole="etaireia" ToRole="tblproperty" />
+        </EntityType>
+        <EntityType Name="ethnikotites">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int16" Nullable="false" />
+          <Property Name="sintomeusi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ethnikotita" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_ethnikotites_kratisi" FromRole="ethnikotites" ToRole="kratiseis" />
+        </EntityType>
+        <EntityType Name="forosdiamonis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="etaireia" Type="Int32" Nullable="false" />
+          <Property Name="kratisi" Type="Int32" Nullable="false" />
+          <Property Name="imerominia" Type="DateTime" Precision="3" />
+          <Property Name="arithmos" Type="Int16" />
+          <Property Name="onoma" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="drastiriotita" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dieuthinsi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="afm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="doy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="afixi" Type="DateTime" Precision="3" />
+          <Property Name="anaxwrisi" Type="DateTime" Precision="3" />
+          <Property Name="days" Type="Single" />
+          <Property Name="room" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="timologio" Type="Int32" />
+          <Property Name="apy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="parastatiko" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="akyromeno" Type="Boolean" Nullable="false" />
+          <Property Name="foros" Type="Single" />
+          <Property Name="pliromi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="kratiseis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dbhotel" Type="Int32" />
+          <Property Name="imeromkratisis" Type="DateTime" Precision="3" />
+          <Property Name="etos" Type="Int16" />
+          <Property Name="arithmos" Type="Int16" />
+          <Property Name="simbolaio" Type="Int32" />
+          <Property Name="praktoreio" Type="Int32" />
+          <Property Name="praktimologio" Type="Int32" />
+          <Property Name="privatimologio" Type="Boolean" Nullable="false" />
+          <Property Name="voucher" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="enilikes" Type="Int16" />
+          <Property Name="paidia" Type="Int16" />
+          <Property Name="ethnikotites" Type="Int16" />
+          <Property Name="anzethnikotites" Type="Byte" />
+          <Property Name="ethnikotites2" Type="Int16" />
+          <Property Name="anzethnikotites2" Type="Byte" />
+          <Property Name="tilefonomem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="epithimdate" Type="DateTime" Precision="3" />
+          <Property Name="epithimia" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="simetoxi" Type="Int16" />
+          <Property Name="prokataboli" Type="Single" />
+          <Property Name="prokatdate" Type="DateTime" Precision="3" />
+          <Property Name="afixi" Type="DateTime" Precision="3" />
+          <Property Name="wra" Type="DateTime" Precision="3" />
+          <Property Name="anaxwrisi" Type="DateTime" Precision="3" />
+          <Property Name="klines" Type="Int32" />
+          <Property Name="tipos" Type="Int32" />
+          <Property Name="guarantie" Type="Boolean" Nullable="false" />
+          <Property Name="dwmatio" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="pliromi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="biblioportas" Type="Boolean" Nullable="false" />
+          <Property Name="synolo" Type="Single" />
+          <Property Name="checkin" Type="Boolean" Nullable="false" />
+          <Property Name="datein" Type="DateTime" Precision="3" />
+          <Property Name="checkout" Type="Boolean" Nullable="false" />
+          <Property Name="dateout" Type="DateTime" Precision="3" />
+          <Property Name="allagesdwmatiwn" Type="Boolean" Nullable="false" />
+          <Property Name="ekptosi" Type="Boolean" Nullable="false" />
+          <Property Name="ekptposo" Type="Single" />
+          <Property Name="ekptpososto" Type="Single" />
+          <Property Name="ekptimeres" Type="Single" />
+          <Property Name="fee" Type="Single" />
+          <Property Name="timologio" Type="Byte" />
+          <Property Name="apy" Type="Int16" />
+          <Property Name="identifikation" Type="Int32" />
+          <Property Name="parastatiko" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <Property Name="state" Type="Byte" />
+          <NavigationProperty Name="dwmatia" Relationship="Self.FK_dwmatio_kratisi" FromRole="kratiseis" ToRole="dwmatia" />
+          <NavigationProperty Name="enilikes1" Relationship="Self.FK_enilikes_kratiseis" FromRole="kratiseis" ToRole="enilikes" />
+          <NavigationProperty Name="enilikes2" Relationship="Self.FK_status_kratisi" FromRole="kratiseis" ToRole="enilikes" />
+          <NavigationProperty Name="ethnikotites1" Relationship="Self.FK_ethnikotites_kratisi" FromRole="kratiseis" ToRole="ethnikotites" />
+          <NavigationProperty Name="paidia1" Relationship="Self.FK_paidia_kratiseis" FromRole="kratiseis" ToRole="paidia" />
+          <NavigationProperty Name="praktoreia" Relationship="Self.FK_praktoreio_kratisi" FromRole="kratiseis" ToRole="praktoreia" />
+          <NavigationProperty Name="praktoreia1" Relationship="Self.FK_praktoreiotim_kratisi" FromRole="kratiseis" ToRole="praktoreia" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.FK_property_kratisi" FromRole="kratiseis" ToRole="tblproperty" />
+          <NavigationProperty Name="simbolaia" Relationship="Self.FK_simbolaio_kratisi" FromRole="kratiseis" ToRole="simbolaia" />
+          <NavigationProperty Name="timeskratisis" Relationship="Self.FK_timeskratisis_kratiseis" FromRole="kratiseis" ToRole="timeskratisis" />
+          <NavigationProperty Name="tipoi" Relationship="Self.FK_tipos_kratisi" FromRole="kratiseis" ToRole="tipoi" />
+        </EntityType>
+        <EntityType Name="paidia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kratisi" Type="Int32" />
+          <Property Name="cot" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ilikia" Type="Byte" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_paidia_kratiseis" FromRole="paidia" ToRole="kratiseis" />
+        </EntityType>
+        <EntityType Name="praktoreia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="eponimia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="titlostimolog" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ipeuthinos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dieuthinsi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tilefono" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="fax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="telex" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="afm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="doy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="imerisiatimi" Type="Boolean" Nullable="false" />
+          <Property Name="logariasmos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="xrewsi" Type="Int32" />
+          <Property Name="garanti" Type="Boolean" Nullable="false" />
+          <Property Name="sentonia" Type="Int16" />
+          <Property Name="tapeta" Type="Int16" />
+          <Property Name="petsetes" Type="Int16" />
+          <Property Name="mpournouzia" Type="Int16" />
+          <Property Name="individual" Type="Boolean" Nullable="false" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_praktoreio_kratisi" FromRole="praktoreia" ToRole="kratiseis" />
+          <NavigationProperty Name="kratiseis1" Relationship="Self.FK_praktoreiotim_kratisi" FromRole="praktoreia" ToRole="kratiseis" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.praktoreia_property_FK" FromRole="praktoreia" ToRole="tblproperty" />
+        </EntityType>
+        <EntityType Name="simbolaia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="aasimbolaiou" Type="Int16" />
+          <Property Name="perigrafi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="praktoreio" Type="Int32" />
+          <Property Name="etos" Type="Int16" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_simbolaio_kratisi" FromRole="simbolaia" ToRole="kratiseis" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.simbolaia_property_FK" FromRole="simbolaia" ToRole="tblproperty" />
+        </EntityType>
+        <EntityType Name="simfonies">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="simbolaio" Type="Int32" />
+          <Property Name="aa" Type="Int16" />
+          <Property Name="tipos" Type="Int32" />
+          <Property Name="season" Type="Int32" />
+          <Property Name="prwino" Type="Single" />
+          <Property Name="prwinomonada" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="geuma" Type="Single" />
+          <Property Name="geumamonada" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dipno" Type="Single" />
+          <Property Name="dipnomonada" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="prosauxisisnono" Type="Int16" />
+          <Property Name="ekptositrito" Type="Int16" />
+          <Property Name="paidi1klinofree" Type="Int16" />
+          <Property Name="paidi1klinoews" Type="Int16" />
+          <Property Name="paidi1klinoekpt" Type="Int32" />
+          <Property Name="paidi2klinofree" Type="Int16" />
+          <Property Name="paidi2klinoews" Type="Int16" />
+          <Property Name="paidi2klinoekpt" Type="Int32" />
+          <Property Name="paidia1free" Type="Int16" />
+          <Property Name="paidia1ews" Type="Int16" />
+          <Property Name="paidia1ekpt" Type="Int16" />
+          <Property Name="paidia2free" Type="Int16" />
+          <Property Name="paidia2ews" Type="Int16" />
+          <Property Name="paidia2ekpt" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="status">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dwmatio" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="kratisi" Type="Int32" />
+          <Property Name="enarxi" Type="DateTime" Precision="3" />
+          <Property Name="lixi" Type="DateTime" Precision="3" />
+          <Property Name="dwmatiostatus" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="dwmatia" Relationship="Self.FK_status_dwmatia" FromRole="status" ToRole="dwmatia" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="tblproperty">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="pelatis" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="dwmatia" Relationship="Self.dwmatia_property_FK" FromRole="tblproperty" ToRole="dwmatia" />
+          <NavigationProperty Name="etaireia" Relationship="Self.etaireia_property_FK" FromRole="tblproperty" ToRole="etaireia" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_property_kratisi" FromRole="tblproperty" ToRole="kratiseis" />
+          <NavigationProperty Name="praktoreia" Relationship="Self.praktoreia_property_FK" FromRole="tblproperty" ToRole="praktoreia" />
+          <NavigationProperty Name="simbolaia" Relationship="Self.simbolaia_property_FK" FromRole="tblproperty" ToRole="simbolaia" />
+          <NavigationProperty Name="users" Relationship="Self.FK_users_tblproperty" FromRole="tblproperty" ToRole="users" />
+          <NavigationProperty Name="timologia" Relationship="Self.timologia_property_FK" FromRole="tblproperty" ToRole="timologia" />
+          <NavigationProperty Name="tipoi" Relationship="Self.tipoi_property_FK" FromRole="tblproperty" ToRole="tipoi" />
+        </EntityType>
+        <EntityType Name="timeskratisis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kratisi" Type="Int32" />
+          <Property Name="timi" Type="Int32" />
+          <Property Name="xrewsi" Type="Int32" />
+          <Property Name="touristperiod" Type="Int32" />
+          <Property Name="ekptosi" Type="Single" />
+          <Property Name="apo" Type="DateTime" Precision="3" />
+          <Property Name="mexri" Type="DateTime" Precision="3" />
+          <Property Name="imeres" Type="Byte" />
+          <Property Name="ypnos" Type="Single" />
+          <Property Name="prwino" Type="Single" />
+          <Property Name="geuma" Type="Single" />
+          <Property Name="deipno" Type="Single" />
+          <Property Name="extra" Type="Single" />
+          <Property Name="synolo" Type="Single" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_timeskratisis_kratiseis" FromRole="timeskratisis" ToRole="kratiseis" />
+          <NavigationProperty Name="xrewseis" Relationship="Self.FK_timeskratisis_xrewseis" FromRole="timeskratisis" ToRole="xrewseis" />
+        </EntityType>
+        <EntityType Name="timologia">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="parastatiko" Type="Int32" />
+          <Property Name="imerominia" Type="DateTime" Precision="3" />
+          <Property Name="seira" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="aa" Type="Int16" />
+          <Property Name="praktoreio" Type="Int32" />
+          <Property Name="simbolaio" Type="Int32" />
+          <Property Name="eponimia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dieuthinsi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="epagelma" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="afm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="doy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="aitiologia" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="sumkathposa" Type="Single" />
+          <Property Name="fpa" Type="Single" />
+          <Property Name="synola" Type="Single" />
+          <Property Name="prokataboli" Type="Single" />
+          <Property Name="simetoxi" Type="Single" />
+          <Property Name="ypoloipon" Type="Single" />
+          <Property Name="pliromi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dimforos" Type="Single" />
+          <Property Name="exoflithi" Type="Boolean" Nullable="false" />
+          <Property Name="akyromeno" Type="Boolean" Nullable="false" />
+          <Property Name="extra" Type="Boolean" Nullable="false" />
+          <Property Name="memonomeno" Type="Boolean" Nullable="false" />
+          <Property Name="mauro" Type="Boolean" Nullable="false" />
+          <Property Name="identifikation" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.timologia_property_FK" FromRole="timologia" ToRole="tblproperty" />
+          <NavigationProperty Name="timologia1" Relationship="Self.FK_timologia_timologia" FromRole="timologia" ToRole="timologia1" />
+          <NavigationProperty Name="timologia2" Relationship="Self.FK_timologia_timologia" FromRole="timologia1" ToRole="timologia" />
+        </EntityType>
+        <EntityType Name="tipoi">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="tipos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="perigrafi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <NavigationProperty Name="kratiseis" Relationship="Self.FK_tipos_kratisi" FromRole="tipoi" ToRole="kratiseis" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.tipoi_property_FK" FromRole="tipoi" ToRole="tblproperty" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="user" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="etaireia" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="property" Type="Int32" />
+          <NavigationProperty Name="tblproperty" Relationship="Self.FK_users_tblproperty" FromRole="users" ToRole="tblproperty" />
+        </EntityType>
+        <EntityType Name="xrewseis">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="xrewsi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="perigrafi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ypnos" Type="Boolean" Nullable="false" />
+          <Property Name="prwino" Type="Boolean" Nullable="false" />
+          <Property Name="geuma" Type="Boolean" Nullable="false" />
+          <Property Name="deipno" Type="Boolean" Nullable="false" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="timeskratisis" Relationship="Self.FK_timeskratisis_xrewseis" FromRole="xrewseis" ToRole="timeskratisis" />
+        </EntityType>
+        <EntityType Name="afm">
+          <Key>
+            <PropertyRef Name="kwd" />
+            <PropertyRef Name="eikoniko" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="etaireia" Type="Int32" />
+          <Property Name="epixirisi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="xenodoxeio" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dieuthinsi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tilefono" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="afm1" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+          <Property Name="doy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="eikoniko" Type="Boolean" Nullable="false" />
+          <Property Name="apykwd" Type="Int32" />
+          <Property Name="timolkwd" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="alias">
+          <Key>
+            <PropertyRef Name="afm" />
+          </Key>
+          <Property Name="afm" Type="Int32" Nullable="false" />
+          <Property Name="alias1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="katigories">
+          <Key>
+            <PropertyRef Name="tipos" />
+          </Key>
+          <Property Name="kwd" Type="Int32" />
+          <Property Name="tipos" Type="Int32" Nullable="false" />
+          <Property Name="klines" Type="Int16" />
+          <Property Name="anzahl" Type="Int16" />
+          <Property Name="perigrafi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="parastatika">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="tipos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="seira" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="aritthmos" Type="Int32" />
+          <Property Name="etaireia" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="pistwtikes">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="karta" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="noumero" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="times">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="simfonia" Type="Int32" />
+          <Property Name="xrewsi" Type="Int32" />
+          <Property Name="klines" Type="Int32" />
+          <Property Name="paidi" Type="Int16" />
+          <Property Name="atoma" Type="Int16" />
+          <Property Name="timiatomo" Type="Single" />
+          <Property Name="ipnos" Type="Single" />
+          <Property Name="prwino" Type="Single" />
+          <Property Name="geuma" Type="Single" />
+          <Property Name="deipno" Type="Single" />
+          <Property Name="synolo" Type="Single" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="timologioanalysis">
+          <Key>
+            <PropertyRef Name="kwd" />
+            <PropertyRef Name="ekptosi" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="kratisi" Type="Int32" />
+          <Property Name="timologio" Type="Int32" />
+          <Property Name="aa" Type="Int16" />
+          <Property Name="voucher" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="onomateponumo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="xrewsi" Type="Int32" />
+          <Property Name="apo" Type="DateTime" Precision="3" />
+          <Property Name="mexri" Type="DateTime" Precision="3" />
+          <Property Name="imeres" Type="Int16" />
+          <Property Name="preistag" Type="Single" />
+          <Property Name="ypnos" Type="Single" />
+          <Property Name="ypnosfpa" Type="Single" />
+          <Property Name="prwino" Type="Single" />
+          <Property Name="prwinofpa" Type="Single" />
+          <Property Name="geuma" Type="Single" />
+          <Property Name="geumafpa" Type="Single" />
+          <Property Name="deipno" Type="Single" />
+          <Property Name="deipnofpa" Type="Single" />
+          <Property Name="extra" Type="Single" />
+          <Property Name="extrfpa" Type="Single" />
+          <Property Name="allinclusiv" Type="Single" />
+          <Property Name="allinclusivfpa" Type="Single" />
+          <Property Name="sumkathposa" Type="Single" />
+          <Property Name="fpa" Type="Single" />
+          <Property Name="synola" Type="Single" />
+          <Property Name="ekptposo" Type="Single" />
+          <Property Name="ekptpososto" Type="Single" />
+          <Property Name="ekptimeres" Type="Single" />
+          <Property Name="fee" Type="Single" />
+          <Property Name="ekptosi" Type="Boolean" Nullable="false" />
+          <Property Name="identifikation" Type="Int32" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="touristperiodoi">
+          <Key>
+            <PropertyRef Name="kwd" />
+          </Key>
+          <Property Name="kwd" Type="Int32" Nullable="false" />
+          <Property Name="simbolaio" Type="Int32" />
+          <Property Name="apo" Type="DateTime" Precision="3" />
+          <Property Name="mexri" Type="DateTime" Precision="3" />
+          <Property Name="season" Type="Int32" />
+          <Property Name="relperiod" Type="Int16" />
+          <Property Name="s_ColLineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="s_Generation" Type="Int32" />
+          <Property Name="s_GUID" Type="Guid" />
+          <Property Name="s_Lineage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <Association Name="dwmatia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="dwmatia" Type="Self.dwmatia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="dwmatia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dwmatio_kratisi">
+          <End Role="dwmatia" Type="Self.dwmatia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dwmatia">
+              <PropertyRef Name="arithmos" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="dwmatio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_status_dwmatia">
+          <End Role="dwmatia" Type="Self.dwmatia" Multiplicity="0..1" />
+          <End Role="status" Type="Self.status" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dwmatia">
+              <PropertyRef Name="arithmos" />
+            </Principal>
+            <Dependent Role="status">
+              <PropertyRef Name="dwmatio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_enilikes_kratiseis">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="enilikes" Type="Self.enilikes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="enilikes">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_status_kratisi">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="enilikes" Type="Self.enilikes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="enilikes">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="etaireia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="etaireia" Type="Self.etaireia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="etaireia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ethnikotites_kratisi">
+          <End Role="ethnikotites" Type="Self.ethnikotites" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ethnikotites">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="ethnikotites" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_paidia_kratiseis">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="paidia" Type="Self.paidia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="paidia">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_praktoreio_kratisi">
+          <End Role="praktoreia" Type="Self.praktoreia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="praktoreia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="praktoreio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_praktoreiotim_kratisi">
+          <End Role="praktoreia" Type="Self.praktoreia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="praktoreia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="praktimologio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_property_kratisi">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_simbolaio_kratisi">
+          <End Role="simbolaia" Type="Self.simbolaia" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="simbolaia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="simbolaio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_timeskratisis_kratiseis">
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="0..1" />
+          <End Role="timeskratisis" Type="Self.timeskratisis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kratiseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="timeskratisis">
+              <PropertyRef Name="kratisi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tipos_kratisi">
+          <End Role="tipoi" Type="Self.tipoi" Multiplicity="0..1" />
+          <End Role="kratiseis" Type="Self.kratiseis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tipoi">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="kratiseis">
+              <PropertyRef Name="tipos" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="praktoreia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="praktoreia" Type="Self.praktoreia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="praktoreia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="simbolaia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="simbolaia" Type="Self.simbolaia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="simbolaia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_users_tblproperty">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="users" Type="Self.users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="users">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="timologia_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="timologia" Type="Self.timologia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="timologia">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="tipoi_property_FK">
+          <End Role="tblproperty" Type="Self.tblproperty" Multiplicity="0..1" />
+          <End Role="tipoi" Type="Self.tipoi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblproperty">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tipoi">
+              <PropertyRef Name="property" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_timeskratisis_xrewseis">
+          <End Role="xrewseis" Type="Self.xrewseis" Multiplicity="0..1" />
+          <End Role="timeskratisis" Type="Self.timeskratisis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="xrewseis">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="timeskratisis">
+              <PropertyRef Name="xrewsi" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_timologia_timologia">
+          <End Role="timologia" Type="Self.timologia" Multiplicity="1" />
+          <End Role="timologia1" Type="Self.timologia" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="timologia">
+              <PropertyRef Name="kwd" />
+            </Principal>
+            <Dependent Role="timologia1">
+              <PropertyRef Name="kwd" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WinhotEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="dwmatia" EntityType="Self.dwmatia" />
+          <EntitySet Name="enilikes" EntityType="Self.enilikes" />
+          <EntitySet Name="etaireia" EntityType="Self.etaireia" />
+          <EntitySet Name="ethnikotites" EntityType="Self.ethnikotites" />
+          <EntitySet Name="forosdiamonis" EntityType="Self.forosdiamonis" />
+          <EntitySet Name="kratiseis" EntityType="Self.kratiseis" />
+          <EntitySet Name="paidia" EntityType="Self.paidia" />
+          <EntitySet Name="praktoreia" EntityType="Self.praktoreia" />
+          <EntitySet Name="simbolaia" EntityType="Self.simbolaia" />
+          <EntitySet Name="simfonies" EntityType="Self.simfonies" />
+          <EntitySet Name="status" EntityType="Self.status" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="tblproperty" EntityType="Self.tblproperty" />
+          <EntitySet Name="timeskratisis" EntityType="Self.timeskratisis" />
+          <EntitySet Name="timologia" EntityType="Self.timologia" />
+          <EntitySet Name="tipoi" EntityType="Self.tipoi" />
+          <EntitySet Name="users" EntityType="Self.users" />
+          <EntitySet Name="xrewseis" EntityType="Self.xrewseis" />
+          <EntitySet Name="afm" EntityType="Self.afm" />
+          <EntitySet Name="alias" EntityType="Self.alias" />
+          <EntitySet Name="katigories" EntityType="Self.katigories" />
+          <EntitySet Name="parastatika" EntityType="Self.parastatika" />
+          <EntitySet Name="pistwtikes" EntityType="Self.pistwtikes" />
+          <EntitySet Name="times" EntityType="Self.times" />
+          <EntitySet Name="timologioanalysis" EntityType="Self.timologioanalysis" />
+          <EntitySet Name="touristperiodoi" EntityType="Self.touristperiodoi" />
+          <AssociationSet Name="dwmatia_property_FK" Association="Self.dwmatia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="dwmatia" EntitySet="dwmatia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dwmatio_kratisi" Association="Self.FK_dwmatio_kratisi">
+            <End Role="dwmatia" EntitySet="dwmatia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_status_dwmatia" Association="Self.FK_status_dwmatia">
+            <End Role="dwmatia" EntitySet="dwmatia" />
+            <End Role="status" EntitySet="status" />
+          </AssociationSet>
+          <AssociationSet Name="FK_enilikes_kratiseis" Association="Self.FK_enilikes_kratiseis">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="enilikes" EntitySet="enilikes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_status_kratisi" Association="Self.FK_status_kratisi">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="enilikes" EntitySet="enilikes" />
+          </AssociationSet>
+          <AssociationSet Name="etaireia_property_FK" Association="Self.etaireia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="etaireia" EntitySet="etaireia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ethnikotites_kratisi" Association="Self.FK_ethnikotites_kratisi">
+            <End Role="ethnikotites" EntitySet="ethnikotites" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_paidia_kratiseis" Association="Self.FK_paidia_kratiseis">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="paidia" EntitySet="paidia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_praktoreio_kratisi" Association="Self.FK_praktoreio_kratisi">
+            <End Role="praktoreia" EntitySet="praktoreia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_praktoreiotim_kratisi" Association="Self.FK_praktoreiotim_kratisi">
+            <End Role="praktoreia" EntitySet="praktoreia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_property_kratisi" Association="Self.FK_property_kratisi">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_simbolaio_kratisi" Association="Self.FK_simbolaio_kratisi">
+            <End Role="simbolaia" EntitySet="simbolaia" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_timeskratisis_kratiseis" Association="Self.FK_timeskratisis_kratiseis">
+            <End Role="kratiseis" EntitySet="kratiseis" />
+            <End Role="timeskratisis" EntitySet="timeskratisis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tipos_kratisi" Association="Self.FK_tipos_kratisi">
+            <End Role="tipoi" EntitySet="tipoi" />
+            <End Role="kratiseis" EntitySet="kratiseis" />
+          </AssociationSet>
+          <AssociationSet Name="praktoreia_property_FK" Association="Self.praktoreia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="praktoreia" EntitySet="praktoreia" />
+          </AssociationSet>
+          <AssociationSet Name="simbolaia_property_FK" Association="Self.simbolaia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="simbolaia" EntitySet="simbolaia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_users_tblproperty" Association="Self.FK_users_tblproperty">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="users" EntitySet="users" />
+          </AssociationSet>
+          <AssociationSet Name="timologia_property_FK" Association="Self.timologia_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="timologia" EntitySet="timologia" />
+          </AssociationSet>
+          <AssociationSet Name="tipoi_property_FK" Association="Self.tipoi_property_FK">
+            <End Role="tblproperty" EntitySet="tblproperty" />
+            <End Role="tipoi" EntitySet="tipoi" />
+          </AssociationSet>
+          <AssociationSet Name="FK_timeskratisis_xrewseis" Association="Self.FK_timeskratisis_xrewseis">
+            <End Role="xrewseis" EntitySet="xrewseis" />
+            <End Role="timeskratisis" EntitySet="timeskratisis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_timologia_timologia" Association="Self.FK_timologia_timologia">
+            <End Role="timologia" EntitySet="timologia" />
+            <End Role="timologia1" EntitySet="timologia" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WinhotDataModelStoreContainer" CdmEntityContainer="WinhotEntities">
+          <EntitySetMapping Name="dwmatia">
+            <EntityTypeMapping TypeName="WinhotDataModel.dwmatia">
+              <MappingFragment StoreEntitySet="dwmatia">
+                <ScalarProperty Name="arithmos" ColumnName="arithmos" />
+                <ScalarProperty Name="katigoria" ColumnName="katigoria" />
+                <ScalarProperty Name="klines" ColumnName="klines" />
+                <ScalarProperty Name="thea" ColumnName="thea" />
+                <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+                <ScalarProperty Name="afm" ColumnName="afm" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+                <ScalarProperty Name="scheduler" ColumnName="scheduler" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="enilikes">
+            <EntityTypeMapping TypeName="WinhotDataModel.enilikes">
+              <MappingFragment StoreEntitySet="enilikes">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+                <ScalarProperty Name="onomateponimo" ColumnName="onomateponimo" />
+                <ScalarProperty Name="patronimo" ColumnName="patronimo" />
+                <ScalarProperty Name="genisi" ColumnName="genisi" />
+                <ScalarProperty Name="ethnikotita" ColumnName="ethnikotita" />
+                <ScalarProperty Name="diabatirio" ColumnName="diabatirio" />
+                <ScalarProperty Name="ekdosi" ColumnName="ekdosi" />
+                <ScalarProperty Name="toposgenisis" ColumnName="toposgenisis" />
+                <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+                <ScalarProperty Name="poli" ColumnName="poli" />
+                <ScalarProperty Name="xora" ColumnName="xora" />
+                <ScalarProperty Name="epaggelma" ColumnName="epaggelma" />
+                <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+                <ScalarProperty Name="prosfonisi" ColumnName="prosfonisi" />
+                <ScalarProperty Name="simiosi" ColumnName="simiosi" />
+                <ScalarProperty Name="palaios" ColumnName="palaios" />
+                <ScalarProperty Name="eorti" ColumnName="eorti" />
+                <ScalarProperty Name="gamos" ColumnName="gamos" />
+                <ScalarProperty Name="axiologisi" ColumnName="axiologisi" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="etaireia">
+            <EntityTypeMapping TypeName="WinhotDataModel.etaireia">
+              <MappingFragment StoreEntitySet="etaireia">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="epixirisi" ColumnName="epixirisi" />
+                <ScalarProperty Name="xenodoxeio" ColumnName="xenodoxeio" />
+                <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+                <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+                <ScalarProperty Name="afm" ColumnName="afm" />
+                <ScalarProperty Name="doy" ColumnName="doy" />
+                <ScalarProperty Name="fpatrofis1" ColumnName="fpatrofis1" />
+                <ScalarProperty Name="fpatrofis2" ColumnName="fpatrofis2" />
+                <ScalarProperty Name="fpatrofis3" ColumnName="fpatrofis3" />
+                <ScalarProperty Name="fpatrofis4" ColumnName="fpatrofis4" />
+                <ScalarProperty Name="dimforos1" ColumnName="dimforos1" />
+                <ScalarProperty Name="dimforos2" ColumnName="dimforos2" />
+                <ScalarProperty Name="fparepid1" ColumnName="fparepid1" />
+                <ScalarProperty Name="fparepid2" ColumnName="fparepid2" />
+                <ScalarProperty Name="fpatmima1" ColumnName="fpatmima1" />
+                <ScalarProperty Name="fpatmima2" ColumnName="fpatmima2" />
+                <ScalarProperty Name="fpatmima3" ColumnName="fpatmima3" />
+                <ScalarProperty Name="fpatmima4" ColumnName="fpatmima4" />
+                <ScalarProperty Name="fpatmima5" ColumnName="fpatmima5" />
+                <ScalarProperty Name="extras" ColumnName="extras" />
+                <ScalarProperty Name="guaranti" ColumnName="guaranti" />
+                <ScalarProperty Name="aakratisis" ColumnName="aakratisis" />
+                <ScalarProperty Name="mindwmatia" ColumnName="mindwmatia" />
+                <ScalarProperty Name="maxdwmatia" ColumnName="maxdwmatia" />
+                <ScalarProperty Name="xklino" ColumnName="xklino" />
+                <ScalarProperty Name="minklines" ColumnName="minklines" />
+                <ScalarProperty Name="maxklines" ColumnName="maxklines" />
+                <ScalarProperty Name="ktimis" ColumnName="ktimis" />
+                <ScalarProperty Name="biblportas" ColumnName="biblportas" />
+                <ScalarProperty Name="theorisiapy" ColumnName="theorisiapy" />
+                <ScalarProperty Name="timologia" ColumnName="timologia" />
+                <ScalarProperty Name="aage" ColumnName="aage" />
+                <ScalarProperty Name="aaapy" ColumnName="aaapy" />
+                <ScalarProperty Name="biblportastimes" ColumnName="biblportastimes" />
+                <ScalarProperty Name="imeromergasias" ColumnName="imeromergasias" />
+                <ScalarProperty Name="kleismenidate" ColumnName="kleismenidate" />
+                <ScalarProperty Name="ektportasflag" ColumnName="ektportasflag" />
+                <ScalarProperty Name="ektportasapyflag" ColumnName="ektportasapyflag" />
+                <ScalarProperty Name="aagramatio" ColumnName="aagramatio" />
+                <ScalarProperty Name="aabapy" ColumnName="aabapy" />
+                <ScalarProperty Name="fakelosbackup" ColumnName="fakelosbackup" />
+                <ScalarProperty Name="basi" ColumnName="basi" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="connectionstring" ColumnName="connectionstring" />
+                <ScalarProperty Name="apykwd" ColumnName="apykwd" />
+                <ScalarProperty Name="timolkwd" ColumnName="timolkwd" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ethnikotites">
+            <EntityTypeMapping TypeName="WinhotDataModel.ethnikotites">
+              <MappingFragment StoreEntitySet="ethnikotites">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="sintomeusi" ColumnName="sintomeusi" />
+                <ScalarProperty Name="ethnikotita" ColumnName="ethnikotita" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="forosdiamonis">
+            <EntityTypeMapping TypeName="WinhotDataModel.forosdiamonis">
+              <MappingFragment StoreEntitySet="forosdiamonis">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+                <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+                <ScalarProperty Name="imerominia" ColumnName="imerominia" />
+                <ScalarProperty Name="arithmos" ColumnName="arithmos" />
+                <ScalarProperty Name="onoma" ColumnName="onoma" />
+                <ScalarProperty Name="drastiriotita" ColumnName="drastiriotita" />
+                <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+                <ScalarProperty Name="afm" ColumnName="afm" />
+                <ScalarProperty Name="doy" ColumnName="doy" />
+                <ScalarProperty Name="afixi" ColumnName="afixi" />
+                <ScalarProperty Name="anaxwrisi" ColumnName="anaxwrisi" />
+                <ScalarProperty Name="days" ColumnName="days" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="timologio" ColumnName="timologio" />
+                <ScalarProperty Name="apy" ColumnName="apy" />
+                <ScalarProperty Name="parastatiko" ColumnName="parastatiko" />
+                <ScalarProperty Name="akyromeno" ColumnName="akyromeno" />
+                <ScalarProperty Name="foros" ColumnName="foros" />
+                <ScalarProperty Name="pliromi" ColumnName="pliromi" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="kratiseis">
+            <EntityTypeMapping TypeName="WinhotDataModel.kratiseis">
+              <MappingFragment StoreEntitySet="kratiseis">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="dbhotel" ColumnName="dbhotel" />
+                <ScalarProperty Name="imeromkratisis" ColumnName="imeromkratisis" />
+                <ScalarProperty Name="etos" ColumnName="etos" />
+                <ScalarProperty Name="arithmos" ColumnName="arithmos" />
+                <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+                <ScalarProperty Name="praktoreio" ColumnName="praktoreio" />
+                <ScalarProperty Name="praktimologio" ColumnName="praktimologio" />
+                <ScalarProperty Name="privatimologio" ColumnName="privatimologio" />
+                <ScalarProperty Name="voucher" ColumnName="voucher" />
+                <ScalarProperty Name="enilikes" ColumnName="enilikes" />
+                <ScalarProperty Name="paidia" ColumnName="paidia" />
+                <ScalarProperty Name="ethnikotites" ColumnName="ethnikotites" />
+                <ScalarProperty Name="anzethnikotites" ColumnName="anzethnikotites" />
+                <ScalarProperty Name="ethnikotites2" ColumnName="ethnikotites2" />
+                <ScalarProperty Name="anzethnikotites2" ColumnName="anzethnikotites2" />
+                <ScalarProperty Name="tilefonomem" ColumnName="tilefonomem" />
+                <ScalarProperty Name="epithimdate" ColumnName="epithimdate" />
+                <ScalarProperty Name="epithimia" ColumnName="epithimia" />
+                <ScalarProperty Name="simetoxi" ColumnName="simetoxi" />
+                <ScalarProperty Name="prokataboli" ColumnName="prokataboli" />
+                <ScalarProperty Name="prokatdate" ColumnName="prokatdate" />
+                <ScalarProperty Name="afixi" ColumnName="afixi" />
+                <ScalarProperty Name="wra" ColumnName="wra" />
+                <ScalarProperty Name="anaxwrisi" ColumnName="anaxwrisi" />
+                <ScalarProperty Name="klines" ColumnName="klines" />
+                <ScalarProperty Name="tipos" ColumnName="tipos" />
+                <ScalarProperty Name="guarantie" ColumnName="guarantie" />
+                <ScalarProperty Name="dwmatio" ColumnName="dwmatio" />
+                <ScalarProperty Name="pliromi" ColumnName="pliromi" />
+                <ScalarProperty Name="biblioportas" ColumnName="biblioportas" />
+                <ScalarProperty Name="synolo" ColumnName="synolo" />
+                <ScalarProperty Name="checkin" ColumnName="checkin" />
+                <ScalarProperty Name="datein" ColumnName="datein" />
+                <ScalarProperty Name="checkout" ColumnName="checkout" />
+                <ScalarProperty Name="dateout" ColumnName="dateout" />
+                <ScalarProperty Name="allagesdwmatiwn" ColumnName="allagesdwmatiwn" />
+                <ScalarProperty Name="ekptosi" ColumnName="ekptosi" />
+                <ScalarProperty Name="ekptposo" ColumnName="ekptposo" />
+                <ScalarProperty Name="ekptpososto" ColumnName="ekptpososto" />
+                <ScalarProperty Name="ekptimeres" ColumnName="ekptimeres" />
+                <ScalarProperty Name="fee" ColumnName="fee" />
+                <ScalarProperty Name="timologio" ColumnName="timologio" />
+                <ScalarProperty Name="apy" ColumnName="apy" />
+                <ScalarProperty Name="identifikation" ColumnName="identifikation" />
+                <ScalarProperty Name="parastatiko" ColumnName="parastatiko" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+                <ScalarProperty Name="state" ColumnName="state" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="paidia">
+            <EntityTypeMapping TypeName="WinhotDataModel.paidia">
+              <MappingFragment StoreEntitySet="paidia">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+                <ScalarProperty Name="cot" ColumnName="cot" />
+                <ScalarProperty Name="ilikia" ColumnName="ilikia" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="praktoreia">
+            <EntityTypeMapping TypeName="WinhotDataModel.praktoreia">
+              <MappingFragment StoreEntitySet="praktoreia">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="eponimia" ColumnName="eponimia" />
+                <ScalarProperty Name="titlostimolog" ColumnName="titlostimolog" />
+                <ScalarProperty Name="ipeuthinos" ColumnName="ipeuthinos" />
+                <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+                <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="telex" ColumnName="telex" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="afm" ColumnName="afm" />
+                <ScalarProperty Name="doy" ColumnName="doy" />
+                <ScalarProperty Name="imerisiatimi" ColumnName="imerisiatimi" />
+                <ScalarProperty Name="logariasmos" ColumnName="logariasmos" />
+                <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+                <ScalarProperty Name="garanti" ColumnName="garanti" />
+                <ScalarProperty Name="sentonia" ColumnName="sentonia" />
+                <ScalarProperty Name="tapeta" ColumnName="tapeta" />
+                <ScalarProperty Name="petsetes" ColumnName="petsetes" />
+                <ScalarProperty Name="mpournouzia" ColumnName="mpournouzia" />
+                <ScalarProperty Name="individual" ColumnName="individual" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="simbolaia">
+            <EntityTypeMapping TypeName="WinhotDataModel.simbolaia">
+              <MappingFragment StoreEntitySet="simbolaia">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="aasimbolaiou" ColumnName="aasimbolaiou" />
+                <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+                <ScalarProperty Name="praktoreio" ColumnName="praktoreio" />
+                <ScalarProperty Name="etos" ColumnName="etos" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="simfonies">
+            <EntityTypeMapping TypeName="WinhotDataModel.simfonies">
+              <MappingFragment StoreEntitySet="simfonies">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+                <ScalarProperty Name="aa" ColumnName="aa" />
+                <ScalarProperty Name="tipos" ColumnName="tipos" />
+                <ScalarProperty Name="season" ColumnName="season" />
+                <ScalarProperty Name="prwino" ColumnName="prwino" />
+                <ScalarProperty Name="prwinomonada" ColumnName="prwinomonada" />
+                <ScalarProperty Name="geuma" ColumnName="geuma" />
+                <ScalarProperty Name="geumamonada" ColumnName="geumamonada" />
+                <ScalarProperty Name="dipno" ColumnName="dipno" />
+                <ScalarProperty Name="dipnomonada" ColumnName="dipnomonada" />
+                <ScalarProperty Name="prosauxisisnono" ColumnName="prosauxisisnono" />
+                <ScalarProperty Name="ekptositrito" ColumnName="ekptositrito" />
+                <ScalarProperty Name="paidi1klinofree" ColumnName="paidi1klinofree" />
+                <ScalarProperty Name="paidi1klinoews" ColumnName="paidi1klinoews" />
+                <ScalarProperty Name="paidi1klinoekpt" ColumnName="paidi1klinoekpt" />
+                <ScalarProperty Name="paidi2klinofree" ColumnName="paidi2klinofree" />
+                <ScalarProperty Name="paidi2klinoews" ColumnName="paidi2klinoews" />
+                <ScalarProperty Name="paidi2klinoekpt" ColumnName="paidi2klinoekpt" />
+                <ScalarProperty Name="paidia1free" ColumnName="paidia1free" />
+                <ScalarProperty Name="paidia1ews" ColumnName="paidia1ews" />
+                <ScalarProperty Name="paidia1ekpt" ColumnName="paidia1ekpt" />
+                <ScalarProperty Name="paidia2free" ColumnName="paidia2free" />
+                <ScalarProperty Name="paidia2ews" ColumnName="paidia2ews" />
+                <ScalarProperty Name="paidia2ekpt" ColumnName="paidia2ekpt" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="status">
+            <EntityTypeMapping TypeName="WinhotDataModel.status">
+              <MappingFragment StoreEntitySet="status">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="dwmatio" ColumnName="dwmatio" />
+                <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+                <ScalarProperty Name="enarxi" ColumnName="enarxi" />
+                <ScalarProperty Name="lixi" ColumnName="lixi" />
+                <ScalarProperty Name="dwmatiostatus" ColumnName="dwmatiostatus" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="WinhotDataModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblproperty">
+            <EntityTypeMapping TypeName="WinhotDataModel.tblproperty">
+              <MappingFragment StoreEntitySet="tblproperty">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="pelatis" ColumnName="pelatis" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="timeskratisis">
+            <EntityTypeMapping TypeName="WinhotDataModel.timeskratisis">
+              <MappingFragment StoreEntitySet="timeskratisis">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+                <ScalarProperty Name="timi" ColumnName="timi" />
+                <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+                <ScalarProperty Name="touristperiod" ColumnName="touristperiod" />
+                <ScalarProperty Name="ekptosi" ColumnName="ekptosi" />
+                <ScalarProperty Name="apo" ColumnName="apo" />
+                <ScalarProperty Name="mexri" ColumnName="mexri" />
+                <ScalarProperty Name="imeres" ColumnName="imeres" />
+                <ScalarProperty Name="ypnos" ColumnName="ypnos" />
+                <ScalarProperty Name="prwino" ColumnName="prwino" />
+                <ScalarProperty Name="geuma" ColumnName="geuma" />
+                <ScalarProperty Name="deipno" ColumnName="deipno" />
+                <ScalarProperty Name="extra" ColumnName="extra" />
+                <ScalarProperty Name="synolo" ColumnName="synolo" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="timologia">
+            <EntityTypeMapping TypeName="WinhotDataModel.timologia">
+              <MappingFragment StoreEntitySet="timologia">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="parastatiko" ColumnName="parastatiko" />
+                <ScalarProperty Name="imerominia" ColumnName="imerominia" />
+                <ScalarProperty Name="seira" ColumnName="seira" />
+                <ScalarProperty Name="aa" ColumnName="aa" />
+                <ScalarProperty Name="praktoreio" ColumnName="praktoreio" />
+                <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+                <ScalarProperty Name="eponimia" ColumnName="eponimia" />
+                <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+                <ScalarProperty Name="epagelma" ColumnName="epagelma" />
+                <ScalarProperty Name="afm" ColumnName="afm" />
+                <ScalarProperty Name="doy" ColumnName="doy" />
+                <ScalarProperty Name="aitiologia" ColumnName="aitiologia" />
+                <ScalarProperty Name="sumkathposa" ColumnName="sumkathposa" />
+                <ScalarProperty Name="fpa" ColumnName="fpa" />
+                <ScalarProperty Name="synola" ColumnName="synola" />
+                <ScalarProperty Name="prokataboli" ColumnName="prokataboli" />
+                <ScalarProperty Name="simetoxi" ColumnName="simetoxi" />
+                <ScalarProperty Name="ypoloipon" ColumnName="ypoloipon" />
+                <ScalarProperty Name="pliromi" ColumnName="pliromi" />
+                <ScalarProperty Name="dimforos" ColumnName="dimforos" />
+                <ScalarProperty Name="exoflithi" ColumnName="exoflithi" />
+                <ScalarProperty Name="akyromeno" ColumnName="akyromeno" />
+                <ScalarProperty Name="extra" ColumnName="extra" />
+                <ScalarProperty Name="memonomeno" ColumnName="memonomeno" />
+                <ScalarProperty Name="mauro" ColumnName="mauro" />
+                <ScalarProperty Name="identifikation" ColumnName="identifikation" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tipoi">
+            <EntityTypeMapping TypeName="WinhotDataModel.tipoi">
+              <MappingFragment StoreEntitySet="tipoi">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="tipos" ColumnName="tipos" />
+                <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="WinhotDataModel.users">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="user" ColumnName="user" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+                <ScalarProperty Name="property" ColumnName="property" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="xrewseis">
+            <EntityTypeMapping TypeName="WinhotDataModel.xrewseis">
+              <MappingFragment StoreEntitySet="xrewseis">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+                <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+                <ScalarProperty Name="ypnos" ColumnName="ypnos" />
+                <ScalarProperty Name="prwino" ColumnName="prwino" />
+                <ScalarProperty Name="geuma" ColumnName="geuma" />
+                <ScalarProperty Name="deipno" ColumnName="deipno" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="afm">
+            <EntityTypeMapping TypeName="WinhotDataModel.afm">
+              <MappingFragment StoreEntitySet="afm">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+                <ScalarProperty Name="epixirisi" ColumnName="epixirisi" />
+                <ScalarProperty Name="xenodoxeio" ColumnName="xenodoxeio" />
+                <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+                <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+                <ScalarProperty Name="afm1" ColumnName="afm" />
+                <ScalarProperty Name="doy" ColumnName="doy" />
+                <ScalarProperty Name="eikoniko" ColumnName="eikoniko" />
+                <ScalarProperty Name="apykwd" ColumnName="apykwd" />
+                <ScalarProperty Name="timolkwd" ColumnName="timolkwd" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="alias">
+            <EntityTypeMapping TypeName="WinhotDataModel.alias">
+              <MappingFragment StoreEntitySet="alias">
+                <ScalarProperty Name="afm" ColumnName="afm" />
+                <ScalarProperty Name="alias1" ColumnName="alias" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="katigories">
+            <EntityTypeMapping TypeName="WinhotDataModel.katigories">
+              <MappingFragment StoreEntitySet="katigories">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="tipos" ColumnName="tipos" />
+                <ScalarProperty Name="klines" ColumnName="klines" />
+                <ScalarProperty Name="anzahl" ColumnName="anzahl" />
+                <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="parastatika">
+            <EntityTypeMapping TypeName="WinhotDataModel.parastatika">
+              <MappingFragment StoreEntitySet="parastatika">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="tipos" ColumnName="tipos" />
+                <ScalarProperty Name="seira" ColumnName="seira" />
+                <ScalarProperty Name="aritthmos" ColumnName="aritthmos" />
+                <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pistwtikes">
+            <EntityTypeMapping TypeName="WinhotDataModel.pistwtikes">
+              <MappingFragment StoreEntitySet="pistwtikes">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="karta" ColumnName="karta" />
+                <ScalarProperty Name="noumero" ColumnName="noumero" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="times">
+            <EntityTypeMapping TypeName="WinhotDataModel.times">
+              <MappingFragment StoreEntitySet="times">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="simfonia" ColumnName="simfonia" />
+                <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+                <ScalarProperty Name="klines" ColumnName="klines" />
+                <ScalarProperty Name="paidi" ColumnName="paidi" />
+                <ScalarProperty Name="atoma" ColumnName="atoma" />
+                <ScalarProperty Name="timiatomo" ColumnName="timiatomo" />
+                <ScalarProperty Name="ipnos" ColumnName="ipnos" />
+                <ScalarProperty Name="prwino" ColumnName="prwino" />
+                <ScalarProperty Name="geuma" ColumnName="geuma" />
+                <ScalarProperty Name="deipno" ColumnName="deipno" />
+                <ScalarProperty Name="synolo" ColumnName="synolo" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="timologioanalysis">
+            <EntityTypeMapping TypeName="WinhotDataModel.timologioanalysis">
+              <MappingFragment StoreEntitySet="timologioanalysis">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+                <ScalarProperty Name="timologio" ColumnName="timologio" />
+                <ScalarProperty Name="aa" ColumnName="aa" />
+                <ScalarProperty Name="voucher" ColumnName="voucher" />
+                <ScalarProperty Name="onomateponumo" ColumnName="onomateponumo" />
+                <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+                <ScalarProperty Name="apo" ColumnName="apo" />
+                <ScalarProperty Name="mexri" ColumnName="mexri" />
+                <ScalarProperty Name="imeres" ColumnName="imeres" />
+                <ScalarProperty Name="preistag" ColumnName="preistag" />
+                <ScalarProperty Name="ypnos" ColumnName="ypnos" />
+                <ScalarProperty Name="ypnosfpa" ColumnName="ypnosfpa" />
+                <ScalarProperty Name="prwino" ColumnName="prwino" />
+                <ScalarProperty Name="prwinofpa" ColumnName="prwinofpa" />
+                <ScalarProperty Name="geuma" ColumnName="geuma" />
+                <ScalarProperty Name="geumafpa" ColumnName="geumafpa" />
+                <ScalarProperty Name="deipno" ColumnName="deipno" />
+                <ScalarProperty Name="deipnofpa" ColumnName="deipnofpa" />
+                <ScalarProperty Name="extra" ColumnName="extra" />
+                <ScalarProperty Name="extrfpa" ColumnName="extrfpa" />
+                <ScalarProperty Name="allinclusiv" ColumnName="allinclusiv" />
+                <ScalarProperty Name="allinclusivfpa" ColumnName="allinclusivfpa" />
+                <ScalarProperty Name="sumkathposa" ColumnName="sumkathposa" />
+                <ScalarProperty Name="fpa" ColumnName="fpa" />
+                <ScalarProperty Name="synola" ColumnName="synola" />
+                <ScalarProperty Name="ekptposo" ColumnName="ekptposo" />
+                <ScalarProperty Name="ekptpososto" ColumnName="ekptpososto" />
+                <ScalarProperty Name="ekptimeres" ColumnName="ekptimeres" />
+                <ScalarProperty Name="fee" ColumnName="fee" />
+                <ScalarProperty Name="ekptosi" ColumnName="ekptosi" />
+                <ScalarProperty Name="identifikation" ColumnName="identifikation" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="touristperiodoi">
+            <EntityTypeMapping TypeName="WinhotDataModel.touristperiodoi">
+              <MappingFragment StoreEntitySet="touristperiodoi">
+                <ScalarProperty Name="kwd" ColumnName="kwd" />
+                <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+                <ScalarProperty Name="apo" ColumnName="apo" />
+                <ScalarProperty Name="mexri" ColumnName="mexri" />
+                <ScalarProperty Name="season" ColumnName="season" />
+                <ScalarProperty Name="relperiod" ColumnName="relperiod" />
+                <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+                <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+                <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+                <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,9 @@
+C:\Projects19\winhotWebCm_dom\WebConnect\bin\Release\WebConnect.dll.config
+C:\Projects19\winhotWebCm_dom\WebConnect\bin\Release\WebConnect.dll
+C:\Projects19\winhotWebCm_dom\WebConnect\bin\Release\WebConnect.pdb
+C:\Projects19\winhotWebCm_dom\WebConnect\bin\Release\EntityFramework.dll
+C:\Projects19\winhotWebCm_dom\WebConnect\bin\Release\EntityFramework.xml
+C:\Projects19\winhotWebCm_dom\WebConnect\obj\Release\WebConnect.csproj.CoreCompileInputs.cache
+C:\Projects19\winhotWebCm_dom\WebConnect\obj\Release\WebConnect.csproj.CopyComplete
+C:\Projects19\winhotWebCm_dom\WebConnect\obj\Release\WebConnect.dll
+C:\Projects19\winhotWebCm_dom\WebConnect\obj\Release\WebConnect.pdb

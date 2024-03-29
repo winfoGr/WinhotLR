@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WinhotDatalModelStoreContainer" CdmEntityContainer="mihotelEntities">
+    <EntitySetMapping Name="dwmatia">
+      <EntityTypeMapping TypeName="WinhotDatalModel.dwmatia">
+        <MappingFragment StoreEntitySet="dwmatia">
+          <ScalarProperty Name="arithmos" ColumnName="arithmos" />
+          <ScalarProperty Name="katigoria" ColumnName="katigoria" />
+          <ScalarProperty Name="klines" ColumnName="klines" />
+          <ScalarProperty Name="thea" ColumnName="thea" />
+          <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+          <ScalarProperty Name="afm" ColumnName="afm" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="scheduler" ColumnName="scheduler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="enilikes">
+      <EntityTypeMapping TypeName="WinhotDatalModel.enilikes">
+        <MappingFragment StoreEntitySet="enilikes">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+          <ScalarProperty Name="onomateponimo" ColumnName="onomateponimo" />
+          <ScalarProperty Name="patronimo" ColumnName="patronimo" />
+          <ScalarProperty Name="genisi" ColumnName="genisi" />
+          <ScalarProperty Name="ethnikotita" ColumnName="ethnikotita" />
+          <ScalarProperty Name="diabatirio" ColumnName="diabatirio" />
+          <ScalarProperty Name="ekdosi" ColumnName="ekdosi" />
+          <ScalarProperty Name="toposgenisis" ColumnName="toposgenisis" />
+          <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+          <ScalarProperty Name="poli" ColumnName="poli" />
+          <ScalarProperty Name="xora" ColumnName="xora" />
+          <ScalarProperty Name="epaggelma" ColumnName="epaggelma" />
+          <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+          <ScalarProperty Name="prosfonisi" ColumnName="prosfonisi" />
+          <ScalarProperty Name="simiosi" ColumnName="simiosi" />
+          <ScalarProperty Name="palaios" ColumnName="palaios" />
+          <ScalarProperty Name="eorti" ColumnName="eorti" />
+          <ScalarProperty Name="gamos" ColumnName="gamos" />
+          <ScalarProperty Name="axiologisi" ColumnName="axiologisi" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="etaireia">
+      <EntityTypeMapping TypeName="WinhotDatalModel.etaireia">
+        <MappingFragment StoreEntitySet="etaireia">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="epixirisi" ColumnName="epixirisi" />
+          <ScalarProperty Name="xenodoxeio" ColumnName="xenodoxeio" />
+          <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+          <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+          <ScalarProperty Name="afm" ColumnName="afm" />
+          <ScalarProperty Name="doy" ColumnName="doy" />
+          <ScalarProperty Name="fpatrofis1" ColumnName="fpatrofis1" />
+          <ScalarProperty Name="fpatrofis2" ColumnName="fpatrofis2" />
+          <ScalarProperty Name="fpatrofis3" ColumnName="fpatrofis3" />
+          <ScalarProperty Name="fpatrofis4" ColumnName="fpatrofis4" />
+          <ScalarProperty Name="dimforos1" ColumnName="dimforos1" />
+          <ScalarProperty Name="dimforos2" ColumnName="dimforos2" />
+          <ScalarProperty Name="fparepid1" ColumnName="fparepid1" />
+          <ScalarProperty Name="fparepid2" ColumnName="fparepid2" />
+          <ScalarProperty Name="fpatmima1" ColumnName="fpatmima1" />
+          <ScalarProperty Name="fpatmima2" ColumnName="fpatmima2" />
+          <ScalarProperty Name="fpatmima3" ColumnName="fpatmima3" />
+          <ScalarProperty Name="fpatmima4" ColumnName="fpatmima4" />
+          <ScalarProperty Name="fpatmima5" ColumnName="fpatmima5" />
+          <ScalarProperty Name="extras" ColumnName="extras" />
+          <ScalarProperty Name="guaranti" ColumnName="guaranti" />
+          <ScalarProperty Name="aakratisis" ColumnName="aakratisis" />
+          <ScalarProperty Name="mindwmatia" ColumnName="mindwmatia" />
+          <ScalarProperty Name="maxdwmatia" ColumnName="maxdwmatia" />
+          <ScalarProperty Name="xklino" ColumnName="xklino" />
+          <ScalarProperty Name="minklines" ColumnName="minklines" />
+          <ScalarProperty Name="maxklines" ColumnName="maxklines" />
+          <ScalarProperty Name="ktimis" ColumnName="ktimis" />
+          <ScalarProperty Name="biblportas" ColumnName="biblportas" />
+          <ScalarProperty Name="theorisiapy" ColumnName="theorisiapy" />
+          <ScalarProperty Name="timologia" ColumnName="timologia" />
+          <ScalarProperty Name="aage" ColumnName="aage" />
+          <ScalarProperty Name="aaapy" ColumnName="aaapy" />
+          <ScalarProperty Name="biblportastimes" ColumnName="biblportastimes" />
+          <ScalarProperty Name="imeromergasias" ColumnName="imeromergasias" />
+          <ScalarProperty Name="kleismenidate" ColumnName="kleismenidate" />
+          <ScalarProperty Name="ektportasflag" ColumnName="ektportasflag" />
+          <ScalarProperty Name="ektportasapyflag" ColumnName="ektportasapyflag" />
+          <ScalarProperty Name="aagramatio" ColumnName="aagramatio" />
+          <ScalarProperty Name="aabapy" ColumnName="aabapy" />
+          <ScalarProperty Name="fakelosbackup" ColumnName="fakelosbackup" />
+          <ScalarProperty Name="basi" ColumnName="basi" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="connectionstring" ColumnName="connectionstring" />
+          <ScalarProperty Name="apykwd" ColumnName="apykwd" />
+          <ScalarProperty Name="timolkwd" ColumnName="timolkwd" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ethnikotites">
+      <EntityTypeMapping TypeName="WinhotDatalModel.ethnikotites">
+        <MappingFragment StoreEntitySet="ethnikotites">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="sintomeusi" ColumnName="sintomeusi" />
+          <ScalarProperty Name="ethnikotita" ColumnName="ethnikotita" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="forosdiamonis">
+      <EntityTypeMapping TypeName="WinhotDatalModel.forosdiamonis">
+        <MappingFragment StoreEntitySet="forosdiamonis">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+          <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+          <ScalarProperty Name="imerominia" ColumnName="imerominia" />
+          <ScalarProperty Name="arithmos" ColumnName="arithmos" />
+          <ScalarProperty Name="onoma" ColumnName="onoma" />
+          <ScalarProperty Name="drastiriotita" ColumnName="drastiriotita" />
+          <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+          <ScalarProperty Name="afm" ColumnName="afm" />
+          <ScalarProperty Name="doy" ColumnName="doy" />
+          <ScalarProperty Name="afixi" ColumnName="afixi" />
+          <ScalarProperty Name="anaxwrisi" ColumnName="anaxwrisi" />
+          <ScalarProperty Name="days" ColumnName="days" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="timologio" ColumnName="timologio" />
+          <ScalarProperty Name="apy" ColumnName="apy" />
+          <ScalarProperty Name="parastatiko" ColumnName="parastatiko" />
+          <ScalarProperty Name="akyromeno" ColumnName="akyromeno" />
+          <ScalarProperty Name="foros" ColumnName="foros" />
+          <ScalarProperty Name="pliromi" ColumnName="pliromi" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kratiseis">
+      <EntityTypeMapping TypeName="WinhotDatalModel.kratiseis">
+        <MappingFragment StoreEntitySet="kratiseis">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="dbhotel" ColumnName="dbhotel" />
+          <ScalarProperty Name="imeromkratisis" ColumnName="imeromkratisis" />
+          <ScalarProperty Name="etos" ColumnName="etos" />
+          <ScalarProperty Name="arithmos" ColumnName="arithmos" />
+          <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+          <ScalarProperty Name="praktoreio" ColumnName="praktoreio" />
+          <ScalarProperty Name="praktimologio" ColumnName="praktimologio" />
+          <ScalarProperty Name="privatimologio" ColumnName="privatimologio" />
+          <ScalarProperty Name="voucher" ColumnName="voucher" />
+          <ScalarProperty Name="enilikes" ColumnName="enilikes" />
+          <ScalarProperty Name="paidia" ColumnName="paidia" />
+          <ScalarProperty Name="ethnikotites" ColumnName="ethnikotites" />
+          <ScalarProperty Name="anzethnikotites" ColumnName="anzethnikotites" />
+          <ScalarProperty Name="ethnikotites2" ColumnName="ethnikotites2" />
+          <ScalarProperty Name="anzethnikotites2" ColumnName="anzethnikotites2" />
+          <ScalarProperty Name="tilefonomem" ColumnName="tilefonomem" />
+          <ScalarProperty Name="epithimdate" ColumnName="epithimdate" />
+          <ScalarProperty Name="epithimia" ColumnName="epithimia" />
+          <ScalarProperty Name="simetoxi" ColumnName="simetoxi" />
+          <ScalarProperty Name="prokataboli" ColumnName="prokataboli" />
+          <ScalarProperty Name="prokatdate" ColumnName="prokatdate" />
+          <ScalarProperty Name="afixi" ColumnName="afixi" />
+          <ScalarProperty Name="wra" ColumnName="wra" />
+          <ScalarProperty Name="anaxwrisi" ColumnName="anaxwrisi" />
+          <ScalarProperty Name="klines" ColumnName="klines" />
+          <ScalarProperty Name="tipos" ColumnName="tipos" />
+          <ScalarProperty Name="guarantie" ColumnName="guarantie" />
+          <ScalarProperty Name="dwmatio" ColumnName="dwmatio" />
+          <ScalarProperty Name="pliromi" ColumnName="pliromi" />
+          <ScalarProperty Name="biblioportas" ColumnName="biblioportas" />
+          <ScalarProperty Name="synolo" ColumnName="synolo" />
+          <ScalarProperty Name="checkin" ColumnName="checkin" />
+          <ScalarProperty Name="datein" ColumnName="datein" />
+          <ScalarProperty Name="checkout" ColumnName="checkout" />
+          <ScalarProperty Name="dateout" ColumnName="dateout" />
+          <ScalarProperty Name="allagesdwmatiwn" ColumnName="allagesdwmatiwn" />
+          <ScalarProperty Name="ekptosi" ColumnName="ekptosi" />
+          <ScalarProperty Name="ekptposo" ColumnName="ekptposo" />
+          <ScalarProperty Name="ekptpososto" ColumnName="ekptpososto" />
+          <ScalarProperty Name="ekptimeres" ColumnName="ekptimeres" />
+          <ScalarProperty Name="fee" ColumnName="fee" />
+          <ScalarProperty Name="timologio" ColumnName="timologio" />
+          <ScalarProperty Name="apy" ColumnName="apy" />
+          <ScalarProperty Name="identifikation" ColumnName="identifikation" />
+          <ScalarProperty Name="parastatiko" ColumnName="parastatiko" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="paidia">
+      <EntityTypeMapping TypeName="WinhotDatalModel.paidia">
+        <MappingFragment StoreEntitySet="paidia">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+          <ScalarProperty Name="cot" ColumnName="cot" />
+          <ScalarProperty Name="ilikia" ColumnName="ilikia" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="praktoreia">
+      <EntityTypeMapping TypeName="WinhotDatalModel.praktoreia">
+        <MappingFragment StoreEntitySet="praktoreia">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="eponimia" ColumnName="eponimia" />
+          <ScalarProperty Name="titlostimolog" ColumnName="titlostimolog" />
+          <ScalarProperty Name="ipeuthinos" ColumnName="ipeuthinos" />
+          <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+          <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="telex" ColumnName="telex" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="afm" ColumnName="afm" />
+          <ScalarProperty Name="doy" ColumnName="doy" />
+          <ScalarProperty Name="imerisiatimi" ColumnName="imerisiatimi" />
+          <ScalarProperty Name="logariasmos" ColumnName="logariasmos" />
+          <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+          <ScalarProperty Name="garanti" ColumnName="garanti" />
+          <ScalarProperty Name="sentonia" ColumnName="sentonia" />
+          <ScalarProperty Name="tapeta" ColumnName="tapeta" />
+          <ScalarProperty Name="petsetes" ColumnName="petsetes" />
+          <ScalarProperty Name="mpournouzia" ColumnName="mpournouzia" />
+          <ScalarProperty Name="individual" ColumnName="individual" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="simbolaia">
+      <EntityTypeMapping TypeName="WinhotDatalModel.simbolaia">
+        <MappingFragment StoreEntitySet="simbolaia">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="aasimbolaiou" ColumnName="aasimbolaiou" />
+          <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+          <ScalarProperty Name="praktoreio" ColumnName="praktoreio" />
+          <ScalarProperty Name="etos" ColumnName="etos" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="simfonies">
+      <EntityTypeMapping TypeName="WinhotDatalModel.simfonies">
+        <MappingFragment StoreEntitySet="simfonies">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+          <ScalarProperty Name="aa" ColumnName="aa" />
+          <ScalarProperty Name="tipos" ColumnName="tipos" />
+          <ScalarProperty Name="season" ColumnName="season" />
+          <ScalarProperty Name="prwino" ColumnName="prwino" />
+          <ScalarProperty Name="prwinomonada" ColumnName="prwinomonada" />
+          <ScalarProperty Name="geuma" ColumnName="geuma" />
+          <ScalarProperty Name="geumamonada" ColumnName="geumamonada" />
+          <ScalarProperty Name="dipno" ColumnName="dipno" />
+          <ScalarProperty Name="dipnomonada" ColumnName="dipnomonada" />
+          <ScalarProperty Name="prosauxisisnono" ColumnName="prosauxisisnono" />
+          <ScalarProperty Name="ekptositrito" ColumnName="ekptositrito" />
+          <ScalarProperty Name="paidi1klinofree" ColumnName="paidi1klinofree" />
+          <ScalarProperty Name="paidi1klinoews" ColumnName="paidi1klinoews" />
+          <ScalarProperty Name="paidi1klinoekpt" ColumnName="paidi1klinoekpt" />
+          <ScalarProperty Name="paidi2klinofree" ColumnName="paidi2klinofree" />
+          <ScalarProperty Name="paidi2klinoews" ColumnName="paidi2klinoews" />
+          <ScalarProperty Name="paidi2klinoekpt" ColumnName="paidi2klinoekpt" />
+          <ScalarProperty Name="paidia1free" ColumnName="paidia1free" />
+          <ScalarProperty Name="paidia1ews" ColumnName="paidia1ews" />
+          <ScalarProperty Name="paidia1ekpt" ColumnName="paidia1ekpt" />
+          <ScalarProperty Name="paidia2free" ColumnName="paidia2free" />
+          <ScalarProperty Name="paidia2ews" ColumnName="paidia2ews" />
+          <ScalarProperty Name="paidia2ekpt" ColumnName="paidia2ekpt" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="status">
+      <EntityTypeMapping TypeName="WinhotDatalModel.status">
+        <MappingFragment StoreEntitySet="status">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="dwmatio" ColumnName="dwmatio" />
+          <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+          <ScalarProperty Name="enarxi" ColumnName="enarxi" />
+          <ScalarProperty Name="lixi" ColumnName="lixi" />
+          <ScalarProperty Name="dwmatiostatus" ColumnName="dwmatiostatus" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="WinhotDatalModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblproperty">
+      <EntityTypeMapping TypeName="WinhotDatalModel.tblproperty">
+        <MappingFragment StoreEntitySet="tblproperty">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pelatis" ColumnName="pelatis" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="timeskratisis">
+      <EntityTypeMapping TypeName="WinhotDatalModel.timeskratisis">
+        <MappingFragment StoreEntitySet="timeskratisis">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+          <ScalarProperty Name="timi" ColumnName="timi" />
+          <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+          <ScalarProperty Name="touristperiod" ColumnName="touristperiod" />
+          <ScalarProperty Name="ekptosi" ColumnName="ekptosi" />
+          <ScalarProperty Name="apo" ColumnName="apo" />
+          <ScalarProperty Name="mexri" ColumnName="mexri" />
+          <ScalarProperty Name="imeres" ColumnName="imeres" />
+          <ScalarProperty Name="ypnos" ColumnName="ypnos" />
+          <ScalarProperty Name="prwino" ColumnName="prwino" />
+          <ScalarProperty Name="geuma" ColumnName="geuma" />
+          <ScalarProperty Name="deipno" ColumnName="deipno" />
+          <ScalarProperty Name="extra" ColumnName="extra" />
+          <ScalarProperty Name="synolo" ColumnName="synolo" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="timologia">
+      <EntityTypeMapping TypeName="WinhotDatalModel.timologia">
+        <MappingFragment StoreEntitySet="timologia">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="parastatiko" ColumnName="parastatiko" />
+          <ScalarProperty Name="imerominia" ColumnName="imerominia" />
+          <ScalarProperty Name="seira" ColumnName="seira" />
+          <ScalarProperty Name="aa" ColumnName="aa" />
+          <ScalarProperty Name="praktoreio" ColumnName="praktoreio" />
+          <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+          <ScalarProperty Name="eponimia" ColumnName="eponimia" />
+          <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+          <ScalarProperty Name="epagelma" ColumnName="epagelma" />
+          <ScalarProperty Name="afm" ColumnName="afm" />
+          <ScalarProperty Name="doy" ColumnName="doy" />
+          <ScalarProperty Name="aitiologia" ColumnName="aitiologia" />
+          <ScalarProperty Name="sumkathposa" ColumnName="sumkathposa" />
+          <ScalarProperty Name="fpa" ColumnName="fpa" />
+          <ScalarProperty Name="synola" ColumnName="synola" />
+          <ScalarProperty Name="prokataboli" ColumnName="prokataboli" />
+          <ScalarProperty Name="simetoxi" ColumnName="simetoxi" />
+          <ScalarProperty Name="ypoloipon" ColumnName="ypoloipon" />
+          <ScalarProperty Name="pliromi" ColumnName="pliromi" />
+          <ScalarProperty Name="dimforos" ColumnName="dimforos" />
+          <ScalarProperty Name="exoflithi" ColumnName="exoflithi" />
+          <ScalarProperty Name="akyromeno" ColumnName="akyromeno" />
+          <ScalarProperty Name="extra" ColumnName="extra" />
+          <ScalarProperty Name="memonomeno" ColumnName="memonomeno" />
+          <ScalarProperty Name="mauro" ColumnName="mauro" />
+          <ScalarProperty Name="identifikation" ColumnName="identifikation" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipoi">
+      <EntityTypeMapping TypeName="WinhotDatalModel.tipoi">
+        <MappingFragment StoreEntitySet="tipoi">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="tipos" ColumnName="tipos" />
+          <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="WinhotDatalModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="user" ColumnName="user" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+          <ScalarProperty Name="property" ColumnName="property" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="xrewseis">
+      <EntityTypeMapping TypeName="WinhotDatalModel.xrewseis">
+        <MappingFragment StoreEntitySet="xrewseis">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+          <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+          <ScalarProperty Name="ypnos" ColumnName="ypnos" />
+          <ScalarProperty Name="prwino" ColumnName="prwino" />
+          <ScalarProperty Name="geuma" ColumnName="geuma" />
+          <ScalarProperty Name="deipno" ColumnName="deipno" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="afm">
+      <EntityTypeMapping TypeName="WinhotDatalModel.afm">
+        <MappingFragment StoreEntitySet="afm">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+          <ScalarProperty Name="epixirisi" ColumnName="epixirisi" />
+          <ScalarProperty Name="xenodoxeio" ColumnName="xenodoxeio" />
+          <ScalarProperty Name="dieuthinsi" ColumnName="dieuthinsi" />
+          <ScalarProperty Name="tilefono" ColumnName="tilefono" />
+          <ScalarProperty Name="afm1" ColumnName="afm" />
+          <ScalarProperty Name="doy" ColumnName="doy" />
+          <ScalarProperty Name="eikoniko" ColumnName="eikoniko" />
+          <ScalarProperty Name="apykwd" ColumnName="apykwd" />
+          <ScalarProperty Name="timolkwd" ColumnName="timolkwd" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="alias">
+      <EntityTypeMapping TypeName="WinhotDatalModel.alias">
+        <MappingFragment StoreEntitySet="alias">
+          <ScalarProperty Name="afm" ColumnName="afm" />
+          <ScalarProperty Name="alias1" ColumnName="alias" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="katigories">
+      <EntityTypeMapping TypeName="WinhotDatalModel.katigories">
+        <MappingFragment StoreEntitySet="katigories">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="tipos" ColumnName="tipos" />
+          <ScalarProperty Name="klines" ColumnName="klines" />
+          <ScalarProperty Name="anzahl" ColumnName="anzahl" />
+          <ScalarProperty Name="perigrafi" ColumnName="perigrafi" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="parastatika">
+      <EntityTypeMapping TypeName="WinhotDatalModel.parastatika">
+        <MappingFragment StoreEntitySet="parastatika">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="tipos" ColumnName="tipos" />
+          <ScalarProperty Name="seira" ColumnName="seira" />
+          <ScalarProperty Name="aritthmos" ColumnName="aritthmos" />
+          <ScalarProperty Name="etaireia" ColumnName="etaireia" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pistwtikes">
+      <EntityTypeMapping TypeName="WinhotDatalModel.pistwtikes">
+        <MappingFragment StoreEntitySet="pistwtikes">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="karta" ColumnName="karta" />
+          <ScalarProperty Name="noumero" ColumnName="noumero" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="times">
+      <EntityTypeMapping TypeName="WinhotDatalModel.times">
+        <MappingFragment StoreEntitySet="times">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="simfonia" ColumnName="simfonia" />
+          <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+          <ScalarProperty Name="klines" ColumnName="klines" />
+          <ScalarProperty Name="paidi" ColumnName="paidi" />
+          <ScalarProperty Name="atoma" ColumnName="atoma" />
+          <ScalarProperty Name="timiatomo" ColumnName="timiatomo" />
+          <ScalarProperty Name="ipnos" ColumnName="ipnos" />
+          <ScalarProperty Name="prwino" ColumnName="prwino" />
+          <ScalarProperty Name="geuma" ColumnName="geuma" />
+          <ScalarProperty Name="deipno" ColumnName="deipno" />
+          <ScalarProperty Name="synolo" ColumnName="synolo" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="timologioanalysis">
+      <EntityTypeMapping TypeName="WinhotDatalModel.timologioanalysis">
+        <MappingFragment StoreEntitySet="timologioanalysis">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="kratisi" ColumnName="kratisi" />
+          <ScalarProperty Name="timologio" ColumnName="timologio" />
+          <ScalarProperty Name="aa" ColumnName="aa" />
+          <ScalarProperty Name="voucher" ColumnName="voucher" />
+          <ScalarProperty Name="onomateponumo" ColumnName="onomateponumo" />
+          <ScalarProperty Name="xrewsi" ColumnName="xrewsi" />
+          <ScalarProperty Name="apo" ColumnName="apo" />
+          <ScalarProperty Name="mexri" ColumnName="mexri" />
+          <ScalarProperty Name="imeres" ColumnName="imeres" />
+          <ScalarProperty Name="preistag" ColumnName="preistag" />
+          <ScalarProperty Name="ypnos" ColumnName="ypnos" />
+          <ScalarProperty Name="ypnosfpa" ColumnName="ypnosfpa" />
+          <ScalarProperty Name="prwino" ColumnName="prwino" />
+          <ScalarProperty Name="prwinofpa" ColumnName="prwinofpa" />
+          <ScalarProperty Name="geuma" ColumnName="geuma" />
+          <ScalarProperty Name="geumafpa" ColumnName="geumafpa" />
+          <ScalarProperty Name="deipno" ColumnName="deipno" />
+          <ScalarProperty Name="deipnofpa" ColumnName="deipnofpa" />
+          <ScalarProperty Name="extra" ColumnName="extra" />
+          <ScalarProperty Name="extrfpa" ColumnName="extrfpa" />
+          <ScalarProperty Name="allinclusiv" ColumnName="allinclusiv" />
+          <ScalarProperty Name="allinclusivfpa" ColumnName="allinclusivfpa" />
+          <ScalarProperty Name="sumkathposa" ColumnName="sumkathposa" />
+          <ScalarProperty Name="fpa" ColumnName="fpa" />
+          <ScalarProperty Name="synola" ColumnName="synola" />
+          <ScalarProperty Name="ekptposo" ColumnName="ekptposo" />
+          <ScalarProperty Name="ekptpososto" ColumnName="ekptpososto" />
+          <ScalarProperty Name="ekptimeres" ColumnName="ekptimeres" />
+          <ScalarProperty Name="fee" ColumnName="fee" />
+          <ScalarProperty Name="ekptosi" ColumnName="ekptosi" />
+          <ScalarProperty Name="identifikation" ColumnName="identifikation" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="touristperiodoi">
+      <EntityTypeMapping TypeName="WinhotDatalModel.touristperiodoi">
+        <MappingFragment StoreEntitySet="touristperiodoi">
+          <ScalarProperty Name="kwd" ColumnName="kwd" />
+          <ScalarProperty Name="simbolaio" ColumnName="simbolaio" />
+          <ScalarProperty Name="apo" ColumnName="apo" />
+          <ScalarProperty Name="mexri" ColumnName="mexri" />
+          <ScalarProperty Name="season" ColumnName="season" />
+          <ScalarProperty Name="relperiod" ColumnName="relperiod" />
+          <ScalarProperty Name="s_ColLineage" ColumnName="s_ColLineage" />
+          <ScalarProperty Name="s_Generation" ColumnName="s_Generation" />
+          <ScalarProperty Name="s_GUID" ColumnName="s_GUID" />
+          <ScalarProperty Name="s_Lineage" ColumnName="s_Lineage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

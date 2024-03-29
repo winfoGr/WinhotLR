@@ -1,0 +1,1454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{182164AA-A847-4FD6-914C-0EF63ABDF29B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>winhotel.My.MyApplication</StartupObject>
+    <RootNamespace>winhotel</RootNamespace>
+    <AssemblyName>winhotel</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Resources\A01.ICO</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>winhotel.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>winhotel.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>winhotel.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>winhotel.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DataAnnotationsExtensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=358a5681c50fd84c, processorArchitecture=MSIL">
+      <HintPath>..\packages\DataAnnotationsExtensions.1.1.0.0\lib\NETFramework40\DataAnnotationsExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.9.1.12395, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.9.1\lib\net40\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.9.1.12395, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.9.1\lib\net40\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.9.1.12399, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.9.1\lib\net40\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Calendar.v3, Version=1.9.0.111, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Calendar.v3.1.9.0.1110\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Calendar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.9.1.12394, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.9.1\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.9.1.12397, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.9.1\lib\net40\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.AccessControl, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4b8eb9a7afc8328, processorArchitecture=MSIL" />
+    <Reference Include="Google.GData.Calendar, Version=2.1.0.0, Culture=neutral, PublicKeyToken=aa6748391206b888, processorArchitecture=MSIL" />
+    <Reference Include="Google.GData.Client, Version=2.1.0.0, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL" />
+    <Reference Include="Google.GData.Extensions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876" />
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WhatsAppApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WhatsAppAPI.15.4.29\lib\net40\WhatsAppApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Zlib.Portable, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zlib.Portable.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Afixeis.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Afixeis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="afm_pruefung.vb" />
+    <Compile Include="AkyrosiApyGeSuche.Designer.vb">
+      <DependentUpon>AkyrosiApyGeSuche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AkyrosiApyGeSuche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllotmentPrakt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllotmentPrakt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AllotmentYperbasi.Designer.vb">
+      <DependentUpon>AllotmentYperbasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllotmentYperbasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnamenAfixeis15.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnamenAfixeis15.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApyEkdMaz.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApyEkdMaz.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApyEkdMzDomisi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApyEkdMzDomisi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApyFrm.Designer.vb">
+      <DependentUpon>ApyFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApyFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApyMem.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApyMem.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApyMemDomisi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApyMemDomisi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AstyKatast.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AstyKatast.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BiblioKinisis.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiblioKinisis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BiblioPortas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiblioPortas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BiblioPortasApy.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiblioPortasApy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BiblioPortasApyKeno.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiblioPortasApyKeno.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BiblioPortasFormclass.Designer.vb">
+      <DependentUpon>BiblioPortasFormclass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BiblioPortasFormclass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BiblioPortasKeno.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiblioPortasKeno.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BiblioPortasOTimes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiblioPortasOTimes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BiblioPortasTheorisi.Designer.vb">
+      <DependentUpon>BiblioPortasTheorisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BiblioPortasTheorisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookPosPrakt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookPosPrakt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClsGoogle.vb" />
+    <Compile Include="CustomMessageBox.designer.vb">
+      <DependentUpon>CustomMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dbhotelDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbhotelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbhotelDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbhotelDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbhotelDataSet1.vb">
+      <DependentUpon>dbhotelDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EmailSchedulerModule.vb" />
+    <Compile Include="SendEmailTemplate.Designer.vb">
+      <DependentUpon>SendEmailTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmailTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForosEidik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForosEidik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GoogleCalendarRegistration.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DailyReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dbhotelDataSet.vb">
+      <DependentUpon>dbhotelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Diamenontes.vb">
+      <DependentUpon>Diamenontes.rpt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DiamenwntesStoixeia.Designer.vb">
+      <DependentUpon>DiamenwntesStoixeia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DiamenwntesStoixeia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DianiktereuseisMina.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DianiktereuseisMina.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DwmatiaKratisis.Designer.vb">
+      <DependentUpon>DwmatiaKratisis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DwmatiaKratisis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eisprakseis.Designer.vb">
+      <DependentUpon>Eisprakseis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Eisprakseis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EkptoseisFrm.Designer.vb">
+      <DependentUpon>EkptoseisFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EkptoseisFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EktiposeisFrm.Designer.vb">
+      <DependentUpon>EktiposeisFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EktiposeisFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErgasiesHmerasF.Designer.vb">
+      <DependentUpon>ErgasiesHmerasF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ErgasiesHmerasF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErgasiesTelosEtous.Designer.vb">
+      <DependentUpon>ErgasiesTelosEtous.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ErgasiesTelosEtous.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EsodaAnalA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsodaAnalA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EsodaAnalB.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsodaAnalB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EsodaPraktoreiwn.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsodaPraktoreiwn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EsodaSigkrisi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsodaSigkrisi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ethnikotites.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ethnikotites.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EthnikotitesFrm.Designer.vb">
+      <DependentUpon>EthnikotitesFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EthnikotitesFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtisiaPlirotita.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EtisiaPlirotita.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EtisiesDianiktPrakt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EtisiesDianiktPrakt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtraParastatika.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExtraParastatika.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtraParastatikaDomisi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExtraParastatikaDomisi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtraParastEkt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExtraParastEkt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtraParastPistotiko.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExtraParastPistotiko.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FreeDwmatia.Designer.vb">
+      <DependentUpon>FreeDwmatia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FreeDwmatia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreeDwmatImerom.Designer.vb">
+      <DependentUpon>FreeDwmatImerom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FreeDwmatImerom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrammEispraksis.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrammEispraksis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GrammEispraksisMazika.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrammEispraksisMazika.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HotelAvailabilities.vb" />
+    <Compile Include="KatastasiApy.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KatastasiApy.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KatastasiApyDomisi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KatastasiApyDomisi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KatastasiEstiatoriou.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KatastasiEstiatoriou.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="katharismata.Designer.vb">
+      <DependentUpon>katharismata.vb</DependentUpon>
+    </Compile>
+    <Compile Include="katharismata.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyFrm.Designer.vb">
+      <DependentUpon>KeyFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KeyFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KinLogarPrakt.Designer.vb">
+      <DependentUpon>KinLogarPrakt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KinLogarPrakt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KleisimoHmeras.Designer.vb">
+      <DependentUpon>KleisimoHmeras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KleisimoHmeras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KratiseisSucheF.Designer.vb">
+      <DependentUpon>KratiseisSucheF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KratiseisSucheF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KratiseisVillaPrakt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KratiseisVillaPrakt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Leisure.Designer.vb">
+      <DependentUpon>Leisure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Leisure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogariasmoiAnaxwrountwn.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LogariasmoiAnaxwrountwn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogistirioAnalKinisi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LogistirioAnalKinisi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MailList.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainCourante.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainCourante.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.vb">
+      <DependentUpon>MainFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniaiaEsodaPraktor.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MiniaiaEsodaPraktor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="myDATADev.vb" />
+    <Compile Include="Newsletter.Designer.vb">
+      <DependentUpon>Newsletter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Newsletter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotConfirmed.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotConfirmed.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OnomataKratisisFrm.Designer.vb">
+      <DependentUpon>OnomataKratisisFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OnomataKratisisFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverLista.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OverLista.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OverUnterkuenfteFrm.Designer.vb">
+      <DependentUpon>OverUnterkuenfteFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OverUnterkuenfteFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaidiaFrm.Designer.vb">
+      <DependentUpon>PaidiaFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PaidiaFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PinakasDwmProistamenis.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PinakasDwmProistamenis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PlirotitaDwmFrm.designer.vb">
+      <DependentUpon>PlirotitaDwmFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PlirotitaDwmFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlirotitaPraktoreiwn.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PlirotitaPraktoreiwn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PlirotitaXenodFrm.Designer.vb">
+      <DependentUpon>PlirotitaXenodFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PlirotitaXenodFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PraktoreiaEuretirio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PraktoreiaEuretirio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PraktoreiaImerisiaKinisi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PraktoreiaImerisiaKinisi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PraktoreiaIsozigio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PraktoreiaIsozigio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PraktoreioFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PraktoreioFrm.Designer.vb">
+      <DependentUpon>PraktoreioFrm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParametroiF.designer.vb">
+      <DependentUpon>ParametroiF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParametroiF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PraktoreioKartela.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PraktoreioKartela.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Prices.vb" />
+    <Compile Include="ProblEisprakseis.Designer.vb">
+      <DependentUpon>ProblEisprakseis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProblEisprakseis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Problepsi.Designer.vb">
+      <DependentUpon>Problepsi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Problepsi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProblepsiEispraxeis.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProblepsiEispraxeis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProblepsiStatus.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProblepsiStatus.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GoogleCalendar.vb" />
+    <Compile Include="ProblEsodaDwmPrakt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProblEsodaDwmPrakt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RentingsXls.vb" />
+    <Compile Include="SearchForm.Designer.vb">
+      <DependentUpon>SearchForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendMailDiamenontes.Designer.vb">
+      <DependentUpon>SendMailDiamenontes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SendMailDiamenontes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendWhatsApp.Designer.vb">
+      <DependentUpon>SendWhatsApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SendWhatsApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SigkTimologiwn1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SigkTimologiwn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SimbolaiaFrm.Designer.vb">
+      <DependentUpon>SimbolaiaFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SimbolaiaFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimfoniesFrm.Designer.vb">
+      <DependentUpon>SimfoniesFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SimfoniesFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusDwmatiwn.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StatusDwmatiwn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatusPraktoreiwn.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StatusPraktoreiwn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatusPraktXenod.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StatusPraktXenod.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatusXenodoxeiou.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StatusXenodoxeiou.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TeloiDiamonwn.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TeloiDiamonwn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="teloskratisis.vb" />
+    <Compile Include="TelosMinaErgasies.Designer.vb">
+      <DependentUpon>TelosMinaErgasies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TelosMinaErgasies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timokatalogos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Timokatalogos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimolPolitik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimolPolitik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TmimataFrm.Designer.vb">
+      <DependentUpon>TmimataFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TmimataFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TmimataSigkentrotika.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TmimataSigkentrotika.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TouristPeriodoi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TouristPeriodoi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebHotelier.vb" />
+    <Compile Include="XoresFrm.Designer.vb">
+      <DependentUpon>XoresFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XoresFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XrewseisPrakt.Designer.vb">
+      <DependentUpon>XrewseisPrakt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XrewseisPrakt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Afixeis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Afixeis.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkyrosiApyGeSuche.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AkyrosiApyGeSuche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllotmentPrakt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllotmentPrakt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllotmentYperbasi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AllotmentYperbasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnamenAfixeis15.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AnamenAfixeis15.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApyEkdMaz.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ApyEkdMaz.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApyEkdMzDomisi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ApyEkdMzDomisi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApyFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ApyFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApyMem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ApyMem.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApyMemDomisi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ApyMemDomisi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AstyKatast.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AstyKatast.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioKinisis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BiblioKinisis.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioPortas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BiblioPortas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioPortasApy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BiblioPortasApy.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioPortasApyKeno.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BiblioPortasApyKeno.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioPortasFormclass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BiblioPortasFormclass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioPortasKeno.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BiblioPortasKeno.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioPortasOTimes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BiblioPortasOTimes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiblioPortasTheorisi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BiblioPortasTheorisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookPosPrakt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BookPosPrakt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DailyReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diamenontes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Diamenontes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiamenwntesStoixeia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DiamenwntesStoixeia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DianiktereuseisMina.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DianiktereuseisMina.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DwmatiaKratisis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DwmatiaKratisis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eisprakseis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Eisprakseis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EkptoseisFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EkptoseisFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EktiposeisFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EktiposeisFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErgasiesHmerasF.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErgasiesHmerasF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErgasiesTelosEtous.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErgasiesTelosEtous.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EsodaAnalA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EsodaAnalA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EsodaAnalB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EsodaAnalB.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EsodaPraktoreiwn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EsodaPraktoreiwn.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EsodaSigkrisi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EsodaSigkrisi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ethnikotites.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Ethnikotites.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EthnikotitesFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EthnikotitesFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtisiaPlirotita.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EtisiaPlirotita.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtisiesDianiktPrakt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EtisiesDianiktPrakt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraParastatika.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExtraParastatika.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraParastatikaDomisi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExtraParastatikaDomisi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraParastEkt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExtraParastEkt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraParastPistotiko.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExtraParastPistotiko.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForosEidik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ForosEidik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreeDwmatia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FreeDwmatia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreeDwmatImerom.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FreeDwmatImerom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrammEispraksis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GrammEispraksis.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrammEispraksisMazika.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GrammEispraksisMazika.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatastasiApy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>KatastasiApy.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatastasiApyDomisi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>KatastasiApyDomisi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KatastasiEstiatoriou.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>KatastasiEstiatoriou.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="katharismata.resx">
+      <DependentUpon>katharismata.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KeyFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KinLogarPrakt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KinLogarPrakt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KleisimoHmeras.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KleisimoHmeras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KratiseisSucheF.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KratiseisSucheF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KratiseisVillaPrakt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>KratiseisVillaPrakt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leisure.resx">
+      <DependentUpon>Leisure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogariasmoiAnaxwrountwn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LogariasmoiAnaxwrountwn.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogistirioAnalKinisi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LogistirioAnalKinisi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MailList.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainCourante.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MainCourante.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniaiaEsodaPraktor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MiniaiaEsodaPraktor.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Newsletter.resx">
+      <DependentUpon>Newsletter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotConfirmed.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NotConfirmed.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnomataKratisisFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OnomataKratisisFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverLista.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OverLista.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverUnterkuenfteFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverUnterkuenfteFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaidiaFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PaidiaFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PinakasDwmProistamenis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PinakasDwmProistamenis.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlirotitaDwmFrm.resx">
+      <DependentUpon>PlirotitaDwmFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlirotitaPraktoreiwn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PlirotitaPraktoreiwn.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlirotitaXenodFrm.resx">
+      <DependentUpon>PlirotitaXenodFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PraktoreiaEuretirio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PraktoreiaEuretirio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PraktoreiaImerisiaKinisi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PraktoreiaImerisiaKinisi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PraktoreiaIsozigio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PraktoreiaIsozigio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PraktoreioFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PraktoreioFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParametroiF.resx">
+      <DependentUpon>ParametroiF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PraktoreioKartela.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PraktoreioKartela.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblEisprakseis.resx">
+      <DependentUpon>ProblEisprakseis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problepsi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Problepsi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblepsiEispraxeis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProblepsiEispraxeis.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblepsiStatus.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProblepsiStatus.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblEsodaDwmPrakt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProblEsodaDwmPrakt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendEmailTemplate.resx">
+      <DependentUpon>SendEmailTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendMailDiamenontes.resx">
+      <DependentUpon>SendMailDiamenontes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendWhatsApp.resx">
+      <DependentUpon>SendWhatsApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SigkTimologiwn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SigkTimologiwn1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimbolaiaFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimbolaiaFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimfoniesFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimfoniesFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusDwmatiwn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StatusDwmatiwn.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusPraktoreiwn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StatusPraktoreiwn.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusPraktXenod.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StatusPraktXenod.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusXenodoxeiou.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StatusXenodoxeiou.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeloiDiamonwn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TeloiDiamonwn.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelosMinaErgasies.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TelosMinaErgasies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timokatalogos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Timokatalogos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimolPolitik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TimolPolitik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TmimataFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TmimataFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TmimataSigkentrotika.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TmimataSigkentrotika.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouristPeriodoi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TouristPeriodoi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XoresFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XoresFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XrewseisPrakt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XrewseisPrakt.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbhotelDataSet.xsc">
+      <DependentUpon>dbhotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbhotelDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbhotelDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dbhotelDataSet.xss">
+      <DependentUpon>dbhotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbhotelDataSet1.xsc">
+      <DependentUpon>dbhotelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbhotelDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>dbhotelDataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dbhotelDataSet1.xss">
+      <DependentUpon>dbhotelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="email_template.html" />
+    <Content Include="Resources\folder.jpg" />
+    <Content Include="Resources\web.png" />
+    <Content Include="Resources\webserver.png" />
+    <Content Include="WRITE.ICO" />
+    <None Include="packages.config" />
+    <None Include="Resources\LAST.BMP" />
+    <None Include="Resources\OK.BMP" />
+    <None Include="Resources\ok4.bmp" />
+    <None Include="Resources\B06.ICO" />
+    <None Include="Resources\images[1]1.jpg" />
+    <None Include="Resources\DEL1.BMP" />
+    <None Include="Resources\AUTOM.BMP" />
+    <None Include="Resources\REPORT.BMP" />
+    <None Include="Resources\PROPAR.BMP" />
+    <None Include="Resources\SEARCH2.BMP" />
+    <None Include="Resources\REDOLD.BMP" />
+    <None Include="Resources\S_SEARCH.BMP" />
+    <None Include="Resources\SEARCH1.BMP" />
+    <None Include="Resources\PEG08.BMP" />
+    <None Include="Resources\A01.ICO" />
+    <None Include="Resources\SEARCH.BMP" />
+    <None Include="Resources\P21.ICO" />
+    <None Include="Resources\SSAVE.BMP" />
+    <None Include="Resources\NEXT.BMP" />
+    <None Include="Resources\BOTTOM.BMP" />
+    <None Include="Resources\DOIT.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="JRO">
+      <Guid>{AC3B8B4C-B6CA-11D1-9F31-00C04FC29D52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebConnect\WebConnect.csproj">
+      <Project>{cc9511d7-e061-4eea-b29a-7d057439d61d}</Project>
+      <Name>WebConnect</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

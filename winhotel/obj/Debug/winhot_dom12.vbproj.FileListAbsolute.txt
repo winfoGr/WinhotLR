@@ -1,0 +1,5 @@
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\winhotel.exe.config
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhot_dom12.vbproj.ResolveComReference.cache
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.exe
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.xml
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.pdb

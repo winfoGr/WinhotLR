@@ -1,0 +1,419 @@
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\bin\Debug\winhotel.exe.config
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\bin\Debug\dbhotel.mdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\bin\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\bin\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\bin\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\ResolveAssemblyReference.cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\winhotel.exe.config
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\dbhotel.mdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\ResolveAssemblyReference.cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\app.config
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\bin\Debug\winhotel.exe.config
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\bin\Debug\dbhotel.mdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\bin\Debug\app.config
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\bin\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\bin\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\bin\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\ResolveAssemblyReference.cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_13_3\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\Google.GData.AccessControl.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\Google.GData.Calendar.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\Google.GData.Client.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\Google.GData.Extensions.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\bin\Debug\Newtonsoft.Json.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.vbproj.ResolveComReference.cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.katharismata.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.ProblEisprakseis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.Newsletter.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\winhotel.exe.config
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.vbproj.ResolveComReference.cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\ResolveAssemblyReference.cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.katharismata.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.Newsletter.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.ProblEisprakseis.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\dbhotel.mdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\app.config
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\Google.GData.AccessControl.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\Google.GData.Calendar.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\Google.GData.Client.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\Google.GData.Extensions.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\bin\Debug\Newtonsoft.Json.dll
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.exe
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.xml
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi_14_5\winhotel\obj\Debug\winhotel.pdb
+C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_domisi\winhotel\obj\Debug\winhotel.Leisure.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\bin\Debug\winhotel.exe.config
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.vbproj.ResolveComReference.cache
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.exe
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.xml
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.pdb
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\bin\Debug\dbhotel.mdb
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\bin\Debug\app.config
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\bin\Debug\winhotel.exe
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\bin\Debug\winhotel.pdb
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\bin\Debug\winhotel.xml
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.vbprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.katharismata.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.Leisure.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.Newsletter.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_1_9\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.exe.config
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.vbproj.ResolveComReference.cache
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.exe
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.xml
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.pdb
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\dbhotel.mdb
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\app.config
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.exe
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.pdb
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.xml
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.vbprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.katharismata.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Leisure.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Newsletter.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\Public\Documents\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\dbhotel.mdb
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\app.config
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.exe.config
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.exe
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.pdb
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\winhotel.xml
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\Google.GData.AccessControl.dll
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\Google.GData.Calendar.dll
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\Google.GData.Client.dll
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\Google.GData.Extensions.dll
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.vbprojResolveAssemblyReference.cache
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.vbproj.ResolveComReference.cache
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.katharismata.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Leisure.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Newsletter.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.exe
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.xml
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi_14_11_vs_2012\winhotel\obj\Debug\winhotel.pdb
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\winhotel.exe.config
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.vbproj.ResolveComReference.cache
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.exe
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.xml
+C:\Users\WinfoMan\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.pdb
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\winhotel.exe.config
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.vbproj.ResolveComReference.cache
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.exe
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.xml
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.pdb
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\dbhotel.mdb
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\app.config
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\winhotel.exe
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\winhotel.pdb
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\winhotel.xml
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.vbprojResolveAssemblyReference.cache
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.ApyFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.Eisprakseis.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.FreeDwmatia.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.katharismata.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.KeyFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.Praktoreia.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.Leisure.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.LoginForm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.MainFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.Newsletter.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.PaidiaFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.ParametroiF.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.Resources.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.Problepsi.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.SearchForm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.TmimataFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.XoresFrm.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\lenv\Documents\Visual Studio 2012\Projects\winhotel_domisi\winhotel\obj\Debug\winhotel.vbproj.GenerateResource.Cache

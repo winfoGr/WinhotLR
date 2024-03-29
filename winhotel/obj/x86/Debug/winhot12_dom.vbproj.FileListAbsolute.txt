@@ -1,0 +1,1552 @@
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.App.config
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\app.config
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.IO.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.WebRequest.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Runtime.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Threading.Tasks.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.IO.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Net.Http.WebRequest.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Runtime.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\System.Threading.Tasks.xml
+C:\Projects\winhotel12_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhot12_dom.vbprojResolveAssemblyReference.cache
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Projects\winhotel12_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.Cache
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\app.config
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.GData.AccessControl.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.GData.Calendar.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.GData.Client.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.GData.Extensions.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.IO.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.WebRequest.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Runtime.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Threading.Tasks.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.IO.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Net.Http.WebRequest.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Runtime.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\System.Threading.Tasks.xml
+C:\Projects1213\winhotel13_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhot12_dom.vbprojResolveAssemblyReference.cache
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.Cache
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Projects1213\winhotel13_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\app.config
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.GData.AccessControl.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.GData.Calendar.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.GData.Client.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.GData.Extensions.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.IO.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.WebRequest.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Runtime.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Threading.Tasks.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.IO.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Net.Http.WebRequest.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Runtime.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\System.Threading.Tasks.xml
+C:\Projects1213\winhotelCM_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhot12_dom.vbprojResolveAssemblyReference.cache
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Projects1213\winhotelCM_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.Cache
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbprojAssemblyReference.cache
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Users\mkall\OneDrive\Desktop\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\ProjectsVS19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbprojAssemblyReference.cache
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Projects19\winhotWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbprojAssemblyReference.cache
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Projects19\winhotWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbprojAssemblyReference.cache
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\ProjectsVS19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Projects19\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\dbhotel.mdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Users\mkall\source\repos\winhotTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Users\mkall\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\app.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.exe
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\winhotel.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\log4net.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\stdole.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\log4net.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendEmailTemplate.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\app.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\winhotel.exe
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\winhotel.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\log4net.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\stdole.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\log4net.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.SendEmailTemplate.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.exe
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.xml
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Users\user\source\repos\winhotSSTxWebCm_dom - QRCode\winhotel\bin\x86\Debug\MessagingToolkit.QRCode.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\app.config
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\winhotel.exe.config
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\winhotel.exe
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\winhotel.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\winhotel.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\DataAnnotationsExtensions.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\EntityFramework.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Auth.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Core.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\log4net.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\MessagingToolkit.QRCode.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\WebConnect.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\WhatsAppApi.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Zlib.Portable.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\stdole.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\WebConnect.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\WebConnect.dll.config
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\EntityFramework.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Auth.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Auth.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Core.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.Core.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Google.Apis.PlatformServices.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\log4net.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\bin\x86\Debug\Zlib.Portable.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.exe.config
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\Interop.JRO.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhot12_dom.vbproj.ResolveComReference.cache
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.AkyrosiApyGeSuche.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.AllotmentYperbasi.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.ApyFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.BiblioPortasFormclass.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.BiblioPortasTheorisi.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.CustomMessageBox.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.DiamenwntesStoixeia.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.DwmatiaKratisis.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.Eisprakseis.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.EkptoseisFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.EktiposeisFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.ErgasiesHmerasF.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.ErgasiesTelosEtous.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.EthnikotitesFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.FreeDwmatia.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.FreeDwmatImerom.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.katharismata.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.KeyFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.Praktoreia.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.KleisimoHmeras.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.KratiseisSucheF.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.Leisure.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.LoginForm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.MainFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.Newsletter.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.OnomataKratisisFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.OverUnterkuenfteFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.PaidiaFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.PlirotitaDwmFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.PlirotitaXenodFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.PraktoreioFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.ParametroiF.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.Resources.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.ProblEisprakseis.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.Problepsi.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.SearchForm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.SendEmailTemplate.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.SendMailDiamenontes.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.SendWhatsApp.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.SimbolaiaFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.SimfoniesFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.TelosMinaErgasies.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.TmimataFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.XoresFrm.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.XrewseisPrakt.resources
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhot12_dom.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhot12_dom.vbproj.CopyComplete
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.exe
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.xml
+C:\Users\user\source\repos\winhotQRSSTxWebCm_dom - ForosKlim\winhotel\obj\x86\Debug\winhotel.pdb

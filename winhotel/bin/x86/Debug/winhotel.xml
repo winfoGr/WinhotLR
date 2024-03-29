@@ -1,0 +1,3046 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+winhotel
+</name>
+</assembly>
+<members>
+<member name="T:winhotel.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources._NEXT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.A01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.AUTOM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.B06">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.BOTTOM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.DEL1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.DOIT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.images_1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.LAST">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.OK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.ok4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.P21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.PEG08">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.PROPAR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.REDOLD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.REPORT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.S_SEARCH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.SEARCH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.SEARCH1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.SEARCH2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:winhotel.My.Resources.Resources.SSAVE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epaggelmataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ethnikotitesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katigoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tipoiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.klinesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dwmatiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tmimataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.etaireiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.parastatikaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.pistwtikesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.usersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.seasonsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.simbolaiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.touristperiodoiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.allotmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.bookingposDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.simfoniesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kratiseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timeskratisisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kratiseisenilikesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.enilikesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.paidiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.guaranteeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.eggrafitakiniseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tmimataegrafesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.logariasmoidiamDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.apyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dwmatiastatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.overDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.overunterkuenfteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.statusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.nonshowDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseis1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologioanalysisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologiokratisiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.eisprakseispraktoreiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseispraktoreiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseis2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiametimologiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiameeisprakseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiameparastatikaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.metaforaypoloipwnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kiniseisjoineggrafesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.touristperiodoi1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.times_ekt_joinDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dianiktereuseis_minaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.allotment_praktoreouDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.esoda_praktoreiwnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.analysi_esodwn_tmimatwn_minosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ethnikdiorthoseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katastasiapyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epanekdositimologiouDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.biblioportasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.logariasmoianaxwrountwnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.gramatiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.main_curanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katastasi_astynomiasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.nonshowkratiseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.rechteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.lizensDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.OldCustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.afmDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.pistwtikaparastDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.parastgrammeisprDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.MailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katharismataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.linksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.directionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epinoikiasiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.calendarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.SigkentrwtikiTimologiwnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_AfixAnaxDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeres_status_dwmDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_status_dwmDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_status_ekdosiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeres_status_dwm1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_estiatorioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_estiatorio_sumDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_pinakas_dwmatiwnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_memDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_sumkathposaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_sumfpaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_diaforaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.freedwmatiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseis_timologia_praktoreiouDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prakt_imer_kinisiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prakt_kartDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.isozigio_praktoreiwnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.isozigia_ektiposiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analkin_logistirioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_fpa_logistirioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tourist_periodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_allotmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_simf_groupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_times_groupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dianikt_ana_praktDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_esodwn_praktDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ektiposeis_genikaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analysi_esod_aDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analysi_esod_bDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_telos_seasonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_etos_esodaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_katast_apyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_groupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynamiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_main_couranteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dwmatia_mcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prwina_mcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_geumata_mcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extras_mcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_group_mcuranteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extra_parast_mcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tmimata_mcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_sum_timol_mcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeras_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_mina_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_etos_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tmimata_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_group_dailyreportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_synola_timol_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tim_metr_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extrparast_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_plirotites_drDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_asty_katastDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.problepsi_praktoreiouDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_problepsi_statusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_problepsi_praktDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.EsodaProbepsiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epaggelmataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ethnikotitesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katigoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tipoiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.klinesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dwmatiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tmimataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.etaireiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.parastatikaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.pistwtikesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.usersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.seasonsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.simbolaiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.touristperiodoiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.allotmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.bookingposRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.simfoniesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kratiseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timeskratisisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kratiseisenilikesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.enilikesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.paidiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.guaranteeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.eggrafitakiniseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tmimataegrafesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.logariasmoidiamRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.apyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dwmatiastatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.overRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.overunterkuenfteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.statusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.nonshowRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseis1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologioanalysisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologiokratisiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.eisprakseispraktoreiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseispraktoreiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseis2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiametimologiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiameeisprakseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiameparastatikaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.metaforaypoloipwnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kiniseisjoineggrafesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.touristperiodoi1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.times_ekt_joinRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dianiktereuseis_minaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.allotment_praktoreouRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.esoda_praktoreiwnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.analysi_esodwn_tmimatwn_minosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ethnikdiorthoseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katastasiapyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epanekdositimologiouRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.biblioportasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.logariasmoianaxwrountwnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.gramatiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.main_curanteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katastasi_astynomiasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.nonshowkratiseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.rechteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.lizensRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.OldCustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.afmRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.pistwtikaparastRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.parastgrammeisprRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.MailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katharismataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.linksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.directionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epinoikiasiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.calendarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.SigkentrwtikiTimologiwnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_AfixAnaxRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeres_status_dwmRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_status_dwmRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_status_ekdosiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeres_status_dwm1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_estiatorioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_estiatorio_sumRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_pinakas_dwmatiwnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_memRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_sumkathposaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_sumfpaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_diaforaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.freedwmatiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseis_timologia_praktoreiouRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prakt_imer_kinisiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prakt_kartRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.isozigio_praktoreiwnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.isozigia_ektiposiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analkin_logistirioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_fpa_logistirioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tourist_periodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_allotmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_simf_groupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_times_groupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dianikt_ana_praktRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_esodwn_praktRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ektiposeis_genikaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analysi_esod_aRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analysi_esod_bRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_telos_seasonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_etos_esodaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_katast_apyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_groupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynamiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_main_couranteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dwmatia_mcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prwina_mcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_geumata_mcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extras_mcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_group_mcuranteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extra_parast_mcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tmimata_mcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_sum_timol_mcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeras_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_mina_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_etos_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tmimata_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_group_dailyreportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_synola_timol_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tim_metr_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extrparast_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_plirotites_drRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_asty_katastRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.problepsi_praktoreiouRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_problepsi_statusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_problepsi_praktRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.EsodaProbepsiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epaggelmataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ethnikotitesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katigoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tipoiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.klinesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dwmatiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tmimataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.etaireiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.parastatikaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.pistwtikesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.usersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.seasonsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.simbolaiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.touristperiodoiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.allotmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.bookingposRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.simfoniesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kratiseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timeskratisisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kratiseisenilikesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.enilikesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.paidiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.guaranteeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.eggrafitakiniseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.tmimataegrafesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.logariasmoidiamRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.apyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dwmatiastatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.overRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.overunterkuenfteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.statusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.nonshowRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseis1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologioanalysisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.timologiokratisiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.eisprakseispraktoreiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseispraktoreiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.AfixeisAnaxwriseis2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiametimologiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiameeisprakseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiameparastatikaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.metaforaypoloipwnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.kiniseisjoineggrafesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.touristperiodoi1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.times_ekt_joinRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.dianiktereuseis_minaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.allotment_praktoreouRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.esoda_praktoreiwnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.analysi_esodwn_tmimatwn_minosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ethnikdiorthoseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katastasiapyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epanekdositimologiouRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.biblioportasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.logariasmoianaxwrountwnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.gramatiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.main_curanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katastasi_astynomiasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.nonshowkratiseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.rechteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.lizensRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.OldCustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.afmRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.pistwtikaparastRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.parastgrammeisprRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.MailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.katharismataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.linksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.directionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.epinoikiasiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.calendarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.SigkentrwtikiTimologiwnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.praktoreiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_AfixAnaxRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeres_status_dwmRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_status_dwmRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_status_ekdosiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeres_status_dwm1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_estiatorioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_estiatorio_sumRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_pinakas_dwmatiwnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_memRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_sumkathposaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_sumfpaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_diaforaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.freedwmatiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.xrewseis_timologia_praktoreiouRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prakt_imer_kinisiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prakt_kartRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.isozigio_praktoreiwnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.isozigia_ektiposiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analkin_logistirioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_fpa_logistirioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tourist_periodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_allotmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_simf_groupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_times_groupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dianikt_ana_praktRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_esodwn_praktRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ektiposeis_genikaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analysi_esod_aRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_analysi_esod_bRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_telos_seasonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_etos_esodaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_katast_apyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_apy_groupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynamiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dynami3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_main_couranteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_dwmatia_mcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_prwina_mcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_geumata_mcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extras_mcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_group_mcuranteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extra_parast_mcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tmimata_mcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_sum_timol_mcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_imeras_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_mina_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_etos_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tmimata_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_group_dailyreportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_synola_timol_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_tim_metr_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_extrparast_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_plirotites_drRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_asty_katastRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.problepsi_praktoreiouRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_problepsi_statusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.ekt_problepsi_praktRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet.EsodaProbepsiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.epaggelmataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.ethnikotitesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.katigoriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.tipoiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.klinesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.dwmatiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.tmimataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.etaireiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.parastatikaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.pistwtikesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.usersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.xrewseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.seasonsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.simbolaiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.touristperiodoiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.allotmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.bookingposTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.simfoniesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.timesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.kratiseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.timeskratisisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.kratiseisenilikesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.enilikesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.paidiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.guaranteeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.eggrafitakiniseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.tmimataegrafesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.logariasmoidiamTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.apyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.dwmatiastatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.overTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.overunterkuenfteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.statusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.nonshowTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.AfixeisAnaxwriseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.AfixeisAnaxwriseis1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.timologiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.timologioanalysisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.timologiokratisiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.eisprakseispraktoreiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.xrewseispraktoreiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.xoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.AfixeisAnaxwriseis2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.praktoreiametimologiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.praktoreiameeisprakseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.praktoreiameparastatikaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.metaforaypoloipwnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.kiniseisjoineggrafesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.touristperiodoi1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.times_ekt_joinTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.dianiktereuseis_minaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.allotment_praktoreouTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.esoda_praktoreiwnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.analysi_esodwn_tmimatwn_minosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.ethnikdiorthoseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.katastasiapyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.epanekdositimologiouTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.biblioportasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.logariasmoianaxwrountwnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.gramatiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.main_curanteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.katastasi_astynomiasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.nonshowkratiseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.rechteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.lizensTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.OldCustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.afmTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.pistwtikaparastTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.parastgrammeisprTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.MailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.katharismataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.linksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.directionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.epinoikiasiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.calendarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.SigkentrwtikiTimologiwnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSetTableAdapters.praktoreiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.praktoreiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.vilapraktoreia1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.OldCustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.kratiseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.KratVillaPraktDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.TimokatDiathesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.tipoiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.katigoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.AfixeisAnaxwriseisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.dwmatiastatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.dwmatiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.klinesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.kratiseisenilikesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.katastasiapyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.forosdiamonisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.afmDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.etaireiaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.aliasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.timol_politikiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_status_dwmDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_imeres_status_dwmDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_status_ekdosiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.praktoreiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.vilapraktoreia1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.OldCustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.kratiseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.KratVillaPraktRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.TimokatDiathesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.tipoiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.katigoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.AfixeisAnaxwriseisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.dwmatiastatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.dwmatiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.klinesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.kratiseisenilikesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.katastasiapyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.forosdiamonisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.afmRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.etaireiaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.aliasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.timol_politikiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_status_dwmRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_imeres_status_dwmRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_status_ekdosiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.praktoreiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.vilapraktoreia1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.OldCustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.kratiseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.KratVillaPraktRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.TimokatDiathesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.tipoiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.katigoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.AfixeisAnaxwriseisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.dwmatiastatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.dwmatiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.klinesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.kratiseisenilikesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.katastasiapyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.forosdiamonisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.afmRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.etaireiaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.aliasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.timol_politikiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_status_dwmRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_imeres_status_dwmRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1.ekt_status_ekdosiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.praktoreiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.vilapraktoreia1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.OldCustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.kratiseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.KratVillaPraktTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.TimokatDiathesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.tipoiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.katigoriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.AfixeisAnaxwriseisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.dwmatiastatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.dwmatiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.klinesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.kratiseisenilikesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.katastasiapyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.forosdiamonisTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.afmTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.etaireiaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.aliasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(winhotel.dbhotelDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(winhotel.dbhotelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(winhotel.dbhotelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.UpdateAll(winhotel.dbhotelDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

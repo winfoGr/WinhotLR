@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="winhotel_nefeli">
+</Property><Property Name="Solution File" Value="C:\Microsoft Visual Studio 2008 Professional Edition\Projects2008\winhotel_nefeli\winhotel_nefeli.sln">
+</Property><Property Name="Date" Value="Πέμπτη, 13 Φεβρουαρίου 2014">
+</Property><Property Name="Time" Value="20:13 μμ">
+</Property></Properties><Event ErrorLevel="0" Project="winhotel" Source="winhotel\winhotel.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="winhotel" Source="winhotel\winhotel.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="winhotel_nefeli.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="winhotel_nefeli.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="winhotel" Source="winhotel\winhotel.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="aa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dwmatio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="anzethnikotites2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sintomeusi2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="prokataboli.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AfixeisAnaxwriseis2BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>895, 424</value>
+  </metadata>
+  <metadata name="DbhotelDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="WebUploadBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAACnpJREFUaEPt
+        mOlPXNcZxvO9+SOSqlWdVMZmM2YfZhjWYTN7qzrG4AWbzdisxsQGG+/BMV7AxjZeALNjVKVS1DbfYqlq
+        vqS1qiiO7SYZhlm4c2dfAD99zp2JY6ooMkz7jSP99J5773mX5z13GXhrY2yMjbExNsb/baTdW/iF9qFh
+        LnPCaNdNm5AzbX5F9pQJOpI1aUTmhAkZ40akTxiRNr4A7ViAVMFDwyo0o/NIFaw69+N5tWBEL7CpRvRz
+        qqtP3g6Ws/ahHtbPpY8ZoZswI29mEfkzEgpmrdjxiNAWzMrKcf6MFXnTVuROS8iZkoJ28RW6H5hcbXO4
+        TsyVNZMWZJMs5nrVEOamkLlgOWsfqnt6e/qoETkTFhQwWSGLLWLRxbO2AHM2FD0ic3ZaOwo5L+T5/2YH
+        KRB2RiacU3BgHmSajWADCig+XzRAiGLOrHET0kYW7MFy1j6Sh/RIHzEid2wROyZlFM3YUTLjQOmskzhQ
+        9siJMmXuQukjF0p4XDrjRAnPFQurzF3KvJjnxLGwxYyhXFfOOVAybecxm0AKpyiGufImuDsPzUgfNiJY
+        ztqH6rYemcNm5D5k98dllE6z6Gknfjfj/pFZD63Ai/JZb8ASce4fphWFcs7LxPlpb8DyWIG+5dOuADMu
+        JXYJcxRNcrfGeUuOLiLjgWn9ApIHuQP3KGDESgHs/gQ7Psmip1nwFJn2BZj60ZYLJn0Y+GIJL1++VOj/
+        +xLKxBpSNkkBUwKxlkKVuRAicKN0yoWicQd2jMnIGZGYP4QdSLw5j/QhvnUe8J4d5TaP8VYZd6N8gonH
+        WdCEIDhX8KOctoJiJPfKKwFWzitmeG2MRZOy8df8gz7l49ylCQ9KxilgzIn8ERt09yVoh0IR0G+A9rYF
+        uiEZ+Q+4tcO8z0c9KB3lrfCQjLIYBT/KRght6YgPs/9cxsrKy1XM8FzZsFjH9YKgb7liRSwv43pQNOpC
+        4YgDefdtyL4rQTO4sH4BCdfmoR3k6+0OBdxzoug+H8gH7NIwkz3woXSYCPtgSaGEBdbOLsPrX2HRq/Et
+        raB+VqyjSAHXCsoUfx99BV42yY2C+w7k3rMj844E9c0QBMRf4cdlgO/lm3ygbtuxY4jbO8QuDXlRfJcJ
+        7/pRPPQad/x4/HwFy8s/zefPlrnGF4C+JfQJII5Z/F2PkiN/yAHdLRnpNxeRfH1+/QLiLvOLeM2MjH4r
+        cgYdyB90YcctDwpvMdmgH0W3llA46AtaP479ceknC3+dE58E1hbeEv7BGLSFt71K7ILbbuQyV9YNGdr+
+        RSSwicFy1j5ie+eRcoXv4usysvsdyBlwI/8Gkwww2YCf1q/Y/H7O+5fwlWEZS0s/z1PjMgq5tmBAQH9l
+        Tv8bPiV27g03dAMOpPfL0Fy1IP6yYf0CYi7qofrYjLQrMjKvUsA1dueaB3nXfMSPvKssnuRd8ePKX5bh
+        978ZfX9eVnxEjHwlDuNd9yqxddfdyLrugPaqFSl9FogmBstZ+4i5oEdyrxnaSxIy+uzQ9bmQc9mNvD4m
+        u8ykJPdjPogswigvwed7M0xcW87O510WBOLk9bH7fW5kM0dmnw3ayxJUl8zYzhqC5ax9RJ/RI/GCGZqL
+        VqT32pHV60L2R9zij7zQXfTR+qG74MfEYz88nrUxTh/dxQA5vT7CmL0eZF1yIf2SHam9ViRdtCD6bCgC
+        evRIOGOG+pwVaedtyLjgRNZ5dumcF9lnvcg668du3v82hw9u99qw06fqhp+xBD5kn2e8C25kXHQh7YIN
+        6vMSEs+ZEdXz/foFRJ2igNMWpJy1QnuOD9ZZFzLOuJF5xovMHh8yT/vx2ZdeOJ3rQ/iKGFlnCBuSedaD
+        9HMuaM/bkXJOYm4zIk+FICCyS4/4k2Yk91ih6eF92eNE+imKOMlE3V5kdPvx5LkHDsf6EL7p3T7GYaxT
+        nPew+NNOaE47mFNibhMiukMRcFyPuG4K6LZC3W1DajffDl3c4i4P0j70Iu24F9pOH1KP+ZHaIfBB0+7D
+        0Kce2GzuVdzhudSjvH6M67lOSx/thz7G4fwE43S5kdbthuakE+pTdiSdlBDbbUL48e/WLyCiU4/Y42Yk
+        HucrrcsOzQknUo+7kdrJYo55CQti4Zp2wRLUrfxhxtvBZHFBlldjWXTh93xm1K1CJMUK6KulGBFL+yHj
+        nnBD3eWEirkSu6xK7vDOEHYgokOP7Z0U0ClD1emAppPb2+GC5qgHmjbCYtQtpNmPlCY/VE0+/OmxC5Lk
+        /Ek++dyNlCNce8SHlGYKEWLaKKCdzWhn9xlbzRyqTgrolJibO9ARioD2eWw/akJCh4Tko3wztDugbuMW
+        t7KQZg/UTeSIFymHfVA1+lBzyQuLxf6z1PM7omoUPl76ExGnhcW3svh2J1KOOpHcITPnIrZ3GLG1PRQB
+        bQZsbzchsd2K5HYbUlopoIWJml3sougmiznkISyE/O1LB4xG28/yxRM71wofD1IaCRugFrGaRGPYfTZJ
+        5Eo4uoiYdiPC20L4DkS0UECbGQlt/Ki02qFqcfA2YfGHXexioIjkBlLnRfcdFwwG6xtx4jb967lrFB3Y
+        DSGAcdmYZOZIarMhvk2iAD4DrSEIiGxeQEyLGfEtViQ225HcRAFK8W4WTuo9SKrj648dfPKVBL1+8Y34
+        19f8W/eIEM4mNFDEIe6kiEuSmx3MRQGtFNBqQXhLCL+FIpoNiGniL8ImKxKOyEhq5OvtELe43sXC3Uis
+        JTUu9E/J+PZby5ro5x/uiTVuJNWyCfW0DSz+kBNJh+1IaJIR1yxhWzN3oDkUAYfnse2wGbGNFNAoI7GB
+        b4c6BxJqnEg4IHCjkA/102/MePHCtCaefmNCER/axINswkEXm8F5PbvfwO4zV9xhCmDucNYQLGftI6Jx
+        Adsa+YuwQUJcg4z4Ojviax2IryFCQLUTk59a8OzZwroQvvHVLiRQQAJjJoj4bFL8IRnbGyVEM/fWxhAE
+        hDcsIKrBiJh6/i6vsyKulp05aEfcATti99sQu8+Ozx4b8fXXhnXx18+NjONAbDVjirg1NsTVyYit5/3f
+        YGFuE7Y2hCBga70BkXUmRNeasa2Wr7WDVsRUC2TE7LVh214Z2/bYEF0lI6pSRnSlDVG7g1TwXIWwQXgu
+        WrnGdVXCJ+jPODH7GE/EPMDYNbx1mEvkjKwzYktdCAK21Mwj/KARkSTqAH/aVrMr+xcRtVcgIbLKGqBS
+        QkSlFeG7SYUVERU8rlgM2iC7pcA1rong+kiuj6qi3SMhag/j7SMi9gEL85mUnOE1CwirCeE1+n613rZ5
+        vwFh+xawZR+7sYdfxioTtgh2mwNUmBFWYUHYLgs27zJj8wdBdr6Gco7XheWaMMUn4B9WSVvJW0XEZPwt
+        e40I28vCmXPz/nm8X/2dLVjO2sevK/89t6nqO2yq/F7hvUo93ttNKuYD7JrHJsEHBmzaKew8fiPYaSDC
+        /jAnYg2vKWsVK/wNr2Io8URssol5NlUyb9W3+FXV8/X/e/23xU/e/mXF87l3d72wvbPzOd7d+QLCvrPK
+        kj+skx/8XyFiBuN+8NwmcosaguVsjI2xMTbGxvhfj7fe+g9sBlnViMb4wgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="DataGridViewTextBoxColumn15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn16.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DbhotelDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>561, 535</value>
+  </metadata>
+  <metadata name="TableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>217, 574</value>
+  </metadata>
+  <metadata name="Vilapraktoreia1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>390, 574</value>
+  </metadata>
+  <metadata name="Vilapraktoreia1TableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>602, 574</value>
+  </metadata>
+  <metadata name="PraktoreiaBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 613</value>
+  </metadata>
+  <metadata name="PraktoreiaTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>209, 613</value>
+  </metadata>
+  <metadata name="TipoiBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 613</value>
+  </metadata>
+  <metadata name="TipoiTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>560, 613</value>
+  </metadata>
+  <metadata name="KlinesBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>718, 613</value>
+  </metadata>
+  <metadata name="KlinesTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>887, 613</value>
+  </metadata>
+  <metadata name="KratiseisBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1050, 613</value>
+  </metadata>
+  <metadata name="KratiseisTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>33, 652</value>
+  </metadata>
+  <metadata name="KatigoriesBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>209, 652</value>
+  </metadata>
+  <metadata name="KatigoriesTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>400, 652</value>
+  </metadata>
+  <metadata name="KatastasiapyBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>586, 652</value>
+  </metadata>
+  <metadata name="KatastasiapyTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>790, 652</value>
+  </metadata>
+  <metadata name="DwmatiaBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>989, 652</value>
+  </metadata>
+  <metadata name="DwmatiaTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 691</value>
+  </metadata>
+  <metadata name="AfmBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 691</value>
+  </metadata>
+  <metadata name="AfmTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>349, 691</value>
+  </metadata>
+  <metadata name="AfixeisAnaxwriseis1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 313</value>
+  </metadata>
+  <metadata name="AfixeisAnaxwriseisBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>498, 276</value>
+  </metadata>
+  <metadata name="KlinesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 17</value>
+  </metadata>
+  <metadata name="KlinesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>297, 17</value>
+  </metadata>
+  <metadata name="TipoiBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>444, 17</value>
+  </metadata>
+  <metadata name="TipoiTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>590, 17</value>
+  </metadata>
+  <metadata name="SimbolaiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>732, 17</value>
+  </metadata>
+  <metadata name="SimbolaiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1083, 17</value>
+  </metadata>
+  <metadata name="SimfoniesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="SimfoniesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>187, 54</value>
+  </metadata>
+  <metadata name="TouristperiodoiBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>353, 54</value>
+  </metadata>
+  <metadata name="TouristperiodoiTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>550, 54</value>
+  </metadata>
+  <metadata name="TimesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>742, 54</value>
+  </metadata>
+  <metadata name="TimesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>894, 54</value>
+  </metadata>
+  <metadata name="XrewseisBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1041, 54</value>
+  </metadata>
+  <metadata name="XrewseisTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 91</value>
+  </metadata>
+  <metadata name="AllotmentBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>178, 91</value>
+  </metadata>
+  <metadata name="AllotmentTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>348, 91</value>
+  </metadata>
+  <metadata name="KatigoriesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>513, 91</value>
+  </metadata>
+  <metadata name="KatigoriesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>684, 91</value>
+  </metadata>
+  <metadata name="KratiseisBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>851, 91</value>
+  </metadata>
+  <metadata name="KratiseisTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1015, 91</value>
+  </metadata>
+  <metadata name="TimeskratisisBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 128</value>
+  </metadata>
+  <metadata name="TimeskratisisTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>204, 128</value>
+  </metadata>
+  <metadata name="PraktoreiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>386, 128</value>
+  </metadata>
+  <metadata name="PraktoreiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>559, 128</value>
+  </metadata>
+  <metadata name="EnilikesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>727, 128</value>
+  </metadata>
+  <metadata name="EnilikesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>886, 128</value>
+  </metadata>
+  <metadata name="EthnikotitesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1041, 128</value>
+  </metadata>
+  <metadata name="EthnikotitesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 165</value>
+  </metadata>
+  <metadata name="PaidiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 165</value>
+  </metadata>
+  <metadata name="PaidiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>345, 165</value>
+  </metadata>
+  <metadata name="GuaranteeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>492, 165</value>
+  </metadata>
+  <metadata name="GuaranteeTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>666, 165</value>
+  </metadata>
+  <metadata name="TmimataegrafesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>836, 165</value>
+  </metadata>
+  <metadata name="TmimataegrafesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1039, 165</value>
+  </metadata>
+  <metadata name="EggrafitakiniseisBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 202</value>
+  </metadata>
+  <metadata name="EggrafitakiniseisTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>220, 202</value>
+  </metadata>
+  <metadata name="TmimataBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>418, 202</value>
+  </metadata>
+  <metadata name="TmimataTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>584, 202</value>
+  </metadata>
+  <metadata name="LogariasmoidiamBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>746, 202</value>
+  </metadata>
+  <metadata name="LogariasmoidiamTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>952, 202</value>
+  </metadata>
+  <metadata name="ApyBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 239</value>
+  </metadata>
+  <metadata name="ApyTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>158, 239</value>
+  </metadata>
+  <metadata name="OverBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>294, 239</value>
+  </metadata>
+  <metadata name="OverTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>440, 239</value>
+  </metadata>
+  <metadata name="OverunterkuenfteBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>581, 239</value>
+  </metadata>
+  <metadata name="OverunterkuenfteTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>791, 239</value>
+  </metadata>
+  <metadata name="StatusBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>996, 239</value>
+  </metadata>
+  <metadata name="StatusTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 276</value>
+  </metadata>
+  <metadata name="NonshowBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>166, 276</value>
+  </metadata>
+  <metadata name="NonshowTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>334, 276</value>
+  </metadata>
+  <metadata name="AfixeisAnaxwriseisTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>711, 276</value>
+  </metadata>
+  <metadata name="EtaireiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>919, 276</value>
+  </metadata>
+  <metadata name="EtaireiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1078, 276</value>
+  </metadata>
+  <metadata name="AfixeisAnaxwriseis1TableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 313</value>
+  </metadata>
+  <metadata name="DwmatiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>450, 313</value>
+  </metadata>
+  <metadata name="DwmatiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>616, 313</value>
+  </metadata>
+  <metadata name="DwmatiastatusBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>778, 313</value>
+  </metadata>
+  <metadata name="DwmatiastatusTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>974, 313</value>
+  </metadata>
+  <metadata name="BookingposBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 350</value>
+  </metadata>
+  <metadata name="BookingposTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 350</value>
+  </metadata>
+  <metadata name="ParastatikaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>371, 350</value>
+  </metadata>
+  <metadata name="ParastatikaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>548, 350</value>
+  </metadata>
+  <metadata name="PistwtikesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>721, 350</value>
+  </metadata>
+  <metadata name="PistwtikesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>892, 350</value>
+  </metadata>
+  <metadata name="TimologiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 387</value>
+  </metadata>
+  <metadata name="TimologiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>188, 387</value>
+  </metadata>
+  <metadata name="TimologioanalysisBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>354, 387</value>
+  </metadata>
+  <metadata name="TimologioanalysisTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>564, 387</value>
+  </metadata>
+  <metadata name="TimologiokratisiBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>769, 387</value>
+  </metadata>
+  <metadata name="TimologiokratisiTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>970, 387</value>
+  </metadata>
+  <metadata name="EisprakseispraktoreiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 424</value>
+  </metadata>
+  <metadata name="EisprakseispraktoreiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>244, 424</value>
+  </metadata>
+  <metadata name="XrewseispraktoreiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>467, 424</value>
+  </metadata>
+  <metadata name="XrewseispraktoreiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>683, 424</value>
+  </metadata>
+  <metadata name="AfixeisAnaxwriseis2TableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 461</value>
+  </metadata>
+  <metadata name="BiblioportasBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>637, 461</value>
+  </metadata>
+  <metadata name="BiblioportasTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>817, 461</value>
+  </metadata>
+  <metadata name="EpanekdositimologiouBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>993, 461</value>
+  </metadata>
+  <metadata name="EpanekdositimologiouTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 498</value>
+  </metadata>
+  <metadata name="GramatiaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>243, 498</value>
+  </metadata>
+  <metadata name="GramatiaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>411, 498</value>
+  </metadata>
+  <metadata name="NonshowkratiseisBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>574, 498</value>
+  </metadata>
+  <metadata name="NonshowkratiseisTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>783, 498</value>
+  </metadata>
+  <metadata name="KatastasiapyBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>987, 498</value>
+  </metadata>
+  <metadata name="KatastasiapyTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 535</value>
+  </metadata>
+  <metadata name="CalendarBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>209, 535</value>
+  </metadata>
+  <metadata name="CalendarTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>388, 535</value>
+  </metadata>
+</root>
