@@ -1617,7 +1617,6 @@ C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Exten
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
-C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.SuggestedBindingRedirects.cache
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
