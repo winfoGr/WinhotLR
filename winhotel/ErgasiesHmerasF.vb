@@ -3147,7 +3147,7 @@ Public Class ErgasiesHmerasF
 
                     rows = command.ExecuteNonQuery()
                     command.Parameters.Clear()
-                    If rows = 1 Then
+                    If rows = 1 And Me.DbhotelDataSet.etaireia(0).ktimis Then
                         Dim tipos As String = ""
                         Dim response As MsgBoxResult
                         Dim kwdForosDiamonis As Int32
@@ -24132,6 +24132,7 @@ Public Class ErgasiesHmerasF
         'connectionString = Me.DbhotelDataSet.etaireia(0).connectionstring
         connectionString = ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString
         maxklines = Me.DbhotelDataSet.etaireia(0).maxklines
+
         Me.PistwtikesTableAdapter.Fill(Me.DbhotelDataSet.pistwtikes)
         'Me.DwmatiaTableAdapter.Fill(Me.DbhotelDataSet.dwmatia)
         'TODO: This line of code loads data into the 'DbhotelDataSet.tmimata' table. You can move, or remove it, as needed.
