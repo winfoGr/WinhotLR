@@ -1,4 +1,4 @@
-Settings.settings.json
-bin\x86\Debug
+/winhotel/Settings.settings.json
+bin
 MyProject
-obj\x86\Debug
+obj
