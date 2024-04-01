@@ -1,4 +1,3 @@
-/winhotel/Settings.settings.json
-bin
-MyProject
-obj
+/winhotel/My Project/
+/winhotel/bin/
+/winhotel/obj/
