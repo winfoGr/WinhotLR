@@ -166,7 +166,7 @@ Public Class MainFrm
 
 
             init_menue()
-            CalendarInternalInit.Main(ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString, "2023", "IKR")
+            'CalendarInternalInit.Main(ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString, "2024")
             'schedulerThread = MailScheduler()
 
             'EmailSchedulerModule.Main()

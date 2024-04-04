@@ -4725,11 +4725,11 @@ Partial Class ErgasiesHmerasF
         Me.DwmTbx.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.DwmTbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.DwmTbx.ForeColor = System.Drawing.Color.Maroon
-        Me.DwmTbx.Location = New System.Drawing.Point(143, 57)
+        Me.DwmTbx.Location = New System.Drawing.Point(132, 57)
         Me.DwmTbx.Margin = New System.Windows.Forms.Padding(4)
         Me.DwmTbx.MaxLength = 7
         Me.DwmTbx.Name = "DwmTbx"
-        Me.DwmTbx.Size = New System.Drawing.Size(89, 26)
+        Me.DwmTbx.Size = New System.Drawing.Size(115, 26)
         Me.DwmTbx.TabIndex = 6
         Me.DwmTbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '

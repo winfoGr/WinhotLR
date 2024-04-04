@@ -15,23 +15,23 @@ Imports System.Net
 Module CalendarInternalInit
     Dim connectionString_ As String
     Dim etos_ As Int16
-    Dim vila_ As String
+    'Dim vila_ As String
     Private service As CalendarService
 
-    Sub Main(ByVal conn As String, ByVal etos As Int16, ByVal vila As String)
+    Sub Main(ByVal conn As String, ByVal etos As Int16)
         connectionString_ = conn
         etos_ = etos
-        vila_ = vila
+        'vila_ = vila
         ' Authenticate and obtain access to calendars
         Authenticate()
         Dim query As String = "SELECT kratiseis.kwd, kratiseis.arithmos, kratiseis.dwmatio, calendar.calendarid " &
                               "FROM kratiseis INNER JOIN calendar ON kratiseis.dwmatio=calendar.vila " &
-                              "WHERE kratiseis.etos=@etos and kratiseis.dwmatio=@vila and kratiseis.afixi>'1/1/2024';"
+                              "WHERE kratiseis.etos=@etos  and kratiseis.afixi>'1/1/2024';"
         Using connection As New SqlConnection(connectionString_)
             Using command As New SqlCommand(query, connection)
                 ' Add the year parameter to the command
                 command.Parameters.AddWithValue("@etos", etos_)
-                command.Parameters.AddWithValue("@vila", vila_)
+                'command.Parameters.AddWithValue("@vila", vila_)
                 ' Open the connection
                 connection.Open()
 
@@ -103,7 +103,7 @@ Module CalendarInternalInit
             Using stream As New FileStream(clientSecretsPath, FileMode.Open, FileAccess.Read)
                 Dim credential = GoogleWebAuthorizationBroker.AuthorizeAsync(GoogleClientSecrets.Load(stream).Secrets,
                                                                              scopes,
-                                                                             "mkallergis",
+                                                                             "domisi",
                                                                              CancellationToken.None,
                                                                              New FileDataStore("Calendar.VB.Sample")).Result
                 ' Create the calendar service using an initializer instance
