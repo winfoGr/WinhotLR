@@ -51,6 +51,15 @@ Module CalendarInternalInit
                             InsertEventArkratisi(kwd, etos_, arithmos, calendarid, dwmatio, eventid)
                         End If
                         ' Process the retrieved values (e.g., display or store them)
+                        If dwmatio.Equals("EEAN") OrElse dwmatio.Equals("MAIL") OrElse dwmatio.Equals("PERS") OrElse dwmatio.Equals("PUE") OrElse dwmatio.Equals("THOI") Then
+                            Dim eventid1 = ListEvents("45n8co8nhgiiimb8qnrepenuu8@group.calendar.google.com", arithmos)
+                            If Not String.IsNullOrEmpty(eventid1) Then
+                                Console.WriteLine($"eventid: {eventid1},  calendarid: {calendarid}")
+                                InsertEventArkratisi(kwd, etos_, arithmos, "45n8co8nhgiiimb8qnrepenuu8@group.calendar.google.com", "THLS", eventid1)
+                            Else
+                                Console.WriteLine($"villa: {dwmatio}")
+                            End If
+                        End If
 
                     End While
                 End Using
