@@ -25,12 +25,12 @@ Partial Class PlirotitaDwmFrm
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PlirotitaDwmFrm))
         Me.DwmPlirotitaPnl = New System.Windows.Forms.Panel()
-        Me.DwmPlirot3Pnl = New System.Windows.Forms.Panel()
         Me.BtnsPnl = New System.Windows.Forms.Panel()
         Me.EktStatusDwmBtn = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.EpomDwmBtn = New System.Windows.Forms.Button()
         Me.PrDwmBtn = New System.Windows.Forms.Button()
+        Me.DwmPlirot3Pnl = New System.Windows.Forms.Panel()
         Me.DwmPlirot2Pnl = New System.Windows.Forms.Panel()
         Me.DwmPlirot1Pnl = New System.Windows.Forms.Panel()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
@@ -92,18 +92,11 @@ Partial Class PlirotitaDwmFrm
         Me.DwmPlirotitaPnl.Controls.Add(Me.DwmPlirot3Pnl)
         Me.DwmPlirotitaPnl.Controls.Add(Me.DwmPlirot2Pnl)
         Me.DwmPlirotitaPnl.Controls.Add(Me.DwmPlirot1Pnl)
-        Me.DwmPlirotitaPnl.Location = New System.Drawing.Point(0, 3)
+        Me.DwmPlirotitaPnl.Location = New System.Drawing.Point(0, 4)
+        Me.DwmPlirotitaPnl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DwmPlirotitaPnl.Name = "DwmPlirotitaPnl"
-        Me.DwmPlirotitaPnl.Size = New System.Drawing.Size(1117, 972)
+        Me.DwmPlirotitaPnl.Size = New System.Drawing.Size(1489, 1196)
         Me.DwmPlirotitaPnl.TabIndex = 34
-        '
-        'DwmPlirot3Pnl
-        '
-        Me.DwmPlirot3Pnl.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.DwmPlirot3Pnl.Location = New System.Drawing.Point(9, 77)
-        Me.DwmPlirot3Pnl.Name = "DwmPlirot3Pnl"
-        Me.DwmPlirot3Pnl.Size = New System.Drawing.Size(63, 801)
-        Me.DwmPlirot3Pnl.TabIndex = 34
         '
         'BtnsPnl
         '
@@ -112,9 +105,10 @@ Partial Class PlirotitaDwmFrm
         Me.BtnsPnl.Controls.Add(Me.EpomDwmBtn)
         Me.BtnsPnl.Controls.Add(Me.PrDwmBtn)
         Me.BtnsPnl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.BtnsPnl.Location = New System.Drawing.Point(11, 884)
+        Me.BtnsPnl.Location = New System.Drawing.Point(15, 1088)
+        Me.BtnsPnl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnsPnl.Name = "BtnsPnl"
-        Me.BtnsPnl.Size = New System.Drawing.Size(1100, 85)
+        Me.BtnsPnl.Size = New System.Drawing.Size(1467, 105)
         Me.BtnsPnl.TabIndex = 33
         '
         'EktStatusDwmBtn
@@ -125,9 +119,10 @@ Partial Class PlirotitaDwmFrm
         Me.EktStatusDwmBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.EktStatusDwmBtn.Image = Global.winhotel.My.Resources.Resources.REPORT
         Me.EktStatusDwmBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.EktStatusDwmBtn.Location = New System.Drawing.Point(288, 47)
+        Me.EktStatusDwmBtn.Location = New System.Drawing.Point(384, 58)
+        Me.EktStatusDwmBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.EktStatusDwmBtn.Name = "EktStatusDwmBtn"
-        Me.EktStatusDwmBtn.Size = New System.Drawing.Size(157, 23)
+        Me.EktStatusDwmBtn.Size = New System.Drawing.Size(209, 28)
         Me.EktStatusDwmBtn.TabIndex = 33
         Me.EktStatusDwmBtn.Text = "Προεπισκόπηση"
         Me.EktStatusDwmBtn.UseVisualStyleBackColor = True
@@ -135,9 +130,10 @@ Partial Class PlirotitaDwmFrm
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(415, 13)
+        Me.ProgressBar1.Location = New System.Drawing.Point(553, 16)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(294, 10)
+        Me.ProgressBar1.Size = New System.Drawing.Size(392, 12)
         Me.ProgressBar1.TabIndex = 0
         '
         'EpomDwmBtn
@@ -145,9 +141,10 @@ Partial Class PlirotitaDwmFrm
         Me.EpomDwmBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.EpomDwmBtn.Image = Global.winhotel.My.Resources.Resources.REDOLD
         Me.EpomDwmBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.EpomDwmBtn.Location = New System.Drawing.Point(477, 54)
+        Me.EpomDwmBtn.Location = New System.Drawing.Point(636, 66)
+        Me.EpomDwmBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.EpomDwmBtn.Name = "EpomDwmBtn"
-        Me.EpomDwmBtn.Size = New System.Drawing.Size(157, 23)
+        Me.EpomDwmBtn.Size = New System.Drawing.Size(209, 28)
         Me.EpomDwmBtn.TabIndex = 24
         Me.EpomDwmBtn.Text = "Επόμενα Δωμ."
         Me.EpomDwmBtn.UseVisualStyleBackColor = True
@@ -157,21 +154,33 @@ Partial Class PlirotitaDwmFrm
         Me.PrDwmBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PrDwmBtn.Image = Global.winhotel.My.Resources.Resources.DOIT
         Me.PrDwmBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.PrDwmBtn.Location = New System.Drawing.Point(477, 26)
+        Me.PrDwmBtn.Location = New System.Drawing.Point(636, 32)
+        Me.PrDwmBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PrDwmBtn.Name = "PrDwmBtn"
-        Me.PrDwmBtn.Size = New System.Drawing.Size(157, 23)
+        Me.PrDwmBtn.Size = New System.Drawing.Size(209, 28)
         Me.PrDwmBtn.TabIndex = 23
         Me.PrDwmBtn.Text = "Προηγούμ. Δωμ."
         Me.PrDwmBtn.UseVisualStyleBackColor = True
+        '
+        'DwmPlirot3Pnl
+        '
+        Me.DwmPlirot3Pnl.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.DwmPlirot3Pnl.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.DwmPlirot3Pnl.Location = New System.Drawing.Point(12, 95)
+        Me.DwmPlirot3Pnl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DwmPlirot3Pnl.Name = "DwmPlirot3Pnl"
+        Me.DwmPlirot3Pnl.Size = New System.Drawing.Size(84, 986)
+        Me.DwmPlirot3Pnl.TabIndex = 34
         '
         'DwmPlirot2Pnl
         '
         Me.DwmPlirot2Pnl.AutoScroll = True
         Me.DwmPlirot2Pnl.BackColor = System.Drawing.SystemColors.ControlDark
         Me.DwmPlirot2Pnl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.DwmPlirot2Pnl.Location = New System.Drawing.Point(74, 77)
+        Me.DwmPlirot2Pnl.Location = New System.Drawing.Point(99, 95)
+        Me.DwmPlirot2Pnl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DwmPlirot2Pnl.Name = "DwmPlirot2Pnl"
-        Me.DwmPlirot2Pnl.Size = New System.Drawing.Size(1037, 801)
+        Me.DwmPlirot2Pnl.Size = New System.Drawing.Size(1383, 986)
         Me.DwmPlirot2Pnl.TabIndex = 32
         '
         'DwmPlirot1Pnl
@@ -194,18 +203,20 @@ Partial Class PlirotitaDwmFrm
         Me.DwmPlirot1Pnl.Controls.Add(Me.Label73)
         Me.DwmPlirot1Pnl.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.DwmPlirot1Pnl.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DwmPlirot1Pnl.Location = New System.Drawing.Point(9, 5)
+        Me.DwmPlirot1Pnl.Location = New System.Drawing.Point(12, 6)
+        Me.DwmPlirot1Pnl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DwmPlirot1Pnl.Name = "DwmPlirot1Pnl"
-        Me.DwmPlirot1Pnl.Size = New System.Drawing.Size(1105, 75)
+        Me.DwmPlirot1Pnl.Size = New System.Drawing.Size(1472, 91)
         Me.DwmPlirot1Pnl.TabIndex = 31
         '
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.RadioButton3.Location = New System.Drawing.Point(285, 44)
+        Me.RadioButton3.Location = New System.Drawing.Point(380, 54)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(47, 20)
+        Me.RadioButton3.Size = New System.Drawing.Size(56, 24)
         Me.RadioButton3.TabIndex = 29
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "net"
@@ -215,9 +226,10 @@ Partial Class PlirotitaDwmFrm
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.RadioButton2.Location = New System.Drawing.Point(152, 44)
+        Me.RadioButton2.Location = New System.Drawing.Point(203, 54)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(93, 20)
+        Me.RadioButton2.Size = New System.Drawing.Size(109, 24)
         Me.RadioButton2.TabIndex = 28
         Me.RadioButton2.Text = "individual"
         Me.RadioButton2.UseVisualStyleBackColor = True
@@ -227,9 +239,10 @@ Partial Class PlirotitaDwmFrm
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Checked = True
         Me.RadioButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.RadioButton1.Location = New System.Drawing.Point(45, 44)
+        Me.RadioButton1.Location = New System.Drawing.Point(60, 54)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(82, 20)
+        Me.RadioButton1.Size = New System.Drawing.Size(94, 24)
         Me.RadioButton1.TabIndex = 27
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "booking"
@@ -242,19 +255,21 @@ Partial Class PlirotitaDwmFrm
         Me.sortkatichk.CheckState = System.Windows.Forms.CheckState.Checked
         Me.sortkatichk.Enabled = False
         Me.sortkatichk.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.sortkatichk.Location = New System.Drawing.Point(474, 9)
+        Me.sortkatichk.Location = New System.Drawing.Point(632, 11)
+        Me.sortkatichk.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.sortkatichk.Name = "sortkatichk"
-        Me.sortkatichk.Size = New System.Drawing.Size(142, 20)
+        Me.sortkatichk.Size = New System.Drawing.Size(170, 24)
         Me.sortkatichk.TabIndex = 26
         Me.sortkatichk.Text = "ταξιν. κατηγορία"
         Me.sortkatichk.UseVisualStyleBackColor = True
         '
         'PlirDwmPlithImerTbx
         '
-        Me.PlirDwmPlithImerTbx.Location = New System.Drawing.Point(760, 3)
+        Me.PlirDwmPlithImerTbx.Location = New System.Drawing.Point(1013, 4)
+        Me.PlirDwmPlithImerTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PlirDwmPlithImerTbx.MaxLength = 2
         Me.PlirDwmPlithImerTbx.Name = "PlirDwmPlithImerTbx"
-        Me.PlirDwmPlithImerTbx.Size = New System.Drawing.Size(40, 22)
+        Me.PlirDwmPlithImerTbx.Size = New System.Drawing.Size(52, 26)
         Me.PlirDwmPlithImerTbx.TabIndex = 21
         Me.PlirDwmPlithImerTbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -262,17 +277,19 @@ Partial Class PlirotitaDwmFrm
         '
         Me.Label67.AutoSize = True
         Me.Label67.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label67.Location = New System.Drawing.Point(635, 6)
+        Me.Label67.Location = New System.Drawing.Point(847, 7)
+        Me.Label67.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(122, 16)
+        Me.Label67.Size = New System.Drawing.Size(149, 20)
         Me.Label67.TabIndex = 20
         Me.Label67.Text = "Πλήθος Ημερών:"
         '
         'PlirDwmEwsTbx
         '
-        Me.PlirDwmEwsTbx.Location = New System.Drawing.Point(875, 34)
+        Me.PlirDwmEwsTbx.Location = New System.Drawing.Point(1167, 42)
+        Me.PlirDwmEwsTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PlirDwmEwsTbx.Name = "PlirDwmEwsTbx"
-        Me.PlirDwmEwsTbx.Size = New System.Drawing.Size(70, 22)
+        Me.PlirDwmEwsTbx.Size = New System.Drawing.Size(92, 26)
         Me.PlirDwmEwsTbx.TabIndex = 19
         Me.PlirDwmEwsTbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -280,17 +297,19 @@ Partial Class PlirotitaDwmFrm
         '
         Me.Label68.AutoSize = True
         Me.Label68.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label68.Location = New System.Drawing.Point(834, 38)
+        Me.Label68.Location = New System.Drawing.Point(1112, 47)
+        Me.Label68.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(41, 16)
+        Me.Label68.Size = New System.Drawing.Size(54, 20)
         Me.Label68.TabIndex = 18
         Me.Label68.Text = " έως:"
         '
         'PlirDwmApoTbx
         '
-        Me.PlirDwmApoTbx.Location = New System.Drawing.Point(758, 35)
+        Me.PlirDwmApoTbx.Location = New System.Drawing.Point(1011, 43)
+        Me.PlirDwmApoTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PlirDwmApoTbx.Name = "PlirDwmApoTbx"
-        Me.PlirDwmApoTbx.Size = New System.Drawing.Size(70, 22)
+        Me.PlirDwmApoTbx.Size = New System.Drawing.Size(92, 26)
         Me.PlirDwmApoTbx.TabIndex = 17
         Me.PlirDwmApoTbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -298,26 +317,29 @@ Partial Class PlirotitaDwmFrm
         '
         Me.Label69.AutoSize = True
         Me.Label69.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label69.Location = New System.Drawing.Point(654, 38)
+        Me.Label69.Location = New System.Drawing.Point(872, 47)
+        Me.Label69.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(98, 16)
+        Me.Label69.Size = New System.Drawing.Size(120, 20)
         Me.Label69.TabIndex = 16
         Me.Label69.Text = "Δωμάτιο από:"
         '
         'ImeromPlirotDwm
         '
-        Me.ImeromPlirotDwm.Location = New System.Drawing.Point(221, 6)
+        Me.ImeromPlirotDwm.Location = New System.Drawing.Point(295, 7)
+        Me.ImeromPlirotDwm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ImeromPlirotDwm.Name = "ImeromPlirotDwm"
-        Me.ImeromPlirotDwm.Size = New System.Drawing.Size(239, 22)
+        Me.ImeromPlirotDwm.Size = New System.Drawing.Size(317, 26)
         Me.ImeromPlirotDwm.TabIndex = 10
         '
         'DwmPlirotBtn
         '
         Me.DwmPlirotBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.DwmPlirotBtn.Image = CType(resources.GetObject("DwmPlirotBtn.Image"), System.Drawing.Image)
-        Me.DwmPlirotBtn.Location = New System.Drawing.Point(492, 34)
+        Me.DwmPlirotBtn.Location = New System.Drawing.Point(656, 42)
+        Me.DwmPlirotBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DwmPlirotBtn.Name = "DwmPlirotBtn"
-        Me.DwmPlirotBtn.Size = New System.Drawing.Size(40, 30)
+        Me.DwmPlirotBtn.Size = New System.Drawing.Size(53, 37)
         Me.DwmPlirotBtn.TabIndex = 9
         Me.DwmPlirotBtn.UseVisualStyleBackColor = True
         '
@@ -325,9 +347,10 @@ Partial Class PlirotitaDwmFrm
         '
         Me.Label72.AutoSize = True
         Me.Label72.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label72.Location = New System.Drawing.Point(89, 9)
+        Me.Label72.Location = New System.Drawing.Point(119, 11)
+        Me.Label72.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(123, 16)
+        Me.Label72.Size = New System.Drawing.Size(151, 20)
         Me.Label72.TabIndex = 1
         Me.Label72.Text = "από Ημερομηνία:"
         '
@@ -336,9 +359,10 @@ Partial Class PlirotitaDwmFrm
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.Label73.ForeColor = System.Drawing.Color.Maroon
-        Me.Label73.Location = New System.Drawing.Point(8, 9)
+        Me.Label73.Location = New System.Drawing.Point(11, 11)
+        Me.Label73.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(75, 16)
+        Me.Label73.Size = New System.Drawing.Size(90, 20)
         Me.Label73.TabIndex = 0
         Me.Label73.Text = "επιλογές:"
         '
@@ -347,14 +371,16 @@ Partial Class PlirotitaDwmFrm
         Me.ZentralPnl.AutoScroll = True
         Me.ZentralPnl.Controls.Add(Me.DwmPlirotitaPnl)
         Me.ZentralPnl.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.ZentralPnl.Location = New System.Drawing.Point(2, 8)
+        Me.ZentralPnl.Location = New System.Drawing.Point(3, 10)
+        Me.ZentralPnl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ZentralPnl.Name = "ZentralPnl"
-        Me.ZentralPnl.Size = New System.Drawing.Size(1121, 978)
+        Me.ZentralPnl.Size = New System.Drawing.Size(1495, 1204)
         Me.ZentralPnl.TabIndex = 35
         '
         'DbhotelDataSet
         '
         Me.DbhotelDataSet.DataSetName = "dbhotelDataSet"
+        Me.DbhotelDataSet.EnforceConstraints = False
         Me.DbhotelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'KratiseisBindingSource
@@ -432,6 +458,7 @@ Partial Class PlirotitaDwmFrm
         'DbhotelDataSet1
         '
         Me.DbhotelDataSet1.DataSetName = "dbhotelDataSet1"
+        Me.DbhotelDataSet1.EnforceConstraints = False
         Me.DbhotelDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'TimokatDiathesBindingSource
@@ -445,19 +472,28 @@ Partial Class PlirotitaDwmFrm
         '
         'TableAdapterManager
         '
+        Me.TableAdapterManager.aliasTableAdapter = Nothing
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.Connection = Nothing
+        Me.TableAdapterManager.dwmatiastatusTableAdapter = Nothing
+        Me.TableAdapterManager.dwmatiaTableAdapter = Nothing
+        Me.TableAdapterManager.etaireiaTableAdapter = Nothing
+        Me.TableAdapterManager.forosdiamonisTableAdapter = Nothing
+        Me.TableAdapterManager.katigoriesTableAdapter = Nothing
+        Me.TableAdapterManager.klinesTableAdapter = Nothing
         Me.TableAdapterManager.kratiseisTableAdapter = Nothing
         Me.TableAdapterManager.praktoreiaTableAdapter = Nothing
+        Me.TableAdapterManager.tipoiTableAdapter = Nothing
         Me.TableAdapterManager.UpdateOrder = winhotel.dbhotelDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         Me.TableAdapterManager.vilapraktoreia1TableAdapter = Nothing
         '
         'PlirotitaDwmFrm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1137, 998)
+        Me.ClientSize = New System.Drawing.Size(1516, 1228)
         Me.Controls.Add(Me.ZentralPnl)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "PlirotitaDwmFrm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "PlirotitaDwmFrm"

@@ -561,25 +561,31 @@ Module WebHotelier
                         Console.WriteLine("Child age: " & age)
                     Next
                     Dim ok As Byte
-
+                    Dim kwdNeasKratisis As Integer = 0
+                    Dim arNeasKratisis As Int16 = 0
 
 
                     If syncType.Equals("NEW") Then
                         ok = execute_fortosi_kratisi_transaction(connection_string, id, DateTime.Parse(modified_date), channel_key, booking_id,
                                                                       room_booking_id, roomratetype_id, DateTime.Parse(checkin), DateTime.Parse(checkout),
                                                                       mealplantype, guests, total_amount, total_taxes, status, confirmed, lead_email, state, phones, lead_name, guestList.ToArray,
-                                                                      rates, requests, dwmatio, agesOfChildren)
+                                                                      rates, requests, dwmatio, agesOfChildren, kwdNeasKratisis, arNeasKratisis)
                         If ok = 1 Then
                             sb.AppendLine("ΕΠΙΤΥΧΗΣ ΕΙΣΑΓΩΓΗ ID:" + id + " status:" + status + " CHANNEL:  " + channel_key + "  ROOM: " + If(dwmatio IsNot Nothing, dwmatio, "N/A") + "  NAME:" + lead_name + " ARRIVAL: " + DateTime.Parse(checkin).ToString("dd/MM/yyyy") + " DEPARTURE: " + DateTime.Parse(checkout).ToString("dd/MM/yyyy") + " TOTAL: " + total_amount + vbNewLine)
                             'sb.AppendLine("ΕΠΙΤΥΧΗΣ ΕΙΣΑΓΩΓΗ ID:" + If(id IsNot Nothing, id.ToString(), "N/A") + " status:" + If(status IsNot Nothing, status.ToString(), "N/A") + " CHANNEL:  " + If(channel_key IsNot Nothing, channel_key, "N/A") + "  ROOM: " + If(dwmatio IsNot Nothing, dwmatio, "N/A") + "  NAME:" + If(lead_name IsNot Nothing, lead_name, "N/A") + " ARRIVAL: " + If(DateTime.TryParse(checkin, Nothing, Nothing, outDate) Then outDate.ToString("dd/MM/yyyy") Else "N/A" + " DEPARTURE: " + If(DateTime.TryParse(checkout, outDate), outDate.ToString("dd/MM/yyyy"), "N/A") + " TOTAL: " + If(total_amount IsNot Nothing, total_amount, "N/A") + vbNewLine)
 
                             Try
+                                Dim calender As New GoogleCalendarNew(connection_string, kwdNeasKratisis, arNeasKratisis, lead_name, CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", channel_key)
+                                calender.create_new_entry()
 
-                                Dim calender As New GoogleCalendar(booking_id, lead_name, CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", channel_key)
-                                calender.send_entry()
+                                calender.set_calendarid_thalasses(1)
+                                calender.create_new_entry()
 
-                                calender = New GoogleCalendar(booking_id, lead_name, CType(checkin, Date), CType(checkout, Date), "THLS", dwmatio, "", channel_key)
-                                calender.send_entry()
+                                'Dim calender As New GoogleCalendar(booking_id, lead_name, CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", channel_key)
+                                'calender.send_entry()
+
+                                'calender = New GoogleCalendar(booking_id, lead_name, CType(checkin, Date), CType(checkout, Date), "THLS", dwmatio, "", channel_key)
+                                'calender.send_entry()
 
 
 
@@ -614,16 +620,19 @@ Module WebHotelier
 
                         End If
                     ElseIf syncType.Equals("MOD") Then
-                        ok = execute_delete_kratisi(connection_string, DateTime.Parse(modified_date), id)
+                        Dim kwdikosDelKrat As Int64 = 0
+                        Dim villa As String = ""
+                        ok = execute_delete_kratisi(connection_string, DateTime.Parse(modified_date), id, kwdikosDelKrat, villa)
                         If ok = 0 Then
                             sb.AppendLine("Αποτυχία διαγραφής σε κατάσταση MODIFICATION. Κίνδυνος ΔΙΠΛΗΣ ΚΡΑΤΗΣΗΣ! ID:" + id + " " + status + " " + channel_key + " " + lead_name + " " + checkin.ToString + " " + checkout.ToString)
 
                         End If
                         'If ok <> 2 Then
+
                         ok = execute_fortosi_kratisi_transaction(connection_string, id, DateTime.Parse(modified_date), channel_key, booking_id,
                                                                       room_booking_id, roomratetype_id, DateTime.Parse(checkin), DateTime.Parse(checkout),
                                                                       mealplantype, guests, total_amount, total_taxes, status, confirmed, lead_email, state, phones, lead_name, guestList.ToArray,
-                                                                      rates, requests, dwmatio, agesOfChildren)
+                                                                      rates, requests, dwmatio, agesOfChildren, kwdNeasKratisis, arNeasKratisis)
                         If ok = 1 Then
                             Dim room As String = ""
                             Dim afixi As Date
@@ -657,33 +666,55 @@ Module WebHotelier
 
                                 connection.Close()
                             End Using
-
                             Try
 
+                                Dim calender As New GoogleCalendarNew(connection_string, kwdikosDelKrat, 0, "", "", "", villa, villa, "", "")
+                                'calender.DeleteEvent("mv1rt76rgmgd63jg0d83st5tlk@group.calendar.google.com", "ia5006i4jupp2t42ihpuvdbi2s")
+                                calender.delete_entry()
 
-                                If Not room.Equals("") Then
+                                calender.set_calendarid_thalasses(2)
+                                calender.delete_entry()
 
-                                    Dim calender As New GoogleCalendar("", "", afixi, anaxwrisi, room, room, "", "")
-                                    calender.delete_Calendar()
 
-                                    calender.set_values(id.ToString, "webhotelier", CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", channel_key)
-                                    calender.create_NewEntry()
+                                Dim newcalender As New GoogleCalendarNew(connection_string, kwdNeasKratisis, arNeasKratisis, lead_name, CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", channel_key)
 
-                                    calender = New GoogleCalendar("", "", afixi, anaxwrisi, "THLS", room, "", "")
-                                    calender.delete_Calendar()
+                                newcalender.create_new_entry()
 
-                                    calender.set_values(id.ToString, "webhotelier", CType(checkin, Date), CType(checkout, Date), "THLS", dwmatio, "", channel_key)
-                                    calender.create_NewEntry()
-                                Else
-                                    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar " + dwmatio, MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                                End If
+                                newcalender.set_calendarid_thalasses(1)
+                                newcalender.create_new_entry()
 
 
 
 
                             Catch ex As Exception
-                                MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !" + dwmatio, MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
                             End Try
+                            'Try
+
+
+                            '    If Not room.Equals("") Then
+
+                            '        Dim calender As New GoogleCalendar("", "", afixi, anaxwrisi, room, room, "", "")
+                            '        calender.delete_Calendar()
+
+                            '        calender.set_values(id.ToString, "webhotelier", CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", channel_key)
+                            '        calender.create_NewEntry()
+
+                            '        calender = New GoogleCalendar("", "", afixi, anaxwrisi, "THLS", room, "", "")
+                            '        calender.delete_Calendar()
+
+                            '        calender.set_values(id.ToString, "webhotelier", CType(checkin, Date), CType(checkout, Date), "THLS", dwmatio, "", channel_key)
+                            '        calender.create_NewEntry()
+                            '    Else
+                            '        MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar " + dwmatio, MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                            '    End If
+
+
+
+
+                            'Catch ex As Exception
+                            '    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !" + dwmatio, MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                            'End Try
                             If lead_email <> "" And Not dwmatio.Equals("") Then 'AndAlso DateTime.Parse(checkin).Subtract(System.DateTime.Today.Date).Days < 5
                                 resp = MsgBox("Αποστολή email σε " + lead_name + " ?" + ChrW(13) + "  CHANNEL: " + channel_key + ChrW(13) + "  ROOM:" + dwmatio + ChrW(13) + "  ARRIVAL: " + DateTime.Parse(checkin).ToString("dd/MM/yyyy") + ChrW(13) + "  DEPARTURE: " + DateTime.Parse(checkout).ToString("dd/MM/yyyy"), MsgBoxStyle.YesNo, "winfo\nikEl.")
                                 If resp = MsgBoxResult.Yes Then
@@ -699,22 +730,31 @@ Module WebHotelier
                         End If
                         'End If
                     ElseIf syncType.Equals("CL") Then
-                        ok = execute_delete_kratisi(connection_string, DateTime.Parse(modified_date), id)
+                        Dim kwdikosDelKrat As Int64 = 0
+                        Dim villa As String = ""
+                        ok = execute_delete_kratisi(connection_string, DateTime.Parse(modified_date), id, kwdikosDelKrat, villa)
+
                         If ok = 1 Then
                             sb.AppendLine("ΕΠΙΤΥΧΗΣ ΔΙΑΓΡΑΦΗ ID:" + id + "STATUS: " + status + " CHANNEL: " + channel_key + "  ROOM: " + dwmatio + "  NAME:" + lead_name + " ARRIVAL: " + DateTime.Parse(checkin).ToString("dd/MM/yyyy") + " DEPARTURE: " + DateTime.Parse(checkout).ToString("dd/MM/yyyy") + " TOTAL: " + total_amount + vbNewLine)
                             'TEST SQL SERVER 
-                            Try
+                            Dim calender As New GoogleCalendarNew(connection_string, kwdikosDelKrat, 0, "", "", "", villa, villa, "", "")
+                            'calender.DeleteEvent("mv1rt76rgmgd63jg0d83st5tlk@group.calendar.google.com", "ia5006i4jupp2t42ihpuvdbi2s")
+                            calender.delete_entry()
 
-                                Dim calender As New GoogleCalendar("", "", CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", "")
-                                calender.delete_entry()
+                            calender.set_calendarid_thalasses(2)
+                            calender.delete_entry()
+                            'Try
 
-                                calender = New GoogleCalendar("", "", CType(checkin, Date), CType(checkout, Date), "THLS", dwmatio, "", "")
-                                calender.delete_entry()
+                            '    Dim calender As New GoogleCalendar("", "", CType(checkin, Date), CType(checkout, Date), dwmatio, dwmatio, "", "")
+                            '    calender.delete_entry()
+
+                            '    calender = New GoogleCalendar("", "", CType(checkin, Date), CType(checkout, Date), "THLS", dwmatio, "", "")
+                            '    calender.delete_entry()
 
 
-                            Catch ex As Exception
-                                MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                            End Try
+                            'Catch ex As Exception
+                            '    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                            'End Try
 
                             resp = MsgBox(" Ενημέρωση Πρακτορείων για διαγραφή κράτησης? ROOM: " + dwmatio, MsgBoxStyle.YesNo, "winfo\nikEl.")
                             If resp = MsgBoxResult.Yes Then
@@ -1128,7 +1168,7 @@ Module WebHotelier
         '        End If
         '    End Using
         'End Function
-        Private Function execute_delete_kratisi(ByVal connectionString As String, ByVal modified_date As Date, ByVal id As String) As Byte
+        Private Function execute_delete_kratisi(ByVal connectionString As String, ByVal modified_date As Date, ByVal id As String, ByRef kwddelkrat As Int64, ByRef vila As String) As Byte
             Using connection As New SqlConnection(connectionString)
                 Dim command As New SqlCommand()
                 Dim transaction As SqlTransaction = Nothing
@@ -1146,12 +1186,12 @@ Module WebHotelier
 
 
                 Dim kwdikosDelKrat As String
-
+                Dim room As String
 
                 command.Parameters.AddWithValue("@id", id)
 
                 command.Parameters.AddWithValue("@status", "CL")
-                command.CommandText = "SELECT TOP 1 kwd, kratisi, modified_date FROM Reservations WHERE (id=@id) AND (status<>@status) ORDER BY modified_date DESC"
+                command.CommandText = "SELECT TOP 1 kwd, kratisi, modified_date, room_id FROM Reservations WHERE (id=@id) AND (status<>@status) ORDER BY modified_date DESC"
 
 
                 myReader = command.ExecuteReader(CommandBehavior.SingleResult)
@@ -1159,7 +1199,7 @@ Module WebHotelier
                 Try
                     kwdRes = myReader.GetInt32(0)
                     kwdikosDelKrat = myReader.GetInt32(1)
-
+                    room = myReader.GetString(3)
                 Catch ex As InvalidCastException
                     myReader.Close()
                     command.Parameters.Clear()
@@ -1188,10 +1228,18 @@ Module WebHotelier
                     command.ExecuteNonQuery()
                     command.Parameters.Clear()
 
+                    command.Parameters.AddWithValue("@kratisi", CType(kwdikosDelKrat, Integer))
+                    command.CommandText = "DELETE FROM eventarkratisi where (kratisi=@kratisi)"
+                    command.ExecuteNonQuery()
+                    command.Parameters.Clear()
+
+
                     command.Parameters.AddWithValue("@kratisi", kwdikosDelKrat)
                     command.CommandText = "DELETE FROM status where (kratisi=@kratisi)"
                     command.ExecuteNonQuery()
                     command.Parameters.Clear()
+
+
 
                     command.Parameters.Clear()
                     command.Parameters.AddWithValue("@kwd", kwdikosDelKrat)
@@ -1217,6 +1265,8 @@ Module WebHotelier
                     command.ExecuteNonQuery()
                     command.Parameters.Clear()
                     transaction.Commit()
+                    kwddelkrat = kwdikosDelKrat
+                    vila = room
                     Return 1
                 Else
                     transaction.Rollback()
@@ -1483,7 +1533,7 @@ Module WebHotelier
         Private Function execute_fortosi_kratisi_transaction(ByVal connectionString As String, ByVal id As String, ByVal modified_date As Date, ByVal channel_key As String, ByVal booking_id As String,
                                                         ByVal room_booking_id As String, ByVal roomratetype_id As String, ByVal checkin As Date, ByVal checkout As Date,
                                                         ByVal meal_plan As String, ByVal guests As String, ByVal total_amount As String, ByVal total_taxes As String, ByVal status As String, ByVal confirmed As String, ByVal email As String, ByVal state As String, ByVal phones As String, ByVal lead_name As String, ByVal guest() As String,
-                                                        ByVal rates() As rate, ByVal requests() As String, ByRef dwm As String, ByVal agesOfChildren As List(Of Int16)) As Byte
+                                                        ByVal rates() As rate, ByVal requests() As String, ByRef dwm As String, ByVal agesOfChildren As List(Of Int16), ByRef kwdneaskratisis As Int64, ByRef arkratisis As Int16) As Byte
             Using connection As New SqlConnection(connectionString)
                 Dim overKwd As Integer = -1
                 Dim counter As Int16 = 0
@@ -2053,6 +2103,7 @@ Module WebHotelier
 
 
 
+
                     transaction.Commit()
 
                     'TEST SQL SERVER 
@@ -2070,7 +2121,8 @@ Module WebHotelier
                     'Catch ex As Exception
                     '    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
                     'End Try
-
+                    kwdneaskratisis = kwdneaskrat
+                    arkratisis = arithmos
 
                     Return 1
                 Catch ex As Exception

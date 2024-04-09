@@ -9292,133 +9292,126 @@ Public Class ErgasiesHmerasF
                 oSheet(1).Cells(1, i + 2).value = arxiIm.Date.AddDays(i).Date
             Next
 
+            Dim dwmatiaList As New List(Of String)()
+
+            Using connection As New SqlConnection(connectionString)
+                Dim command As New SqlCommand("SELECT villa FROM planovilles ORDER BY displayorder", connection)
+                connection.Open()
+                Dim reader As SqlDataReader = command.ExecuteReader()
+
+                While reader.Read()
+                    dwmatiaList.Add(reader.GetString(0)) ' Assuming the villa names are stored as strings
+                End While
+
+                connection.Close()
+            End Using
+            For x As Integer = 0 To dwmatiaList.Count - 1
+                oSheet(1).Cells(x + 2, 1).Value = dwmatiaList(x)
+            Next
+            ' Convert the List to an array if needed
+            dwm = dwmatiaList.ToArray()
             'oSheet(1).Cells(2, 1).value = "EEAN"
             'oSheet(1).Cells(3, 1).value = "MAIL"
             'oSheet(1).Cells(4, 1).value = "PERS"
             'oSheet(1).Cells(5, 1).value = "THOI"
-            'oSheet(1).Cells(6, 1).value = "IKR"
-            'oSheet(1).Cells(7, 1).value = "ALE"
-            'oSheet(1).Cells(8, 1).value = "MIC"
+            'oSheet(1).Cells(6, 1).value = "PUE"
+            'oSheet(1).Cells(7, 1).value = "MAVI"
+            'oSheet(1).Cells(8, 1).value = "IKR"
+
+
             'oSheet(1).Cells(9, 1).value = "ARCH"
             'oSheet(1).Cells(10, 1).value = "IRI"
             'oSheet(1).Cells(11, 1).value = "AFR"
-            'oSheet(1).Cells(12, 1).value = "G2-2"
+            'oSheet(1).Cells(12, 1).value = "IPER"
 
             'oSheet(1).Cells(13, 1).value = "UB1Y"
-            'oSheet(1).Cells(14, 1).value = "UB3C"
-            'oSheet(1).Cells(15, 1).value = "UB4C"
-            'oSheet(1).Cells(16, 1).value = "BLUE"
-            'oSheet(1).Cells(17, 1).value = "GRY"
-            'oSheet(1).Cells(18, 1).value = "COC"
-            'oSheet(1).Cells(19, 1).value = "GRE"
-            'oSheet(1).Cells(20, 1).value = "SAN"
-            'oSheet(1).Cells(21, 1).value = "WHI"
-            'oSheet(1).Cells(22, 1).value = "MARU"
-            'oSheet(1).Cells(23, 1).value = "MAVI"
-            'oSheet(1).Cells(24, 1).value = "EOS"
-            'oSheet(1).Cells(25, 1).value = "MHILL"
-            oSheet(1).Cells(2, 1).value = "EEAN"
-            oSheet(1).Cells(3, 1).value = "MAIL"
-            oSheet(1).Cells(4, 1).value = "PERS"
-            oSheet(1).Cells(5, 1).value = "THOI"
-            oSheet(1).Cells(6, 1).value = "PUE"
-            oSheet(1).Cells(7, 1).value = "MAVI"
-            oSheet(1).Cells(8, 1).value = "IKR"
 
+            'oSheet(1).Cells(14, 1).value = "UB1C"
+            'oSheet(1).Cells(15, 1).value = "UB2C"
 
-            oSheet(1).Cells(9, 1).value = "ARCH"
-            oSheet(1).Cells(10, 1).value = "IRI"
-            oSheet(1).Cells(11, 1).value = "AFR"
-            oSheet(1).Cells(12, 1).value = "IPER"
+            'oSheet(1).Cells(16, 1).value = "UB3C"
+            'oSheet(1).Cells(17, 1).value = "UB4C"
 
-            oSheet(1).Cells(13, 1).value = "UB1Y"
+            'oSheet(1).Cells(18, 1).value = "UB1D"
+            'oSheet(1).Cells(19, 1).value = "UB3D"
 
-            oSheet(1).Cells(14, 1).value = "UB1C"
-            oSheet(1).Cells(15, 1).value = "UB2C"
+            'oSheet(1).Cells(20, 1).value = "BLUE"
+            'oSheet(1).Cells(21, 1).value = "GRY"
 
-            oSheet(1).Cells(16, 1).value = "UB3C"
-            oSheet(1).Cells(17, 1).value = "UB4C"
-
-            oSheet(1).Cells(18, 1).value = "UB1D"
-            oSheet(1).Cells(19, 1).value = "UB3D"
-
-            oSheet(1).Cells(20, 1).value = "BLUE"
-            oSheet(1).Cells(21, 1).value = "GRY"
-
-            oSheet(1).Cells(22, 1).value = "ORA"
-            oSheet(1).Cells(23, 1).value = "YELL"
-            oSheet(1).Cells(24, 1).value = "RED"
-            oSheet(1).Cells(25, 1).value = "COC"
-            oSheet(1).Cells(26, 1).value = "GRE"
-            oSheet(1).Cells(27, 1).value = "SAN"
-            oSheet(1).Cells(28, 1).value = "WHI"
-            oSheet(1).Cells(29, 1).value = "MARU"
+            'oSheet(1).Cells(22, 1).value = "ORA"
+            'oSheet(1).Cells(23, 1).value = "YELL"
+            'oSheet(1).Cells(24, 1).value = "RED"
+            'oSheet(1).Cells(25, 1).value = "COC"
+            'oSheet(1).Cells(26, 1).value = "GRE"
+            'oSheet(1).Cells(27, 1).value = "SAN"
+            'oSheet(1).Cells(28, 1).value = "WHI"
+            'oSheet(1).Cells(29, 1).value = "MARU"
 
 
 
 
-            oSheet(1).Cells(30, 1).value = "THET"
-            oSheet(1).Cells(31, 1).value = "OLDRE"
-            oSheet(1).Cells(32, 1).value = "SKANT"
-            oSheet(1).Cells(33, 1).value = "THEROS"
-            oSheet(1).Cells(34, 1).value = "P1ATH"
-            oSheet(1).Cells(35, 1).value = "P2ATH"
-            oSheet(1).Cells(36, 1).value = "ORTH"
+            'oSheet(1).Cells(30, 1).value = "THET"
+            'oSheet(1).Cells(31, 1).value = "OLDRE"
+            'oSheet(1).Cells(32, 1).value = "SKANT"
+            'oSheet(1).Cells(33, 1).value = "THEROS"
+            'oSheet(1).Cells(34, 1).value = "P1ATH"
+            'oSheet(1).Cells(35, 1).value = "P2ATH"
+            'oSheet(1).Cells(36, 1).value = "ORTH"
 
-            ReDim dwm(34)
-            dwm(0) = "EEAN"
-            dwm(1) = "MAIL"
-            dwm(2) = "PERS"
-            dwm(3) = "THOI"
-            dwm(4) = "PUE"
-            dwm(5) = "MAVI"
-            dwm(6) = "IKR"
-            'dwm(5) = "ALE"
-            'dwm(6) = "MIC"
-            dwm(7) = "ARCH"
-            dwm(8) = "IRI"
-            dwm(9) = "AFR"
-            dwm(10) = "IPER"
-            ' dwm(11) = "SF6"
-            dwm(11) = "UB1Y"
+            'ReDim dwm(34)
+            'dwm(0) = "EEAN"
+            'dwm(1) = "MAIL"
+            'dwm(2) = "PERS"
+            'dwm(3) = "THOI"
+            'dwm(4) = "PUE"
+            'dwm(5) = "MAVI"
+            'dwm(6) = "IKR"
+            ''dwm(5) = "ALE"
+            ''dwm(6) = "MIC"
+            'dwm(7) = "ARCH"
+            'dwm(8) = "IRI"
+            'dwm(9) = "AFR"
+            'dwm(10) = "IPER"
+            '' dwm(11) = "SF6"
+            'dwm(11) = "UB1Y"
 
-            dwm(12) = "UB1C" 'neo
-            dwm(13) = "UB2C" 'neo
+            'dwm(12) = "UB1C" 'neo
+            'dwm(13) = "UB2C" 'neo
 
-            dwm(14) = "UB3C"
-            dwm(15) = "UB4C"
-
-
-            dwm(16) = "UB1D" 'neo
-            dwm(17) = "UB3D" 'neo
+            'dwm(14) = "UB3C"
+            'dwm(15) = "UB4C"
 
 
-            dwm(18) = "BLUE"
-            dwm(19) = "GRY"
-
-            dwm(20) = "ORA"
-            dwm(21) = "YELL"
-
-            dwm(22) = "RED" 'neo
+            'dwm(16) = "UB1D" 'neo
+            'dwm(17) = "UB3D" 'neo
 
 
-            dwm(23) = "COC"
-            dwm(24) = "GRE"
-            dwm(25) = "SAN"
-            dwm(26) = "WHI"
-            dwm(27) = "MARU"
-            'dwm(20) = "MAVI"
+            'dwm(18) = "BLUE"
+            'dwm(19) = "GRY"
+
+            'dwm(20) = "ORA"
+            'dwm(21) = "YELL"
+
+            'dwm(22) = "RED" 'neo
 
 
-            'dwm(23) = "MHILL" 'bgainei!
-            dwm(28) = "THET"
-            dwm(29) = "OLDRE"
+            'dwm(23) = "COC"
+            'dwm(24) = "GRE"
+            'dwm(25) = "SAN"
+            'dwm(26) = "WHI"
+            'dwm(27) = "MARU"
+            ''dwm(20) = "MAVI"
 
-            dwm(30) = "SKANT" 'neo
-            dwm(31) = "THEROS"
-            dwm(32) = "P1ATH"
-            dwm(33) = "P2ATH"
-            dwm(34) = "ORTH" 'neo
+
+            ''dwm(23) = "MHILL" 'bgainei!
+            'dwm(28) = "THET"
+            'dwm(29) = "OLDRE"
+
+            'dwm(30) = "SKANT" 'neo
+            'dwm(31) = "THEROS"
+            'dwm(32) = "P1ATH"
+            'dwm(33) = "P2ATH"
+            'dwm(34) = "ORTH" 'neo
             'SOS ALAKSE KAI TON ARITHMO For j = 0 To 31
 
         Catch ex As System.Runtime.InteropServices.COMException
@@ -9433,7 +9426,9 @@ Public Class ErgasiesHmerasF
             connection.Open()
             command.Connection = connection
 
-            For j = 0 To 34
+
+
+            For j = 0 To dwm.Length - 1
 
                 Dim imeresStat() As Integer
                 Dim kwdKrat() As Integer
@@ -10366,122 +10361,100 @@ Public Class ErgasiesHmerasF
         Next
     End Sub
     Private Sub fuele_alle_zimmer()
-        Dim i As Int16
-        Dim zimmerApo, zimmerEws As String
+        'Dim i As Int16
+        'Dim zimmerApo, zimmerEws As String
 
 
-        If PlirDwmApoTbx.Text.Equals("") Then
-            zimmerApo = Me.DwmatiaTableAdapter.GetMinArDwmatiou()
-        Else
-            zimmerApo = PlirDwmApoTbx.Text
-        End If
-        If PlirDwmEwsTbx.Text.Equals("") Then
-            zimmerEws = Me.DwmatiaTableAdapter.GetMaxArDwmatiou()
-        Else
-            zimmerEws = PlirDwmEwsTbx.Text
-        End If
-        If zimmerApo <= zimmerEws Then
-            If sortkatichk.Checked Then
-                Me.DwmatiaTableAdapter.DwmatiaApoEws1(Me.DbhotelDataSet.dwmatia, zimmerApo, zimmerEws)
-            Else
-                Me.DwmatiaTableAdapter.DwmatiaApoEws(Me.DbhotelDataSet.dwmatia, zimmerApo, zimmerEws)
-            End If
+        'If PlirDwmApoTbx.Text.Equals("") Then
+        '    zimmerApo = Me.DwmatiaTableAdapter.GetMinArDwmatiou()
+        'Else
+        '    zimmerApo = PlirDwmApoTbx.Text
+        'End If
+        'If PlirDwmEwsTbx.Text.Equals("") Then
+        '    zimmerEws = Me.DwmatiaTableAdapter.GetMaxArDwmatiou()
+        'Else
+        '    zimmerEws = PlirDwmEwsTbx.Text
+        'End If
+        'If zimmerApo <= zimmerEws Then
+        '    If sortkatichk.Checked Then
+        '        Me.DwmatiaTableAdapter.DwmatiaApoEws1(Me.DbhotelDataSet.dwmatia, zimmerApo, zimmerEws)
+        '    Else
+        '        Me.DwmatiaTableAdapter.DwmatiaApoEws(Me.DbhotelDataSet.dwmatia, zimmerApo, zimmerEws)
+        '    End If
 
-        Else
-            Me.DwmatiaTableAdapter.FillOhneOvBook(Me.DbhotelDataSet.dwmatia)
-        End If
+        'Else
+        '    Me.DwmatiaTableAdapter.FillOhneOvBook(Me.DbhotelDataSet.dwmatia)
+        'End If
 
-        ''pROSOXI-> ICH GEHE DAVON AUS DASS DAS mAX zIMMMER EINAI TO OVER-BOOK TO OPOIO DEN XREIAZETAI NA BGEI -> ARA DEN PAIRNW TO TELEYTAIO !!->EINAI SORTIERT KATA ARITHMO (sTRING!-> 102<2 !!!!)
-        'For i = 0 To Me.DbhotelDataSet.dwmatia.Count - 1
-        '    ReDim Preserve dwmatia(i)
 
-        '    dwmatia(i) = Me.DbhotelDataSet.dwmatia(i).arithmos
-        'Next
-        'ReDim dwmatia(25)
-
+        'ReDim dwmatia(34)
         'dwmatia(0) = "EEAN"
         'dwmatia(1) = "MAIL"
         'dwmatia(2) = "PERS"
         'dwmatia(3) = "THOI"
         'dwmatia(4) = "PUE"
-        'dwmatia(5) = "IKR"
-        ''dwmatia(5) = "ALE"
-        ''dwmatia(6) = "MIC"
-        'dwmatia(6) = "ARCH"
-        'dwmatia(7) = "IRI"
-        'dwmatia(8) = "AFR"
-        'dwmatia(9) = "G2-2"
+        'dwmatia(5) = "MAVI"
+        'dwmatia(6) = "IKR"
+
+        'dwmatia(7) = "ARCH"
+        'dwmatia(8) = "IRI"
+        'dwmatia(9) = "AFR"
+        'dwmatia(10) = "IPER"
         '' dwmatia(11) = "SF6"
-        'dwmatia(10) = "UB1Y"
-        'dwmatia(11) = "UB3C"
-        'dwmatia(12) = "UB4C"
-        'dwmatia(13) = "BLUE"
-        'dwmatia(14) = "GRY"
-        'dwmatia(15) = "COC"
-        'dwmatia(16) = "GRE"
-        'dwmatia(17) = "SAN"
-        'dwmatia(18) = "WHI"
-        'dwmatia(19) = "MARU"
-        'dwmatia(20) = "MAVI"
-        'dwmatia(21) = "ORA"
-        'dwmatia(22) = "YELL"
-        'dwmatia(23) = "MHILL"
-        'dwmatia(24) = "THET"
-        'dwmatia(25) = "OLDRE"
-        ReDim dwmatia(34)
-        dwmatia(0) = "EEAN"
-        dwmatia(1) = "MAIL"
-        dwmatia(2) = "PERS"
-        dwmatia(3) = "THOI"
-        dwmatia(4) = "PUE"
-        dwmatia(5) = "MAVI"
-        dwmatia(6) = "IKR"
-        'dwmatia(5) = "ALE"
-        'dwmatia(6) = "MIC"
-        dwmatia(7) = "ARCH"
-        dwmatia(8) = "IRI"
-        dwmatia(9) = "AFR"
-        dwmatia(10) = "IPER"
-        ' dwmatia(11) = "SF6"
-        dwmatia(11) = "UB1Y"
+        'dwmatia(11) = "UB1Y"
 
-        dwmatia(12) = "UB1C" 'neo
-        dwmatia(13) = "UB2C" 'neo
+        'dwmatia(12) = "UB1C" 'neo
+        'dwmatia(13) = "UB2C" 'neo
 
-        dwmatia(14) = "UB3C"
-        dwmatia(15) = "UB4C"
+        'dwmatia(14) = "UB3C"
+        'dwmatia(15) = "UB4C"
 
 
-        dwmatia(16) = "UB1D" 'neo
-        dwmatia(17) = "UB3D" 'neo
+        'dwmatia(16) = "UB1D" 'neo
+        'dwmatia(17) = "UB3D" 'neo
 
 
-        dwmatia(18) = "BLUE"
-        dwmatia(19) = "GRY"
+        'dwmatia(18) = "BLUE"
+        'dwmatia(19) = "GRY"
 
-        dwmatia(20) = "ORA"
-        dwmatia(21) = "YELL"
+        'dwmatia(20) = "ORA"
+        'dwmatia(21) = "YELL"
 
-        dwmatia(22) = "RED" 'neo
-
-
-        dwmatia(23) = "COC"
-        dwmatia(24) = "GRE"
-        dwmatia(25) = "SAN"
-        dwmatia(26) = "WHI"
-        dwmatia(27) = "MARU"
-        'dwmatia(20) = "MAVI"
+        'dwmatia(22) = "RED" 'neo
 
 
-        'dwmatia(23) = "MHILL" 'bgainei!
-        dwmatia(28) = "THET"
-        dwmatia(29) = "OLDRE"
+        'dwmatia(23) = "COC"
+        'dwmatia(24) = "GRE"
+        'dwmatia(25) = "SAN"
+        'dwmatia(26) = "WHI"
+        'dwmatia(27) = "MARU"
 
-        dwmatia(30) = "SKANT" 'neo
-        dwmatia(31) = "THEROS" 'neo
-        dwmatia(32) = "P1ATH" 'neo
-        dwmatia(33) = "P2ATH" 'neo
-        dwmatia(34) = "ORTH" 'neo
+        'dwmatia(28) = "THET"
+        'dwmatia(29) = "OLDRE"
+
+        'dwmatia(30) = "SKANT" 'neo
+        'dwmatia(31) = "THEROS" 'neo
+        'dwmatia(32) = "P1ATH" 'neo
+        'dwmatia(33) = "P2ATH" 'neo
+        'dwmatia(34) = "ORTH" 'neo
+
+        Dim dwmatiaList As New List(Of String)()
+
+        Using connection As New SqlConnection(connectionString)
+            Dim command As New SqlCommand("SELECT villa FROM planovilles ORDER BY displayorder", connection)
+            connection.Open()
+            Dim reader As SqlDataReader = command.ExecuteReader()
+
+            While reader.Read()
+                dwmatiaList.Add(reader.GetString(0)) ' Assuming the villa names are stored as strings
+            End While
+
+            connection.Close()
+        End Using
+
+        ' Convert the List to an array if needed
+        dwmatia = dwmatiaList.ToArray()
+
     End Sub
     Private Sub PlirDwmPlithImerTbx_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PlirDwmPlithImerTbx.Leave
 
@@ -16459,6 +16432,20 @@ Public Class ErgasiesHmerasF
                             If currenttipos > 0 And currenttipos < 13 Then
                                 Dim telodkratisis As New teloskratisis(connectionString, kwdikos, DwmTbx.Text, praktortimolkwd, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), CType(SynolLbl.Text, Single), ekptPoso, 1)
                                 'TEST SQL SERVER 
+                                Try
+
+                                    Dim calender As New GoogleCalendarNew(connectionString, kwdikos, maxkrat + 1, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
+                                    calender.create_new_entry()
+                                    If currenttipos = 10 Then
+                                        calender.set_calendarid_thalasses(1)
+                                        calender.create_new_entry()
+                                    End If
+
+
+
+                                Catch ex As Exception
+                                    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                End Try
                                 'Try
 
                                 '    Dim calender As New GoogleCalendar(maxkrat + 1, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
@@ -16474,30 +16461,30 @@ Public Class ErgasiesHmerasF
                                 '    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
                                 'End Try
                                 'TEST SQL SERVER 
-                                'Try
-                                '    response = MsgBox(" Αποστολή directions;", MsgBoxStyle.YesNo, "winfo\nikEl.")
-                                '    If response = MsgBoxResult.Yes Then
-                                '        SendMailwithDirections(DwmTbx.Text, VoucherTbx.Text, OnomTbx1.Text)
-                                '    End If
-                                'Catch ex As Exception
-                                '    MsgBox(" Παρουσιάστηκε σφάλμα κατά την αποστολή directions !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                                'End Try
+                                Try
+                                    response = MsgBox(" Αποστολή directions;", MsgBoxStyle.YesNo, "winfo\nikEl.")
+                                    If response = MsgBoxResult.Yes Then
+                                        SendMailwithDirections(DwmTbx.Text, VoucherTbx.Text, OnomTbx1.Text)
+                                    End If
+                                Catch ex As Exception
+                                    MsgBox(" Παρουσιάστηκε σφάλμα κατά την αποστολή directions !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                End Try
                                 'TEST SQL SERVER 
-                                'Try
-                                '    response = MsgBox(" Αποστολή email σε Πρακτορεία για ενημέρωση;", MsgBoxStyle.YesNo, "winfo\nikEl.")
-                                '    If response = MsgBoxResult.Yes Then
-                                '        SendMailPrakt(DwmTbx.Text, 1)
-                                '    End If
-                                'Catch ex As Exception
-                                '    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση των Πρακτορείων!", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                                'End Try
+                                Try
+                                    response = MsgBox(" Αποστολή email σε Πρακτορεία για ενημέρωση;", MsgBoxStyle.YesNo, "winfo\nikEl.")
+                                    If response = MsgBoxResult.Yes Then
+                                        SendMailPrakt(DwmTbx.Text, 1)
+                                    End If
+                                Catch ex As Exception
+                                    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση των Πρακτορείων!", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                End Try
 
                                 'TEST SQL SERVER 
-                                'Try
-                                '    Dim retings As New RentingsXls(CType(Me.VoucherTbx.Text, String), Me.DbhotelDataSet.etaireia(0).basi)
-                                'Catch ex As Exception
-                                '    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Renting_emails !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                                'End Try
+                                Try
+                                    Dim retings As New RentingsXls(CType(Me.VoucherTbx.Text, String), Me.DbhotelDataSet.etaireia(0).basi)
+                                Catch ex As Exception
+                                    MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Renting_emails !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                End Try
                                 'TEST SQL SERVER 
                                 If currenttipos = 10 Then
                                     Try
@@ -16761,15 +16748,15 @@ Public Class ErgasiesHmerasF
 
 
                             'TEST SQL SERVER 
-                            'If praktoreiokwd = 62 And currenttipos = 10 Then
-                            '    If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
-                            '        If Not DwmTbx.Text.Equals("OV-BOOK") Then
-                            '            If Not set_availabilities_all_status_WEBHOTELIER(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), kwdikoKratisisDB) Then
-                            '                MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                            '            End If
-                            '        End If
-                            '    End If
-                            'End If
+                            If praktoreiokwd = 62 And currenttipos = 10 Then
+                                If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
+                                    If Not DwmTbx.Text.Equals("OV-BOOK") Then
+                                        If Not set_availabilities_all_status_WEBHOTELIER(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), kwdikoKratisisDB) Then
+                                            MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                        End If
+                                    End If
+                                End If
+                            End If
                             If DwmTbx.Text.Equals("") Then
                                 Me.StatusTableAdapter.DeleteStatusDwmatiouByKratisi(kwdikoKratisisDB) 'ean upirxe dwmatio kai diagraftike apo tin kratisi->egine pleon kratisi xwris dwmatio
                             Else
@@ -16782,53 +16769,44 @@ Public Class ErgasiesHmerasF
                                     Me.StatusTableAdapter.UpdateStatusByKratisi(4, DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), kwdikoKratisisDB)
                                 End If
                                 'DOMISI ->alakse imerominia ;h Bila!!!
-                                'If Not Me.DbhotelDataSet.kratiseis(0).dwmatio.Equals(DwmTbx.Text) OrElse (CType(DateTimePicker2.Value.Date, Date)) <> Me.DbhotelDataSet.kratiseis(0).afixi OrElse (CType(DateTimePicker3.Value.Date, Date)) <> Me.DbhotelDataSet.kratiseis(0).anaxwrisi Then
+                                If Not Me.DbhotelDataSet.kratiseis(0).dwmatio.Equals(DwmTbx.Text) OrElse (CType(DateTimePicker2.Value.Date, Date)) <> Me.DbhotelDataSet.kratiseis(0).afixi OrElse (CType(DateTimePicker3.Value.Date, Date)) <> Me.DbhotelDataSet.kratiseis(0).anaxwrisi Then
+                                    'TEST SQL SERVER 
+                                    Try
+                                        If Me.DbhotelDataSet.kratiseis(0).dwmatio.Equals(DwmTbx.Text) Then
+                                            Dim calender As New GoogleCalendarNew(connectionString, kwdikoKratisisDB, Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
+                                            calender.update_entry()
+                                        Else
+                                            Dim calender As New GoogleCalendarNew(connectionString, kwdikoKratisisDB, Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), Me.DbhotelDataSet.kratiseis(0).dwmatio, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
+                                            calender.delete_entry()
+                                            calender.create_new_entry()
+                                        End If
 
-                                'TEST SQL SERVER 
-                                'If currenttipos > 0 And currenttipos < 13 Then
-                                '    'TEST SQL SERVER 
-                                '    Try
-
-                                '        Dim calender As New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, Me.DbhotelDataSet.kratiseis(0).dwmatio, Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
-                                '        calender.delete_Calendar()
-
-                                '        calender.set_values(Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
-                                '        calender.create_NewEntry()
-                                '        If currenttipos = 10 Then
-                                '            calender = New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, "THLS", Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
-                                '            calender.delete_Calendar()
-
-                                '            calender.set_values(Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), "THLS", DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
-                                '            calender.create_NewEntry()
-                                '        End If
-
-                                '    Catch ex As Exception
-                                '        MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                                '    End Try
-
-
-                                '    'TEST SQL SERVER 
-                                '    Try
-                                '        If Not CType(ProkatTbx.Text, Single) = 0 AndAlso Me.DbhotelDataSet.kratiseis(0).prokataboli = 0 Then
-                                '            Try
-                                '                response = MsgBox(" Αποστολή email σε Πρακτορεία για ενημέρωση;", MsgBoxStyle.YesNo, "winfo\nikEl.")
-                                '                If response = MsgBoxResult.Yes Then
-                                '                    SendMailPrakt(DwmTbx.Text, 1)
-                                '                End If
-                                '            Catch ex As Exception
-                                '                MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση των Πρακτορείων !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                                '            End Try
+                                    Catch ex As Exception
+                                        MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                    End Try
+                                    '    'TEST SQL SERVER 
+                                    Try
+                                        If Not CType(ProkatTbx.Text, Single) = 0 AndAlso Me.DbhotelDataSet.kratiseis(0).prokataboli = 0 Then
+                                            Try
+                                                response = MsgBox(" Αποστολή email σε Πρακτορεία για ενημέρωση;", MsgBoxStyle.YesNo, "winfo\nikEl.")
+                                                If response = MsgBoxResult.Yes Then
+                                                    SendMailPrakt(DwmTbx.Text, 1)
+                                                End If
+                                            Catch ex As Exception
+                                                MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση των Πρακτορείων !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                            End Try
 
 
-                                '        End If
-                                '    Catch ex As InvalidCastException
+                                        End If
+                                    Catch ex As InvalidCastException
 
-                                '    End Try
+                                    End Try
 
-                                'End If
+
+                                End If
 
                             End If
-                        ElseIf Not DwmTbx.Text.Equals("") Then
+                                ElseIf Not DwmTbx.Text.Equals("") Then
                             'If praktoreiokwd = 48 Or praktoreiokwd = 49 Then
                             '    ' If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 4 OrElse praktortimolkwd = 43 OrElse praktortimolkwd = 50) Then
                             '    If Not DwmTbx.Text.Equals("OV-BOOK") Then
@@ -16841,15 +16819,15 @@ Public Class ErgasiesHmerasF
                             'End If
 
                             'TEST SQL SERVER 
-                            'If praktoreiokwd = 62 And currenttipos = 10 Then
-                            '    If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
-                            '        If Not DwmTbx.Text.Equals("OV-BOOK") Then
-                            '            If Not set_availabilities_all_status_WEBHOTELIER(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), kwdikoKratisisDB) Then
-                            '                MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                            '            End If
-                            '        End If
-                            '    End If
-                            'End If
+                            If praktoreiokwd = 62 And currenttipos = 10 Then
+                                If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
+                                    If Not DwmTbx.Text.Equals("OV-BOOK") Then
+                                        If Not set_availabilities_all_status_WEBHOTELIER(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), kwdikoKratisisDB) Then
+                                            MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                        End If
+                                    End If
+                                End If
+                            End If
                             If Not optionChk.Checked Then
                                 Me.StatusTableAdapter.InsertStatusDwmatiou(DwmTbx.Text, kwdikoKratisisDB, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), 1)
                             Else
@@ -19322,22 +19300,38 @@ Public Class ErgasiesHmerasF
         flag = execute_update_diamenwnta_transaction(connectionString, kwdikoKratisisDB, ekptosiOK, overOK)
         praktoreiokwdValue = -1
         If currenttipos > 0 And currenttipos < 13 Then
-            'TEST SQL SERVER 
             Try
-
-                Dim calender As New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, Me.DbhotelDataSet.kratiseis(0).dwmatio, Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
-                calender.delete_entry()
-                calender.set_values(Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
-                calender.send_entry()
-                If currenttipos = 10 Then
-                    calender = New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, "thls", Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
-                    calender.delete_entry()
-                    calender.set_values(Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), "thls", DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
-                    calender.send_entry()
+                If Me.DbhotelDataSet.kratiseis(0).dwmatio.Equals(DwmTbx.Text) Then
+                    Dim calender As New GoogleCalendarNew(connectionString, Me.DbhotelDataSet.kratiseis(0).kwd, Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, "", "")
+                    calender.update_entry()
+                    If currenttipos = 10 Then
+                        calender.set_calendarid_thalasses(1)
+                        calender.update_entry()
+                    End If
                 End If
+
+
+
+
             Catch ex As Exception
-                MsgBox(" παρουσιάστηκε σφάλμα κατά την ενημέρωση του google calendar !", MsgBoxStyle.Exclamation, "winfo\nikel.")
+                MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
             End Try
+            'TEST SQL SERVER 
+            'Try
+
+            '    Dim calender As New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, Me.DbhotelDataSet.kratiseis(0).dwmatio, Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
+            '    calender.delete_entry()
+            '    calender.set_values(Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
+            '    calender.send_entry()
+            '    If currenttipos = 10 Then
+            '        calender = New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, "thls", Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
+            '        calender.delete_entry()
+            '        calender.set_values(Me.DbhotelDataSet.kratiseis(0).arithmos, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), "thls", DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
+            '        calender.send_entry()
+            '    End If
+            'Catch ex As Exception
+            '    MsgBox(" παρουσιάστηκε σφάλμα κατά την ενημέρωση του google calendar !", MsgBoxStyle.Exclamation, "winfo\nikel.")
+            'End Try
         End If
 
 
@@ -21508,24 +21502,26 @@ Public Class ErgasiesHmerasF
                             End If
                         End If
                     End If
-                    countDB = delete_kratisi_transaction(connectionString, kwdikoKratisisDB)
+
 
                     If currenttipos > 0 And currenttipos < 13 Then
                         'TEST SQL SERVER 
                         Try
 
-                            Dim calender As New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, Me.DbhotelDataSet.kratiseis(0).dwmatio, Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
+                            Dim calender As New GoogleCalendarNew(connectionString, kwdikoKratisisDB, Me.DbhotelDataSet.kratiseis(0).arithmos, "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, Me.DbhotelDataSet.kratiseis(0).dwmatio, Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
+                            'calender.DeleteEvent("mv1rt76rgmgd63jg0d83st5tlk@group.calendar.google.com", "ia5006i4jupp2t42ihpuvdbi2s")
                             calender.delete_entry()
                             If currenttipos = 10 Then
-                                calender = New GoogleCalendar("", "", Me.DbhotelDataSet.kratiseis(0).afixi, Me.DbhotelDataSet.kratiseis(0).anaxwrisi, "THLS", Me.DbhotelDataSet.kratiseis(0).dwmatio, "", "")
+                                calender.set_calendarid_thalasses(2)
                                 calender.delete_entry()
                             End If
 
                         Catch ex As Exception
-                            MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                            MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar: " + ex.Message, MsgBoxStyle.Exclamation, "winfo\nikEl.")
                         End Try
-                    End If
 
+                    End If
+                    countDB = delete_kratisi_transaction(connectionString, kwdikoKratisisDB)
 
                 Catch ex As SqlException
                     MsgBox(" Παρουσιάστηκε σφάλμα κατά την διαδικασία Διαγραφής !", MsgBoxStyle.Critical, "winfo\nikEl.")
@@ -21733,6 +21729,11 @@ Public Class ErgasiesHmerasF
                     rows = command.ExecuteNonQuery()
                     command.Parameters.Clear()
                 End If
+                command.Parameters.Clear()
+                command.Parameters.AddWithValue("@kratisi", CType(kwdikos, Integer))
+                command.CommandText = "DELETE FROM eventarkratisi where (kratisi=@kratisi)"
+                rows = command.ExecuteNonQuery()
+                command.Parameters.Clear()
 
                 command.Parameters.Clear()
                 command.Parameters.AddWithValue("@kwd", CType(kwdikos, Integer))
@@ -24098,7 +24099,7 @@ Public Class ErgasiesHmerasF
 
     Private Sub GetAllChildren(parentNode As TreeNode)
         For Each childNode As TreeNode In parentNode.Nodes
-            If childNode.Name = "Logariasmoi" Or childNode.Name = "Metritis" Or childNode.Name = "gramatio_eispraksis" Or childNode.Name = "Emf_Kns_Tmt" Or childNode.Name = "Lista_Praktoreiwn" Or childNode.Name = "Xenod" Or childNode.Name = "diamenontes_old" Or childNode.Name = "Estiatorio_katast" Then
+            If childNode.Name = "Logariasmoi" Or childNode.Name = "Metritis" Or childNode.Name = "gramatio_eispraksis" Or childNode.Name = "Emf_Kns_Tmt" Or childNode.Name = "Lista_Praktoreiwn" Or childNode.Name = "diamenontes_old" Or childNode.Name = "Estiatorio_katast" Then
                 childNode.ForeColor = Color.Gray
             End If
             GetAllChildren(childNode)

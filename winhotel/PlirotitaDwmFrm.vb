@@ -684,60 +684,89 @@ Public Class PlirotitaDwmFrm
         'dwmatia(20) = "WHI"
         'dwmatia(21) = "MARU"
         'dwmatia(22) = "HRA"
-        ReDim dwmatia(34)
-        dwmatia(0) = "EEAN"
-        dwmatia(1) = "MAIL"
-        dwmatia(2) = "PERS"
-        dwmatia(3) = "THOI"
-        dwmatia(4) = "PUE"
-        dwmatia(5) = "MAVI"
-        dwmatia(6) = "IKR"
-        'dwmatia(5) = "ALE"
-        'dwmatia(6) = "MIC"
-        dwmatia(7) = "ARCH"
-        dwmatia(8) = "IRI"
-        dwmatia(9) = "AFR"
-        dwmatia(10) = "IPER"
-        ' dwmatia(11) = "SF6"
-        dwmatia(11) = "UB1Y"
+        Dim dwmatiaList As New List(Of String)()
 
-        dwmatia(12) = "UB1C" 'neo
-        dwmatia(13) = "UB2C" 'neo
+        Using connection As New SqlConnection(connectionString)
+            connection.Open()
 
-        dwmatia(14) = "UB3C"
-        dwmatia(15) = "UB4C"
+            ' Execute the first command to populate dwmatiaList
+            Dim command As New SqlCommand("SELECT villa FROM planovilles ORDER BY displayorder", connection)
+            Dim reader As SqlDataReader = command.ExecuteReader()
 
+            While reader.Read()
+                dwmatiaList.Add(reader.GetString(0)) ' Assuming the villa names are stored as strings
+            End While
+            reader.Close()
 
-        dwmatia(16) = "UB1D" 'neo
-        dwmatia(17) = "UB3D" 'neo
+            ' Execute the second command to append more values to dwmatiaList
+            Dim command2 As New SqlCommand("SELECT arithmos FROM dwmatia INNER JOIN katigories ON dwmatia.katigoria = katigories.kwd INNER JOIN tipoi ON katigories.tipos = tipoi.kwd WHERE tipoi.kwd = 11", connection)
+            reader = command2.ExecuteReader()
 
+            While reader.Read()
+                dwmatiaList.Add(reader.GetString(0)) ' Assuming the arithmos values are stored as strings
+            End While
+            reader.Close()
 
-        dwmatia(18) = "BLUE"
-        dwmatia(19) = "GRY"
-
-        dwmatia(20) = "ORA"
-        dwmatia(21) = "YELL"
-
-        dwmatia(22) = "RED" 'neo
+            connection.Close()
+        End Using
 
 
-        dwmatia(23) = "COC"
-        dwmatia(24) = "GRE"
-        dwmatia(25) = "SAN"
-        dwmatia(26) = "WHI"
-        dwmatia(27) = "MARU"
-        'dwmatia(20) = "HRA"
+        ' Convert the List to an array if needed
+        dwmatia = dwmatiaList.ToArray()
+        'ReDim dwmatia(34)
+        'dwmatia(0) = "EEAN"
+        'dwmatia(1) = "MAIL"
+        'dwmatia(2) = "PERS"
+        'dwmatia(3) = "THOI"
+        'dwmatia(4) = "PUE"
+        'dwmatia(5) = "MAVI"
+        'dwmatia(6) = "IKR"
+        ''dwmatia(5) = "ALE"
+        ''dwmatia(6) = "MIC"
+        'dwmatia(7) = "ARCH"
+        'dwmatia(8) = "IRI"
+        'dwmatia(9) = "AFR"
+        'dwmatia(10) = "IPER"
+        '' dwmatia(11) = "SF6"
+        'dwmatia(11) = "UB1Y"
+
+        'dwmatia(12) = "UB1C" 'neo
+        'dwmatia(13) = "UB2C" 'neo
+
+        'dwmatia(14) = "UB3C"
+        'dwmatia(15) = "UB4C"
 
 
-        'dwmatia(23) = "MHILL" 'bgainei!
-        dwmatia(28) = "THET"
-        dwmatia(29) = "OLDRE"
+        'dwmatia(16) = "UB1D" 'neo
+        'dwmatia(17) = "UB3D" 'neo
 
-        dwmatia(30) = "SKANT" 'neo
-        dwmatia(31) = "THEROS" 'neo
-        dwmatia(32) = "P1ATH" 'neo
-        dwmatia(33) = "P2ATH" 'neo
-        dwmatia(34) = "ORTH" 'neo
+
+        'dwmatia(18) = "BLUE"
+        'dwmatia(19) = "GRY"
+
+        'dwmatia(20) = "ORA"
+        'dwmatia(21) = "YELL"
+
+        'dwmatia(22) = "RED" 'neo
+
+
+        'dwmatia(23) = "COC"
+        'dwmatia(24) = "GRE"
+        'dwmatia(25) = "SAN"
+        'dwmatia(26) = "WHI"
+        'dwmatia(27) = "MARU"
+        ''dwmatia(20) = "HRA"
+
+
+        ''dwmatia(23) = "MHILL" 'bgainei!
+        'dwmatia(28) = "THET"
+        'dwmatia(29) = "OLDRE"
+
+        'dwmatia(30) = "SKANT" 'neo
+        'dwmatia(31) = "THEROS" 'neo
+        'dwmatia(32) = "P1ATH" 'neo
+        'dwmatia(33) = "P2ATH" 'neo
+        'dwmatia(34) = "ORTH" 'neo
     End Sub
     Private Sub PlirDwmPlithImerTbx_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PlirDwmPlithImerTbx.Leave
 

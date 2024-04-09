@@ -56,6 +56,7 @@ Partial Class MainFrm
         Me.NewsletterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SendToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ΔιαμένοντεςToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TemlpateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ImportReservationsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SetAvailabilitiesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -74,7 +75,6 @@ Partial Class MainFrm
         Me.LizensTableAdapter = New winhotel.dbhotelDataSetTableAdapters.lizensTableAdapter()
         Me.KratiseisBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.KratiseisTableAdapter = New winhotel.dbhotelDataSetTableAdapters.kratiseisTableAdapter()
-        Me.TemlpateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DbhotelDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -300,14 +300,20 @@ Partial Class MainFrm
         'SendToolStripMenuItem
         '
         Me.SendToolStripMenuItem.Name = "SendToolStripMenuItem"
-        Me.SendToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.SendToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.SendToolStripMenuItem.Text = "Newsletter"
         '
         'ΔιαμένοντεςToolStripMenuItem
         '
         Me.ΔιαμένοντεςToolStripMenuItem.Name = "ΔιαμένοντεςToolStripMenuItem"
-        Me.ΔιαμένοντεςToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ΔιαμένοντεςToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.ΔιαμένοντεςToolStripMenuItem.Text = "Διαμένοντες"
+        '
+        'TemlpateToolStripMenuItem
+        '
+        Me.TemlpateToolStripMenuItem.Name = "TemlpateToolStripMenuItem"
+        Me.TemlpateToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
+        Me.TemlpateToolStripMenuItem.Text = "Temlpate"
         '
         'ToolStripMenuItem2
         '
@@ -435,12 +441,6 @@ Partial Class MainFrm
         '
         Me.KratiseisTableAdapter.ClearBeforeFill = True
         '
-        'TemlpateToolStripMenuItem
-        '
-        Me.TemlpateToolStripMenuItem.Name = "TemlpateToolStripMenuItem"
-        Me.TemlpateToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.TemlpateToolStripMenuItem.Text = "Temlpate"
-        '
         'MainFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -455,7 +455,7 @@ Partial Class MainFrm
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MainFrm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "winhot  (Domisi -  Cloud - myDATA Distribution 10.14)"
+        Me.Text = "winhot  (Domisi - KL-QR-Cloud - myDATA Distribution 10.14)"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

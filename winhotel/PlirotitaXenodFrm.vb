@@ -1,7 +1,7 @@
 ﻿Imports System.Net.Mail
 Imports System.Net
 Imports System.IO
-
+Imports System.Data.SqlClient
 Public Class PlirotitaXenodFrm
     Dim CrystalReportViewer1 As New CrystalDecisions.Windows.Forms.CrystalReportViewer
     Dim imeromErgasias As Date
@@ -132,9 +132,103 @@ Public Class PlirotitaXenodFrm
             locx = 40
             locy = 30
             'Me.ProgressBar1.Value += 10
-            Using connection As New OleDb.OleDbConnection(connectionString)
-                Dim command As New OleDb.OleDbCommand()
-                Dim myReader As OleDb.OleDbDataReader
+            'Using connection As New OleDb.OleDbConnection(connectionString)
+            '    Dim command As New OleDb.OleDbCommand()
+            '    Dim myReader As OleDb.OleDbDataReader
+            '    connection.Open()
+            '    command.Connection = connection
+
+            '    For j = index1 To index2
+            '        Dim imeresStat() As Integer
+            '        Dim kwdKrat() As Integer
+            '        ReDim imeresStat(tageCount)
+            '        ReDim kwdKrat(tageCount)
+            '        init_status_dwmatiou(imeresStat)
+            '        init_kwd_krat(kwdKrat)
+            '        command.Parameters.AddWithValue("dwmatio", dwmatia(j))
+            '        command.Parameters.AddWithValue("enarxi", arxiIm)
+            '        command.Parameters.AddWithValue("lixi", arxiIm)
+            '        command.Parameters.AddWithValue("dwmatio", dwmatia(j))
+            '        command.Parameters.AddWithValue("enarxi", telosIm)
+            '        command.Parameters.AddWithValue("lixi", telosIm)
+            '        command.Parameters.AddWithValue("dwmatio", dwmatia(j))
+            '        command.Parameters.AddWithValue("enarxi", arxiIm)
+            '        command.Parameters.AddWithValue("lixi", telosIm)
+            '        command.CommandText = "SELECT DISTINCT kwd, dwmatio, kratisi, enarxi, lixi, dwmatiostatus FROM status WHERE (dwmatio=?) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=? ) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=?) AND (enarxi>?) AND (lixi<?)"
+            '        myReader = command.ExecuteReader()
+            '        While myReader.Read()
+            '            'kalutera diktes apo pou mexri pou sto imeresStat
+            '            Dim zeiger1, zeiger2 As Integer
+            '            zeiger1 = arxiIm.DayOfYear - myReader.GetDateTime(3).DayOfYear
+            '            If myReader.GetDateTime(3) < arxiIm Then
+            '                zeiger1 = 0
+            '            ElseIf myReader.GetDateTime(3) >= arxiIm And myReader.GetDateTime(3) <= telosIm Then
+            '                zeiger1 = myReader.GetDateTime(3).DayOfYear - arxiIm.DayOfYear
+            '            Else
+            '                zeiger1 = -1
+            '            End If
+
+            '            If myReader.GetDateTime(4) >= telosIm Then
+            '                zeiger2 = imeresStat.Length - 1
+            '            ElseIf myReader.GetDateTime(4) >= arxiIm And myReader.GetDateTime(4) < telosIm Then
+            '                zeiger2 = myReader.GetDateTime(4).DayOfYear - arxiIm.DayOfYear
+            '            Else
+            '                zeiger2 = -1
+            '            End If
+            '            If zeiger1 >= 0 AndAlso zeiger2 >= 0 Then
+            '                'MsgBox(myReader.GetInt32(2))
+            '                setze_status(zeiger1, zeiger2, myReader.GetInt32(5), imeresStat, myReader.GetInt32(2), kwdKrat) ', myReader.GetInt32(2)
+            '            End If
+
+            '        End While
+            '        myReader.Close()
+            '        command.Parameters.Clear()
+
+            '        For i = 0 To imeresStat.Length - 1
+            '            Dim ImeroWertLbl As New Label
+            '            ImeroWertLbl.Name = kwdKrat(i).ToString
+            '            ImeroWertLbl.TextAlign = ContentAlignment.MiddleCenter
+            '            ImeroWertLbl.Size = New Point(30, 30)
+            '            AddHandler ImeroWertLbl.MouseDoubleClick, AddressOf info_plano_zeigen
+
+            '            '  AddHandler Control.MouseButtons.Right, AddressOf change_room
+            '            ImeroWertLbl.BackColor = Color.Azure
+            '            '(locx + (i - 1) * stepx, locy)
+            '            If imeresStat(i) <> -1 Then
+            '                If imeresStat(i) = 1 Or imeresStat(i) = 9 Then
+            '                    ImeroWertLbl.ForeColor = Color.Blue
+            '                ElseIf imeresStat(i) = 5 Then
+            '                    ImeroWertLbl.ForeColor = Color.Maroon
+            '                ElseIf imeresStat(i) = 3 Then
+            '                    ImeroWertLbl.ForeColor = Color.Red
+            '                ElseIf imeresStat(i) = 8 Then
+            '                    ImeroWertLbl.ForeColor = Color.Black
+            '                End If
+            '                'ImeroWertLbl.Text = Me.DwmatiastatusTableAdapter.GetStatusByKwd(imeresStat(i))
+            '                ImeroWertLbl.Text = get_status_by_kwd(imeresStat(i))
+            '            Else
+            '                ImeroWertLbl.ForeColor = Color.Green
+            '                ImeroWertLbl.Text = "V"
+            '                ImeroWertLbl.Name = "D" + dwmatia(j)
+            '                'Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = "F"
+            '            End If
+            '            ImeroWertLbl.Location = New Point(locx + (i - 1) * stepx, locy) '(locx + (i - 1) * stepx, locy - stepx)
+            '            'ImeroWertLbl.ForeColor = Color.Maroon
+            '            Me.DwmPlirot2Pnl.Controls.Add(ImeroWertLbl)
+
+            '        Next
+            '        locy = locy + stepx
+            '        Try
+            '            Me.ProgressBar1.Value += 10
+            '        Catch ex As ArgumentOutOfRangeException
+            '            Me.ProgressBar1.Value = 0
+            '        End Try
+
+            '    Next
+            'End Using
+            Using connection As New SqlConnection(connectionString)
+                Dim command As New SqlCommand()
+                Dim myReader As SqlDataReader
                 connection.Open()
                 command.Connection = connection
 
@@ -145,16 +239,16 @@ Public Class PlirotitaXenodFrm
                     ReDim kwdKrat(tageCount)
                     init_status_dwmatiou(imeresStat)
                     init_kwd_krat(kwdKrat)
-                    command.Parameters.AddWithValue("dwmatio", dwmatia(j))
-                    command.Parameters.AddWithValue("enarxi", arxiIm)
-                    command.Parameters.AddWithValue("lixi", arxiIm)
-                    command.Parameters.AddWithValue("dwmatio", dwmatia(j))
-                    command.Parameters.AddWithValue("enarxi", telosIm)
-                    command.Parameters.AddWithValue("lixi", telosIm)
-                    command.Parameters.AddWithValue("dwmatio", dwmatia(j))
-                    command.Parameters.AddWithValue("enarxi", arxiIm)
-                    command.Parameters.AddWithValue("lixi", telosIm)
-                    command.CommandText = "SELECT DISTINCT kwd, dwmatio, kratisi, enarxi, lixi, dwmatiostatus FROM status WHERE (dwmatio=?) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=? ) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=?) AND (enarxi>?) AND (lixi<?)"
+                    command.Parameters.AddWithValue("@dwmatio", dwmatia(j))
+                    command.Parameters.AddWithValue("@enarxi", arxiIm)
+                    command.Parameters.AddWithValue("@lixi", arxiIm)
+                    command.Parameters.AddWithValue("@dwmatio2", dwmatia(j))
+                    command.Parameters.AddWithValue("@enarxi2", telosIm)
+                    command.Parameters.AddWithValue("@lixi2", telosIm)
+                    command.Parameters.AddWithValue("@dwmatio3", dwmatia(j))
+                    command.Parameters.AddWithValue("@enarxi3", arxiIm)
+                    command.Parameters.AddWithValue("@lixi3", telosIm)
+                    command.CommandText = "SELECT DISTINCT kwd, dwmatio, kratisi, enarxi, lixi, dwmatiostatus FROM status WHERE (dwmatio=@dwmatio AND enarxi<=@enarxi AND lixi>=@lixi) OR (dwmatio=@dwmatio2 AND enarxi<=@enarxi2 AND lixi>=@lixi2) OR (dwmatio=@dwmatio3 AND enarxi>@enarxi3 AND lixi<@lixi3)"
                     myReader = command.ExecuteReader()
                     While myReader.Read()
                         'kalutera diktes apo pou mexri pou sto imeresStat
@@ -179,11 +273,11 @@ Public Class PlirotitaXenodFrm
                             'MsgBox(myReader.GetInt32(2))
                             setze_status(zeiger1, zeiger2, myReader.GetInt32(5), imeresStat, myReader.GetInt32(2), kwdKrat) ', myReader.GetInt32(2)
                         End If
-
                     End While
                     myReader.Close()
                     command.Parameters.Clear()
 
+                    ' Your existing code for adding labels
                     For i = 0 To imeresStat.Length - 1
                         Dim ImeroWertLbl As New Label
                         ImeroWertLbl.Name = kwdKrat(i).ToString
@@ -223,6 +317,7 @@ Public Class PlirotitaXenodFrm
                     Catch ex As ArgumentOutOfRangeException
                         Me.ProgressBar1.Value = 0
                     End Try
+
 
                 Next
             End Using
@@ -845,30 +940,125 @@ Public Class PlirotitaXenodFrm
         'Me.ProgressBar1.Value += 10
 
 
-        Using connection As New OleDb.OleDbConnection(connectionString)
-            Dim command As New OleDb.OleDbCommand()
-            Dim myReader As OleDb.OleDbDataReader
+        'Using connection As New OleDb.OleDbConnection(connectionString)
+        '    Dim command As New OleDb.OleDbCommand()
+        '    Dim myReader As OleDb.OleDbDataReader
+        '    connection.Open()
+        '    command.Connection = connection
+        '    For j = index1 To index2
+        '        Dim imeresStat(), imeresPrakt() As Integer
+
+        '        ReDim imeresStat(tageCount)
+        '        ReDim imeresPrakt(tageCount)
+        '        init_status_dwmatiou(imeresStat)
+        '        init_status_dwmatiou(imeresPrakt)
+
+        '        command.Parameters.AddWithValue("dwmatio", dwmatia(j))
+        '        command.Parameters.AddWithValue("enarxi", arxiIm)
+        '        command.Parameters.AddWithValue("lixi", arxiIm)
+        '        command.Parameters.AddWithValue("dwmatio", dwmatia(j))
+        '        command.Parameters.AddWithValue("enarxi", telosIm)
+        '        command.Parameters.AddWithValue("lixi", telosIm)
+        '        command.Parameters.AddWithValue("dwmatio", dwmatia(j))
+        '        command.Parameters.AddWithValue("enarxi", arxiIm)
+        '        command.Parameters.AddWithValue("lixi", telosIm)
+        '        command.CommandText = "SELECT DISTINCT kwd, dwmatio, kratisi, enarxi, lixi, dwmatiostatus FROM status WHERE (dwmatio=?) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=? ) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=?) AND (enarxi>?) AND (lixi<?)"
+        '        myReader = command.ExecuteReader()
+        '        While myReader.Read()
+        '            Dim zeiger1, zeiger2 As Integer
+        '            zeiger1 = arxiIm.DayOfYear - myReader.GetDateTime(3).DayOfYear
+        '            If myReader.GetDateTime(3) < arxiIm Then
+        '                zeiger1 = 0
+        '            ElseIf myReader.GetDateTime(3) >= arxiIm And myReader.GetDateTime(3) <= telosIm Then
+        '                zeiger1 = myReader.GetDateTime(3).DayOfYear - arxiIm.DayOfYear
+        '            Else
+        '                zeiger1 = -1
+        '            End If
+
+        '            If myReader.GetDateTime(4) >= telosIm Then
+        '                zeiger2 = imeresStat.Length - 1
+        '            ElseIf myReader.GetDateTime(4) >= arxiIm And myReader.GetDateTime(4) < telosIm Then
+        '                zeiger2 = myReader.GetDateTime(4).DayOfYear - arxiIm.DayOfYear
+        '            Else
+        '                zeiger2 = -1
+        '            End If
+        '            If zeiger1 >= 0 AndAlso zeiger2 >= 0 Then
+        '                setze_status_praktoreio(zeiger1, zeiger2, myReader.GetInt32(5), imeresStat, imeresPrakt, myReader.GetInt32(2))
+        '            End If
+
+        '        End While
+        '        myReader.Close()
+        '        command.Parameters.Clear()
+        '        'For i = 0 To imeresStat.Length - 1
+        '        '    '(locx + (i - 1) * stepx, locy)
+        '        '    If imeresStat(i) <> -1 Then
+
+        '        '        Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = get_status_by_kwd(imeresStat(i)) ' + ChrW(13) + "(" + imeresPrakt(i).ToString + ")"
+
+        '        '    Else
+        '        '        Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = "V"
+        '        '    End If
+
+
+        '        'Next
+        '        Dim kratisiTemp As Integer = 0
+        '        Dim change As Integer = 1
+        '        For i = 0 To imeresStat.Length - 1
+
+        '            '(locx + (i - 1) * stepx, locy)
+        '            If imeresStat(i) <> -1 And imeresStat(i) <> 1 Then
+
+        '                Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = get_status_by_kwd(imeresStat(i)) ' + ChrW(13) + "(" + imeresPrakt(i).ToString + ")"
+        '            ElseIf imeresStat(i) = 1 Then
+        '                If kratisiTemp <> imeresPrakt(i) Then
+        '                    change = change * -1
+        '                End If
+        '                If change = 1 Then
+        '                    Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = "R"
+        '                Else
+        '                    Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = "r"
+        '                End If
+        '            Else
+        '                Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = "V"
+        '            End If
+
+        '            kratisiTemp = imeresPrakt(i)
+        '        Next
+        '        Try
+        '            Me.ProgressBar1.Value += 10
+        '        Catch ex As ArgumentOutOfRangeException
+        '            Me.ProgressBar1.Value = 0
+        '        End Try
+
+        '    Next
+
+        '    Me.ProgressBar1.Value = 0
+        'End Using
+        Using connection As New SqlConnection(connectionString)
+            Dim command As New SqlCommand()
+            Dim myReader As SqlDataReader
             connection.Open()
             command.Connection = connection
+
             For j = index1 To index2
                 Dim imeresStat(), imeresPrakt() As Integer
-
                 ReDim imeresStat(tageCount)
                 ReDim imeresPrakt(tageCount)
                 init_status_dwmatiou(imeresStat)
                 init_status_dwmatiou(imeresPrakt)
 
-                command.Parameters.AddWithValue("dwmatio", dwmatia(j))
-                command.Parameters.AddWithValue("enarxi", arxiIm)
-                command.Parameters.AddWithValue("lixi", arxiIm)
-                command.Parameters.AddWithValue("dwmatio", dwmatia(j))
-                command.Parameters.AddWithValue("enarxi", telosIm)
-                command.Parameters.AddWithValue("lixi", telosIm)
-                command.Parameters.AddWithValue("dwmatio", dwmatia(j))
-                command.Parameters.AddWithValue("enarxi", arxiIm)
-                command.Parameters.AddWithValue("lixi", telosIm)
-                command.CommandText = "SELECT DISTINCT kwd, dwmatio, kratisi, enarxi, lixi, dwmatiostatus FROM status WHERE (dwmatio=?) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=? ) AND (enarxi<=?) AND (lixi>=?) OR (dwmatio=?) AND (enarxi>?) AND (lixi<?)"
+                command.Parameters.AddWithValue("@dwmatio", dwmatia(j))
+                command.Parameters.AddWithValue("@enarxi", arxiIm)
+                command.Parameters.AddWithValue("@lixi", arxiIm)
+                command.Parameters.AddWithValue("@dwmatio2", dwmatia(j))
+                command.Parameters.AddWithValue("@enarxi2", telosIm)
+                command.Parameters.AddWithValue("@lixi2", telosIm)
+                command.Parameters.AddWithValue("@dwmatio3", dwmatia(j))
+                command.Parameters.AddWithValue("@enarxi3", arxiIm)
+                command.Parameters.AddWithValue("@lixi3", telosIm)
+                command.CommandText = "SELECT DISTINCT kwd, dwmatio, kratisi, enarxi, lixi, dwmatiostatus FROM status WHERE (dwmatio=@dwmatio AND enarxi<=@enarxi AND lixi>=@lixi) OR (dwmatio=@dwmatio2 AND enarxi<=@enarxi2 AND lixi>=@lixi2) OR (dwmatio=@dwmatio3 AND enarxi>@enarxi3 AND lixi<@lixi3)"
                 myReader = command.ExecuteReader()
+
                 While myReader.Read()
                     Dim zeiger1, zeiger2 As Integer
                     zeiger1 = arxiIm.DayOfYear - myReader.GetDateTime(3).DayOfYear
@@ -887,33 +1077,21 @@ Public Class PlirotitaXenodFrm
                     Else
                         zeiger2 = -1
                     End If
+
                     If zeiger1 >= 0 AndAlso zeiger2 >= 0 Then
                         setze_status_praktoreio(zeiger1, zeiger2, myReader.GetInt32(5), imeresStat, imeresPrakt, myReader.GetInt32(2))
                     End If
-
                 End While
+
                 myReader.Close()
                 command.Parameters.Clear()
-                'For i = 0 To imeresStat.Length - 1
-                '    '(locx + (i - 1) * stepx, locy)
-                '    If imeresStat(i) <> -1 Then
 
-                '        Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = get_status_by_kwd(imeresStat(i)) ' + ChrW(13) + "(" + imeresPrakt(i).ToString + ")"
-
-                '    Else
-                '        Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = "V"
-                '    End If
-
-
-                'Next
                 Dim kratisiTemp As Integer = 0
                 Dim change As Integer = 1
+
                 For i = 0 To imeresStat.Length - 1
-
-                    '(locx + (i - 1) * stepx, locy)
-                    If imeresStat(i) <> -1 And imeresStat(i) <> 1 Then
-
-                        Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = get_status_by_kwd(imeresStat(i)) ' + ChrW(13) + "(" + imeresPrakt(i).ToString + ")"
+                    If imeresStat(i) <> -1 AndAlso imeresStat(i) <> 1 Then
+                        Me.DbhotelDataSet1.ekt_status_dwm(j - index1).Item(i + 1) = get_status_by_kwd(imeresStat(i))
                     ElseIf imeresStat(i) = 1 Then
                         If kratisiTemp <> imeresPrakt(i) Then
                             change = change * -1
@@ -929,16 +1107,17 @@ Public Class PlirotitaXenodFrm
 
                     kratisiTemp = imeresPrakt(i)
                 Next
+
                 Try
                     Me.ProgressBar1.Value += 10
                 Catch ex As ArgumentOutOfRangeException
                     Me.ProgressBar1.Value = 0
                 End Try
-
             Next
 
             Me.ProgressBar1.Value = 0
         End Using
+
         Me.ProgressBar1.Value = 0
 
     End Sub
@@ -1098,28 +1277,29 @@ Public Class PlirotitaXenodFrm
         ReDim datumAllotm(30)
         ReDim datumBook(30)
         ReDim datumKlDwm(30)
-        Try
-            Me.Cursor = Cursors.WaitCursor
-            anzahl = 0
-            DwmPlirot2Pnl.Controls.Clear()
-            DwmPlirot3Pnl.Controls.Clear()
-            If klinesKwd > 0 And tiposKwd > 0 Then 'enas orismenos tipos dwmatiou me kathorismeno arithmo klinwn
-                Me.DwmatiaTableAdapter.FillByKlinesTipos(Me.DbhotelDataSet1.dwmatia, klinesKwd, tiposKwd)
-            ElseIf klinesKwd = 0 And tiposKwd > 0 Then 'enas tipos (thea) Anexartitou klinwn
-                Me.DwmatiaTableAdapter.FillByTipos(Me.DbhotelDataSet1.dwmatia, tiposKwd)
-            ElseIf klinesKwd > 0 And tiposKwd = 0 Then 'kathorismnes klines anexartitou tipou dwmatiou
-                Me.DwmatiaTableAdapter.FillDwmatiaXenodByKlines(Me.DbhotelDataSet1.dwmatia, klinesKwd, 13, 25)
-            Else
-                Me.DwmatiaTableAdapter.FillDwmXenodOla(Me.DbhotelDataSet1.dwmatia, 13, 25)
-            End If
+        Me.DwmatiaTableAdapter.FillByTipos(Me.DbhotelDataSet1.dwmatia, 11)
+        'Try
+        '    Me.Cursor = Cursors.WaitCursor
+        '    anzahl = 0
+        '    DwmPlirot2Pnl.Controls.Clear()
+        '    DwmPlirot3Pnl.Controls.Clear()
+        '    If klinesKwd > 0 And tiposKwd > 0 Then 'enas orismenos tipos dwmatiou me kathorismeno arithmo klinwn
+        '        Me.DwmatiaTableAdapter.FillByKlinesTipos(Me.DbhotelDataSet1.dwmatia, klinesKwd, tiposKwd)
+        '    ElseIf klinesKwd = 0 And tiposKwd > 0 Then 'enas tipos (thea) Anexartitou klinwn
+        '        Me.DwmatiaTableAdapter.FillByTipos(Me.DbhotelDataSet1.dwmatia, tiposKwd)
+        '    ElseIf klinesKwd > 0 And tiposKwd = 0 Then 'kathorismnes klines anexartitou tipou dwmatiou
+        '        Me.DwmatiaTableAdapter.FillDwmatiaXenodByKlines(Me.DbhotelDataSet1.dwmatia, klinesKwd, 13, 25)
+        '    Else
+        '        Me.DwmatiaTableAdapter.FillDwmXenodOla(Me.DbhotelDataSet1.dwmatia, 13, 25)
+        '    End If
 
 
-            'MsgBox(Me.DbhotelDataSet1.allotment.Count)
+        '    'MsgBox(Me.DbhotelDataSet1.allotment.Count)
 
-        Catch ex As System.Exception
-            Me.Cursor = Cursors.Default
-            System.Windows.Forms.MessageBox.Show(ex.Message)
-        End Try
+        'Catch ex As System.Exception
+        '    Me.Cursor = Cursors.Default
+        '    System.Windows.Forms.MessageBox.Show(ex.Message)
+        'End Try
         Me.Cursor = Cursors.Default
 
         'pROSOXI-> ICH GEHE DAVON AUS DASS DAS mAX zIMMMER EINAI TO OVER-BOOK TO OPOIO DEN XREIAZETAI NA BGEI -> ARA DEN PAIRNW TO TELEYTAIO !!->EINAI SORTIERT KATA ARITHMO (sTRING!-> 102<2 !!!!)
@@ -1460,7 +1640,7 @@ Public Class PlirotitaXenodFrm
             ektiposi.SetDataSource(DbhotelDataSet)
 
             System.Threading.Thread.CurrentThread.CurrentCulture = englishCulture
-            filename = "n:\winfo\" + MonthName(dateApo.Month) + ".xls"
+            filename = "c:\winfo\" + MonthName(dateApo.Month) + ".xls"
 
             Try
                 ektiposi.ExportToDisk(CrystalDecisions.Shared.ExportFormatType.Excel, filename)
@@ -1518,7 +1698,7 @@ Public Class PlirotitaXenodFrm
         'Dim fileName As String = "C:\winfo\testAtach.xlsx"
         'Dim instance As New Attachment(fileName)
         'MsgBox(Me.DbhotelDataSet.etaireia.Count)
-        Dim message As New MailMessage(Me.DbhotelDataSet.Mail(0).ffrom, Me.DbhotelDataSet.etaireia(0).tilefono, "ΠΛΑΝΟ OLD TOWN", "") ' 
+        Dim message As New MailMessage(Me.DbhotelDataSet.Mail(0).ffrom, Me.DbhotelDataSet.etaireia(0).tilefono, "ΠΛΑΝΟ URBAN", "") ' 
         message.To.Add("stakap15@gmail.com")
         For j = 0 To attachment.Length - 1
 
