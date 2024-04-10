@@ -3052,6 +3052,7 @@ Public Class ErgasiesHmerasF
                 synolo = myReader.Item("synolo")
                 ekptposo = myReader.Item("ekptposo")
                 myReader.Close()
+                command.Parameters.Clear()
 
                 Dim teloskratisis As New teloskratisis(connectionString, kwdikos, dwmatio, praktimologio, afixi, anaxwrisi, synolo, ekptposo, 3)
                 command.Parameters.AddWithValue("kwd", kwdikos)
