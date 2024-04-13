@@ -3008,13 +3008,13 @@ Public Class ErgasiesHmerasF
     Private Function execute_foros_klima(ByVal etaireia As Int32, ByVal kwdikos As Int32, ByVal pliromi As String) As Boolean
         Dim afixi, anaxwrisi As Date
         Dim dwmatio, eponimia, epaggelma, dieuthinsi, afm, doy, onomateponimo, postalCodeLpt, cityLpt, correlatedInv As String
-        Dim apy, parastatiko, aa, rowCount, rows, days As Int16
+        Dim apy, aa, rowCount, rows, days As Int16
         Dim dimeres As Int16
         Dim telos As Single = 0
         Dim foros As Single = 0
         Dim synolo As Single = 0
         Dim ekptposo As Single = 0
-        Dim praktimologio As Int64
+        Dim praktimologio, parastatiko As Int64
         rowCount = 0
         eponimia = ""
         epaggelma = ""
@@ -3047,9 +3047,10 @@ Public Class ErgasiesHmerasF
                 anaxwrisi = CType(myReader.Item("anaxwrisi"), Date)
                 dwmatio = myReader.Item("dwmatio")
                 apy = myReader.Item("apy")
-                parastatiko = myReader.Item("parastatiko")
-                praktimologio = myReader.Item("praktimologio")
-                synolo = myReader.Item("synolo")
+                parastatiko = CType(myReader.Item("parastatiko"), Int64)
+                'parastatiko = myReader.Item("parastatiko")
+                praktimologio = CType(myReader.Item("praktimologio"), Int64)
+                synolo = CType(myReader.Item("synolo"), Single)
                 ekptposo = myReader.Item("ekptposo")
                 myReader.Close()
                 command.Parameters.Clear()
@@ -3105,8 +3106,15 @@ Public Class ErgasiesHmerasF
                         command.Parameters.AddWithValue("kratisi", kwdikos)
                         command.CommandText = "SELECT onomateponimo FROM enilikes WHERE kratisi = @kratisi"
                         myReader = command.ExecuteReader()
-                        myReader.Read()
-                        onomateponimo = myReader.Item(0)
+                        While myReader.Read()
+                            If Not myReader.IsDBNull(0) Then
+                                onomateponimo = myReader.Item(0)
+                            Else
+                                onomateponimo = "No Name "
+                            End If
+
+                        End While
+
                         myReader.Close()
                         command.Parameters.Clear()
                     End If
@@ -3148,166 +3156,163 @@ Public Class ErgasiesHmerasF
 
                     rows = command.ExecuteNonQuery()
                     command.Parameters.Clear()
-                    If rows = 1 And Me.DbhotelDataSet.etaireia(0).ktimis Then
-                        Dim tipos As String = ""
-                        Dim response As MsgBoxResult
-                        Dim kwdForosDiamonis As Int32
+                    If rows = 1 Then
+                        If Me.DbhotelDataSet.etaireia(0).ktimis Then
+
+                            Dim tipos As String = ""
+                            Dim response As MsgBoxResult
+                            Dim kwdForosDiamonis As Int32
 
 
 
-                        response = MsgBox("Ενημέρωση myData με φόρο ανθεκτικότητας ;", MsgBoxStyle.YesNo, "winfo\nikEl.")
-                        If response = MsgBoxResult.Yes Then
+                            response = MsgBox("Ενημέρωση myData με φόρο ανθεκτικότητας ;", MsgBoxStyle.YesNo, "winfo\nikEl.")
+                            If response = MsgBoxResult.Yes Then
 
-                            'gia MyDATA domisi me tis poles etaireies
-                            command.Parameters.AddWithValue("kratisi", kwdikos)
-                            command.Parameters.Add("imerominia", SqlDbType.DateTime2).Value = DateTime.Now.Date
-                            'command.Parameters.AddWithValue("identifikation", timolID)
+                                'gia MyDATA domisi me tis poles etaireies
+                                command.Parameters.AddWithValue("kratisi", kwdikos)
+                                command.Parameters.Add("imerominia", SqlDbType.DateTime2).Value = DateTime.Now.Date
+                                'command.Parameters.AddWithValue("identifikation", timolID)
 
-                            command.CommandText = "SELECT kwd FROM forosdiamonis WHERE (kratisi = @kratisi) AND (imerominia = @imerominia)" 'and (identifikation=?)
+                                command.CommandText = "SELECT kwd FROM forosdiamonis WHERE (kratisi = @kratisi) AND (imerominia = @imerominia)" 'and (identifikation=?)
 
-                            myReader = command.ExecuteReader()
+                                myReader = command.ExecuteReader()
 
-                            kwdForosDiamonis = myReader.GetInt32(0)
+                                kwdForosDiamonis = myReader.GetInt32(0)
 
-                            ' always call Close when done reading.
-                            myReader.Close()
-                            command.Parameters.Clear()
-                            command.Parameters.AddWithValue("kwd", kwdApyParast)
-                            command.CommandText = "SELECT afm.afm, afm.epixirisi, parastatika.tipos, afm.kwd FROM afm INNER JOIN parastatika ON afm.kwd=parastatika.etaireia WHERE (parastatika.kwd=@kwd)" 'and (identifikation=@identifikation)
+                                ' always call Close when done reading.
+                                myReader.Close()
+                                command.Parameters.Clear()
+                                command.Parameters.AddWithValue("kwd", kwdApyParast)
+                                command.CommandText = "SELECT afm.afm, afm.epixirisi, parastatika.tipos, afm.kwd FROM afm INNER JOIN parastatika ON afm.kwd=parastatika.etaireia WHERE (parastatika.kwd=@kwd)" 'and (identifikation=@identifikation)
 
-                            myReader = command.ExecuteReader()
-                            ' Always call Read before accessing data.
-                            myReader.Read()
-                            Dim afmDomisi, epixirisiDomisi, tiposparDomisi, apiKey, postalCodeEkd, cityEkd, branchEkd, countryEkd, qrUrl As String
-                            Dim aadeUserId As String = String.Empty
-                            Dim afmKwd As Int32
-                            Try
-                                afmDomisi = myReader.Item(0)
-                                afmKwd = myReader.Item(3)
-                            Catch ex As InvalidCastException
-                                afmDomisi = ""
-                            End Try
-                            Try
-                                epixirisiDomisi = myReader.Item(1)
-                                tiposparDomisi = myReader.Item(2)
-                            Catch ex As InvalidCastException
-                                epixirisiDomisi = ""
-                                tiposparDomisi = ""
-                            End Try
-                            myReader.Close()
-                            command.Parameters.Clear()
-                            command.Parameters.AddWithValue("kwd", afmKwd)
-                            command.CommandText = "SELECT mydata.aadeUserId, mydata.apiKey, branch, postalCode, city, country FROM afm INNER JOIN mydata ON afm.kwd=mydata.afm WHERE (afm.kwd=@kwd)"
-                            myReader = command.ExecuteReader()
-                            ' Always call Read before accessing data.
-                            If myReader.HasRows AndAlso myReader.Read() Then
+                                myReader = command.ExecuteReader()
+                                ' Always call Read before accessing data.
+                                myReader.Read()
+                                Dim afmDomisi, epixirisiDomisi, tiposparDomisi, apiKey, postalCodeEkd, cityEkd, branchEkd, countryEkd, qrUrl As String
+                                Dim aadeUserId As String = String.Empty
+                                Dim afmKwd As Int32
                                 Try
-                                    aadeUserId = myReader.Item(0)
-                                    apiKey = myReader.Item(1)
-                                    branchEkd = myReader.Item(2)
-                                    postalCodeEkd = myReader.Item(3)
-                                    cityEkd = myReader.Item(4)
-                                    countryEkd = myReader.Item(5)
+                                    afmDomisi = myReader.Item(0)
+                                    afmKwd = myReader.Item(3)
                                 Catch ex As InvalidCastException
-                                    MsgBox("Cannot find myDATA credentilas!", MsgBoxStyle.Critical)
+                                    afmDomisi = ""
                                 End Try
-                            End If
+                                Try
+                                    epixirisiDomisi = myReader.Item(1)
+                                    tiposparDomisi = myReader.Item(2)
+                                Catch ex As InvalidCastException
+                                    epixirisiDomisi = ""
+                                    tiposparDomisi = ""
+                                End Try
+                                myReader.Close()
+                                command.Parameters.Clear()
+                                command.Parameters.AddWithValue("kwd", afmKwd)
+                                command.CommandText = "SELECT mydata.aadeUserId, mydata.apiKey, branch, postalCode, city, country FROM afm INNER JOIN mydata ON afm.kwd=mydata.afm WHERE (afm.kwd=@kwd)"
+                                myReader = command.ExecuteReader()
+                                ' Always call Read before accessing data.
+                                If myReader.HasRows AndAlso myReader.Read() Then
+                                    Try
+                                        aadeUserId = myReader.Item(0)
+                                        apiKey = myReader.Item(1)
+                                        branchEkd = myReader.Item(2)
+                                        postalCodeEkd = myReader.Item(3)
+                                        cityEkd = myReader.Item(4)
+                                        countryEkd = myReader.Item(5)
+                                    Catch ex As InvalidCastException
+                                        MsgBox("Cannot find myDATA credentilas!", MsgBoxStyle.Critical)
+                                    End Try
+                                End If
 
 
 
-                            myReader.Close()
-                            command.Parameters.Clear()
+                                myReader.Close()
+                                command.Parameters.Clear()
 
-                            Dim sendInvoice = New SendInvoices(connectionString, aadeUserId, apiKey, epixirisiDomisi, "ΦΟΡΟΣ ΔΙΑΜΟΝΗΣ", kwdForosDiamonis, tipos, afmDomisi, countryEkd, branchEkd, postalCodeEkd, cityEkd, afm, "", "0", "", "", "", "", "A",
+                                Dim sendInvoice = New SendInvoices(connectionString, aadeUserId, apiKey, epixirisiDomisi, "ΦΟΡΟΣ ΔΙΑΜΟΝΗΣ", kwdForosDiamonis, tipos, afmDomisi, countryEkd, branchEkd, postalCodeEkd, cityEkd, afm, "", "0", "", "", "", "", "A",
                                              aa, imeromErgasias, pliromi, correlatedInv, foros, Nothing, Nothing, Nothing, Nothing, Nothing,
             Nothing, Nothing, Nothing) ', Me.DbhotelDataSet.ekt_apy_diafora(0).dim_foros
 
-                            '                Dim sendInvoice = New SendInvoices(connectionString, aadeUserId, apiKey, epixirisiNef, "ΦΟΡΟΣ ΔΙΑΜΟΝΗΣ", kwdikos, tipos, "131485023", countryEkd, branchEkd, postalCodeEkd, cityEkd, "094293117", "GR", "0", onomateponimo, eponimia, postalCodeLpt, cityLpt, "A",
-                            '                                 aa, imeromErgasias, pliromi, Nothing, foros, Nothing, Nothing, Nothing, Nothing, Nothing,
-                            'Nothing, Nothing, Nothing) ', Me.DbhotelDataSet.ekt_apy_diafora(0).dim_foros
-                            Dim threadSendInvoice As Threading.Thread
-                            threadSendInvoice = sendInvoice.set_mode(0)
-                            threadSendInvoice = sendInvoice.send_invoice()
+                                '                Dim sendInvoice = New SendInvoices(connectionString, aadeUserId, apiKey, epixirisiNef, "ΦΟΡΟΣ ΔΙΑΜΟΝΗΣ", kwdikos, tipos, "131485023", countryEkd, branchEkd, postalCodeEkd, cityEkd, "094293117", "GR", "0", onomateponimo, eponimia, postalCodeLpt, cityLpt, "A",
+                                '                                 aa, imeromErgasias, pliromi, Nothing, foros, Nothing, Nothing, Nothing, Nothing, Nothing,
+                                'Nothing, Nothing, Nothing) ', Me.DbhotelDataSet.ekt_apy_diafora(0).dim_foros
+                                Dim threadSendInvoice As Threading.Thread
+                                threadSendInvoice = sendInvoice.set_mode(0)
+                                threadSendInvoice = sendInvoice.send_invoice()
 
-                            Dim timeoutMilliseconds As Integer = 10000 ' Set your desired timeout in milliseconds (10 seconds in this example)
-                            Dim startTime As DateTime = DateTime.Now
+                                Dim timeoutMilliseconds As Integer = 10000 ' Set your desired timeout in milliseconds (10 seconds in this example)
+                                Dim startTime As DateTime = DateTime.Now
 
-                            While threadSendInvoice.IsAlive
-                                ' Your loop body here
+                                While threadSendInvoice.IsAlive
+                                    ' Your loop body here
 
-                                ' Check if the timeout has been reached
-                                Dim elapsedMilliseconds As Integer = CInt((DateTime.Now - startTime).TotalMilliseconds)
-                                If elapsedMilliseconds >= timeoutMilliseconds Then
-                                    ' Timeout reached, break out of the loop
-                                    Exit While
+                                    ' Check if the timeout has been reached
+                                    Dim elapsedMilliseconds As Integer = CInt((DateTime.Now - startTime).TotalMilliseconds)
+                                    If elapsedMilliseconds >= timeoutMilliseconds Then
+                                        ' Timeout reached, break out of the loop
+                                        Exit While
+                                    End If
+
+                                    ' Optionally, you can add a small delay to reduce CPU usage
+                                    'System.Threading.Thread.Sleep(100) ' Sleep for 100 milliseconds (adjust as needed)
+                                End While
+                                qrUrl = ""
+                                command.Parameters.AddWithValue("timologio", kwdForosDiamonis)
+                                command.CommandText = "SELECT qrcode FROM myinvoices WHERE (timologio=@timologio)"
+                                myReader = command.ExecuteReader()
+                                ' Always call Read before accessing data.
+                                If myReader.HasRows AndAlso myReader.Read() Then
+                                    Try
+                                        qrUrl = myReader.Item(0)
+                                        'Dim encoder As New QRCodeEncoder()
+
+                                        '' Set encoding properties
+                                        'encoder.QRCodeEncodeMode = QRCodeEncoder.ENCODE_MODE.BYTE
+                                        'encoder.QRCodeScale = 4
+                                        'encoder.QRCodeVersion = 8
+                                        'encoder.QRCodeErrorCorrect = QRCodeEncoder.ERROR_CORRECTION.L
+
+                                        '' Encode the string as a QR code and get the Bitmap
+                                        'Dim qrBitmap As Bitmap = encoder.Encode(qrUrl)
+
+                                        '' Convert Bitmap to Byte array
+                                        'Dim byteArray As Byte() = BitmapToByteArray(qrBitmap)
+
+                                        Me.DbhotelDataSet.ekt_apy_diafora(0).qrcode = create_qrcode(qrUrl)
+
+                                    Catch ex As InvalidCastException
+                                        MsgBox("No QRCode!", MsgBoxStyle.Critical)
+                                    End Try
                                 End If
 
-                                ' Optionally, you can add a small delay to reduce CPU usage
-                                'System.Threading.Thread.Sleep(100) ' Sleep for 100 milliseconds (adjust as needed)
-                            End While
-                            qrUrl = ""
-                            command.Parameters.AddWithValue("timologio", kwdForosDiamonis)
-                            command.CommandText = "SELECT qrcode FROM myinvoices WHERE (timologio=@timologio)"
-                            myReader = command.ExecuteReader()
-                            ' Always call Read before accessing data.
-                            If myReader.HasRows AndAlso myReader.Read() Then
-                                Try
-                                    qrUrl = myReader.Item(0)
-                                    'Dim encoder As New QRCodeEncoder()
-
-                                    '' Set encoding properties
-                                    'encoder.QRCodeEncodeMode = QRCodeEncoder.ENCODE_MODE.BYTE
-                                    'encoder.QRCodeScale = 4
-                                    'encoder.QRCodeVersion = 8
-                                    'encoder.QRCodeErrorCorrect = QRCodeEncoder.ERROR_CORRECTION.L
-
-                                    '' Encode the string as a QR code and get the Bitmap
-                                    'Dim qrBitmap As Bitmap = encoder.Encode(qrUrl)
-
-                                    '' Convert Bitmap to Byte array
-                                    'Dim byteArray As Byte() = BitmapToByteArray(qrBitmap)
-
-                                    Me.DbhotelDataSet.ekt_apy_diafora(0).qrcode = create_qrcode(qrUrl)
-
-                                Catch ex As InvalidCastException
-                                    MsgBox("No QRCode!", MsgBoxStyle.Critical)
-                                End Try
-                            End If
-
-                            myReader.Close()
-                            command.Parameters.Clear()
-
-                            If Not String.IsNullOrEmpty(qrUrl) Then
-                                command.Parameters.AddWithValue("qrcode", qrUrl)
-                                command.Parameters.AddWithValue("timologio", kwdForosDiamonis)
-
-                                command.CommandText = "UPDATE forosdiamonis SET qrcode = @qrcode WHERE (kwd = @timologio)"
-                                command.ExecuteNonQuery()
+                                myReader.Close()
                                 command.Parameters.Clear()
+
+                                If Not String.IsNullOrEmpty(qrUrl) Then
+                                    command.Parameters.AddWithValue("qrcode", qrUrl)
+                                    command.Parameters.AddWithValue("timologio", kwdForosDiamonis)
+
+                                    command.CommandText = "UPDATE forosdiamonis SET qrcode = @qrcode WHERE (kwd = @timologio)"
+                                    command.ExecuteNonQuery()
+                                    command.Parameters.Clear()
+                                End If
+                                'threadSendInvoice = sendInvoice.send_foros_diamonis()
+
+
+
+                                'Me.DbhotelDataSet.ekt_apy_diafora(0).afm_adt  city
+
+                                '       MsgBox(Me.DbhotelDataSet.ekt_apy_diafora(0).aitiologia)
+
+
                             End If
-                            'threadSendInvoice = sendInvoice.send_foros_diamonis()
-
-
-
-                            'Me.DbhotelDataSet.ekt_apy_diafora(0).afm_adt  city
-
-                            '       MsgBox(Me.DbhotelDataSet.ekt_apy_diafora(0).aitiologia)
-
 
                         End If
-                        transaction.Commit()
-                        Return True
                     Else
-                        transaction.Rollback()
+                            transaction.Rollback()
                         Return False
 
                     End If
-                    If rows = 1 Then
-                        transaction.Commit()
-                        Return True
-                    Else
-                        Return False
-                    End If
+
 
                 Else
                     Return False
@@ -3315,7 +3320,8 @@ Public Class ErgasiesHmerasF
                 End If
 
 
-
+                transaction.Commit()
+                Return True
 
 
 
@@ -21733,6 +21739,12 @@ Public Class ErgasiesHmerasF
                 command.Parameters.Clear()
                 command.Parameters.AddWithValue("@kratisi", CType(kwdikos, Integer))
                 command.CommandText = "DELETE FROM eventarkratisi where (kratisi=@kratisi)"
+                rows = command.ExecuteNonQuery()
+                command.Parameters.Clear()
+
+                command.Parameters.Clear()
+                command.Parameters.AddWithValue("@kratisi", CType(kwdikos, Integer))
+                command.CommandText = "DELETE FROM telosdiamonis where (kratisi=@kratisi)"
                 rows = command.ExecuteNonQuery()
                 command.Parameters.Clear()
 

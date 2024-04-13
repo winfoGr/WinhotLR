@@ -180,7 +180,7 @@ Public Class GoogleCalendarNew
             Using command As New SqlCommand(query, connection)
                 ' Add the year parameter to the command
                 command.Parameters.AddWithValue("@kwdikos", kwdikosKrat_)
-                command.Parameters.AddWithValue("@calendarid", kwdikosKrat_)
+                command.Parameters.AddWithValue("@calendarid", calendaridOld)
 
                 ' Open the connection
                 connection.Open()

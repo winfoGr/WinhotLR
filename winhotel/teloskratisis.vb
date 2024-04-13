@@ -232,7 +232,7 @@ Public Class teloskratisis
                 command.Parameters.AddWithValue("@villa", villa_)
 
                 'command.CommandText = "SELECT kr.month, kr.poso, kv.discountdays, kv.tiposrate FROM klimavilla kv INNER JOIN klimarates kr ON kv.tiposrate = kr.tiposrate WHERE kv.villa = @Villa and  kv.praktoreio = @praktoreio ORDER BY kr.month"
-                command.CommandText = "SELECT kr.month, kr.poso, kv.discountdays, kv.tiposrate FROM klimavilla kv INNER JOIN klimarates kr ON kv.tiposrate = kr.tiposrate WHERE kv.villa = @Villa  ORDER BY kr.month;"
+                command.CommandText = "SELECT kr.month, kr.poso, kv.discountdays, kv.tiposrate FROM klimavilla kv INNER JOIN klimarates kr ON kv.tiposrate = kr.tiposrate WHERE kv.villa = @Villa  AND kv.praktoreio IS NULL ORDER BY kr.month;"
 
 
                 myReader = command.ExecuteReader()
@@ -241,7 +241,10 @@ Public Class teloskratisis
                     Dim month As Byte = myReader.GetByte(0)
                     Dim poso As Single = myReader.GetFloat(1)
                     tiposrate = myReader.GetByte(3)
-                    discountdays = 1
+                    If discountdays = 0 Then
+                        discountdays = myReader.GetFloat(2)
+                    End If
+
 
 
                     ' Add the values to the dictionary
