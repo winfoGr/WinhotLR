@@ -312,6 +312,7 @@
       <DependentUpon>BookPosPrakt.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CalendarInternalInit.vb" />
     <Compile Include="ClsGoogle.vb" />
     <Compile Include="CustomMessageBox.designer.vb">
       <DependentUpon>CustomMessageBox.vb</DependentUpon>
@@ -333,6 +334,7 @@
       <DependentUpon>dbhotelDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="EmailSchedulerModule.vb" />
+    <Compile Include="GoogleCalendarNew.vb" />
     <Compile Include="SendEmailTemplate.Designer.vb">
       <DependentUpon>SendEmailTemplate.vb</DependentUpon>
     </Compile>

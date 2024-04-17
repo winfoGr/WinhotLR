@@ -1616,7 +1616,6 @@ C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\bin\x86\Debug\Newtonsoft.Json.xml
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Extensions.xml
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\bin\x86\Debug\System.Net.Http.Primitives.xml
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\bin\x86\Debug\Zlib.Portable.xml
-C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe.config
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.ADODB.dll
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\Interop.JRO.dll
@@ -1674,3 +1673,4 @@ C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.C
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.exe
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.xml
 C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhotel.pdb
+C:\Projects\winhotKLQRSSTxWebCm_dom\winhotel\obj\x86\Debug\winhot12_dom.vbproj.AssemblyReference.cache
