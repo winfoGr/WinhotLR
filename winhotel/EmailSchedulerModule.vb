@@ -54,18 +54,18 @@ Module EmailSchedulerModule
                 ' Send the email immediately
                 SendEmail(-1)
             End If
-            'If Not WasDirectionsmailSentNewKratsisi() Then
-            '    ' Send the email immediately
-            '    SendEmailDirections(-1)
-            'End If
-            'If Not WasDirectionsmailSent15() Then
-            '    ' Send the email immediately
-            '    SendEmailDirections(15)
-            'End If
-            'If Not WasEmailResidents() Then
-            '    ' Send the email immediately
-            '    SendEmailResidents(-1)
-            'End If
+            If Not WasDirectionsmailSentNewKratsisi() Then
+                ' Send the email immediately
+                SendEmailDirections(-1)
+            End If
+            If Not WasDirectionsmailSent15() Then
+                ' Send the email immediately
+                SendEmailDirections(15)
+            End If
+            If Not WasEmailResidents() Then
+                ' Send the email immediately
+                SendEmailResidents(-1)
+            End If
             ' Calculate the time until the next target time
             Dim now As DateTime = DateTime.Now
             Dim targetTime As New DateTime(now.Year, now.Month, now.Day, 0, 0, 0)
@@ -477,8 +477,8 @@ Module EmailSchedulerModule
                             End If
                             message.Body = "Dear Mrs./Mr. " + name + "," + ChrW(13) + ChrW(13) + dbhotelDataSet.Mail(2).body
 
-                            mailTemp = "mkallergis@gmail.com"
-                            ' mailTemp = dbhotelDataSet.AfixeisAnaxwriseis2(j).voucher '"mkallergis@gmail.com" 'dbhotelDataSet.AfixeisAnaxwriseis2(j).voucher
+                            'mailTemp = "mkallergis@gmail.com"
+                            mailTemp = dbhotelDataSet.AfixeisAnaxwriseis2(j).voucher '"mkallergis@gmail.com" 'dbhotelDataSet.AfixeisAnaxwriseis2(j).voucher
 
                             If SendMailMultiAttachKratisis(from, mailTemp, message.Subject, message.Body, dbhotelDataSet.AfixeisAnaxwriseis2(j).dwmatio, dbhotelDataSet.Mail(0).smtpServer, dbhotelDataSet.Mail(0).smtpUsername, dbhotelDataSet.Mail(0).smtpPassword) Then
                                 If daysAdd = 1 Then

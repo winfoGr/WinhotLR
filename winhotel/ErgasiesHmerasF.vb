@@ -3019,7 +3019,7 @@ Public Class ErgasiesHmerasF
         eponimia = ""
         epaggelma = ""
         dieuthinsi = ""
-        afm = "000000000"
+        afm = ""
         doy = ""
         onomateponimo = ""
         postalCodeLpt = ""
@@ -3110,7 +3110,7 @@ Public Class ErgasiesHmerasF
                             If Not myReader.IsDBNull(0) Then
                                 onomateponimo = myReader.Item(0)
                             Else
-                                onomateponimo = "No Name "
+                                onomateponimo = ""
                             End If
 
                         End While
@@ -3133,10 +3133,16 @@ Public Class ErgasiesHmerasF
 
                     command.Parameters.AddWithValue("etaireia", etaireia)
                     command.Parameters.AddWithValue("kratisi", kwdikos)
-                    command.Parameters.Add("imerominia", SqlDbType.DateTime2).Value = DateTime.Now.Date
-                    'command.Parameters.AddWithValue("imerominia", imeromErgasias)
+                    'command.Parameters.Add("imerominia", SqlDbType.DateTime2).Value = DateTime.Now.Date
+                    command.Parameters.AddWithValue("imerominia", imeromErgasias)
                     command.Parameters.AddWithValue("arithmos", aa)
-                    command.Parameters.AddWithValue("onoma", eponimia)
+                    If Not String.IsNullOrEmpty(eponimia) Then
+                        command.Parameters.AddWithValue("onoma", eponimia)
+                    Else
+                        command.Parameters.AddWithValue("onoma", onomateponimo)
+
+                    End If
+
                     command.Parameters.AddWithValue("drastiriotita", epaggelma)
                     command.Parameters.AddWithValue("dieuthinsi", dieuthinsi)
                     command.Parameters.AddWithValue("afm", afm)

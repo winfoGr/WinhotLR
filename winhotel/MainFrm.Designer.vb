@@ -455,7 +455,7 @@ Partial Class MainFrm
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MainFrm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "winhot  (Domisi - KL-QR-Cloud - myDATA Distribution 10.14)"
+        Me.Text = "winhot  (Domisi - KL-QR-Cloud - myDATA Distribution 11.0)"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

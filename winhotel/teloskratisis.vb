@@ -153,8 +153,28 @@ Public Class teloskratisis
                                     End If
 
 
+                                    myReader.Close()
 
 
+                                Else
+                                    myReader.Close()
+                                    imer = CInt(Math.Ceiling((anaxwrisi_ - afixi_).Days))
+                                    'afixi_ = anaxwrisi_.AddDays(-1)
+                                    berechne_fake_telos_klima()
+                                    command.Parameters.AddWithValue("@kratisi", kwdkrat_)
+                                    command.Parameters.AddWithValue("@villa", villa_)
+                                    command.Parameters.AddWithValue("@imeres", CInt(Math.Ceiling((anaxwrisi_ - afixi_).Days)))
+                                    command.Parameters.AddWithValue("@partialdays1", partialDays1)
+                                    command.Parameters.AddWithValue("@partialposo1", partialSum1)
+                                    command.Parameters.AddWithValue("@partialdays2", partialDays2)
+                                    command.Parameters.AddWithValue("@partialposo2", partialSum2)
+
+                                    command.Parameters.AddWithValue("@dimeres", dimeres)
+                                    command.Parameters.AddWithValue("@poso", telos)
+                                    command.CommandText = "INSERT INTO telosdiamonis (kratisi, villa, imeres,partialdays1, partialposo1, partialdays2, partialposo2, dimeres, poso) " &
+                                                "VALUES (@kratisi, @villa, @imeres, @partialdays1,@partialposo1, @partialdays2,@partialposo2, @dimeres, @poso)"
+                                    command.ExecuteNonQuery()
+                                    command.Parameters.Clear()
 
                                 End If
 

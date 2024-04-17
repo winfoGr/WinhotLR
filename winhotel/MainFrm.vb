@@ -167,9 +167,14 @@ Public Class MainFrm
 
             init_menue()
             'CalendarInternalInit.Main(ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString, "2024")
+
+            If (Environment.MachineName.Equals("HP-Winfo", StringComparison.OrdinalIgnoreCase)) OrElse (Environment.MachineName.Equals("DESKTOP-K9QR7KQ", StringComparison.OrdinalIgnoreCase)) Then
+                EmailSchedulerModule.Main()
+            End If
+
             'schedulerThread = MailScheduler()
 
-            'EmailSchedulerModule.Main()
+
 
         Catch ex As Exception
             MsgBox(ex.Message, MsgBoxStyle.Critical, "winfo/ma.nik")
