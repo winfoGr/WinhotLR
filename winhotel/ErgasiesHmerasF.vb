@@ -23080,6 +23080,32 @@ Public Class ErgasiesHmerasF
 
     End Function
 
+    Private Sub AirbnbBtn_Click(sender As Object, e As EventArgs) Handles AirbnbBtn.Click
+        Try
+            ' Show the spinner (progress bar) and set cursor to wait cursor
+            ProgressBar1.Style = ProgressBarStyle.Marquee
+            Me.Cursor = Cursors.WaitCursor
+
+            ' Perform the main process
+            CalendarExtrernalInit.Main(ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString)
+
+            ' Hide the spinner and reset cursor
+            ProgressBar1.Style = ProgressBarStyle.Continuous
+            Me.Cursor = Cursors.Default
+
+            ' Show success message
+            MsgBox("Τα ημερολόγια Airbnb ενημερώθηκαν !", MsgBoxStyle.Information, "winfo\nikEl.")
+        Catch ex As Exception
+            ' Hide the spinner and reset cursor
+            ProgressBar1.Style = ProgressBarStyle.Continuous
+            Me.Cursor = Cursors.Default
+
+            ' Show error message
+            MsgBox("Πρόβλημα ενημέρωσης ημερολογίων Airbnb !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+        End Try
+    End Sub
+
+
     Private Sub myIdTbx_TextChanged(sender As Object, e As EventArgs) Handles myIdTbx.TextChanged
 
     End Sub
