@@ -77,7 +77,7 @@ Public Class GoogleCalendarNew
             Using stream As New FileStream(clientSecretsPath, FileMode.Open, FileAccess.Read)
                 Dim credential = GoogleWebAuthorizationBroker.AuthorizeAsync(GoogleClientSecrets.Load(stream).Secrets,
                                                                              scopes,
-                                                                             "mkallergis",
+                                                                             "domisioffice@gamil.com",
                                                                              CancellationToken.None,
                                                                              New FileDataStore("Calendar.VB.Sample")).Result
                 ' Create the calendar service using an initializer instance
