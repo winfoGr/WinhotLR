@@ -668,7 +668,7 @@ Module WebHotelier
                             End Using
                             Try
 
-                                Dim calender As New GoogleCalendarNew(connection_string, kwdikosDelKrat, 0, "", "", "", villa, villa, "", "")
+                                Dim calender As New GoogleCalendarNew(connection_string, kwdikosDelKrat, 0, "", DateTime.Parse(modified_date), DateTime.Parse(modified_date), villa, villa, "", "")
                                 'calender.DeleteEvent("mv1rt76rgmgd63jg0d83st5tlk@group.calendar.google.com", "ia5006i4jupp2t42ihpuvdbi2s")
                                 calender.delete_entry()
 
@@ -737,7 +737,7 @@ Module WebHotelier
                         If ok = 1 Then
                             sb.AppendLine("ΕΠΙΤΥΧΗΣ ΔΙΑΓΡΑΦΗ ID:" + id + "STATUS: " + status + " CHANNEL: " + channel_key + "  ROOM: " + dwmatio + "  NAME:" + lead_name + " ARRIVAL: " + DateTime.Parse(checkin).ToString("dd/MM/yyyy") + " DEPARTURE: " + DateTime.Parse(checkout).ToString("dd/MM/yyyy") + " TOTAL: " + total_amount + vbNewLine)
                             'TEST SQL SERVER 
-                            Dim calender As New GoogleCalendarNew(connection_string, kwdikosDelKrat, 0, "", "", "", villa, villa, "", "")
+                            Dim calender As New GoogleCalendarNew(connection_string, kwdikosDelKrat, 0, "", DateTime.Parse(modified_date), DateTime.Parse(modified_date), villa, villa, "", "")
                             'calender.DeleteEvent("mv1rt76rgmgd63jg0d83st5tlk@group.calendar.google.com", "ia5006i4jupp2t42ihpuvdbi2s")
                             calender.delete_entry()
 
@@ -1191,7 +1191,7 @@ Module WebHotelier
                 command.Parameters.AddWithValue("@id", id)
 
                 command.Parameters.AddWithValue("@status", "CL")
-                command.CommandText = "SELECT TOP 1 kwd, kratisi, modified_date, room_id FROM Reservations WHERE (id=@id) AND (status<>@status) ORDER BY modified_date DESC"
+                command.CommandText = "SELECT TOP 1 kwd, kratisi, modified_date, room_booking_id FROM Reservations WHERE (id=@id) AND (status<>@status) ORDER BY modified_date DESC"
 
 
                 myReader = command.ExecuteReader(CommandBehavior.SingleResult)
