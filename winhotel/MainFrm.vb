@@ -170,7 +170,7 @@ Public Class MainFrm
             'CalendarInternalInit.Main(ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString, "2024")
 
             If (Environment.MachineName.Equals("HP-Winfo", StringComparison.OrdinalIgnoreCase)) OrElse (Environment.MachineName.Equals("DESKTOP-K9QR7KQ", StringComparison.OrdinalIgnoreCase)) Then
-                'EmailSchedulerModule.Main()
+                EmailSchedulerModule.Main()
             End If
 
             'schedulerThread = MailScheduler()
