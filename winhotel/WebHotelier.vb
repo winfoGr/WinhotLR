@@ -1498,35 +1498,37 @@ Module WebHotelier
                 Dim command As New SqlCommand()
                 Dim transaction As SqlTransaction = Nothing
                 Try
-
                     connection.Open()
                     transaction = connection.BeginTransaction(IsolationLevel.ReadCommitted)
                     command.Connection = connection
                     command.Transaction = transaction
-                    command.Parameters.AddWithValue("@id", id)
 
+                    ' Adding parameters
+                    command.Parameters.AddWithValue("@id", id)
                     command.Parameters.AddWithValue("@property", property_id)
                     command.Parameters.AddWithValue("@name", name)
                     command.Parameters.AddWithValue("@room", room)
                     command.Parameters.AddWithValue("@stopsales", stopsales)
+                    command.Parameters.AddWithValue("@created_at", DateTime.Now)
 
-                    command.CommandText = "INSERT INTO RoomRateTypes (id, property_id, name, master_roomratetype_id, stop_sell)" &
-                     "values (@id,  @property, @name, @room,  @stopsales)"
+                    ' Modifying the SQL command to include created_at
+                    command.CommandText = "INSERT INTO RoomRateTypes (id, property_id, name, master_roomratetype_id, stop_sell, created_at)" &
+                                          "VALUES (@id, @property, @name, @room, @stopsales, @created_at)"
                     command.ExecuteNonQuery()
                     command.Parameters.Clear()
 
                     transaction.Commit()
-                    '   Return 1
+                    ' Return 1
                 Catch ex As Exception
                     MsgBox("Η Διαδικασία απέτυχε !", MsgBoxStyle.Critical, "winfo\nikEl.")
                     Try
                         transaction.Rollback()
-                        '  Return -1
+                        ' Return -1
                     Catch
-                        '    Return -1
+                        ' Return -1
                     End Try
-
                 End Try
+
             End Using
         End Sub
 
