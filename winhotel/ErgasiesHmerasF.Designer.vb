@@ -23,53 +23,53 @@ Partial Class ErgasiesHmerasF
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim TreeNode33 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Κρατήσεις-Αφίξεις")
-        Dim TreeNode34 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Αλλαγές Διαμένοντων ")
-        Dim TreeNode35 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Καταχώριση Guarantee")
-        Dim TreeNode36 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Κίνηση Πρακτορείων (Εισπράξεις)")
-        Dim TreeNode37 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Μετρητοίς")
-        Dim TreeNode38 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Λογαριασμοί")
-        Dim TreeNode39 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Κίνηση Τμημάτων", New System.Windows.Forms.TreeNode() {TreeNode37, TreeNode38})
-        Dim TreeNode40 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Old Town")
-        Dim TreeNode41 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Βίλες")
-        Dim TreeNode42 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode(" Αφίξ.-Αναχ.-Κρατ.", New System.Windows.Forms.TreeNode() {TreeNode40, TreeNode41})
-        Dim TreeNode43 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εμφ. Κίνησης Τμημάτων")
-        Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Old Town")
-        Dim TreeNode45 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Βίλες")
-        Dim TreeNode46 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Διαμένοντες", New System.Windows.Forms.TreeNode() {TreeNode44, TreeNode45})
-        Dim TreeNode47 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Βιλών")
-        Dim TreeNode48 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Τιμών")
-        Dim TreeNode49 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Urban")
-        Dim TreeNode50 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πλάνα", New System.Windows.Forms.TreeNode() {TreeNode47, TreeNode48, TreeNode49})
-        Dim TreeNode51 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πρακτορείο")
-        Dim TreeNode52 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Σύγκριση ")
-        Dim TreeNode53 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πληρότ. Πρακτορείων", New System.Windows.Forms.TreeNode() {TreeNode51, TreeNode52})
-        Dim TreeNode54 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πληρότ. Old Town")
-        Dim TreeNode55 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Old Town")
-        Dim TreeNode56 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Thalasses")
-        Dim TreeNode57 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πρωϊνά", New System.Windows.Forms.TreeNode() {TreeNode55, TreeNode56})
-        Dim TreeNode58 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Καθαρίσματα")
-        Dim TreeNode59 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εκδ. Extra Παραστατικών")
-        Dim TreeNode60 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εκδ. ΤΙΜΟΛ.-Α.Π.Υ.")
-        Dim TreeNode61 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εκδ. μεμον.  Γ.Ε.")
-        Dim TreeNode62 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ακύρ. ΤΙΜ-ΑΠΥ")
-        Dim TreeNode63 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("myDATA")
-        Dim TreeNode64 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Παραστατικά - Γ.Ε.", New System.Windows.Forms.TreeNode() {TreeNode59, TreeNode60, TreeNode61, TreeNode62, TreeNode63})
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Κρατήσεις-Αφίξεις")
+        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Αλλαγές Διαμένοντων ")
+        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Καταχώριση Guarantee")
+        Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Κίνηση Πρακτορείων (Εισπράξεις)")
+        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Μετρητοίς")
+        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Λογαριασμοί")
+        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Κίνηση Τμημάτων", New System.Windows.Forms.TreeNode() {TreeNode5, TreeNode6})
+        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Old Town")
+        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Βίλες")
+        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode(" Αφίξ.-Αναχ.-Κρατ.", New System.Windows.Forms.TreeNode() {TreeNode8, TreeNode9})
+        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εμφ. Κίνησης Τμημάτων")
+        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Old Town")
+        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Βίλες")
+        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Διαμένοντες", New System.Windows.Forms.TreeNode() {TreeNode12, TreeNode13})
+        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Βιλών")
+        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Τιμών")
+        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Urban")
+        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πλάνα", New System.Windows.Forms.TreeNode() {TreeNode15, TreeNode16, TreeNode17})
+        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πρακτορείο")
+        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Σύγκριση ")
+        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πληρότ. Πρακτορείων", New System.Windows.Forms.TreeNode() {TreeNode19, TreeNode20})
+        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πληρότ. Old Town")
+        Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Old Town")
+        Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Thalasses")
+        Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Πρωϊνά", New System.Windows.Forms.TreeNode() {TreeNode23, TreeNode24})
+        Dim TreeNode26 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Καθαρίσματα")
+        Dim TreeNode27 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εκδ. Extra Παραστατικών")
+        Dim TreeNode28 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εκδ. ΤΙΜΟΛ.-Α.Π.Υ.")
+        Dim TreeNode29 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Εκδ. μεμον.  Γ.Ε.")
+        Dim TreeNode30 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ακύρ. ΤΙΜ-ΑΠΥ")
+        Dim TreeNode31 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("myDATA")
+        Dim TreeNode32 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Παραστατικά - Γ.Ε.", New System.Windows.Forms.TreeNode() {TreeNode27, TreeNode28, TreeNode29, TreeNode30, TreeNode31})
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ErgasiesHmerasF))
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.TreeViewErgHmeras = New System.Windows.Forms.TreeView()
         Me.myDataPnl = New System.Windows.Forms.Panel()
@@ -959,113 +959,113 @@ Partial Class ErgasiesHmerasF
         Me.TreeViewErgHmeras.Location = New System.Drawing.Point(0, 0)
         Me.TreeViewErgHmeras.Margin = New System.Windows.Forms.Padding(4)
         Me.TreeViewErgHmeras.Name = "TreeViewErgHmeras"
-        TreeNode33.BackColor = System.Drawing.Color.Yellow
-        TreeNode33.Name = "Kratiseis"
-        TreeNode33.Text = "Κρατήσεις-Αφίξεις"
-        TreeNode34.BackColor = System.Drawing.Color.Yellow
-        TreeNode34.Name = "Dimenontes"
-        TreeNode34.Text = "Αλλαγές Διαμένοντων "
-        TreeNode35.BackColor = System.Drawing.Color.White
-        TreeNode35.Name = "Guarantee"
-        TreeNode35.Text = "Καταχώριση Guarantee"
-        TreeNode36.BackColor = System.Drawing.Color.White
-        TreeNode36.Name = "PraktEispr"
-        TreeNode36.Text = "Κίνηση Πρακτορείων (Εισπράξεις)"
-        TreeNode37.BackColor = System.Drawing.Color.White
-        TreeNode37.Name = "Metritis"
-        TreeNode37.Text = "Μετρητοίς"
-        TreeNode38.BackColor = System.Drawing.Color.White
-        TreeNode38.Name = "Logariasmoi"
-        TreeNode38.Text = "Λογαριασμοί"
-        TreeNode39.BackColor = System.Drawing.Color.White
-        TreeNode39.Name = "Kinisi"
-        TreeNode39.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode39.Text = "Κίνηση Τμημάτων"
-        TreeNode40.BackColor = System.Drawing.Color.Yellow
-        TreeNode40.Name = "Afix_Anax_old"
-        TreeNode40.Text = "Old Town"
-        TreeNode41.BackColor = System.Drawing.Color.White
-        TreeNode41.Name = "Afix_Anax_viles"
-        TreeNode41.Text = "Βίλες"
-        TreeNode42.BackColor = System.Drawing.Color.Yellow
-        TreeNode42.Name = "Ekt_Afix_Anax"
-        TreeNode42.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode42.Text = " Αφίξ.-Αναχ.-Κρατ."
-        TreeNode43.BackColor = System.Drawing.Color.White
-        TreeNode43.Name = "Emf_Kns_Tmt"
-        TreeNode43.Text = "Εμφ. Κίνησης Τμημάτων"
-        TreeNode44.BackColor = System.Drawing.Color.Yellow
-        TreeNode44.Name = "diamenontes_old"
-        TreeNode44.Text = "Old Town"
-        TreeNode45.BackColor = System.Drawing.Color.White
-        TreeNode45.Name = "diamenontes_viles"
-        TreeNode45.Text = "Βίλες"
-        TreeNode46.BackColor = System.Drawing.Color.Yellow
-        TreeNode46.Name = "diamenontwn"
-        TreeNode46.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode46.Text = "Διαμένοντες"
-        TreeNode47.BackColor = System.Drawing.Color.White
-        TreeNode47.Name = "Plirotita_Dwm"
-        TreeNode47.Text = "Βιλών"
-        TreeNode48.BackColor = System.Drawing.Color.White
-        TreeNode48.Name = "PlirotTimwn"
-        TreeNode48.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode48.Text = "Τιμών"
-        TreeNode49.BackColor = System.Drawing.Color.White
-        TreeNode49.ForeColor = System.Drawing.Color.Black
-        TreeNode49.Name = "Xenod"
-        TreeNode49.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode49.Text = "Urban"
-        TreeNode50.BackColor = System.Drawing.Color.Yellow
-        TreeNode50.Name = "Node0"
-        TreeNode50.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode50.Text = "Πλάνα"
-        TreeNode51.BackColor = System.Drawing.Color.White
-        TreeNode51.Name = "Status_Praktoreiwn"
-        TreeNode51.Text = "Πρακτορείο"
-        TreeNode52.BackColor = System.Drawing.Color.White
-        TreeNode52.Name = "Lista_Praktoreiwn"
-        TreeNode52.Text = "Σύγκριση "
-        TreeNode52.ToolTipText = "Πληρότ.Πρακτορ. (Λίστα)"
-        TreeNode53.BackColor = System.Drawing.Color.Yellow
-        TreeNode53.Name = "Node1"
-        TreeNode53.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode53.Text = "Πληρότ. Πρακτορείων"
-        TreeNode54.BackColor = System.Drawing.Color.Yellow
-        TreeNode54.Name = "Status_Xenodox"
-        TreeNode54.Text = "Πληρότ. Old Town"
-        TreeNode55.BackColor = System.Drawing.Color.Yellow
-        TreeNode55.Name = "Estiatorio_katast"
-        TreeNode55.Text = "Old Town"
-        TreeNode56.BackColor = System.Drawing.Color.White
-        TreeNode56.Name = "Thalasses"
-        TreeNode56.Text = "Thalasses"
-        TreeNode57.BackColor = System.Drawing.Color.Yellow
-        TreeNode57.Name = "Prwina"
-        TreeNode57.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode57.Text = "Πρωϊνά"
-        TreeNode58.BackColor = System.Drawing.Color.Yellow
-        TreeNode58.Name = "Dwmatia_pinakas"
-        TreeNode58.Text = "Καθαρίσματα"
-        TreeNode59.BackColor = System.Drawing.Color.Yellow
-        TreeNode59.Name = "Ekdosi_Extra_Parast"
-        TreeNode59.Text = "Εκδ. Extra Παραστατικών"
-        TreeNode60.BackColor = System.Drawing.Color.Yellow
-        TreeNode60.Name = "ekdosi_mem_apy"
-        TreeNode60.Text = "Εκδ. ΤΙΜΟΛ.-Α.Π.Υ."
-        TreeNode61.Name = "gramatio_eispraksis"
-        TreeNode61.Text = "Εκδ. μεμον.  Γ.Ε."
-        TreeNode62.BackColor = System.Drawing.Color.Yellow
-        TreeNode62.Name = "Akyrosi_apy_ge"
-        TreeNode62.Text = "Ακύρ. ΤΙΜ-ΑΠΥ"
-        TreeNode63.BackColor = System.Drawing.Color.Yellow
-        TreeNode63.Name = "myData"
-        TreeNode63.Text = "myDATA"
-        TreeNode64.BackColor = System.Drawing.Color.Yellow
-        TreeNode64.Name = "Node0"
-        TreeNode64.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        TreeNode64.Text = "Παραστατικά - Γ.Ε."
-        Me.TreeViewErgHmeras.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode33, TreeNode34, TreeNode35, TreeNode36, TreeNode39, TreeNode42, TreeNode43, TreeNode46, TreeNode50, TreeNode53, TreeNode54, TreeNode57, TreeNode58, TreeNode64})
+        TreeNode1.BackColor = System.Drawing.Color.Yellow
+        TreeNode1.Name = "Kratiseis"
+        TreeNode1.Text = "Κρατήσεις-Αφίξεις"
+        TreeNode2.BackColor = System.Drawing.Color.Yellow
+        TreeNode2.Name = "Dimenontes"
+        TreeNode2.Text = "Αλλαγές Διαμένοντων "
+        TreeNode3.BackColor = System.Drawing.Color.White
+        TreeNode3.Name = "Guarantee"
+        TreeNode3.Text = "Καταχώριση Guarantee"
+        TreeNode4.BackColor = System.Drawing.Color.White
+        TreeNode4.Name = "PraktEispr"
+        TreeNode4.Text = "Κίνηση Πρακτορείων (Εισπράξεις)"
+        TreeNode5.BackColor = System.Drawing.Color.White
+        TreeNode5.Name = "Metritis"
+        TreeNode5.Text = "Μετρητοίς"
+        TreeNode6.BackColor = System.Drawing.Color.White
+        TreeNode6.Name = "Logariasmoi"
+        TreeNode6.Text = "Λογαριασμοί"
+        TreeNode7.BackColor = System.Drawing.Color.White
+        TreeNode7.Name = "Kinisi"
+        TreeNode7.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode7.Text = "Κίνηση Τμημάτων"
+        TreeNode8.BackColor = System.Drawing.Color.Yellow
+        TreeNode8.Name = "Afix_Anax_old"
+        TreeNode8.Text = "Old Town"
+        TreeNode9.BackColor = System.Drawing.Color.White
+        TreeNode9.Name = "Afix_Anax_viles"
+        TreeNode9.Text = "Βίλες"
+        TreeNode10.BackColor = System.Drawing.Color.Yellow
+        TreeNode10.Name = "Ekt_Afix_Anax"
+        TreeNode10.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode10.Text = " Αφίξ.-Αναχ.-Κρατ."
+        TreeNode11.BackColor = System.Drawing.Color.White
+        TreeNode11.Name = "Emf_Kns_Tmt"
+        TreeNode11.Text = "Εμφ. Κίνησης Τμημάτων"
+        TreeNode12.BackColor = System.Drawing.Color.Yellow
+        TreeNode12.Name = "diamenontes_old"
+        TreeNode12.Text = "Old Town"
+        TreeNode13.BackColor = System.Drawing.Color.White
+        TreeNode13.Name = "diamenontes_viles"
+        TreeNode13.Text = "Βίλες"
+        TreeNode14.BackColor = System.Drawing.Color.Yellow
+        TreeNode14.Name = "diamenontwn"
+        TreeNode14.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode14.Text = "Διαμένοντες"
+        TreeNode15.BackColor = System.Drawing.Color.White
+        TreeNode15.Name = "Plirotita_Dwm"
+        TreeNode15.Text = "Βιλών"
+        TreeNode16.BackColor = System.Drawing.Color.White
+        TreeNode16.Name = "PlirotTimwn"
+        TreeNode16.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode16.Text = "Τιμών"
+        TreeNode17.BackColor = System.Drawing.Color.White
+        TreeNode17.ForeColor = System.Drawing.Color.Black
+        TreeNode17.Name = "Xenod"
+        TreeNode17.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode17.Text = "Urban"
+        TreeNode18.BackColor = System.Drawing.Color.Yellow
+        TreeNode18.Name = "Node0"
+        TreeNode18.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode18.Text = "Πλάνα"
+        TreeNode19.BackColor = System.Drawing.Color.White
+        TreeNode19.Name = "Status_Praktoreiwn"
+        TreeNode19.Text = "Πρακτορείο"
+        TreeNode20.BackColor = System.Drawing.Color.White
+        TreeNode20.Name = "Lista_Praktoreiwn"
+        TreeNode20.Text = "Σύγκριση "
+        TreeNode20.ToolTipText = "Πληρότ.Πρακτορ. (Λίστα)"
+        TreeNode21.BackColor = System.Drawing.Color.Yellow
+        TreeNode21.Name = "Node1"
+        TreeNode21.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode21.Text = "Πληρότ. Πρακτορείων"
+        TreeNode22.BackColor = System.Drawing.Color.Yellow
+        TreeNode22.Name = "Status_Xenodox"
+        TreeNode22.Text = "Πληρότ. Old Town"
+        TreeNode23.BackColor = System.Drawing.Color.Yellow
+        TreeNode23.Name = "Estiatorio_katast"
+        TreeNode23.Text = "Old Town"
+        TreeNode24.BackColor = System.Drawing.Color.White
+        TreeNode24.Name = "Thalasses"
+        TreeNode24.Text = "Thalasses"
+        TreeNode25.BackColor = System.Drawing.Color.Yellow
+        TreeNode25.Name = "Prwina"
+        TreeNode25.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode25.Text = "Πρωϊνά"
+        TreeNode26.BackColor = System.Drawing.Color.Yellow
+        TreeNode26.Name = "Dwmatia_pinakas"
+        TreeNode26.Text = "Καθαρίσματα"
+        TreeNode27.BackColor = System.Drawing.Color.Yellow
+        TreeNode27.Name = "Ekdosi_Extra_Parast"
+        TreeNode27.Text = "Εκδ. Extra Παραστατικών"
+        TreeNode28.BackColor = System.Drawing.Color.Yellow
+        TreeNode28.Name = "ekdosi_mem_apy"
+        TreeNode28.Text = "Εκδ. ΤΙΜΟΛ.-Α.Π.Υ."
+        TreeNode29.Name = "gramatio_eispraksis"
+        TreeNode29.Text = "Εκδ. μεμον.  Γ.Ε."
+        TreeNode30.BackColor = System.Drawing.Color.Yellow
+        TreeNode30.Name = "Akyrosi_apy_ge"
+        TreeNode30.Text = "Ακύρ. ΤΙΜ-ΑΠΥ"
+        TreeNode31.BackColor = System.Drawing.Color.Yellow
+        TreeNode31.Name = "myData"
+        TreeNode31.Text = "myDATA"
+        TreeNode32.BackColor = System.Drawing.Color.Yellow
+        TreeNode32.Name = "Node0"
+        TreeNode32.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        TreeNode32.Text = "Παραστατικά - Γ.Ε."
+        Me.TreeViewErgHmeras.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode2, TreeNode3, TreeNode4, TreeNode7, TreeNode10, TreeNode11, TreeNode14, TreeNode18, TreeNode21, TreeNode22, TreeNode25, TreeNode26, TreeNode32})
         Me.TreeViewErgHmeras.Size = New System.Drawing.Size(254, 923)
         Me.TreeViewErgHmeras.TabIndex = 0
         '
@@ -3827,9 +3827,9 @@ Partial Class ErgasiesHmerasF
         'dwmatio
         '
         Me.dwmatio.DataPropertyName = "statusdwmatio"
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Maroon
-        Me.dwmatio.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Maroon
+        Me.dwmatio.DefaultCellStyle = DataGridViewCellStyle1
         Me.dwmatio.HeaderText = "Δωμ."
         Me.dwmatio.MinimumWidth = 6
         Me.dwmatio.Name = "dwmatio"
@@ -3857,8 +3857,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn3
         '
         Me.DataGridViewTextBoxColumn3.DataPropertyName = "anzethnikotites"
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridViewTextBoxColumn3.HeaderText = "Σύν."
         Me.DataGridViewTextBoxColumn3.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
@@ -3877,8 +3877,8 @@ Partial Class ErgasiesHmerasF
         'anzethnikotites2
         '
         Me.anzethnikotites2.DataPropertyName = "anzethnikotites2"
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.anzethnikotites2.DefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.anzethnikotites2.DefaultCellStyle = DataGridViewCellStyle3
         Me.anzethnikotites2.HeaderText = "πλήθος Εθνικ. 2"
         Me.anzethnikotites2.MinimumWidth = 6
         Me.anzethnikotites2.Name = "anzethnikotites2"
@@ -3899,8 +3899,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn5
         '
         Me.DataGridViewTextBoxColumn5.DataPropertyName = "xrewsi"
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn5.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn5.DefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridViewTextBoxColumn5.HeaderText = "Οροι"
         Me.DataGridViewTextBoxColumn5.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
@@ -3910,8 +3910,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn6
         '
         Me.DataGridViewTextBoxColumn6.DataPropertyName = "tipos"
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle19
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle5
         Me.DataGridViewTextBoxColumn6.HeaderText = "Τύπος"
         Me.DataGridViewTextBoxColumn6.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
@@ -3939,8 +3939,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn9
         '
         Me.DataGridViewTextBoxColumn9.DataPropertyName = "anaxwrisi"
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Maroon
-        Me.DataGridViewTextBoxColumn9.DefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Maroon
+        Me.DataGridViewTextBoxColumn9.DefaultCellStyle = DataGridViewCellStyle6
         Me.DataGridViewTextBoxColumn9.HeaderText = "Αναχώριση"
         Me.DataGridViewTextBoxColumn9.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
@@ -3959,8 +3959,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn11
         '
         Me.DataGridViewTextBoxColumn11.DataPropertyName = "afixi"
-        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Maroon
-        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Maroon
+        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle7
         Me.DataGridViewTextBoxColumn11.HeaderText = "Αφιξη"
         Me.DataGridViewTextBoxColumn11.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
@@ -3979,8 +3979,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn13
         '
         Me.DataGridViewTextBoxColumn13.DataPropertyName = "arithmos"
-        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle8
         Me.DataGridViewTextBoxColumn13.HeaderText = "Aρ.Κρατ."
         Me.DataGridViewTextBoxColumn13.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn13.Name = "DataGridViewTextBoxColumn13"
@@ -3990,10 +3990,10 @@ Partial Class ErgasiesHmerasF
         'prokataboli
         '
         Me.prokataboli.DataPropertyName = "prokataboli"
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle23.Format = "N2"
-        DataGridViewCellStyle23.NullValue = Nothing
-        Me.prokataboli.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle9.Format = "N2"
+        DataGridViewCellStyle9.NullValue = Nothing
+        Me.prokataboli.DefaultCellStyle = DataGridViewCellStyle9
         Me.prokataboli.HeaderText = "Προκ/λή"
         Me.prokataboli.MinimumWidth = 6
         Me.prokataboli.Name = "prokataboli"
@@ -5713,10 +5713,10 @@ Partial Class ErgasiesHmerasF
         Me.DwmPlirotitaPnl.Controls.Add(Me.BtnsPnl)
         Me.DwmPlirotitaPnl.Controls.Add(Me.DwmPlirot2Pnl)
         Me.DwmPlirotitaPnl.Controls.Add(Me.DwmPlirot1Pnl)
-        Me.DwmPlirotitaPnl.Location = New System.Drawing.Point(53, 252)
+        Me.DwmPlirotitaPnl.Location = New System.Drawing.Point(53, 471)
         Me.DwmPlirotitaPnl.Margin = New System.Windows.Forms.Padding(4)
         Me.DwmPlirotitaPnl.Name = "DwmPlirotitaPnl"
-        Me.DwmPlirotitaPnl.Size = New System.Drawing.Size(1113, 229)
+        Me.DwmPlirotitaPnl.Size = New System.Drawing.Size(1113, 10)
         Me.DwmPlirotitaPnl.TabIndex = 33
         '
         'DwmPlirot3Pnl
@@ -6971,9 +6971,9 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn16
         '
         Me.DataGridViewTextBoxColumn16.DataPropertyName = "statusdwmatio"
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Maroon
-        Me.DataGridViewTextBoxColumn16.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Maroon
+        Me.DataGridViewTextBoxColumn16.DefaultCellStyle = DataGridViewCellStyle10
         Me.DataGridViewTextBoxColumn16.HeaderText = "Αρ.Δωμ."
         Me.DataGridViewTextBoxColumn16.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
@@ -7000,8 +7000,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn21
         '
         Me.DataGridViewTextBoxColumn21.DataPropertyName = "xrewsi"
-        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle11
         Me.DataGridViewTextBoxColumn21.HeaderText = "Οροι"
         Me.DataGridViewTextBoxColumn21.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
@@ -7011,8 +7011,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn22
         '
         Me.DataGridViewTextBoxColumn22.DataPropertyName = "tipos"
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn22.DefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn22.DefaultCellStyle = DataGridViewCellStyle12
         Me.DataGridViewTextBoxColumn22.HeaderText = "Τύπος"
         Me.DataGridViewTextBoxColumn22.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn22.Name = "DataGridViewTextBoxColumn22"
@@ -7040,8 +7040,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn27
         '
         Me.DataGridViewTextBoxColumn27.DataPropertyName = "afixi"
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Maroon
-        Me.DataGridViewTextBoxColumn27.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Maroon
+        Me.DataGridViewTextBoxColumn27.DefaultCellStyle = DataGridViewCellStyle13
         Me.DataGridViewTextBoxColumn27.HeaderText = "Αφιξη"
         Me.DataGridViewTextBoxColumn27.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn27.Name = "DataGridViewTextBoxColumn27"
@@ -7051,8 +7051,8 @@ Partial Class ErgasiesHmerasF
         'DataGridViewTextBoxColumn25
         '
         Me.DataGridViewTextBoxColumn25.DataPropertyName = "anaxwrisi"
-        DataGridViewCellStyle28.ForeColor = System.Drawing.Color.Maroon
-        Me.DataGridViewTextBoxColumn25.DefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Maroon
+        Me.DataGridViewTextBoxColumn25.DefaultCellStyle = DataGridViewCellStyle14
         Me.DataGridViewTextBoxColumn25.HeaderText = "Αναχώρηση"
         Me.DataGridViewTextBoxColumn25.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn25.Name = "DataGridViewTextBoxColumn25"
