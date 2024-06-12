@@ -3,5 +3,4 @@
 /winhotel/obj/
 /winhotel/myDATADev.vb
 /winhotel/app.config
-/winhotel/Resources/
-winhotel/Resources/icons8-airbnb-100.png
+*.resx
