@@ -6,10 +6,9 @@
 
 # Ignore specific files
 /winhotel/myDATADev.vb
-/winhotel/app.config
+
 
 # Ignore the .vs folder used by Visual Studio
 .vs/
 
-# Ignore all .resx files
-*.resx
+
