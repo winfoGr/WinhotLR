@@ -1,6 +1,15 @@
+# Ignore specific directories
 /winhotel/My Project/
 /winhotel/bin/
 /winhotel/obj/
+/winhotel/Setup/
+
+# Ignore specific files
 /winhotel/myDATADev.vb
 /winhotel/app.config
+
+# Ignore the .vs folder used by Visual Studio
+.vs/
+
+# Ignore all .resx files
 *.resx
