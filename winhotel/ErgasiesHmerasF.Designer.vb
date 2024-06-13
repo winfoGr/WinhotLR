@@ -5713,10 +5713,10 @@ Partial Class ErgasiesHmerasF
         Me.DwmPlirotitaPnl.Controls.Add(Me.BtnsPnl)
         Me.DwmPlirotitaPnl.Controls.Add(Me.DwmPlirot2Pnl)
         Me.DwmPlirotitaPnl.Controls.Add(Me.DwmPlirot1Pnl)
-        Me.DwmPlirotitaPnl.Location = New System.Drawing.Point(53, 471)
+        Me.DwmPlirotitaPnl.Location = New System.Drawing.Point(53, 279)
         Me.DwmPlirotitaPnl.Margin = New System.Windows.Forms.Padding(4)
         Me.DwmPlirotitaPnl.Name = "DwmPlirotitaPnl"
-        Me.DwmPlirotitaPnl.Size = New System.Drawing.Size(1113, 10)
+        Me.DwmPlirotitaPnl.Size = New System.Drawing.Size(1113, 202)
         Me.DwmPlirotitaPnl.TabIndex = 33
         '
         'DwmPlirot3Pnl
