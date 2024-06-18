@@ -69,19 +69,23 @@ Partial Class katharismata
         Me.StatusBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.StatusTableAdapter = New winhotel.dbhotelDataSetTableAdapters.statusTableAdapter()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.WresBdomadas = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         CType(Me.DbhotelDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.KatharismataBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.StatusBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
         'planoBtn
         '
         Me.planoBtn.Image = Global.winhotel.My.Resources.Resources.REDOLD
         Me.planoBtn.Location = New System.Drawing.Point(208, 89)
-        Me.planoBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.planoBtn.Margin = New System.Windows.Forms.Padding(4)
         Me.planoBtn.Name = "planoBtn"
         Me.planoBtn.Size = New System.Drawing.Size(53, 39)
         Me.planoBtn.TabIndex = 0
@@ -92,7 +96,7 @@ Partial Class katharismata
         Me.FirstDateMonthPck.CustomFormat = "dd/MM/yy"
         Me.FirstDateMonthPck.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.FirstDateMonthPck.Location = New System.Drawing.Point(91, 36)
-        Me.FirstDateMonthPck.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.FirstDateMonthPck.Margin = New System.Windows.Forms.Padding(4)
         Me.FirstDateMonthPck.Name = "FirstDateMonthPck"
         Me.FirstDateMonthPck.Size = New System.Drawing.Size(123, 24)
         Me.FirstDateMonthPck.TabIndex = 1
@@ -122,7 +126,7 @@ Partial Class katharismata
         Me.Panel1.Controls.Add(Me.LastColumnTbx)
         Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.Panel1.Location = New System.Drawing.Point(16, 71)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(543, 222)
         Me.Panel1.TabIndex = 2
@@ -144,7 +148,7 @@ Partial Class katharismata
         Me.DaysClean.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.DaysClean.ForeColor = System.Drawing.Color.Blue
         Me.DaysClean.Location = New System.Drawing.Point(475, 190)
-        Me.DaysClean.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DaysClean.Margin = New System.Windows.Forms.Padding(4)
         Me.DaysClean.MaxLength = 2
         Me.DaysClean.Name = "DaysClean"
         Me.DaysClean.Size = New System.Drawing.Size(41, 23)
@@ -169,7 +173,7 @@ Partial Class katharismata
         Me.SentWra.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.SentWra.ForeColor = System.Drawing.Color.Blue
         Me.SentWra.Location = New System.Drawing.Point(475, 158)
-        Me.SentWra.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SentWra.Margin = New System.Windows.Forms.Padding(4)
         Me.SentWra.MaxLength = 2
         Me.SentWra.Name = "SentWra"
         Me.SentWra.Size = New System.Drawing.Size(41, 23)
@@ -210,7 +214,7 @@ Partial Class katharismata
         Me.FoundChk.ForeColor = System.Drawing.Color.White
         Me.FoundChk.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.FoundChk.Location = New System.Drawing.Point(313, 159)
-        Me.FoundChk.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.FoundChk.Margin = New System.Windows.Forms.Padding(4)
         Me.FoundChk.Name = "FoundChk"
         Me.FoundChk.Size = New System.Drawing.Size(110, 22)
         Me.FoundChk.TabIndex = 14
@@ -222,7 +226,7 @@ Partial Class katharismata
         Me.GrafeioForesCbx.ForeColor = System.Drawing.Color.Blue
         Me.GrafeioForesCbx.FormattingEnabled = True
         Me.GrafeioForesCbx.Location = New System.Drawing.Point(248, 154)
-        Me.GrafeioForesCbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GrafeioForesCbx.Margin = New System.Windows.Forms.Padding(4)
         Me.GrafeioForesCbx.Name = "GrafeioForesCbx"
         Me.GrafeioForesCbx.Size = New System.Drawing.Size(52, 26)
         Me.GrafeioForesCbx.TabIndex = 13
@@ -232,7 +236,7 @@ Partial Class katharismata
         Me.HomeDayCbx.ForeColor = System.Drawing.Color.Blue
         Me.HomeDayCbx.FormattingEnabled = True
         Me.HomeDayCbx.Location = New System.Drawing.Point(80, 154)
-        Me.HomeDayCbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.HomeDayCbx.Margin = New System.Windows.Forms.Padding(4)
         Me.HomeDayCbx.Name = "HomeDayCbx"
         Me.HomeDayCbx.Size = New System.Drawing.Size(71, 26)
         Me.HomeDayCbx.TabIndex = 12
@@ -264,7 +268,7 @@ Partial Class katharismata
         '
         Me.resultColumnTbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.resultColumnTbx.Location = New System.Drawing.Point(489, 102)
-        Me.resultColumnTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.resultColumnTbx.Margin = New System.Windows.Forms.Padding(4)
         Me.resultColumnTbx.MaxLength = 2
         Me.resultColumnTbx.Name = "resultColumnTbx"
         Me.resultColumnTbx.Size = New System.Drawing.Size(41, 23)
@@ -278,7 +282,7 @@ Partial Class katharismata
         Me.mexriDPck.Enabled = False
         Me.mexriDPck.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.mexriDPck.Location = New System.Drawing.Point(313, 36)
-        Me.mexriDPck.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.mexriDPck.Margin = New System.Windows.Forms.Padding(4)
         Me.mexriDPck.Name = "mexriDPck"
         Me.mexriDPck.Size = New System.Drawing.Size(123, 24)
         Me.mexriDPck.TabIndex = 9
@@ -322,7 +326,7 @@ Partial Class katharismata
         '
         Me.FirstColumnTbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.FirstColumnTbx.Location = New System.Drawing.Point(428, 70)
-        Me.FirstColumnTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.FirstColumnTbx.Margin = New System.Windows.Forms.Padding(4)
         Me.FirstColumnTbx.MaxLength = 1
         Me.FirstColumnTbx.Name = "FirstColumnTbx"
         Me.FirstColumnTbx.Size = New System.Drawing.Size(41, 23)
@@ -334,7 +338,7 @@ Partial Class katharismata
         '
         Me.LastColumnTbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.LastColumnTbx.Location = New System.Drawing.Point(489, 70)
-        Me.LastColumnTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LastColumnTbx.Margin = New System.Windows.Forms.Padding(4)
         Me.LastColumnTbx.MaxLength = 2
         Me.LastColumnTbx.Name = "LastColumnTbx"
         Me.LastColumnTbx.Size = New System.Drawing.Size(41, 23)
@@ -353,9 +357,9 @@ Partial Class katharismata
         Me.Panel2.Controls.Add(Me.apoKathPck)
         Me.Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.Panel2.Location = New System.Drawing.Point(16, 300)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(543, 48)
+        Me.Panel2.Size = New System.Drawing.Size(543, 10)
         Me.Panel2.TabIndex = 3
         Me.Panel2.Visible = False
         '
@@ -395,7 +399,7 @@ Partial Class katharismata
         '
         Me.SentBtn.Image = Global.winhotel.My.Resources.Resources.REDOLD
         Me.SentBtn.Location = New System.Drawing.Point(208, 101)
-        Me.SentBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SentBtn.Margin = New System.Windows.Forms.Padding(4)
         Me.SentBtn.Name = "SentBtn"
         Me.SentBtn.Size = New System.Drawing.Size(53, 28)
         Me.SentBtn.TabIndex = 6
@@ -406,7 +410,7 @@ Partial Class katharismata
         Me.mexriKathPck.CustomFormat = "dd/MM/yy"
         Me.mexriKathPck.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.mexriKathPck.Location = New System.Drawing.Point(329, 42)
-        Me.mexriKathPck.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.mexriKathPck.Margin = New System.Windows.Forms.Padding(4)
         Me.mexriKathPck.Name = "mexriKathPck"
         Me.mexriKathPck.Size = New System.Drawing.Size(123, 23)
         Me.mexriKathPck.TabIndex = 5
@@ -416,7 +420,7 @@ Partial Class katharismata
         Me.apoKathPck.CustomFormat = "dd/MM/yy"
         Me.apoKathPck.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.apoKathPck.Location = New System.Drawing.Point(95, 43)
-        Me.apoKathPck.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.apoKathPck.Margin = New System.Windows.Forms.Padding(4)
         Me.apoKathPck.Name = "apoKathPck"
         Me.apoKathPck.Size = New System.Drawing.Size(123, 23)
         Me.apoKathPck.TabIndex = 4
@@ -434,8 +438,8 @@ Partial Class katharismata
         Me.Panel3.Controls.Add(Me.bisKahPck)
         Me.Panel3.Controls.Add(Me.vomKathPck)
         Me.Panel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.Panel3.Location = New System.Drawing.Point(16, 298)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel3.Location = New System.Drawing.Point(16, 381)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(543, 142)
         Me.Panel3.TabIndex = 4
@@ -455,7 +459,7 @@ Partial Class katharismata
         '
         Me.wresLastTbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.wresLastTbx.Location = New System.Drawing.Point(489, 6)
-        Me.wresLastTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.wresLastTbx.Margin = New System.Windows.Forms.Padding(4)
         Me.wresLastTbx.MaxLength = 2
         Me.wresLastTbx.Name = "wresLastTbx"
         Me.wresLastTbx.Size = New System.Drawing.Size(41, 23)
@@ -467,7 +471,7 @@ Partial Class katharismata
         '
         Me.wresFirstTbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.wresFirstTbx.Location = New System.Drawing.Point(428, 6)
-        Me.wresFirstTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.wresFirstTbx.Margin = New System.Windows.Forms.Padding(4)
         Me.wresFirstTbx.MaxLength = 1
         Me.wresFirstTbx.Name = "wresFirstTbx"
         Me.wresFirstTbx.Size = New System.Drawing.Size(41, 23)
@@ -503,15 +507,15 @@ Partial Class katharismata
         Me.Label10.Location = New System.Drawing.Point(17, 11)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(185, 20)
+        Me.Label10.Size = New System.Drawing.Size(245, 20)
         Me.Label10.TabIndex = 4
-        Me.Label10.Text = "Καθαρίστριες (ώρες)"
+        Me.Label10.Text = "Καθαρίστριες (Μηνας ώρες)"
         '
         'KatharBtn
         '
         Me.KatharBtn.Image = Global.winhotel.My.Resources.Resources.REDOLD
         Me.KatharBtn.Location = New System.Drawing.Point(208, 101)
-        Me.KatharBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.KatharBtn.Margin = New System.Windows.Forms.Padding(4)
         Me.KatharBtn.Name = "KatharBtn"
         Me.KatharBtn.Size = New System.Drawing.Size(53, 28)
         Me.KatharBtn.TabIndex = 6
@@ -522,7 +526,7 @@ Partial Class katharismata
         Me.bisKahPck.CustomFormat = "dd/MM/yy"
         Me.bisKahPck.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.bisKahPck.Location = New System.Drawing.Point(329, 42)
-        Me.bisKahPck.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bisKahPck.Margin = New System.Windows.Forms.Padding(4)
         Me.bisKahPck.Name = "bisKahPck"
         Me.bisKahPck.Size = New System.Drawing.Size(123, 23)
         Me.bisKahPck.TabIndex = 5
@@ -531,8 +535,8 @@ Partial Class katharismata
         '
         Me.vomKathPck.CustomFormat = "dd/MM/yy"
         Me.vomKathPck.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.vomKathPck.Location = New System.Drawing.Point(95, 43)
-        Me.vomKathPck.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.vomKathPck.Location = New System.Drawing.Point(95, 44)
+        Me.vomKathPck.Margin = New System.Windows.Forms.Padding(4)
         Me.vomKathPck.Name = "vomKathPck"
         Me.vomKathPck.Size = New System.Drawing.Size(123, 23)
         Me.vomKathPck.TabIndex = 4
@@ -540,6 +544,7 @@ Partial Class katharismata
         'DbhotelDataSet
         '
         Me.DbhotelDataSet.DataSetName = "dbhotelDataSet"
+        Me.DbhotelDataSet.EnforceConstraints = False
         Me.DbhotelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'KatharismataBindingSource
@@ -566,7 +571,7 @@ Partial Class katharismata
         'excelTbx
         '
         Me.excelTbx.Location = New System.Drawing.Point(177, 22)
-        Me.excelTbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.excelTbx.Margin = New System.Windows.Forms.Padding(4)
         Me.excelTbx.Name = "excelTbx"
         Me.excelTbx.Size = New System.Drawing.Size(343, 22)
         Me.excelTbx.TabIndex = 6
@@ -582,25 +587,60 @@ Partial Class katharismata
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(16, 448)
-        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ProgressBar1.Location = New System.Drawing.Point(16, 531)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(4)
         Me.ProgressBar1.Maximum = 110
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(543, 28)
+        Me.ProgressBar1.Size = New System.Drawing.Size(543, 29)
         Me.ProgressBar1.TabIndex = 7
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.Label20)
+        Me.Panel4.Controls.Add(Me.WresBdomadas)
+        Me.Panel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.Panel4.Location = New System.Drawing.Point(16, 292)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(543, 84)
+        Me.Panel4.TabIndex = 8
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Blue
+        Me.Label20.Location = New System.Drawing.Point(22, 11)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(273, 20)
+        Me.Label20.TabIndex = 4
+        Me.Label20.Text = "Καθαρίστριες (Εβδομαδα ώρες)"
+        '
+        'WresBdomadas
+        '
+        Me.WresBdomadas.Image = Global.winhotel.My.Resources.Resources.REDOLD
+        Me.WresBdomadas.Location = New System.Drawing.Point(215, 46)
+        Me.WresBdomadas.Margin = New System.Windows.Forms.Padding(4)
+        Me.WresBdomadas.Name = "WresBdomadas"
+        Me.WresBdomadas.Size = New System.Drawing.Size(53, 28)
+        Me.WresBdomadas.TabIndex = 6
+        Me.WresBdomadas.UseVisualStyleBackColor = True
         '
         'katharismata
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(565, 476)
+        Me.ClientSize = New System.Drawing.Size(565, 566)
+        Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.excelTbx)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "katharismata"
         Me.Text = "Καθαρίσματα DOMISI"
         Me.Panel1.ResumeLayout(False)
@@ -612,6 +652,8 @@ Partial Class katharismata
         CType(Me.DbhotelDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.KatharismataBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.StatusBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -661,5 +703,8 @@ Partial Class katharismata
     Friend WithEvents SentWra As System.Windows.Forms.TextBox
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents DaysClean As System.Windows.Forms.TextBox
-    Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
+    Friend WithEvents ProgressBar1 As ProgressBar
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Label20 As Label
+    Friend WithEvents WresBdomadas As Button
 End Class

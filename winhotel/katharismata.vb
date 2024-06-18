@@ -4556,6 +4556,8 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         System.Threading.Thread.CurrentThread.CurrentCulture = greekCulture
     End Sub
 
+
+
     Private Sub FirstDateMonthPck_ValueChanged(sender As Object, e As EventArgs) Handles FirstDateMonthPck.Leave
         mexriDPck.Value = sender.value.addDays(6)
     End Sub
@@ -4579,17 +4581,17 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         'LastColumnTbx.Text = "AF" 'sentonia
         LastColumnTbx.Text = "AS" 'sentonia
         'lastC = 31 '15
-        lastC = 44 '15
+        lastC = 43 '15
         wresFirstTbx.Text = "B" '2
         wresF = 2
         'wresLastTbx.Text = "AF" 'R 14
-        wresLastTbx.Text = "AS" 'R 14
+        wresLastTbx.Text = "AR" 'R 14
         'wresL = 32 '17
-        wresL = 45 '17
+        wresL = 44 '17
         'resultColumnTbx.Text = "AH" 'S 15
-        resultColumnTbx.Text = "AU" 'S 15
+        resultColumnTbx.Text = "AT" 'S 15
         'resultC = 34 '19
-        resultC = 47 '19
+        resultC = 46 '19
         imeromErgasias = datum.Date
         FirstDateMonthPck.Value = get_monday_date_of_next_week() 'imeromErgasias
         Try
@@ -4681,5 +4683,130 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         End Using
     End Function
 
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles WresBdomadas.Click
+        Dim oExcel As Microsoft.Office.Interop.Excel.Application
+        Dim oBook As Microsoft.Office.Interop.Excel.Workbook
+        Dim oSheet As Microsoft.Office.Interop.Excel.Sheets
+        Dim i, j As Int16
+        Dim datum As Date
+        Dim cell As zelle
+        Dim tupel As String
+        Dim wresDay() As Single
+        Dim tupelArr As String()
+        Dim hilfstring As String
+        ReDim wresDay(9) 'mexri 7 katharistries
+
+
+        For i = 0 To wresDay.Length - 1
+
+            wresDay(i) = 0
+
+            'wres(i).wresvila = 0
+        Next
+
+
+        
+        Try
+            'My.Application.Culture.NumberFormat.NumberDecimalSeparator = ","
+            'System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol = ","
+            oExcel = CreateObject("Excel.Application")
+            oBook = oExcel.Workbooks.Open(path)
+            oSheet = oBook.Worksheets
+            datumApo = FirstDateMonthPck.Value
+
+            'clear all cells before write in
+            datum = datumApo
+            Do While datum <= mexriDPck.Value.Date
+                cell = get_zelle(datum)
+                For i = 0 To wresDay.Length - 1
+                    oSheet(cell.month).Cells(cell.day, resultC + 4 + i).Value = ""
+                Next
+                datum = datum.AddDays(1)
+            Loop
+            ' Loop through each day in the selected range
+            datum = datumApo
+            Do While datum <= mexriDPck.Value.Date
+                cell = get_zelle(datum)
+                For i = wresF To wresL
+                    If Not oSheet(cell.month).Cells(cell.day, i).value = "" Then '(Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(index).excelcolumn).value = ""Then
+                        tupel = oSheet(cell.month).Cells(cell.day, i).value
+                        tupelArr = tupel.Split(",")
+                        Try
+                            hilfstring = Trim(tupelArr(4).Replace(")", ""))
+                            If tupelArr(0).Substring(1, 1).Equals("1") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("A") Then
+                                'MsgBox(CType(hilfstring.Replace(".", ","), Single))
+                                wresDay(0) = wresDay(0) + CType(hilfstring.Replace(".", ","), Single)
+
+
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("2") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Β") Then
+                                'hilfstring = tupelArr(4).Replace(")", "")
+                                'MsgBox(CType(hilfstring.Replace(".", ","), Single))
+                                wresDay(1) = wresDay(1) + CType(hilfstring.Replace(".", ","), Single)
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("3") Then
+                                wresDay(2) = wresDay(2) + CType(hilfstring.Replace(".", ","), Single)
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("4") Then
+                                wresDay(3) = wresDay(3) + CType(hilfstring.Replace(".", ","), Single)
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("5") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Ε") Then
+                                wresDay(4) = wresDay(4) + CType(hilfstring.Replace(".", ","), Single)
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("6") Then
+                                wresDay(5) = wresDay(5) + CType(hilfstring.Replace(".", ","), Single)
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("7") Then
+                                wresDay(6) = wresDay(6) + CType(hilfstring.Replace(".", ","), Single)
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("8") Then
+                                wresDay(7) = wresDay(7) + CType(hilfstring.Replace(".", ","), Single)
+                            ElseIf tupelArr(0).Substring(1, 1).Equals("9") Then
+                                wresDay(8) = wresDay(8) + CType(hilfstring.Replace(".", ","), Single)
+                            End If
+                        Catch ex As InvalidCastException
+                            oExcel.Quit()
+                            MsgBox("Ελέγξτε τις ώρες καθαριστριών", MsgBoxStyle.Critical)
+                        Catch ex1 As Exception
+                            oExcel.Quit()
+                            MsgBox("Ελέγξτε τήν μορφή (...)", MsgBoxStyle.Critical)
+                        End Try
+
+
+                    End If
+
+
+                    'oSheet(workSheet).Range(range).Style.Font.Size = 20 '= "Times New Roman"
+                Next
+                For i = 0 To wresDay.Length - 1
+                    If wresDay(i) <> 0 Then
+
+                        oSheet(cell.month).Cells(cell.day, resultC + 4 + i).value = Math.Round(wresDay(i), 1)
+
+
+                    End If
+                Next
+                For i = 0 To wresDay.Length - 1
+
+                    wresDay(i) = 0
+
+                    'wres(i).wresvila = 0
+                Next
+                datum = datum.AddDays(1)
+            Loop
+
+
+        Catch ex As Runtime.InteropServices.COMException
+            MsgBox("Ελέγξτε την τοποθεσία του cleanings.xlsm", MsgBoxStyle.Critical)
+            'MsgBox(ex)
+            oExcel.Quit()
+            Exit Sub
+        Catch ex1 As Exception
+            MsgBox("Πρόβλημα στο άνοιγμα τουν αρχείου cleanings", MsgBoxStyle.Critical)
+            oExcel.Quit()
+            Exit Sub
+        End Try
+
+
+        oExcel.Quit()
+
+
+
+
+
+    End Sub
 
 End Class
