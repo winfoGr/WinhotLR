@@ -72,6 +72,8 @@ Partial Class katharismata
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.WresBdomadas = New System.Windows.Forms.Button()
+        Me.KathAnzahl = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -597,6 +599,8 @@ Partial Class katharismata
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.Label17)
+        Me.Panel4.Controls.Add(Me.KathAnzahl)
         Me.Panel4.Controls.Add(Me.Label20)
         Me.Panel4.Controls.Add(Me.WresBdomadas)
         Me.Panel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
@@ -627,6 +631,26 @@ Partial Class katharismata
         Me.WresBdomadas.Size = New System.Drawing.Size(53, 28)
         Me.WresBdomadas.TabIndex = 6
         Me.WresBdomadas.UseVisualStyleBackColor = True
+        '
+        'KathAnzahl
+        '
+        Me.KathAnzahl.Location = New System.Drawing.Point(471, 31)
+        Me.KathAnzahl.MaxLength = 2
+        Me.KathAnzahl.Name = "KathAnzahl"
+        Me.KathAnzahl.Size = New System.Drawing.Size(45, 23)
+        Me.KathAnzahl.TabIndex = 7
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.Label17.ForeColor = System.Drawing.Color.Black
+        Me.Label17.Location = New System.Drawing.Point(315, 8)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(201, 20)
+        Me.Label17.TabIndex = 21
+        Me.Label17.Text = "Αριθμός Καθαριστριών:"
         '
         'katharismata
         '
@@ -707,4 +731,6 @@ Partial Class katharismata
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Label20 As Label
     Friend WithEvents WresBdomadas As Button
+    Friend WithEvents Label17 As Label
+    Friend WithEvents KathAnzahl As TextBox
 End Class

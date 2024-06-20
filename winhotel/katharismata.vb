@@ -11,6 +11,7 @@ Public Class katharismata
     Dim firstC, lastC, resultC, wresF, wresL, sentonEbdom As Int16
     Dim greekCulture As New System.Globalization.CultureInfo("el-GR", False)
     Dim englishCulture As New System.Globalization.CultureInfo("en-US", False)
+    Dim kathArithmos As Integer
     'Dim engCult As New System.Globalization.CultureInfo("en-US", False)
     'Dim grCult As New System.Globalization.CultureInfo("el", False)
     Structure zelle
@@ -285,14 +286,27 @@ Public Class katharismata
             cell = get_zelle(FirstDateMonthPck.Value.AddDays(i))
             Dim newGeo3 As New geo3
             For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
-                If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
+                Dim tupel As String = sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value
+                If Not String.IsNullOrEmpty(tupel) Then
+                    Dim tupelArr() As String = tupel.Split(","c)
+                    Dim hilfstring As String = ""
+                    Try
+                        hilfstring = Trim(tupelArr(4).Replace(")", ""))
+                    Catch ex As Exception
+                        ' Handle any errors that might occur during the split or trim process
+                        hilfstring = "0"
+                    End Try
                     Select Case j
                         Case 0
-                            newGeo3.arch = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo3.arch = CType(hilfstring.Replace(".", ","), Single)
                             newGeo3.prufsum = newGeo3.prufsum + newGeo3.arch
                         Case 1
-                            newGeo3.iri = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo3.iri = CType(hilfstring.Replace(".", ","), Single)
                             newGeo3.prufsum = newGeo3.prufsum + newGeo3.iri
+
+
+
+
                     End Select
                 Else
                     Select Case j
@@ -301,7 +315,28 @@ Public Class katharismata
                         Case 1
                             newGeo3.iri = 0
                     End Select
+
+
+
                 End If
+
+                'If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
+                '    Select Case j
+                '        Case 0
+                '            newGeo3.arch = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                '            newGeo3.prufsum = newGeo3.prufsum + newGeo3.arch
+                '        Case 1
+                '            newGeo3.iri = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                '            newGeo3.prufsum = newGeo3.prufsum + newGeo3.iri
+                '    End Select
+                'Else
+                '    Select Case j
+                '        Case 0
+                '            newGeo3.arch = 0
+                '        Case 1
+                '            newGeo3.iri = 0
+                '    End Select
+                'End If
             Next
             ReDim Preserve geomada3(length)
             geomada3(length) = newGeo3
@@ -608,6 +643,7 @@ Public Class katharismata
     '    Next
 
     'End Sub
+
     Private Sub make_geo1(ByVal workSheet As Int16, ByVal oExcel As Microsoft.Office.Interop.Excel.Application, ByVal book As Microsoft.Office.Interop.Excel.Workbook, ByVal sheet As Microsoft.Office.Interop.Excel.Sheets)
         Dim j, i, length As Int16
         Dim cell As zelle
@@ -625,23 +661,30 @@ Public Class katharismata
             Dim newGeo1 As New geo1
             For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
 
-                If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
+                Dim tupel As String = sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value
+                If Not String.IsNullOrEmpty(tupel) Then
+                    Dim tupelArr() As String = tupel.Split(","c)
+                    Dim hilfstring As String = ""
+                    Try
+                        hilfstring = Trim(tupelArr(4).Replace(")", ""))
+                    Catch ex As Exception
+                        ' Handle any errors that might occur during the split or trim process
+                        hilfstring = "0"
+                    End Try
 
                     Select Case j
                         Case 0
-                            newGeo1.iper = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo1.iper = CType(hilfstring.Replace(".", ","), Single)
                             newGeo1.prufsum = newGeo1.prufsum + newGeo1.iper
                         Case 1
-                            '      CType(hilfstring.Replace(".", ","), Single)
-                            newGeo1.ikr = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
-
+                            newGeo1.ikr = CType(hilfstring.Replace(".", ","), Single)
                             newGeo1.prufsum = newGeo1.prufsum + newGeo1.ikr
                         Case 2
-                            newGeo1.afr = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo1.afr = CType(hilfstring.Replace(".", ","), Single)
                             newGeo1.prufsum = newGeo1.prufsum + newGeo1.afr
-                            'Case 3
-                            '    newGeo1.eos = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
-                            '    newGeo1.prufsum = newGeo1.prufsum + newGeo1.eos
+                            ' Case 3
+                            '     newGeo1.eos = CType(hilfstring.Replace(".", ","), Single)
+                            '     newGeo1.prufsum = newGeo1.prufsum + newGeo1.eos
                     End Select
                 Else
                     Select Case j
@@ -651,11 +694,44 @@ Public Class katharismata
                             newGeo1.ikr = 0
                         Case 2
                             newGeo1.afr = 0
-                            'Case 3
-                            '    newGeo1.eos = 0
+                            ' Case 3
+                            '     newGeo1.eos = 0
                     End Select
                 End If
             Next
+            'For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
+
+            '    If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
+
+            '        Select Case j
+            '            Case 0
+            '                newGeo1.iper = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+            '                newGeo1.prufsum = newGeo1.prufsum + newGeo1.iper
+            '            Case 1
+            '                '      CType(hilfstring.Replace(".", ","), Single)
+            '                newGeo1.ikr = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+
+            '                newGeo1.prufsum = newGeo1.prufsum + newGeo1.ikr
+            '            Case 2
+            '                newGeo1.afr = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+            '                newGeo1.prufsum = newGeo1.prufsum + newGeo1.afr
+            '                'Case 3
+            '                '    newGeo1.eos = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+            '                '    newGeo1.prufsum = newGeo1.prufsum + newGeo1.eos
+            '        End Select
+            '    Else
+            '        Select Case j
+            '            Case 0
+            '                newGeo1.iper = 0
+            '            Case 1
+            '                newGeo1.ikr = 0
+            '            Case 2
+            '                newGeo1.afr = 0
+            '                'Case 3
+            '                '    newGeo1.eos = 0
+            '        End Select
+            '    End If
+            'Next
             ReDim Preserve geomada1(length)
             geomada1(length) = newGeo1
             length += 1
@@ -876,102 +952,108 @@ Public Class katharismata
 
         ' Diabazvw to excel kai apothikebw gia kathe mera synolika tis wres stiw viles thalases 
         Me.KatharismataTableAdapter.FillByGeomada(Me.DbhotelDataSet.katharismata, 8)
-        'dateIDiff = Convert.ToInt16(mexriDPck.Value.Subtract(FirstDateMonthPck.Value).Days)
         For i = 0 To dateIDiff
             cell = get_zelle(FirstDateMonthPck.Value.AddDays(i))
             Dim newGeo8 As New geo8
+
             For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
-                If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
+                Dim cellValue As String = sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).Value
+
+                If Not String.IsNullOrEmpty(cellValue) Then
+                    Dim tupelArr() As String = cellValue.Split(","c)
+                    Dim hilfstring As String = ""
+
+                    Try
+                        hilfstring = Trim(tupelArr(4).Replace(")", ""))
+                    Catch ex As Exception
+                        hilfstring = "0"
+                    End Try
+
                     Select Case j
                         Case 0
-                            newGeo8.ub1c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ub1c = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub1c
                         Case 1
-                            newGeo8.ub2c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ub2c = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub2c
                         Case 2
-                            newGeo8.ub4c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ub4c = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub4c
                         Case 3
-                            newGeo8.ub1y = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ub1y = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub1y
                         Case 4
-                            newGeo8.ub3c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ub3c = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub3c
                         Case 5
-                            newGeo8.ub1d = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ub1d = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub1d
                         Case 6
-                            newGeo8.ub3d = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ub3d = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub3d
                         Case 7
-                            newGeo8.blue = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.blue = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.blue
                         Case 8
-                            newGeo8.gry = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.gry = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.gry
                         Case 9
-                            newGeo8.red = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.red = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.red
                         Case 10
-                            newGeo8.gre = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.gre = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.gre
                         Case 11
-                            newGeo8.whi = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.whi = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.whi
                         Case 12
-                            newGeo8.san = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.san = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.san
                         Case 13
-                            newGeo8.coc = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.coc = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.coc
                         Case 14
-                            newGeo8.yell = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.yell = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.yell
                         Case 15
-                            newGeo8.ora = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.ora = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.ora
                         Case 16
-                            newGeo8.purpl = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.purpl = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.purpl
                         Case 17
-                            newGeo8.brown = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.brown = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.brown
                         Case 18
-                            newGeo8.rea01 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea01 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea01
                         Case 19
-                            newGeo8.rea02 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea02 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea02
                         Case 20
-                            newGeo8.rea11 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea11 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea11
                         Case 21
-                            newGeo8.rea12 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea12 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea12
                         Case 22
-                            newGeo8.rea21 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea21 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea21
                         Case 23
-                            newGeo8.rea22 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea22 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea22
-
-
                         Case 24
-                            newGeo8.rea31 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea31 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea31
                         Case 25
-                            newGeo8.rea32 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea32 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea32
                         Case 26
-                            newGeo8.rea41 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea41 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea41
                         Case 27
-                            newGeo8.rea42 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+                            newGeo8.rea42 = CType(hilfstring.Replace(".", ","), Single)
                             newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea42
-
-
-
                     End Select
                 Else
                     Select Case j
@@ -1031,15 +1113,179 @@ Public Class katharismata
                             newGeo8.rea41 = 0
                         Case 27
                             newGeo8.rea42 = 0
-
                     End Select
                 End If
             Next
+
             ReDim Preserve geomada8(length)
             geomada8(length) = newGeo8
             length += 1
-
         Next
+
+        'dateIDiff = Convert.ToInt16(mexriDPck.Value.Subtract(FirstDateMonthPck.Value).Days)
+        'For i = 0 To dateIDiff
+        '    cell = get_zelle(FirstDateMonthPck.Value.AddDays(i))
+        '    Dim newGeo8 As New geo8
+        '    For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
+        '        If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
+        '            Select Case j
+        '                Case 0
+        '                    newGeo8.ub1c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub1c
+        '                Case 1
+        '                    newGeo8.ub2c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub2c
+        '                Case 2
+        '                    newGeo8.ub4c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub4c
+        '                Case 3
+        '                    newGeo8.ub1y = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub1y
+        '                Case 4
+        '                    newGeo8.ub3c = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub3c
+        '                Case 5
+        '                    newGeo8.ub1d = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub1d
+        '                Case 6
+        '                    newGeo8.ub3d = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ub3d
+        '                Case 7
+        '                    newGeo8.blue = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.blue
+        '                Case 8
+        '                    newGeo8.gry = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.gry
+        '                Case 9
+        '                    newGeo8.red = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.red
+        '                Case 10
+        '                    newGeo8.gre = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.gre
+        '                Case 11
+        '                    newGeo8.whi = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.whi
+        '                Case 12
+        '                    newGeo8.san = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.san
+        '                Case 13
+        '                    newGeo8.coc = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.coc
+        '                Case 14
+        '                    newGeo8.yell = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.yell
+        '                Case 15
+        '                    newGeo8.ora = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.ora
+        '                Case 16
+        '                    newGeo8.purpl = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.purpl
+        '                Case 17
+        '                    newGeo8.brown = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.brown
+        '                Case 18
+        '                    newGeo8.rea01 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea01
+        '                Case 19
+        '                    newGeo8.rea02 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea02
+        '                Case 20
+        '                    newGeo8.rea11 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea11
+        '                Case 21
+        '                    newGeo8.rea12 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea12
+        '                Case 22
+        '                    newGeo8.rea21 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea21
+        '                Case 23
+        '                    newGeo8.rea22 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea22
+
+
+        '                Case 24
+        '                    newGeo8.rea31 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea31
+        '                Case 25
+        '                    newGeo8.rea32 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea32
+        '                Case 26
+        '                    newGeo8.rea41 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea41
+        '                Case 27
+        '                    newGeo8.rea42 = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newGeo8.prufsum = newGeo8.prufsum + newGeo8.rea42
+
+
+
+        '            End Select
+        '        Else
+        '            Select Case j
+        '                Case 0
+        '                    newGeo8.ub1c = 0
+        '                Case 1
+        '                    newGeo8.ub2c = 0
+        '                Case 2
+        '                    newGeo8.ub4c = 0
+        '                Case 3
+        '                    newGeo8.ub1y = 0
+        '                Case 4
+        '                    newGeo8.ub3c = 0
+        '                Case 5
+        '                    newGeo8.ub1d = 0
+        '                Case 6
+        '                    newGeo8.ub3d = 0
+        '                Case 7
+        '                    newGeo8.blue = 0
+        '                Case 8
+        '                    newGeo8.gry = 0
+        '                Case 9
+        '                    newGeo8.red = 0
+        '                Case 10
+        '                    newGeo8.gre = 0
+        '                Case 11
+        '                    newGeo8.whi = 0
+        '                Case 12
+        '                    newGeo8.san = 0
+        '                Case 13
+        '                    newGeo8.coc = 0
+        '                Case 14
+        '                    newGeo8.yell = 0
+        '                Case 15
+        '                    newGeo8.ora = 0
+        '                Case 16
+        '                    newGeo8.purpl = 0
+        '                Case 17
+        '                    newGeo8.brown = 0
+        '                Case 18
+        '                    newGeo8.rea01 = 0
+        '                Case 19
+        '                    newGeo8.rea02 = 0
+        '                Case 20
+        '                    newGeo8.rea11 = 0
+        '                Case 21
+        '                    newGeo8.rea12 = 0
+        '                Case 22
+        '                    newGeo8.rea21 = 0
+        '                Case 23
+        '                    newGeo8.rea22 = 0
+        '                Case 24
+        '                    newGeo8.rea31 = 0
+        '                Case 25
+        '                    newGeo8.rea32 = 0
+        '                Case 26
+        '                    newGeo8.rea41 = 0
+        '                Case 27
+        '                    newGeo8.rea42 = 0
+
+        '            End Select
+        '        End If
+        '    Next
+        '    ReDim Preserve geomada8(length)
+        '    geomada8(length) = newGeo8
+        '    length += 1
+
+        'Next
 
         'Meta koitw sta elements sto array kai elegxw ean to prufsum > 8 
         'opou brw prospathw na to diorthosw metakinontas arxika tis Allages A kai meta ta Katharismata K
@@ -1243,11 +1489,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).ora
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("purpl")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("purpl")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("purple")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("purple")).value.contains("A")) _
                               AndAlso geomada8(i).prufsum - geomada8(i).purpl <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("purpl")
+                    changes(length).column = get_column_vila("purple")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1267,11 +1513,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).brown
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea01")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea01")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea0.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.1")).value.contains("A")) _
                          AndAlso geomada8(i).prufsum - geomada8(i).rea01 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea01")
+                    changes(length).column = get_column_vila("rea0.1")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1279,11 +1525,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea01
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea02")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea02")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea0.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.2")).value.contains("A")) _
                          AndAlso geomada8(i).prufsum - geomada8(i).rea02 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea02")
+                    changes(length).column = get_column_vila("rea0.2")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1291,11 +1537,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea02
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea11")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea11")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea1.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.1")).value.contains("A")) _
                          AndAlso geomada8(i).prufsum - geomada8(i).rea11 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea11")
+                    changes(length).column = get_column_vila("rea1.1")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1303,11 +1549,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea11
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea12")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea12")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value.contains("A")) _
                      AndAlso geomada8(i).prufsum - geomada8(i).rea12 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea12")
+                    changes(length).column = get_column_vila("rea1.2")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1315,11 +1561,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea12
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea21")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea21")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea2.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.1")).value.contains("A")) _
                      AndAlso geomada8(i).prufsum - geomada8(i).rea21 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea21")
+                    changes(length).column = get_column_vila("rea2.1")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1327,11 +1573,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea21
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea22")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea22")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea2.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.2")).value.contains("A")) _
                AndAlso geomada8(i).prufsum - geomada8(i).rea22 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea22")
+                    changes(length).column = get_column_vila("rea2.2")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1339,11 +1585,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea22
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea31")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea31")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea3.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.1")).value.contains("A")) _
           AndAlso geomada8(i).prufsum - geomada8(i).rea31 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea31")
+                    changes(length).column = get_column_vila("rea3.1")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1351,11 +1597,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea31
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea32")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea32")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea3.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.2")).value.contains("A")) _
           AndAlso geomada8(i).prufsum - geomada8(i).rea32 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea32")
+                    changes(length).column = get_column_vila("rea3.2")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1363,11 +1609,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea32
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea41")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea41")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea4.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.1")).value.contains("A")) _
           AndAlso geomada8(i).prufsum - geomada8(i).rea41 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea41")
+                    changes(length).column = get_column_vila("rea4.1")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1375,11 +1621,11 @@ Public Class katharismata
                     If i > 0 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea41
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea42")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea42")).value.contains("A")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea4.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.2")).value.contains("A")) _
           AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
 
                     ReDim Preserve changes(length)
-                    changes(length).column = get_column_vila("rea42")
+                    changes(length).column = get_column_vila("rea4.2")
                     changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                     changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                     length += 1
@@ -1796,12 +2042,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).ora
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("purpl")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("purpl")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("purpl")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("purple")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("purple")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("purple")).value.contains("D")) _
                             AndAlso geomada8(i).prufsum - geomada8(i).purpl <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).purpl < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("purpl")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("purpl", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).purpl < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("purple")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("purple", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("purpl")
+                        changes(length).column = get_column_vila("purple")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -1810,9 +2056,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).purpl
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).purpl < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("purpl")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("purpl", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).purpl < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("purple")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("purple", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("purpl")
+                        changes(length).column = get_column_vila("purple")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -1846,12 +2092,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).brown
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea01")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea01")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea01")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea0.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.1")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.1")).value.contains("D")) _
                   AndAlso geomada8(i).prufsum - geomada8(i).rea01 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea01 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea01")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea01", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea01 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.1")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea0.1", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea01")
+                        changes(length).column = get_column_vila("rea0.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -1860,9 +2106,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea01
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea01 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea01")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea01", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea01 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.1")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea0.1", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea01")
+                        changes(length).column = get_column_vila("rea0.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -1871,12 +2117,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea01
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea02")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea02")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea02")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea0.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.2")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.2")).value.contains("D")) _
              AndAlso geomada8(i).prufsum - geomada8(i).rea02 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea02 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea02")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea02", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea02 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.2")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea0.2", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea02")
+                        changes(length).column = get_column_vila("rea0.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -1885,9 +2131,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea02
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea02 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea02")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea02", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea02 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea0.2")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea0.2", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea02")
+                        changes(length).column = get_column_vila("rea0.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -1896,12 +2142,37 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea02
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea12")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea12")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea12")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea1.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.1")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.1")).value.contains("D")) _
+AndAlso geomada8(i).prufsum - geomada8(i).rea12 <= 8 Then
+
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea11 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.1")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea1.1", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                        ReDim Preserve changes(length)
+                        changes(length).column = get_column_vila("rea1.2")
+                        changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
+                        changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
+                        length += 1
+                        geomada8(i).prufsum = geomada8(i).prufsum - geomada8(i).rea12
+                        'If i < geomada2.Length - 1 Then
+                        geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea11
+                        'End If
+
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea11 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea1.1", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                        ReDim Preserve changes(length)
+                        changes(length).column = get_column_vila("rea1.2")
+                        changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
+                        changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
+                        length += 1
+                        geomada8(i).prufsum = geomada8(i).prufsum - geomada8(i).rea11
+                        'If i > 0 Then
+                        geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea11
+                        'End If
+                    End If
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value.contains("D")) _
      AndAlso geomada8(i).prufsum - geomada8(i).rea12 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea12 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea12")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea12", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea12 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea1.2", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea12")
+                        changes(length).column = get_column_vila("rea1.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -1910,9 +2181,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea12
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea12 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea12")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea12", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea12 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea1.2")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea1.2", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea12")
+                        changes(length).column = get_column_vila("rea1.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -1921,12 +2192,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).ub3d <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea12
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea21")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea21")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea21")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea2.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.1")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.1")).value.contains("D")) _
 AndAlso geomada8(i).prufsum - geomada8(i).rea21 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea21 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea21")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea21", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea21 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.1")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea2.1", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea21")
+                        changes(length).column = get_column_vila("rea2.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -1935,9 +2206,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea21 <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea21
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea21 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea21")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea21", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea21 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.1")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea2.1", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea21")
+                        changes(length).column = get_column_vila("rea2.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -1946,12 +2217,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea21 <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea21
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea22")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea22")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea22")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea2.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.2")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.2")).value.contains("D")) _
 AndAlso geomada8(i).prufsum - geomada8(i).rea22 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea22 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea22")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea22", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea22 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.2")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea2.2", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea22")
+                        changes(length).column = get_column_vila("rea2.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -1960,9 +2231,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea22 <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea22
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea22 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea22")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea22", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea22 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea2.2")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea2.2", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea22")
+                        changes(length).column = get_column_vila("rea2.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -1971,12 +2242,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea22 <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea22
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea31")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea31")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea31")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea3.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.1")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.1")).value.contains("D")) _
 AndAlso geomada8(i).prufsum - geomada8(i).rea31 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea31 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea31")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea31", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea31 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.1")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea3.1", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea31")
+                        changes(length).column = get_column_vila("rea3.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -1985,9 +2256,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea31 <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea31
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea31 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea31")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea31", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea31 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.1")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea3.1", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea31")
+                        changes(length).column = get_column_vila("rea3.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -1996,12 +2267,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea31 <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea31
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea32")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea32")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea32")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea3.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.2")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.2")).value.contains("D")) _
 AndAlso geomada8(i).prufsum - geomada8(i).rea32 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea32 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea32")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea32", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea32 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.2")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea3.2", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea32")
+                        changes(length).column = get_column_vila("rea3.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -2010,9 +2281,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea32 <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea32
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea32 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea32")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea32", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea32 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea3.2")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea3.2", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea32")
+                        changes(length).column = get_column_vila("rea3.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -2021,12 +2292,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea32 <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea32
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea41")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea41")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea41")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea4.1")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.1")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.1")).value.contains("D")) _
 AndAlso geomada8(i).prufsum - geomada8(i).rea41 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea41 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea41")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea41", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea41 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.1")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea4.1", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea41")
+                        changes(length).column = get_column_vila("rea4.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -2035,9 +2306,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea41 <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea41
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea41 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea41")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea41", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea41 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.1")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea4.1", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea41")
+                        changes(length).column = get_column_vila("rea4.1")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -2046,12 +2317,12 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea41 <= 8 Then
                         geomada8(i - 1).prufsum = geomada8(i - 1).prufsum + geomada8(i).rea41
                         'End If
                     End If
-                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea42")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea42")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea42")).value.contains("D")) _
+                ElseIf Not sheet(cell.month).Cells(cell.day, get_column_vila("rea4.2")).value = Nothing AndAlso (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.2")).value.contains("K")) AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.2")).value.contains("D")) _
 AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
 
-                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea42 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea42")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea42", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
+                    If i < geomada8.Length - 1 AndAlso geomada8(i + 1).prufsum + geomada8(i).rea42 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.2")).value.contains("I")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea4.2", Me.FirstDateMonthPck.Value.AddDays(i + 1), Me.FirstDateMonthPck.Value.AddDays(i + 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea42")
+                        changes(length).column = get_column_vila("rea4.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i + 1)
                         length += 1
@@ -2060,9 +2331,9 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
                         geomada8(i + 1).prufsum = geomada8(i + 1).prufsum + geomada8(i).rea42
                         'End If
 
-                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea42 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea42")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea42", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
+                    ElseIf i > 0 AndAlso geomada8(i - 1).prufsum + geomada8(i).rea42 < 9 AndAlso Not (sheet(cell.month).Cells(cell.day, get_column_vila("rea4.2")).value.contains("O")) AndAlso Not Me.StatusTableAdapter.ExistStatusByDwmImerom("rea4.2", Me.FirstDateMonthPck.Value.AddDays(i - 1), Me.FirstDateMonthPck.Value.AddDays(i - 1)) Then
                         ReDim Preserve changes(length)
-                        changes(length).column = get_column_vila("rea42")
+                        changes(length).column = get_column_vila("rea4.2")
                         changes(length).old = Me.FirstDateMonthPck.Value.AddDays(i)
                         changes(length).neu = Me.FirstDateMonthPck.Value.AddDays(i - 1)
                         length += 1
@@ -2128,51 +2399,147 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         For i = 0 To dateIDiff
             cell = get_zelle(FirstDateMonthPck.Value.AddDays(i))
             Dim newThal As New thal
-            For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
-                If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
-                    Select Case j
-                        Case 1
-                            newThal.eean = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
 
-                            newThal.prufsum = newThal.prufsum + newThal.eean
-                        Case 2
-                            newThal.mail = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
-                            newThal.prufsum = newThal.prufsum + newThal.mail
-                        Case 3
-                            newThal.pers = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
-                            newThal.prufsum = newThal.prufsum + newThal.pers
-                        Case 4
-                            newThal.thoi = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
-                            newThal.prufsum = newThal.prufsum + newThal.thoi
-                        Case 5
-                            newThal.pue = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
-                            newThal.prufsum = newThal.prufsum + newThal.pue
-                        Case 0
-                            newThal.mavi = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
-                            newThal.prufsum = newThal.prufsum + newThal.mavi
-                    End Select
-                Else
-                    Select Case j
-                        Case 1
-                            newThal.eean = 0
-                        Case 2
-                            newThal.mail = 0
-                        Case 3
-                            newThal.pers = 0
-                        Case 4
-                            newThal.thoi = 0
-                        Case 5
-                            newThal.pue = 0
-                        Case 0
-                            newThal.mavi = 0
-                    End Select
+            For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
+                Dim cellValue As String = sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).Value
+                Dim parsedValue As Single = 0
+
+                If Not String.IsNullOrEmpty(cellValue) Then
+                    Try
+                        Dim tupelArr() As String = cellValue.Split(","c)
+                        Dim hilfstring As String = Trim(tupelArr(4).Replace(")", ""))
+                        parsedValue = CType(hilfstring.Replace(".", ","), Single)
+                    Catch ex As Exception
+                        parsedValue = 0
+                    End Try
                 End If
+
+                Select Case j
+                    Case 1
+                        newThal.eean = parsedValue
+                        newThal.prufsum += newThal.eean
+                    Case 2
+                        newThal.mail = parsedValue
+                        newThal.prufsum += newThal.mail
+                    Case 3
+                        newThal.pers = parsedValue
+                        newThal.prufsum += newThal.pers
+                    Case 4
+                        newThal.thoi = parsedValue
+                        newThal.prufsum += newThal.thoi
+                    Case 5
+                        newThal.pue = parsedValue
+                        newThal.prufsum += newThal.pue
+                    Case 0
+                        newThal.mavi = parsedValue
+                        newThal.prufsum += newThal.mavi
+                End Select
             Next
+
             ReDim Preserve thalasses(length)
             thalasses(length) = newThal
             length += 1
-
         Next
+
+        'For i = 0 To dateIDiff
+        '    cell = get_zelle(FirstDateMonthPck.Value.AddDays(i))
+        '    Dim newThal As New thal
+
+        '    For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
+        '        Dim cellValue As String = sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).Value
+
+        '        If Not String.IsNullOrEmpty(cellValue) Then
+        '            Select Case j
+        '                Case 1
+        '                    newThal.eean = CType(cellValue.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.eean
+        '                Case 2
+        '                    newThal.mail = CType(cellValue.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.mail
+        '                Case 3
+        '                    newThal.pers = CType(cellValue.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.pers
+        '                Case 4
+        '                    newThal.thoi = CType(cellValue.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.thoi
+        '                Case 5
+        '                    newThal.pue = CType(cellValue.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.pue
+        '                Case 0
+        '                    newThal.mavi = CType(cellValue.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.mavi
+        '            End Select
+        '        Else
+        '            Select Case j
+        '                Case 1
+        '                    newThal.eean = 0
+        '                Case 2
+        '                    newThal.mail = 0
+        '                Case 3
+        '                    newThal.pers = 0
+        '                Case 4
+        '                    newThal.thoi = 0
+        '                Case 5
+        '                    newThal.pue = 0
+        '                Case 0
+        '                    newThal.mavi = 0
+        '            End Select
+        '        End If
+        '    Next
+
+        '    ReDim Preserve thalasses(length)
+        '    thalasses(length) = newThal
+        '    length += 1
+        'Next
+
+        'For i = 0 To dateIDiff
+        '    cell = get_zelle(FirstDateMonthPck.Value.AddDays(i))
+        '    Dim newThal As New thal
+        '    For j = 0 To Me.DbhotelDataSet.katharismata.Count - 1
+        '        If (Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value = "") Then
+        '            Select Case j
+        '                Case 1
+        '                    newThal.eean = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+
+        '                    newThal.prufsum = newThal.prufsum + newThal.eean
+        '                Case 2
+        '                    newThal.mail = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.mail
+        '                Case 3
+        '                    newThal.pers = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.pers
+        '                Case 4
+        '                    newThal.thoi = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.thoi
+        '                Case 5
+        '                    newThal.pue = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.pue
+        '                Case 0
+        '                    newThal.mavi = CType(sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(j).excelcolumn).value.Substring(9, 3).Replace(".", ","), Single)
+        '                    newThal.prufsum = newThal.prufsum + newThal.mavi
+        '            End Select
+        '        Else
+        '            Select Case j
+        '                Case 1
+        '                    newThal.eean = 0
+        '                Case 2
+        '                    newThal.mail = 0
+        '                Case 3
+        '                    newThal.pers = 0
+        '                Case 4
+        '                    newThal.thoi = 0
+        '                Case 5
+        '                    newThal.pue = 0
+        '                Case 0
+        '                    newThal.mavi = 0
+        '            End Select
+        '        End If
+        '    Next
+        '    ReDim Preserve thalasses(length)
+        '    thalasses(length) = newThal
+        '    length += 1
+
+        'Next
 
         'Meta koitw sta elements sto array kai elegxw ean to prufsum > 8 
         'opou brw prospathw na to diorthosw metakinontas arxika tis Allages A kai meta ta Katharismata K
@@ -3555,44 +3922,49 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         Return sent
     End Function
     Private Function get_anz_katharistriwn(ByVal count As Int16) As Int16
-        Select Case count
-            Case 0
-                Return 0
-            Case 1
-                Return 1
-            Case 2
-                Return 1
-            Case 3
-                Return 2
-            Case 4
-                Return 2
-            Case 5
-                Return 3
-            Case 6
-                Return 3
-            Case 7
-                Return 4
-            Case 8
-                Return 4
-            Case 9
-                Return 5
-            Case 10
-                Return 5
-            Case 11
-                Return 6
-            Case 12
-                Return 6
-            Case 13
-                Return 7
-            Case 14
-                Return 7
-            Case 15
-                Return 8
-            Case 16
-                Return 8
+        Return (count + 1) \ 2
+        'Select Case count
+        '    Case 0
+        '        Return 0
+        '    Case 1
+        '        Return 1
+        '    Case 2
+        '        Return 1
+        '    Case 3
+        '        Return 2
+        '    Case 4
+        '        Return 2
+        '    Case 5
+        '        Return 3
+        '    Case 6
+        '        Return 3
+        '    Case 7
+        '        Return 4
+        '    Case 8
+        '        Return 4
+        '    Case 9
+        '        Return 5
+        '    Case 10
+        '        Return 5
+        '    Case 11
+        '        Return 6
+        '    Case 12
+        '        Return 6
+        '    Case 13
+        '        Return 7
+        '    Case 14
+        '        Return 7
+        '    Case 15
+        '        Return 8
+        '    Case 16
+        '        Return 8
+        '    Case 17
+        '        Return 9
+        '    Case 18
+        '        Return 9
 
 
-        End Select
+        'End Select
     End Function
     Private Sub KatharBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles KatharBtn.Click
         Dim oExcel As Microsoft.Office.Interop.Excel.Application
@@ -3605,7 +3977,14 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         Dim wres As kathviles()
         Dim tupelArr As String()
         Dim hilfstring As String
-        ReDim wres(9) 'mexri 7 katharistries
+        Dim cladyNumber As Integer
+
+        Try
+            kathArithmos = CType(KathAnzahl.Text, Byte)
+        Catch ex As Exception
+            kathArithmos = 9
+        End Try
+        ReDim wres(kathArithmos) 'mexri 7 katharistries
 
 
         For i = 0 To wres.Length - 1
@@ -3635,32 +4014,35 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
                 For i = wresF To wresL
                     If Not oSheet(cell.month).Cells(cell.day, i).value = "" Then '(Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(index).excelcolumn).value = ""Then
                         tupel = oSheet(cell.month).Cells(cell.day, i).value
-                        tupelArr = tupel.Split(",")
+                        'tupelArr = tupel.Split(",")
+                        tupelArr = tupel.Split(","c)
                         Try
+                            Dim numberPart As String = New String(tupelArr(0).Skip(1).TakeWhile(Function(c) Char.IsDigit(c)).ToArray())
+                            cladyNumber = CInt(numberPart)
                             hilfstring = Trim(tupelArr(4).Replace(")", ""))
-                            If tupelArr(0).Substring(1, 1).Equals("1") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("A") Then
+                            If cladyNumber = 1 OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("A") Then
                                 'MsgBox(CType(hilfstring.Replace(".", ","), Single))
                                 wres(0).wresvila(i - wresF) = wres(0).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
 
 
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("2") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Β") Then
+                            ElseIf cladyNumber = 2 OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Β") Then
                                 'hilfstring = tupelArr(4).Replace(")", "")
                                 'MsgBox(CType(hilfstring.Replace(".", ","), Single))
                                 wres(1).wresvila(i - wresF) = wres(1).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("3") Then
-                                wres(2).wresvila(i - wresF) = wres(2).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("4") Then
-                                wres(3).wresvila(i - wresF) = wres(3).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("5") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Ε") Then
-                                wres(4).wresvila(i - wresF) = wres(4).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("6") Then
-                                wres(5).wresvila(i - wresF) = wres(5).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("7") Then
-                                wres(6).wresvila(i - wresF) = wres(6).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("8") Then
-                                wres(7).wresvila(i - wresF) = wres(7).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("9") Then
-                                wres(8).wresvila(i - wresF) = wres(8).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
+                            Else 'If tupelArr(0).Substring(1, 1).Equals("3") Then
+                                wres(cladyNumber - 1).wresvila(i - wresF) = wres(cladyNumber - 1).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("4") Then
+                                '    wres(3).wresvila(i - wresF) = wres(3).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("5") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Ε") Then
+                                '    wres(4).wresvila(i - wresF) = wres(4).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("6") Then
+                                '    wres(5).wresvila(i - wresF) = wres(5).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("7") Then
+                                '    wres(6).wresvila(i - wresF) = wres(6).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("8") Then
+                                '    wres(7).wresvila(i - wresF) = wres(7).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("9") Then
+                                '    wres(8).wresvila(i - wresF) = wres(8).wresvila(i - wresF) + CType(hilfstring.Replace(".", ","), Single)
                             End If
                         Catch ex As InvalidCastException
                             oExcel.Quit()
@@ -3679,33 +4061,40 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
                 datum = datum.AddDays(1)
             Loop
             For i = wresF To wresL
-                If wres(0).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(34, i).value = Math.Round(wres(0).wresvila(i - wresF), 1)
-                End If
-                If wres(1).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(35, i).value = Math.Round(wres(1).wresvila(i - wresF), 1)
-                End If
-                If wres(2).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(36, i).value = Math.Round(wres(2).wresvila(i - wresF), 1)
-                End If
-                If wres(3).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(37, i).value = Math.Round(wres(3).wresvila(i - wresF), 1)
-                End If
-                If wres(4).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(38, i).value = Math.Round(wres(4).wresvila(i - wresF), 1)
-                End If
-                If wres(5).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(39, i).value = Math.Round(wres(5).wresvila(i - wresF), 1)
-                End If
-                If wres(6).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(40, i).value = Math.Round(wres(6).wresvila(i - wresF), 1)
-                End If
-                If wres(7).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(41, i).value = Math.Round(wres(7).wresvila(i - wresF), 1)
-                End If
-                If wres(8).wresvila(i - wresF) <> 0 Then
-                    oSheet(cell.month).Cells(42, i).value = Math.Round(wres(8).wresvila(i - wresF), 1)
-                End If
+                For j = 0 To kathArithmos - 1
+                    If wres(j).wresvila(i - wresF) <> 0 Then
+                        oSheet(cell.month).Cells(34 + j, i).value = Math.Round(wres(j).wresvila(i - wresF), 1)
+                    End If
+
+                Next
+
+                'If wres(0).wresvila(i - wresF) <> 0 Then
+                '    oSheet(cell.month).Cells(34, i).value = Math.Round(wres(0).wresvila(i - wresF), 1)
+                'End If
+                'If wres(1).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(35, i).value = Math.Round(wres(1).wresvila(i - wresF), 1)
+                '    End If
+                '    If wres(2).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(36, i).value = Math.Round(wres(2).wresvila(i - wresF), 1)
+                '    End If
+                '    If wres(3).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(37, i).value = Math.Round(wres(3).wresvila(i - wresF), 1)
+                '    End If
+                '    If wres(4).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(38, i).value = Math.Round(wres(4).wresvila(i - wresF), 1)
+                '    End If
+                '    If wres(5).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(39, i).value = Math.Round(wres(5).wresvila(i - wresF), 1)
+                '    End If
+                '    If wres(6).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(40, i).value = Math.Round(wres(6).wresvila(i - wresF), 1)
+                '    End If
+                '    If wres(7).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(41, i).value = Math.Round(wres(7).wresvila(i - wresF), 1)
+                '    End If
+                '    If wres(8).wresvila(i - wresF) <> 0 Then
+                '        oSheet(cell.month).Cells(42, i).value = Math.Round(wres(8).wresvila(i - wresF), 1)
+                '    End If
             Next
 
         Catch ex As Runtime.InteropServices.COMException
@@ -4608,6 +4997,7 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         GrafeioForesCbx.SelectedIndex = 1
         SentWra.Text = 14
         DaysClean.Text = 3
+        kathAnzahl.Text = 9
 
     End Sub
 
@@ -4694,7 +5084,15 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
         Dim wresDay() As Single
         Dim tupelArr As String()
         Dim hilfstring As String
-        ReDim wresDay(9) 'mexri 7 katharistries
+        Dim cladyNumber As Integer
+
+        Try
+            kathArithmos = CType(KathAnzahl.Text, Byte)
+        Catch ex As Exception
+            kathArithmos = 9
+        End Try
+        ReDim wresDay(kathArithmos) 'mexri 7 katharistries
+
 
 
         For i = 0 To wresDay.Length - 1
@@ -4730,32 +5128,40 @@ AndAlso geomada8(i).prufsum - geomada8(i).rea42 <= 8 Then
                 For i = wresF To wresL
                     If Not oSheet(cell.month).Cells(cell.day, i).value = "" Then '(Not sheet(cell.month).Cells(cell.day, Me.DbhotelDataSet.katharismata(index).excelcolumn).value = ""Then
                         tupel = oSheet(cell.month).Cells(cell.day, i).value
-                        tupelArr = tupel.Split(",")
+                        tupelArr = tupel.Split(","c)
+                        'tupelArr = tupel.Split(",")
                         Try
+                            Dim numberPart As String = New String(tupelArr(0).Skip(1).TakeWhile(Function(c) Char.IsDigit(c)).ToArray())
+                            cladyNumber = CInt(numberPart)
+
+                            ' Ensure the list has enough elements
+
                             hilfstring = Trim(tupelArr(4).Replace(")", ""))
-                            If tupelArr(0).Substring(1, 1).Equals("1") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("A") Then
+
+
+
+                            If cladyNumber = 1 OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("A") Then
                                 'MsgBox(CType(hilfstring.Replace(".", ","), Single))
                                 wresDay(0) = wresDay(0) + CType(hilfstring.Replace(".", ","), Single)
 
 
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("2") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Β") Then
-                                'hilfstring = tupelArr(4).Replace(")", "")
-                                'MsgBox(CType(hilfstring.Replace(".", ","), Single))
+                            ElseIf cladyNumber = 2 OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Β") Then
+
                                 wresDay(1) = wresDay(1) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("3") Then
-                                wresDay(2) = wresDay(2) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("4") Then
-                                wresDay(3) = wresDay(3) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("5") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Ε") Then
-                                wresDay(4) = wresDay(4) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("6") Then
-                                wresDay(5) = wresDay(5) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("7") Then
-                                wresDay(6) = wresDay(6) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("8") Then
-                                wresDay(7) = wresDay(7) + CType(hilfstring.Replace(".", ","), Single)
-                            ElseIf tupelArr(0).Substring(1, 1).Equals("9") Then
-                                wresDay(8) = wresDay(8) + CType(hilfstring.Replace(".", ","), Single)
+                            Else 'If tupelArr(0).Substring(1, 1).Equals("3") Then
+                                wresDay(cladyNumber - 1) = wresDay(cladyNumber - 1) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("4") Then
+                                '    wresDay(3) = wresDay(3) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("5") OrElse tupelArr(0).Substring(1, 1).ToUpper.Equals("Ε") Then
+                                '    wresDay(4) = wresDay(4) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("6") Then
+                                '    wresDay(5) = wresDay(5) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("7") Then
+                                '    wresDay(6) = wresDay(6) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("8") Then
+                                '    wresDay(7) = wresDay(7) + CType(hilfstring.Replace(".", ","), Single)
+                                'ElseIf tupelArr(0).Substring(1, 1).Equals("9") Then
+                                '    wresDay(8) = wresDay(8) + CType(hilfstring.Replace(".", ","), Single)
                             End If
                         Catch ex As InvalidCastException
                             oExcel.Quit()
