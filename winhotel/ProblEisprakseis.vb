@@ -391,9 +391,9 @@ Public Class ProblEisprakseis
         etaireiaAdapter.Fill(Me.DbhotelDataSet.etaireia)
 
         roomMap.Add("MAVI", 0.5)
-        roomMap.Add("SKANT", 0)
+        'roomMap.Add("SKANT", 0)
         roomMap.Add("THET", 0)
-        roomMap.Add("THEROS", 0)
+        'roomMap.Add("THEROS", 0)
         'Dim roomCode As Single? ' declare roomCode as nullable Single
         'Dim room As String = "zscdc" ' set the key to look up in the dictionary
         'If roomMap.TryGetValue(room, roomCode) Then
