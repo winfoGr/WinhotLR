@@ -1240,6 +1240,10 @@ Module WebHotelier
                     command.Parameters.Clear()
 
 
+                    command.Parameters.AddWithValue("@kratisi", kwdikosDelKrat)
+                    command.CommandText = "DELETE FROM paidia where (kratisi=@kratisi)"
+                    command.ExecuteNonQuery()
+                    command.Parameters.Clear()
 
                     command.Parameters.Clear()
                     command.Parameters.AddWithValue("@kwd", kwdikosDelKrat)
