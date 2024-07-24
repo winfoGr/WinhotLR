@@ -2074,8 +2074,9 @@ Module WebHotelier
                         For Each age As Integer In agesOfChildren
                             command.Parameters.AddWithValue("@kratisi", kwdneaskrat)
                             command.Parameters.AddWithValue("@ilikia", age)
-                            command.CommandText = "INSERT INTO paidia (kratisi, ilikia)" &
-                          "values (@kratisi, @ilikia)"
+                            command.Parameters.AddWithValue("@cot", "")
+                            command.CommandText = "INSERT INTO paidia (kratisi, ilikia, cot)" &
+                          "values (@kratisi, @ilikia, @cot)"
 
                             command.ExecuteNonQuery()
                             command.Parameters.Clear()
