@@ -254,7 +254,8 @@ Public Class GoogleCalendarNew
 
             ' Execute the request to update the event
             Dim updatedEventResponse As [Event] = request.Execute()
-
+        Else
+            create_new_entry()
         End If
         ' Call the Google Calendar API to update the event
 
