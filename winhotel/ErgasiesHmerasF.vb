@@ -16652,7 +16652,7 @@ Public Class ErgasiesHmerasF
                             'End If
                             'End If
                         End If
-                        ''WEBHOTELIER
+                        ''WEBHOTELIER 
                         'If praktoreiokwd = 62 And currenttipos = 10 Then
                         '    If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
                         '        If Not DwmTbx.Text.Equals("") Then
@@ -17871,7 +17871,7 @@ Public Class ErgasiesHmerasF
 
             command.Parameters.Clear()
             myReader.Close()
-            MsgBox(Me.DbhotelDataSet.kratiseis(0).praktoreio)
+            'MsgBox(Me.DbhotelDataSet.kratiseis(0).praktoreio)
             If dwmNew <> dwmOld Then
                 Dim webhotel As New WebHotelier.RoomRateTypes(connectionString, "https://rest.reserve-online.net/manage/availability", "THALASSES", "0845A70BBB0AA9E7C68F08530391D7084DF9A25D", "THALASSES")
 
