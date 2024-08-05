@@ -5368,9 +5368,9 @@ Public Class ErgasiesHmerasF
                     find = EkdosiParast2Pnl.Controls.Find("EkdosiParastGeumaFpaTbx", False)
 
                     If Not EkdosiParastYpnosChk.Checked Then
-                        find(0).Text = (s.ToString("N") * (Me.DbhotelDataSet.etaireia(0).fpatrofis3) / 100).ToString("N")
+                        find(0).Text = (s.ToString("N") * (Me.DbhotelDataSet.etaireia(0).fpatmima4) / 100).ToString("N")
                     Else
-                        d = sender.text / (1 + (Me.DbhotelDataSet.etaireia(0).fpatrofis3 / 100))
+                        d = sender.text / (1 + (Me.DbhotelDataSet.etaireia(0).fpatmima4 / 100))
                         sender.text = d.ToString("N")
                         aktWerte(2) = d.ToString("N")
                         find(0).Text = (s - d).ToString("N")
@@ -16459,6 +16459,17 @@ Public Class ErgasiesHmerasF
                                 Catch ex As Exception
                                     MsgBox(" Παρουσιάστηκε σφάλμα κατά την Ενημέρωση του Google Calendar !", MsgBoxStyle.Exclamation, "winfo\nikEl.")
                                 End Try
+                                'WEBHOTELIER
+                                If praktoreiokwd = 62 And currenttipos = 10 Then
+                                    If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
+                                        If Not DwmTbx.Text.Equals("") Then
+                                            Dim webhotel As New WebHotelier.RoomRateTypes(connectionString, "https://rest.reserve-online.net/manage/availability", "THALASSES", "0845A70BBB0AA9E7C68F08530391D7084DF9A25D", "THALASSES")
+                                            If Not webhotel.StopSells(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), True) Then
+                                                MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                            End If
+                                        End If
+                                    End If
+                                End If
                                 'Try
 
                                 '    Dim calender As New GoogleCalendar(maxkrat + 1, OnomTbx1.Text, CType(DateTimePicker2.Value.Date, Date), CType(DateTimePicker3.Value.Date, Date), DwmTbx.Text, DwmTbx.Text, EpithimTbx.Text, PraktTbx.Text)
@@ -16595,7 +16606,17 @@ Public Class ErgasiesHmerasF
                             Exit Sub
                         End If
                     End If
-
+                    'WEBHOTELIER
+                    If praktoreiokwd = 62 And currenttipos = 10 Then
+                        If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
+                            If Not DwmTbx.Text.Equals("") Then
+                                Dim webhotel As New WebHotelier.RoomRateTypes(connectionString, "https://rest.reserve-online.net/manage/availability", "THALASSES", "0845A70BBB0AA9E7C68F08530391D7084DF9A25D", "THALASSES")
+                                If Not webhotel.StopSells(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), True) Then
+                                    MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                                End If
+                            End If
+                        End If
+                    End If
                     'ENHMERVSH AFIXIS XWRIS PROTITERH KRATISI
                     countPaid = CType(EthnAnzTbx1.Text, Int16) + CType(EthnAnzTbx2.Text, Int16) - CType(EnilikTbx.Text, Int16)
 
@@ -16631,17 +16652,17 @@ Public Class ErgasiesHmerasF
                             'End If
                             'End If
                         End If
-                        'WEBHOTELIER
-                        If praktoreiokwd = 62 And currenttipos = 10 Then
-                            If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
-                                If Not DwmTbx.Text.Equals("") Then
-                                    Dim webhotel As New WebHotelier.RoomRateTypes(connectionString, "https://rest.reserve-online.net/manage/availability", "THALASSES", "0845A70BBB0AA9E7C68F08530391D7084DF9A25D", "THALASSES")
-                                    If Not webhotel.StopSells(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), True) Then
-                                        MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
-                                    End If
-                                End If
-                            End If
-                        End If
+                        ''WEBHOTELIER
+                        'If praktoreiokwd = 62 And currenttipos = 10 Then
+                        '    If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
+                        '        If Not DwmTbx.Text.Equals("") Then
+                        '            Dim webhotel As New WebHotelier.RoomRateTypes(connectionString, "https://rest.reserve-online.net/manage/availability", "THALASSES", "0845A70BBB0AA9E7C68F08530391D7084DF9A25D", "THALASSES")
+                        '            If Not webhotel.StopSells(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), True) Then
+                        '                MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
+                        '            End If
+                        '        End If
+                        '    End If
+                        'End If
                         If afixiOK And Not DwmTbx.Text.Equals("") Then
                             Me.StatusTableAdapter.InsertStatusDwmatiou(DwmTbx.Text, kwdikos, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), 5)
                         ElseIf Not DwmTbx.Text.Equals("") Then
@@ -17850,7 +17871,7 @@ Public Class ErgasiesHmerasF
 
             command.Parameters.Clear()
             myReader.Close()
-
+            MsgBox(Me.DbhotelDataSet.kratiseis(0).praktoreio)
             If dwmNew <> dwmOld Then
                 Dim webhotel As New WebHotelier.RoomRateTypes(connectionString, "https://rest.reserve-online.net/manage/availability", "THALASSES", "0845A70BBB0AA9E7C68F08530391D7084DF9A25D", "THALASSES")
 
@@ -17882,6 +17903,8 @@ Public Class ErgasiesHmerasF
                     enimerwsiOK = True
                 ElseIf neaLixi < lixiOld Then
                     mexri = lixiOld
+                    enimerwsiOK = True
+                ElseIf Me.DbhotelDataSet.kratiseis(0).praktoreio <> praktoreiokwd Then
                     enimerwsiOK = True
                 End If
 

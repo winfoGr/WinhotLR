@@ -15,8 +15,8 @@ Module myDATADev
     Public Class SendInvoices
         Dim myinvoicesID As Int32 ' 0= insert ew enrty in DB myinnvoices  ,  1=update in database
         'auto einai To DOKIMASTIKO  url!!!!!!!!!!
-        Const url_ As String = "https://mydataapidev.aade.gr/SendInvoices"
-        'Const url_ As String = "https://mydatapi.aade.gr/myDATA/SendInvoices?"
+        'Const url_ As String = "https://mydataapidev.aade.gr/SendInvoices"
+        Const url_ As String = "https://mydatapi.aade.gr/myDATA/SendInvoices?"
         'Dim qrcode As String = ""
         Dim aadeUserId_ As String ' = "mkallergis"
         Dim apiSubKey_ As String ' = "4a903ebf82df4dd7a5b2492aeda46e09"
@@ -88,12 +88,12 @@ Module myDATADev
         'aadeUserId_ = "mkallergis"
         'apiSubKey_ = "4a903ebf82df4dd7a5b2492aeda46e09"
         Public Sub New(ByVal conn As String, ByVal aadeUserId As String, ByVal apiSubKey As String)
-            'aadeUserId_ = aadeUserId
-            'apiSubKey_ = apiSubKey
+            aadeUserId_ = aadeUserId
+            apiSubKey_ = apiSubKey
             connectionString_ = conn
-            aadeUserId_ = "mkallergis"
-            apiSubKey_ = "4a903ebf82df4dd7a5b2492aeda46e09"
-            vatnumberEkd_ = 131485023
+            'aadeUserId_ = "mkallergis"
+            'apiSubKey_ = "4a903ebf82df4dd7a5b2492aeda46e09"
+            'vatnumberEkd_ = 131485023
         End Sub
         Public Sub New(ByVal conn As String, ByVal aadeUserId As String, ByVal apiSubKey As String, ByVal epixirisi As String, ByVal eidos As String, ByVal kwdTimol As Int64, ByVal tipos As String, ByVal vatnumberEkd As String,
                                     ByVal countryEkd As String, ByVal branchEkd As String, ByVal postalCodeEkd As String, ByVal cityEkd As String,
@@ -103,12 +103,12 @@ Module myDATADev
                                 ByVal vatPosYpnos As Single, ByVal vatPosPrwino As Single, ByVal vatPosGeuma As Single, ByVal vatPosExtras As Single) ', ByVal dimForos As Single)
             '  Thread.CurrentThread.CurrentCulture = englishCulture
             connectionString_ = conn
-            'aadeUserId_ = aadeUserId
-            'apiSubKey_ = apiSubKey
-            aadeUserId_ = "mkallergis"
-            apiSubKey_ = "4a903ebf82df4dd7a5b2492aeda46e09"
-            'vatnumberEkd_ = vatnumberEkd '  131485023 
-            vatnumberEkd_ = 131485023
+            aadeUserId_ = aadeUserId
+            apiSubKey_ = apiSubKey
+            'aadeUserId_ = "mkallergis"
+            'apiSubKey_ = "4a903ebf82df4dd7a5b2492aeda46e09"
+            vatnumberEkd_ = vatnumberEkd '  131485023 
+            'vatnumberEkd_ = 131485023
             epixirisi_ = epixirisi
             eidos_ = eidos
             kwdTim_ = kwdTimol
@@ -732,8 +732,8 @@ Module myDATADev
             Dim xmlnode As XmlNodeList
             Dim istOK As Boolean = True
             Dim client = New HttpClient()
-            client.DefaultRequestHeaders.Add("aade-user-id", "mkallergis")
-            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "4a903ebf82df4dd7a5b2492aeda46e09")
+            'client.DefaultRequestHeaders.Add("aade-user-id", "mkallergis")
+            'client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "4a903ebf82df4dd7a5b2492aeda46e09")
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim request As WebRequest = WebRequest.Create(url_)
             request.Headers.Add("aade-user-id", aadeUserId_)

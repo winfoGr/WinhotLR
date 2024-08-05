@@ -27,6 +27,8 @@ Partial Class SendEmailTemplate
         Me.Button1 = New System.Windows.Forms.Button()
         Me.MailBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
         Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
+        Me.MailBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.DbhotelDataSet = New winhotel.dbhotelDataSet()
         Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
         Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorMoveFirstItem = New System.Windows.Forms.ToolStripButton()
@@ -40,8 +42,6 @@ Partial Class SendEmailTemplate
         Me.MailBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.subjectagTbx = New System.Windows.Forms.TextBox()
-        Me.MailBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.DbhotelDataSet = New winhotel.dbhotelDataSet()
         Me.MailTableAdapter = New winhotel.dbhotelDataSetTableAdapters.MailTableAdapter()
         Me.EtaireiaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.EtaireiaTableAdapter = New winhotel.dbhotelDataSetTableAdapters.etaireiaTableAdapter()
@@ -76,7 +76,7 @@ Partial Class SendEmailTemplate
         Me.MailBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.MailBindingNavigator.Name = "MailBindingNavigator"
         Me.MailBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.MailBindingNavigator.Size = New System.Drawing.Size(962, 27)
+        Me.MailBindingNavigator.Size = New System.Drawing.Size(962, 31)
         Me.MailBindingNavigator.TabIndex = 1
         Me.MailBindingNavigator.Text = "BindingNavigator1"
         '
@@ -86,13 +86,24 @@ Partial Class SendEmailTemplate
         Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
         Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(29, 24)
+        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(29, 28)
         Me.BindingNavigatorAddNewItem.Text = "Add new"
+        '
+        'MailBindingSource
+        '
+        Me.MailBindingSource.DataMember = "Mail"
+        Me.MailBindingSource.DataSource = Me.DbhotelDataSet
+        '
+        'DbhotelDataSet
+        '
+        Me.DbhotelDataSet.DataSetName = "dbhotelDataSet"
+        Me.DbhotelDataSet.EnforceConstraints = False
+        Me.DbhotelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'BindingNavigatorCountItem
         '
         Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
-        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(45, 24)
+        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(45, 28)
         Me.BindingNavigatorCountItem.Text = "of {0}"
         Me.BindingNavigatorCountItem.ToolTipText = "Total number of items"
         '
@@ -102,7 +113,7 @@ Partial Class SendEmailTemplate
         Me.BindingNavigatorDeleteItem.Image = CType(resources.GetObject("BindingNavigatorDeleteItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorDeleteItem.Name = "BindingNavigatorDeleteItem"
         Me.BindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(29, 24)
+        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(29, 28)
         Me.BindingNavigatorDeleteItem.Text = "Delete"
         '
         'BindingNavigatorMoveFirstItem
@@ -111,7 +122,7 @@ Partial Class SendEmailTemplate
         Me.BindingNavigatorMoveFirstItem.Image = CType(resources.GetObject("BindingNavigatorMoveFirstItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveFirstItem.Name = "BindingNavigatorMoveFirstItem"
         Me.BindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(29, 24)
+        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(29, 28)
         Me.BindingNavigatorMoveFirstItem.Text = "Move first"
         '
         'BindingNavigatorMovePreviousItem
@@ -120,13 +131,13 @@ Partial Class SendEmailTemplate
         Me.BindingNavigatorMovePreviousItem.Image = CType(resources.GetObject("BindingNavigatorMovePreviousItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMovePreviousItem.Name = "BindingNavigatorMovePreviousItem"
         Me.BindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(29, 24)
+        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(29, 28)
         Me.BindingNavigatorMovePreviousItem.Text = "Move previous"
         '
         'BindingNavigatorSeparator
         '
         Me.BindingNavigatorSeparator.Name = "BindingNavigatorSeparator"
-        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 27)
+        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 31)
         '
         'BindingNavigatorPositionItem
         '
@@ -141,7 +152,7 @@ Partial Class SendEmailTemplate
         'BindingNavigatorSeparator1
         '
         Me.BindingNavigatorSeparator1.Name = "BindingNavigatorSeparator1"
-        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 27)
+        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 31)
         '
         'BindingNavigatorMoveNextItem
         '
@@ -149,7 +160,7 @@ Partial Class SendEmailTemplate
         Me.BindingNavigatorMoveNextItem.Image = CType(resources.GetObject("BindingNavigatorMoveNextItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveNextItem.Name = "BindingNavigatorMoveNextItem"
         Me.BindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(29, 24)
+        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(29, 28)
         Me.BindingNavigatorMoveNextItem.Text = "Move next"
         '
         'BindingNavigatorMoveLastItem
@@ -158,20 +169,20 @@ Partial Class SendEmailTemplate
         Me.BindingNavigatorMoveLastItem.Image = CType(resources.GetObject("BindingNavigatorMoveLastItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveLastItem.Name = "BindingNavigatorMoveLastItem"
         Me.BindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(29, 24)
+        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(29, 28)
         Me.BindingNavigatorMoveLastItem.Text = "Move last"
         '
         'BindingNavigatorSeparator2
         '
         Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2"
-        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 27)
+        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 31)
         '
         'MailBindingNavigatorSaveItem
         '
         Me.MailBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.MailBindingNavigatorSaveItem.Image = CType(resources.GetObject("MailBindingNavigatorSaveItem.Image"), System.Drawing.Image)
         Me.MailBindingNavigatorSaveItem.Name = "MailBindingNavigatorSaveItem"
-        Me.MailBindingNavigatorSaveItem.Size = New System.Drawing.Size(29, 24)
+        Me.MailBindingNavigatorSaveItem.Size = New System.Drawing.Size(29, 28)
         Me.MailBindingNavigatorSaveItem.Text = "Save Data"
         '
         'Label31
@@ -192,17 +203,6 @@ Partial Class SendEmailTemplate
         Me.subjectagTbx.Name = "subjectagTbx"
         Me.subjectagTbx.Size = New System.Drawing.Size(505, 22)
         Me.subjectagTbx.TabIndex = 7
-        '
-        'MailBindingSource
-        '
-        Me.MailBindingSource.DataMember = "Mail"
-        Me.MailBindingSource.DataSource = Me.DbhotelDataSet
-        '
-        'DbhotelDataSet
-        '
-        Me.DbhotelDataSet.DataSetName = "dbhotelDataSet"
-        Me.DbhotelDataSet.EnforceConstraints = False
-        Me.DbhotelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MailTableAdapter
         '
