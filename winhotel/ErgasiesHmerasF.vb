@@ -666,6 +666,8 @@ Public Class ErgasiesHmerasF
             Dim sendInvoice = New SendInvoices(connectionString, myAadeTxt.Text, myAadeKeyTxt.Text)
             'Dim sendInvoice = New SendInvoices("FOL1234", "5a27a4e443ab4e8e86f71fb1870a4e0a")
             'FOL1234  5a27a4e443ab4e8e86f71fb1870a4e0a
+            'Dim sendInvoice = New SendInvoices(connectionString,"Stakap15ike", "0c425e78739a4cec96560223aebdc6ff")
+            'Stakap15ike  0c425e78739a4cec96560223aebdc6ff
             Dim threadSendInvoice As Threading.Thread
             threadSendInvoice = sendInvoice.set_mode(2) ' do nothing with database
             threadSendInvoice = sendInvoice.send_XML_file_from_pc()
@@ -6145,9 +6147,9 @@ Public Class ErgasiesHmerasF
                             'tipos = "ΑΠΥ"
                             tipos = "11.2"
 
-                        ElseIf (parastParastKwd = 2) Or (parastParastKwd = 7) Or (parastParastKwd = 12) Or (parastParastKwd = 16) Or (parastParastKwd = 20) Or (parastParastKwd = 24) Or (parastParastKwd = 28) Or (parastParastKwd = 704913233) Then
+                        ElseIf (parastParastKwd = 2) Or (parastParastKwd = 7) Or (parastParastKwd = 12) Or (parastParastKwd = 16) Or (parastParastKwd = 20) Or (parastParastKwd = 24) Or (parastParastKwd = 28) Or (parastParastKwd = -1125450096) Then
                             tipos = "5.2"
-                        ElseIf (parastParastKwd = 3) Or (parastParastKwd = 8) Or (parastParastKwd = 13) Or (parastParastKwd = 17) Or (parastParastKwd = 21) Or (parastParastKwd = 24) Or (parastParastKwd = 29) Then
+                        ElseIf (parastParastKwd = 3) Or (parastParastKwd = 8) Or (parastParastKwd = 13) Or (parastParastKwd = 17) Or (parastParastKwd = 21) Or (parastParastKwd = 24) Or (parastParastKwd = 29) Or (parastParastKwd = 704913233) Then
                             'tipos = "ΠΑ"
                             tipos = "11.4"
                         End If
@@ -16785,6 +16787,7 @@ Public Class ErgasiesHmerasF
                             If praktoreiokwd = 62 And currenttipos = 10 Then
                                 If Not (praktortimolkwd = 2 OrElse praktortimolkwd = 43) Then
                                     If Not DwmTbx.Text.Equals("OV-BOOK") Then
+                                        'MsgBox(Me.DbhotelDataSet.kratiseis(0).praktoreio)
                                         If Not set_availabilities_all_status_WEBHOTELIER(DwmTbx.Text, DateTimePicker2.Value.Date, DateTimePicker3.Value.Date.AddDays(-1), kwdikoKratisisDB) Then
                                             MsgBox("Παρουσιάστηκε πρόβλημα στην Ενημέρωση του Webhotelier ", MsgBoxStyle.Exclamation, "winfo\nikEl.")
                                         End If
@@ -17872,7 +17875,12 @@ Public Class ErgasiesHmerasF
             command.Parameters.Clear()
             myReader.Close()
             'MsgBox(Me.DbhotelDataSet.kratiseis(0).praktoreio)
-            If dwmNew <> dwmOld Then
+            'If dwmNew <> dwmOld OrElse Me.DbhotelDataSet.kratiseis(0).praktoreio <> praktKwd Then
+            If dwmNew <> dwmOld OrElse
+   (Me.DbhotelDataSet.kratiseis IsNot Nothing AndAlso
+    Me.DbhotelDataSet.kratiseis.Rows.Count > 0 AndAlso
+    Not IsDBNull(Me.DbhotelDataSet.kratiseis(0).praktoreio) AndAlso
+    Me.DbhotelDataSet.kratiseis(0).praktoreio <> praktKwd) Then
                 Dim webhotel As New WebHotelier.RoomRateTypes(connectionString, "https://rest.reserve-online.net/manage/availability", "THALASSES", "0845A70BBB0AA9E7C68F08530391D7084DF9A25D", "THALASSES")
 
                 If webhotel.StopSells(dwmOld, enarxiOld, lixiOld, False) Then
