@@ -4,6 +4,7 @@ Imports System.Net
 Imports System.Threading
 Imports System.Configuration
 Imports System.IO
+Imports System.Threading.Tasks
 
 Module EmailSchedulerModule
     Dim dataset As New DataSet()
@@ -67,6 +68,11 @@ Module EmailSchedulerModule
                 SendEmailResidents(-1)
             End If
             ' Calculate the time until the next target time
+            If Not WasFeedbackEmailSent() Then
+                ' Send the email immediately
+                SendEmailFeedback()
+            End If
+            'SendEmailFeedback()
             Dim now As DateTime = DateTime.Now
             Dim targetTime As New DateTime(now.Year, now.Month, now.Day, 0, 0, 0)
 
@@ -83,7 +89,24 @@ Module EmailSchedulerModule
             Thread.Sleep(sleepTime)
         End While
     End Sub
+    Private Function WasFeedbackEmailSent() As Boolean
+        connectionString = ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString ' Replace with your database connection string
+        Dim query As String = "SELECT COUNT(*) FROM SentEmails WHERE CAST(SentDateTime AS DATE) = @currentDate AND Eidos = @eidos"
+        Dim currentDate As Date = Date.Now.Date
 
+        Using connection As New SqlConnection(connectionString)
+            connection.Open()
+
+            Using command As New SqlCommand(query, connection)
+                command.Parameters.AddWithValue("@currentDate", currentDate)
+                command.Parameters.AddWithValue("@eidos", "FEEDBACK")
+                'command.Parameters.AddWithValue("@state", 1)
+                Dim result As Integer = CInt(command.ExecuteScalar())
+
+                Return result > 0
+            End Using
+        End Using
+    End Function
     Private Sub LoadVillasLinksData(ByVal dataset As DataSet)
         connectionString = ConfigurationManager.ConnectionStrings("winhotel.My.MySettings.dbhotelConnectionString1").ConnectionString
         Dim query As String = "SELECT * FROM dbo.villaslinks"
@@ -264,6 +287,95 @@ Module EmailSchedulerModule
         End If
         Return result
     End Function
+
+
+    Private Sub SendEmailFeedback()
+        Dim portalPath As String = ConfigurationManager.AppSettings("PortalPath")
+        'Dim datum As Date = Date.Today.AddDays(-27) 19
+        Dim datum As Date = Date.Today.AddDays(2)
+
+        ' Fill dataset with emails
+        Dim anaxadapter As New dbhotelDataSetTableAdapters.AfixeisAnaxwriseis1TableAdapter
+        anaxadapter.FillQuestionareEmail(dbhotelDataSet.AfixeisAnaxwriseis1, datum, True, False, 1, 12)
+
+        ' Create a thread-safe dictionary to track sent emails
+        Dim sentEmails As New Concurrent.ConcurrentDictionary(Of String, Boolean)()
+
+        ' Parallel processing for sending emails
+        Parallel.ForEach(dbhotelDataSet.AfixeisAnaxwriseis1, Sub(row)
+                                                                 If Not row.eponimia.Equals("Βασιλάκης Κώστας") Then
+                                                                     If Not IsDBNull(row.Item("voucher")) Then
+                                                                         Dim email As String = row.voucher
+                                                                         Dim i As Integer = email.IndexOf("@")
+
+                                                                         If i <> -1 Then
+                                                                             ' Check if the email was already sent (use TryAdd to prevent duplicates)
+                                                                             If sentEmails.TryAdd(email, True) Then
+                                                                                 ' Get the guest's name and room description (perigrafi)
+                                                                                 Dim name As String = If(Not IsDBNull(row.Item("onomateponimo")), row.onomateponimo, "")
+                                                                                 Dim perigrafi As String = New dbhotelDataSetTableAdapters.dwmatiaTableAdapter().GetPerigrafiByVila(row.dwmatio)
+
+                                                                                 ' Prepare email body for this specific email
+                                                                                 Dim body As String = dbhotelDataSet.Mail(0).body
+                                                                                 Dim questionFormPath As String = portalPath + row.kwd.ToString()
+                                                                                 Dim questionnaireLink As String = "<a href='" & questionFormPath & "'>Follow this link to provide your feedback</a>"
+
+                                                                                 ' Replace placeholders in the body for this specific email
+                                                                                 body = body.Replace("[GuestName]", name).
+                                    Replace("[VillaName]", perigrafi).
+                                    Replace("[FeedbackLink]", questionnaireLink)
+
+                                                                                 ' Send the email and log it if successful
+                                                                                 If SendMailQuestion(dbhotelDataSet.Mail(0).ffrom, email, dbhotelDataSet.Mail(0).subject, body, dbhotelDataSet.Mail(0).smtpServer, dbhotelDataSet.Mail(0).smtpUsername, dbhotelDataSet.Mail(0).smtpPassword) Then
+                                                                                     StoreEmailSent("FEEDBACK", email, Date.Today, row.dwmatio, name, row.afixi, row.anaxwrisi, row.arithmos, 1, Environment.MachineName)
+                                                                                 End If
+                                                                             End If
+                                                                         End If
+                                                                     End If
+                                                                 End If
+                                                             End Sub)
+    End Sub
+
+
+
+    Function SendMailQuestion(ByVal from As String, ByVal [to] As String, ByVal subject As String, ByVal body As String, ByVal smtpServer As String, ByVal smtpUsername As String, ByVal smtpPassword As String) As Boolean
+        'Dim fileName As String = "C:\winfo\testAtach.xlsx"
+
+        Dim pathstart As String = ""
+        Try
+
+
+            Dim message As New MailMessage(from, [to], subject, body)
+            message.IsBodyHtml = True
+            message.Bcc.Add("mkallergis@gmail.com")
+            'message.Bcc.Add("stakap15@gmail.com")
+            ' MsgBox(fileName)
+            'message.Attachments.Add(instance)
+
+            Dim smtpClient As New SmtpClient(smtpServer, 25)
+
+            smtpClient.UseDefaultCredentials = False
+
+            Dim credentials As New NetworkCredential(smtpUsername, smtpPassword)
+
+            smtpClient.Credentials = credentials
+            smtpClient.EnableSsl = True
+            'TEST
+            smtpClient.Send(message)
+            Return True
+
+
+
+        Catch ex As Exception
+            Return False
+        End Try
+
+
+
+
+    End Function
+
+
     Private Sub SendEmailResidents(ByVal daysAdd As Int16)
         Dim j, i As Int16
         Dim mailTemp, from, name As String
