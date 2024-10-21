@@ -172,9 +172,12 @@ Public Class MainFrm
             If (Environment.MachineName.Equals("HP-Winfo", StringComparison.OrdinalIgnoreCase)) OrElse (Environment.MachineName.Equals("DESKTOP-K9QR7KQ", StringComparison.OrdinalIgnoreCase)) Then
                 EmailSchedulerModule.Main()
             End If
+            'Dim khForm As New KleisimoHmeras(imeromErgasias, 1)
 
-            'schedulerThread = MailScheduler()
+            '' Create the MailTableAdapter object
 
+            '' Call the SendMailQuestionare method from the KleisimoHmeras form, passing the MailTableAdapter
+            'khForm.SendMailto()
 
 
         Catch ex As Exception

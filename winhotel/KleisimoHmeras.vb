@@ -8280,12 +8280,12 @@ Public Class KleisimoHmeras
                 Dim dwnatioadapter As New dbhotelDataSetTableAdapters.dwmatiaTableAdapter
                 mailadapter.Fill(Me.DbhotelDataSet.Mail)
 
-                If questChk.Checked Then
-                    threadQuestion = SendMailQuestionare(mailadapter)
-                    While threadQuestion.IsAlive
+                'If questChk.Checked Then
+                '    threadQuestion = SendMailQuestionare(mailadapter)
+                '    While threadQuestion.IsAlive
 
-                    End While
-                End If
+                '    End While
+                'End If
                 Me.Cursor = Cursors.WaitCursor
 
                 'If directChk.Checked Then
