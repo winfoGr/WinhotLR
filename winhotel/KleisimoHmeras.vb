@@ -276,7 +276,7 @@ Public Class KleisimoHmeras
 
     Private Sub disable_nodes()
         For Each node As TreeNode In KleimoImerasTreeView.Nodes
-            If node.Name = "elegxos_afixewn" Then
+            If node.Name = "elegxos_afixewn" Or node.Name = "extra_node" Then
                 node.ForeColor = Color.Gray
             End If
             GetAllChildren(node)
@@ -285,7 +285,7 @@ Public Class KleisimoHmeras
 
     Private Sub GetAllChildren(parentNode As TreeNode)
         For Each childNode As TreeNode In parentNode.Nodes
-            If childNode.Name = "europe" Or childNode.Name = "koutsour" Or childNode.Name = "emf_anal_kin_imeras" Or childNode.Name = "ekdosi_extra_parastatikwn" Or childNode.Name = "ekt_sigkentr_kin_imeras" Or childNode.Name = "ekt_logistirio" Or childNode.Name = "allages_kinisi_tmimatwn" Then
+            If childNode.Name = "europe" Or childNode.Name = "koutsour" Or childNode.Name = "emf_anal_kin_imeras" Or childNode.Name = "ekdosi_extra_parastatikwn" Or childNode.Name = "ektiposi_extra_par" Or childNode.Name = "ekt_sigkentr_kin_imeras" Or childNode.Name = "ekt_logistirio" Or childNode.Name = "allages_kinisi_tmimatwn" Then
                 childNode.ForeColor = Color.Gray
             ElseIf Not childNode.BackColor = Color.Yellow Then
                 childNode.BackColor = Color.Transparent

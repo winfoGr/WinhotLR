@@ -60,6 +60,21 @@ Partial Class KleisimoHmeras
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.KleisimoPnl = New System.Windows.Forms.Panel()
+        Me.blinkLbl2 = New System.Windows.Forms.Label()
+        Me.sendresidentsOK = New System.Windows.Forms.CheckBox()
+        Me.kenaCkb = New System.Windows.Forms.CheckBox()
+        Me.arrivalLbl = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.daysbeforeTbx = New System.Windows.Forms.TextBox()
+        Me.questChk = New System.Windows.Forms.CheckBox()
+        Me.directChk = New System.Windows.Forms.CheckBox()
+        Me.KleisImerErgLbl = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.KleisimoPck1 = New System.Windows.Forms.DateTimePicker()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.KleisimoBtn = New System.Windows.Forms.Button()
         Me.HouseEuropePnl = New System.Windows.Forms.Panel()
         Me.HouseEuropeBtn = New System.Windows.Forms.Button()
         Me.Label67 = New System.Windows.Forms.Label()
@@ -356,21 +371,6 @@ Partial Class KleisimoHmeras
         Me.Label59 = New System.Windows.Forms.Label()
         Me.EtiketaPnl = New System.Windows.Forms.Panel()
         Me.EtiketaLbl = New System.Windows.Forms.Label()
-        Me.KleisimoPnl = New System.Windows.Forms.Panel()
-        Me.blinkLbl2 = New System.Windows.Forms.Label()
-        Me.sendresidentsOK = New System.Windows.Forms.CheckBox()
-        Me.kenaCkb = New System.Windows.Forms.CheckBox()
-        Me.arrivalLbl = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.daysbeforeTbx = New System.Windows.Forms.TextBox()
-        Me.questChk = New System.Windows.Forms.CheckBox()
-        Me.directChk = New System.Windows.Forms.CheckBox()
-        Me.KleisImerErgLbl = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.KleisimoPck1 = New System.Windows.Forms.DateTimePicker()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.KleisimoBtn = New System.Windows.Forms.Button()
         Me.DbhotelDataSet = New winhotel.dbhotelDataSet()
         Me.KratiseisTableAdapter = New winhotel.dbhotelDataSetTableAdapters.kratiseisTableAdapter()
         Me.DbhotelDataSet1 = New winhotel.dbhotelDataSet1()
@@ -467,6 +467,7 @@ Partial Class KleisimoHmeras
         Me.KleisimoZentralPnl.SuspendLayout()
         Me.KoutsPnl.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        Me.KleisimoPnl.SuspendLayout()
         Me.HouseEuropePnl.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.ForoiPnl.SuspendLayout()
@@ -504,7 +505,6 @@ Partial Class KleisimoHmeras
         Me.TmimataKnsPnl.SuspendLayout()
         Me.TmimataKns1Pnl.SuspendLayout()
         Me.EtiketaPnl.SuspendLayout()
-        Me.KleisimoPnl.SuspendLayout()
         CType(Me.DbhotelDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DbhotelDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.KratiseisBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -604,7 +604,7 @@ Partial Class KleisimoHmeras
         TreeNode7.Name = "ekdosi_extra_parastatikwn"
         TreeNode7.Text = "Εκδοση extra Παρ/κών"
         TreeNode8.BackColor = System.Drawing.Color.Transparent
-        TreeNode8.Name = "Node0"
+        TreeNode8.Name = "extra_node"
         TreeNode8.NodeFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         TreeNode8.Text = "Extra Παραστατικά"
         TreeNode9.Name = "logariasmoi_pelatwn"
@@ -778,6 +778,197 @@ Partial Class KleisimoHmeras
         Me.RadioButton6.TabStop = True
         Me.RadioButton6.Text = "Χωρίς Τιμές"
         Me.RadioButton6.UseVisualStyleBackColor = True
+        '
+        'KleisimoPnl
+        '
+        Me.KleisimoPnl.BackColor = System.Drawing.Color.Silver
+        Me.KleisimoPnl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.KleisimoPnl.Controls.Add(Me.blinkLbl2)
+        Me.KleisimoPnl.Controls.Add(Me.sendresidentsOK)
+        Me.KleisimoPnl.Controls.Add(Me.kenaCkb)
+        Me.KleisimoPnl.Controls.Add(Me.arrivalLbl)
+        Me.KleisimoPnl.Controls.Add(Me.Label57)
+        Me.KleisimoPnl.Controls.Add(Me.Label56)
+        Me.KleisimoPnl.Controls.Add(Me.daysbeforeTbx)
+        Me.KleisimoPnl.Controls.Add(Me.questChk)
+        Me.KleisimoPnl.Controls.Add(Me.directChk)
+        Me.KleisimoPnl.Controls.Add(Me.KleisImerErgLbl)
+        Me.KleisimoPnl.Controls.Add(Me.Label42)
+        Me.KleisimoPnl.Controls.Add(Me.KleisimoPck1)
+        Me.KleisimoPnl.Controls.Add(Me.Label41)
+        Me.KleisimoPnl.Controls.Add(Me.KleisimoBtn)
+        Me.KleisimoPnl.Location = New System.Drawing.Point(108, 18)
+        Me.KleisimoPnl.Margin = New System.Windows.Forms.Padding(4)
+        Me.KleisimoPnl.Name = "KleisimoPnl"
+        Me.KleisimoPnl.Size = New System.Drawing.Size(581, 10)
+        Me.KleisimoPnl.TabIndex = 44
+        '
+        'blinkLbl2
+        '
+        Me.blinkLbl2.AutoSize = True
+        Me.blinkLbl2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.blinkLbl2.Location = New System.Drawing.Point(35, 9)
+        Me.blinkLbl2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.blinkLbl2.Name = "blinkLbl2"
+        Me.blinkLbl2.Size = New System.Drawing.Size(0, 20)
+        Me.blinkLbl2.TabIndex = 71
+        '
+        'sendresidentsOK
+        '
+        Me.sendresidentsOK.AutoSize = True
+        Me.sendresidentsOK.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.sendresidentsOK.Enabled = False
+        Me.sendresidentsOK.Location = New System.Drawing.Point(241, 197)
+        Me.sendresidentsOK.Margin = New System.Windows.Forms.Padding(4)
+        Me.sendresidentsOK.Name = "sendresidentsOK"
+        Me.sendresidentsOK.Size = New System.Drawing.Size(183, 24)
+        Me.sendresidentsOK.TabIndex = 70
+        Me.sendresidentsOK.Text = "send to Residents"
+        Me.sendresidentsOK.UseVisualStyleBackColor = True
+        '
+        'kenaCkb
+        '
+        Me.kenaCkb.AutoSize = True
+        Me.kenaCkb.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.kenaCkb.Location = New System.Drawing.Point(31, 197)
+        Me.kenaCkb.Margin = New System.Windows.Forms.Padding(4)
+        Me.kenaCkb.Name = "kenaCkb"
+        Me.kenaCkb.Size = New System.Drawing.Size(162, 24)
+        Me.kenaCkb.TabIndex = 69
+        Me.kenaCkb.Text = "έλεγχος κενών "
+        Me.kenaCkb.UseVisualStyleBackColor = True
+        '
+        'arrivalLbl
+        '
+        Me.arrivalLbl.AutoSize = True
+        Me.arrivalLbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.arrivalLbl.ForeColor = System.Drawing.Color.Maroon
+        Me.arrivalLbl.Location = New System.Drawing.Point(379, 156)
+        Me.arrivalLbl.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.arrivalLbl.Name = "arrivalLbl"
+        Me.arrivalLbl.Size = New System.Drawing.Size(0, 17)
+        Me.arrivalLbl.TabIndex = 68
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.Label57.ForeColor = System.Drawing.Color.Transparent
+        Me.Label57.Location = New System.Drawing.Point(372, 132)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(82, 18)
+        Me.Label57.TabIndex = 67
+        Me.Label57.Text = "σε Αφίξεις:"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.ForeColor = System.Drawing.Color.Black
+        Me.Label56.Location = New System.Drawing.Point(219, 155)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(113, 20)
+        Me.Label56.TabIndex = 66
+        Me.Label56.Text = "days before:"
+        '
+        'daysbeforeTbx
+        '
+        Me.daysbeforeTbx.Enabled = False
+        Me.daysbeforeTbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.daysbeforeTbx.Location = New System.Drawing.Point(348, 151)
+        Me.daysbeforeTbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.daysbeforeTbx.MaxLength = 2
+        Me.daysbeforeTbx.Name = "daysbeforeTbx"
+        Me.daysbeforeTbx.Size = New System.Drawing.Size(29, 26)
+        Me.daysbeforeTbx.TabIndex = 66
+        Me.daysbeforeTbx.Text = "15"
+        '
+        'questChk
+        '
+        Me.questChk.AutoSize = True
+        Me.questChk.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.questChk.Enabled = False
+        Me.questChk.Location = New System.Drawing.Point(7, 114)
+        Me.questChk.Margin = New System.Windows.Forms.Padding(4)
+        Me.questChk.Name = "questChk"
+        Me.questChk.Size = New System.Drawing.Size(190, 24)
+        Me.questChk.TabIndex = 64
+        Me.questChk.Text = "send questionnaire"
+        Me.questChk.UseVisualStyleBackColor = True
+        '
+        'directChk
+        '
+        Me.directChk.AutoSize = True
+        Me.directChk.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.directChk.Enabled = False
+        Me.directChk.Location = New System.Drawing.Point(31, 154)
+        Me.directChk.Margin = New System.Windows.Forms.Padding(4)
+        Me.directChk.Name = "directChk"
+        Me.directChk.Size = New System.Drawing.Size(160, 24)
+        Me.directChk.TabIndex = 65
+        Me.directChk.Text = "send directions"
+        Me.directChk.UseVisualStyleBackColor = True
+        '
+        'KleisImerErgLbl
+        '
+        Me.KleisImerErgLbl.AutoSize = True
+        Me.KleisImerErgLbl.ForeColor = System.Drawing.Color.Brown
+        Me.KleisImerErgLbl.Location = New System.Drawing.Point(247, 28)
+        Me.KleisImerErgLbl.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.KleisImerErgLbl.Name = "KleisImerErgLbl"
+        Me.KleisImerErgLbl.Size = New System.Drawing.Size(143, 20)
+        Me.KleisImerErgLbl.TabIndex = 62
+        Me.KleisImerErgLbl.Text = "KleisImerErgLbl"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.ForeColor = System.Drawing.Color.Black
+        Me.Label42.Location = New System.Drawing.Point(27, 73)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(154, 20)
+        Me.Label42.TabIndex = 61
+        Me.Label42.Text = "Νέα Ημερομηνία:"
+        '
+        'KleisimoPck1
+        '
+        Me.KleisimoPck1.CustomFormat = "dd/MM/YYYY"
+        Me.KleisimoPck1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.KleisimoPck1.Location = New System.Drawing.Point(204, 69)
+        Me.KleisimoPck1.Margin = New System.Windows.Forms.Padding(4)
+        Me.KleisimoPck1.Name = "KleisimoPck1"
+        Me.KleisimoPck1.Size = New System.Drawing.Size(180, 26)
+        Me.KleisimoPck1.TabIndex = 60
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.ForeColor = System.Drawing.Color.Black
+        Me.Label41.Location = New System.Drawing.Point(8, 28)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(216, 20)
+        Me.Label41.TabIndex = 59
+        Me.Label41.Text = "Ημερομηνία πού κλείνει:"
+        '
+        'KleisimoBtn
+        '
+        Me.KleisimoBtn.BackColor = System.Drawing.Color.White
+        Me.KleisimoBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.KleisimoBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.KleisimoBtn.ForeColor = System.Drawing.Color.Maroon
+        Me.KleisimoBtn.Image = Global.winhotel.My.Resources.Resources.OK
+        Me.KleisimoBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.KleisimoBtn.Location = New System.Drawing.Point(200, 251)
+        Me.KleisimoBtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.KleisimoBtn.Name = "KleisimoBtn"
+        Me.KleisimoBtn.Size = New System.Drawing.Size(71, 39)
+        Me.KleisimoBtn.TabIndex = 67
+        Me.KleisimoBtn.Text = "ΟΚ"
+        Me.KleisimoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.KleisimoBtn.UseVisualStyleBackColor = False
         '
         'HouseEuropePnl
         '
@@ -4375,197 +4566,6 @@ Partial Class KleisimoHmeras
         Me.EtiketaLbl.TabIndex = 0
         Me.EtiketaLbl.Text = "Label1"
         '
-        'KleisimoPnl
-        '
-        Me.KleisimoPnl.BackColor = System.Drawing.Color.Silver
-        Me.KleisimoPnl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.KleisimoPnl.Controls.Add(Me.blinkLbl2)
-        Me.KleisimoPnl.Controls.Add(Me.sendresidentsOK)
-        Me.KleisimoPnl.Controls.Add(Me.kenaCkb)
-        Me.KleisimoPnl.Controls.Add(Me.arrivalLbl)
-        Me.KleisimoPnl.Controls.Add(Me.Label57)
-        Me.KleisimoPnl.Controls.Add(Me.Label56)
-        Me.KleisimoPnl.Controls.Add(Me.daysbeforeTbx)
-        Me.KleisimoPnl.Controls.Add(Me.questChk)
-        Me.KleisimoPnl.Controls.Add(Me.directChk)
-        Me.KleisimoPnl.Controls.Add(Me.KleisImerErgLbl)
-        Me.KleisimoPnl.Controls.Add(Me.Label42)
-        Me.KleisimoPnl.Controls.Add(Me.KleisimoPck1)
-        Me.KleisimoPnl.Controls.Add(Me.Label41)
-        Me.KleisimoPnl.Controls.Add(Me.KleisimoBtn)
-        Me.KleisimoPnl.Location = New System.Drawing.Point(108, 18)
-        Me.KleisimoPnl.Margin = New System.Windows.Forms.Padding(4)
-        Me.KleisimoPnl.Name = "KleisimoPnl"
-        Me.KleisimoPnl.Size = New System.Drawing.Size(581, 10)
-        Me.KleisimoPnl.TabIndex = 44
-        '
-        'blinkLbl2
-        '
-        Me.blinkLbl2.AutoSize = True
-        Me.blinkLbl2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.blinkLbl2.Location = New System.Drawing.Point(35, 9)
-        Me.blinkLbl2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.blinkLbl2.Name = "blinkLbl2"
-        Me.blinkLbl2.Size = New System.Drawing.Size(0, 20)
-        Me.blinkLbl2.TabIndex = 71
-        '
-        'sendresidentsOK
-        '
-        Me.sendresidentsOK.AutoSize = True
-        Me.sendresidentsOK.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.sendresidentsOK.Enabled = False
-        Me.sendresidentsOK.Location = New System.Drawing.Point(241, 197)
-        Me.sendresidentsOK.Margin = New System.Windows.Forms.Padding(4)
-        Me.sendresidentsOK.Name = "sendresidentsOK"
-        Me.sendresidentsOK.Size = New System.Drawing.Size(183, 24)
-        Me.sendresidentsOK.TabIndex = 70
-        Me.sendresidentsOK.Text = "send to Residents"
-        Me.sendresidentsOK.UseVisualStyleBackColor = True
-        '
-        'kenaCkb
-        '
-        Me.kenaCkb.AutoSize = True
-        Me.kenaCkb.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.kenaCkb.Location = New System.Drawing.Point(31, 197)
-        Me.kenaCkb.Margin = New System.Windows.Forms.Padding(4)
-        Me.kenaCkb.Name = "kenaCkb"
-        Me.kenaCkb.Size = New System.Drawing.Size(162, 24)
-        Me.kenaCkb.TabIndex = 69
-        Me.kenaCkb.Text = "έλεγχος κενών "
-        Me.kenaCkb.UseVisualStyleBackColor = True
-        '
-        'arrivalLbl
-        '
-        Me.arrivalLbl.AutoSize = True
-        Me.arrivalLbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.arrivalLbl.ForeColor = System.Drawing.Color.Maroon
-        Me.arrivalLbl.Location = New System.Drawing.Point(379, 156)
-        Me.arrivalLbl.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.arrivalLbl.Name = "arrivalLbl"
-        Me.arrivalLbl.Size = New System.Drawing.Size(0, 17)
-        Me.arrivalLbl.TabIndex = 68
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.Label57.ForeColor = System.Drawing.Color.Transparent
-        Me.Label57.Location = New System.Drawing.Point(372, 132)
-        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(82, 18)
-        Me.Label57.TabIndex = 67
-        Me.Label57.Text = "σε Αφίξεις:"
-        '
-        'Label56
-        '
-        Me.Label56.AutoSize = True
-        Me.Label56.ForeColor = System.Drawing.Color.Black
-        Me.Label56.Location = New System.Drawing.Point(219, 155)
-        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(113, 20)
-        Me.Label56.TabIndex = 66
-        Me.Label56.Text = "days before:"
-        '
-        'daysbeforeTbx
-        '
-        Me.daysbeforeTbx.Enabled = False
-        Me.daysbeforeTbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.daysbeforeTbx.Location = New System.Drawing.Point(348, 151)
-        Me.daysbeforeTbx.Margin = New System.Windows.Forms.Padding(4)
-        Me.daysbeforeTbx.MaxLength = 2
-        Me.daysbeforeTbx.Name = "daysbeforeTbx"
-        Me.daysbeforeTbx.Size = New System.Drawing.Size(29, 26)
-        Me.daysbeforeTbx.TabIndex = 66
-        Me.daysbeforeTbx.Text = "15"
-        '
-        'questChk
-        '
-        Me.questChk.AutoSize = True
-        Me.questChk.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.questChk.Enabled = False
-        Me.questChk.Location = New System.Drawing.Point(7, 114)
-        Me.questChk.Margin = New System.Windows.Forms.Padding(4)
-        Me.questChk.Name = "questChk"
-        Me.questChk.Size = New System.Drawing.Size(190, 24)
-        Me.questChk.TabIndex = 64
-        Me.questChk.Text = "send questionnaire"
-        Me.questChk.UseVisualStyleBackColor = True
-        '
-        'directChk
-        '
-        Me.directChk.AutoSize = True
-        Me.directChk.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.directChk.Enabled = False
-        Me.directChk.Location = New System.Drawing.Point(31, 154)
-        Me.directChk.Margin = New System.Windows.Forms.Padding(4)
-        Me.directChk.Name = "directChk"
-        Me.directChk.Size = New System.Drawing.Size(160, 24)
-        Me.directChk.TabIndex = 65
-        Me.directChk.Text = "send directions"
-        Me.directChk.UseVisualStyleBackColor = True
-        '
-        'KleisImerErgLbl
-        '
-        Me.KleisImerErgLbl.AutoSize = True
-        Me.KleisImerErgLbl.ForeColor = System.Drawing.Color.Brown
-        Me.KleisImerErgLbl.Location = New System.Drawing.Point(247, 28)
-        Me.KleisImerErgLbl.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.KleisImerErgLbl.Name = "KleisImerErgLbl"
-        Me.KleisImerErgLbl.Size = New System.Drawing.Size(143, 20)
-        Me.KleisImerErgLbl.TabIndex = 62
-        Me.KleisImerErgLbl.Text = "KleisImerErgLbl"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.ForeColor = System.Drawing.Color.Black
-        Me.Label42.Location = New System.Drawing.Point(27, 73)
-        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(154, 20)
-        Me.Label42.TabIndex = 61
-        Me.Label42.Text = "Νέα Ημερομηνία:"
-        '
-        'KleisimoPck1
-        '
-        Me.KleisimoPck1.CustomFormat = "dd/MM/YYYY"
-        Me.KleisimoPck1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.KleisimoPck1.Location = New System.Drawing.Point(204, 69)
-        Me.KleisimoPck1.Margin = New System.Windows.Forms.Padding(4)
-        Me.KleisimoPck1.Name = "KleisimoPck1"
-        Me.KleisimoPck1.Size = New System.Drawing.Size(180, 26)
-        Me.KleisimoPck1.TabIndex = 60
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.ForeColor = System.Drawing.Color.Black
-        Me.Label41.Location = New System.Drawing.Point(8, 28)
-        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(216, 20)
-        Me.Label41.TabIndex = 59
-        Me.Label41.Text = "Ημερομηνία πού κλείνει:"
-        '
-        'KleisimoBtn
-        '
-        Me.KleisimoBtn.BackColor = System.Drawing.Color.White
-        Me.KleisimoBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.KleisimoBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.KleisimoBtn.ForeColor = System.Drawing.Color.Maroon
-        Me.KleisimoBtn.Image = Global.winhotel.My.Resources.Resources.OK
-        Me.KleisimoBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.KleisimoBtn.Location = New System.Drawing.Point(200, 251)
-        Me.KleisimoBtn.Margin = New System.Windows.Forms.Padding(4)
-        Me.KleisimoBtn.Name = "KleisimoBtn"
-        Me.KleisimoBtn.Size = New System.Drawing.Size(71, 39)
-        Me.KleisimoBtn.TabIndex = 67
-        Me.KleisimoBtn.Text = "ΟΚ"
-        Me.KleisimoBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.KleisimoBtn.UseVisualStyleBackColor = False
-        '
         'DbhotelDataSet
         '
         Me.DbhotelDataSet.DataSetName = "dbhotelDataSet"
@@ -5001,6 +5001,8 @@ Partial Class KleisimoHmeras
         Me.KoutsPnl.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        Me.KleisimoPnl.ResumeLayout(False)
+        Me.KleisimoPnl.PerformLayout()
         Me.HouseEuropePnl.ResumeLayout(False)
         Me.HouseEuropePnl.PerformLayout()
         Me.Panel5.ResumeLayout(False)
@@ -5069,8 +5071,6 @@ Partial Class KleisimoHmeras
         Me.TmimataKns1Pnl.PerformLayout()
         Me.EtiketaPnl.ResumeLayout(False)
         Me.EtiketaPnl.PerformLayout()
-        Me.KleisimoPnl.ResumeLayout(False)
-        Me.KleisimoPnl.PerformLayout()
         CType(Me.DbhotelDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DbhotelDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.KratiseisBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
